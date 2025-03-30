@@ -42,7 +42,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
         }
       });
       let curWaApi = waApi;
-      if (!waApi) {
+      if (!curWaApi) {
         curWaApi = await getWaApi();
         setWaApi(curWaApi);
       }

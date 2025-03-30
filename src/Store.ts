@@ -9,6 +9,6 @@ export const Store = createContext({
   athletesById: {} as { [id: string]: Entrant },
   setAthletesById: (_: { [id: string]: Entrant }) => {},
 
-  waApi: {} as WaApi,
+  waApi: null as WaApi | null,
   setWaApi: (waApi: WaApi) => {},
 });
