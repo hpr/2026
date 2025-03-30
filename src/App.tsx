@@ -357,7 +357,7 @@ export default function App() {
                           setNavbarOpen(false);
                         },
                       },
-                      ...(window.location.origin.includes('flotrack.org') ? [{
+                      ...(new URL(document.referrer).origin.includes('flotrack.org') ? [{
                         icon: <SquareRoundedLetterF />,
                         color: 'black',
                         label: 'Back to FloTrack',
