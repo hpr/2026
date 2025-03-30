@@ -30,7 +30,7 @@ import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToS
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
-import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2 } from 'tabler-icons-react';
+import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book } from 'tabler-icons-react';
 import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_URL, standingsMeets } from './const';
 import { isEmail, useForm } from '@mantine/form';
 import { Submissions } from './Submissions';
@@ -52,7 +52,7 @@ export default function App() {
   const [myTeam, setMyTeam] = useState<Team>({});
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [navbarOpen, setNavbarOpen] = useState<boolean>(false);
-  const [page, setPage] = useState<Page>('events');
+  const [page, setPage] = useState<Page>('home');
   const [authPage, setAuthPage] = useState<AuthPage>('register');
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
@@ -87,7 +87,6 @@ export default function App() {
       );
       const initialEvt = Object.keys(entries[meet] ?? [])[0] as AthleticsEvent;
       setEvt(initialEvt);
-      if (!hash) navigate(`${meet}/evt/${initialEvt}`);
 
       if (hash) {
         const hashParts = hash.split('/');
@@ -96,6 +95,7 @@ export default function App() {
         if (hashParts[1] === 'evt') {
           const hashEvt = hashParts[2];
           if (hashEvt !== evt) {
+            setPage('events');
             setEvt(hashEvt as AthleticsEvent);
           }
         } else if (PAGES.includes(hashParts[1] as Page) && page !== hashParts[1]) {
@@ -134,6 +134,82 @@ export default function App() {
   const deadline = Object.values(entries?.[meet] ?? {}).find((evt) => evt.deadline)?.deadline;
 
   const color = standingsMeets.find((m) => m.meet === meet)?.color;
+
+  const getMeetButtons = () => {
+    const currentMeets = standingsMeets
+      .filter(({ meet }) => entries?.[meet])
+      .map(({ meet, color }) => (
+        <Button
+          variant="default"
+          style={{ 
+            borderLeft: `10px solid ${color}`,
+            width: 140,
+          }}
+          m="sm"
+          key={meet}
+          onClick={() => {
+            setMeet(meet);
+            navigate(`/home`);
+            setPage('home');
+            modals.closeAll();
+          }}
+        >
+          {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
+        </Button>
+      ));
+    const futureMeets = standingsMeets
+      .filter(({ meet }) => !entries?.[meet])
+      .map(({ meet, color }) => (
+        <Button disabled style={{ backgroundColor: color, width: 140, color: 'white' }} m="sm" key={meet}>
+          {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
+        </Button>
+      ));
+    return (
+      <div style={{ textAlign: 'center' }}>
+        <Title order={2} p="sm">
+          Current
+        </Title>
+        <Grid justify="center">{currentMeets}</Grid>
+        {futureMeets.length > 0 && (
+          <React.Fragment>
+            <Title order={2} p="sm">Coming Soon</Title>
+            <Grid justify="center">{futureMeets}</Grid>
+          </React.Fragment>
+        )}
+      </div>
+    );
+  };
+
+  const rules = (
+    <React.Fragment>
+      <Text mb={10} size="sm">
+        Select {PICKS_PER_EVT} athletes per event by selecting events on the left side menu (on mobile tap the three lines to bring it up), and
+        picking athletes in the main view. Your incomplete picks are saved to your device, and once you submit you can always re-submit to update
+        your picks before the submissions deadline.
+      </Text>
+      <Text mb={10} size="sm">
+        Your athletes will be scored by place, with zero points awarded outside the top six. The <strong>catch</strong> is that the order of your
+        team matters: Your first athlete will be scored 20-12-8-6-5-4 style, then your #2 athlete will be scored 10-8-6-4-3-2 style, and your
+        final athlete will be scored 6-5-4-3-2-1. Once all {PICKS_PER_EVT} athletes are scored, we remove the lowest-scoring athlete so that only
+        your top {PICKS_PER_EVT - 1} scorers per event will count. Once you have finished your picks, you <strong>must</strong> submit them by
+        pressing "Save Picks" and then registering or logging in to an account.
+      </Text>
+      <Text mb={10} size="sm">
+        <strong>Submissions Deadline:</strong> {earliestDate?.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })},
+        before the DL TV window starts, by {deadline} (for {meet}).
+        {/* <br />
+        <strong>Prizes:</strong> First Place: Free Supporters Club Membership ($100 value!) + T-Shirt. Second Place: Free T-Shirt. Third Place:
+        Free T-Shirt.
+        <br /> */}
+        {/* <strong>
+          <a href="#/standings">Overall League Champion</a> Prize
+        </strong>
+        : Free Supporters Club Membership + T-Shirt.
+        <br /> */}
+        {/* Thanks to sponsor <strong>LetsRun.com</strong> for providing the prizes! */}
+      </Text>
+    </React.Fragment>
+  );
 
   return (
     <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById }}>
@@ -271,51 +347,26 @@ export default function App() {
                   <MainLinks
                     links={[
                       {
+                        icon: <Home />,
+                        color: 'black',
+                        label: 'Home',
+                        path: 'home',
+                        onClick: () => {
+                          navigate(`/home`);
+                          setPage('home');
+                          setNavbarOpen(false);
+                        },
+                      },
+                      {
                         icon: <Switch2 />,
                         color: 'black',
                         label: 'Switch Meet',
                         path: 'switch',
                         onClick: () => {
-                          // TODO switch meet modal
-                          const currentMeets = standingsMeets
-                            .filter(({ meet }) => entries?.[meet])
-                            .map(({ meet, color }) => (
-                              <Button
-                                style={{ backgroundColor: color, width: 140 }}
-                                m="sm"
-                                key={meet}
-                                onClick={() => {
-                                  setMeet(meet);
-                                  navigate(`/standings`);
-                                  setPage('standings');
-                                  modals.closeAll();
-                                }}
-                              >
-                                {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
-                              </Button>
-                            ));
-                          const futureMeets = standingsMeets
-                            .filter(({ meet }) => !entries?.[meet])
-                            .map(({ meet, color }) => (
-                              <Button disabled style={{ backgroundColor: color, width: 140, color: 'white' }} m="sm" key={meet}>
-                                {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
-                              </Button>
-                            ));
                           modals.open({
                             title: 'Switch Meet',
                             size: 'xl',
-                            children: (
-                              <div style={{ textAlign: 'center' }}>
-                                <Title order={2} p="sm">
-                                  Current
-                                </Title>
-                                <Grid justify="center">{currentMeets}</Grid>
-                                <Title order={2} p="sm">
-                                  Coming Soon
-                                </Title>
-                                <Grid justify="center">{futureMeets}</Grid>
-                              </div>
-                            ),
+                            children: getMeetButtons(),
                           });
                         },
                       },
@@ -423,38 +474,13 @@ export default function App() {
                     </Button>
                   </Popover.Target>
                   <Popover.Dropdown>
-                    <Text mb={10} size="sm">
-                      Select {PICKS_PER_EVT} athletes per event by selecting events on the left side menu (on mobile tap the three lines to bring it up), and
-                      picking athletes in the main view. Your incomplete picks are saved to your device, and once you submit you can always re-submit to update
-                      your picks before the submissions deadline.
-                    </Text>
-                    <Text mb={10} size="sm">
-                      Your athletes will be scored by place, with zero points awarded outside the top six. The <strong>catch</strong> is that the order of your
-                      team matters: Your first athlete will be scored 20-12-8-6-5-4 style, then your #2 athlete will be scored 10-8-6-4-3-2 style, and your
-                      final athlete will be scored 6-5-4-3-2-1. Once all {PICKS_PER_EVT} athletes are scored, we remove the lowest-scoring athlete so that only
-                      your top {PICKS_PER_EVT - 1} scorers per event will count. Once you have finished your picks, you <strong>must</strong> submit them by
-                      pressing "Save Picks" and then registering or logging in to an account.
-                    </Text>
-                    <Text mb={10} size="sm">
-                      <strong>Submissions Deadline:</strong> {earliestDate?.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })},
-                      before the DL TV window starts, by {deadline} (for {meet}).
-                      {/* <br />
-                      <strong>Prizes:</strong> First Place: Free Supporters Club Membership ($100 value!) + T-Shirt. Second Place: Free T-Shirt. Third Place:
-                      Free T-Shirt.
-                      <br /> */}
-                      {/* <strong>
-                        <a href="#/standings">Overall League Champion</a> Prize
-                      </strong>
-                      : Free Supporters Club Membership + T-Shirt.
-                      <br /> */}
-                      {/* Thanks to sponsor <strong>LetsRun.com</strong> for providing the prizes! */}
-                    </Text>
+                    {rules}
                     <Group align="center">
                       <Text>Contact for suggestions, improvements or issues:</Text>
                       <Button variant="default" size="xs" leftIcon={<Mail />} onClick={() => window.open('mailto:habs@sdf.org')?.close()}>
                         habs@sdf.org
                       </Button>
-                      <Button variant="default" size="xs" leftIcon={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2024`, '_blank')}>
+                      <Button variant="default" size="xs" leftIcon={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2025`, '_blank')}>
                         Source code
                       </Button>
                     </Group>
@@ -480,7 +506,18 @@ export default function App() {
         })}
       >
         <Stack align="center" mt={0}>
-          {page === 'submissions' ? (
+          {page === 'home' ? (
+            <div style={{ textAlign: 'center' }}>
+              <Paper shadow="xl" radius="xl" p="xl" withBorder>
+                <Title><Diamond /> Fantasy {meet[0].toUpperCase() + meet.slice(1, -2)} Diamond League</Title>
+              </Paper>
+              {getMeetButtons()}
+              <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Paper shadow="sm" radius="sm" p="sm" mb="xl" w={200} withBorder><Title><Book /> Rules</Title></Paper>
+                <div>{rules}</div>
+              </Paper>
+            </div>
+          ) : page === 'submissions' ? (
             <Submissions meet={meet} />
           ) : page === 'leaderboard' ? (
             <Leaderboard meet={meet} entries={entries!} setPage={setPage} />

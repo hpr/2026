@@ -22,7 +22,7 @@ import {
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { useContext, useState } from 'react';
-import { AlertCircle, ArrowLeft, ArrowRight, Book, Globe, Link, Minus, Plus, World } from 'tabler-icons-react';
+import { AlertCircle, ArrowLeft, ArrowRight, Book, Globe, Link, Minus, Plus, SquareRoundedLetterF, World } from 'tabler-icons-react';
 import { GRAPHQL_API_KEY, GRAPHQL_ENDPOINT, GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entrant, ResultsByYearResult } from './types';
@@ -186,18 +186,21 @@ export function AthleteCard({
               </Button>
               {wiki && (
                 <Button size="xl" variant="outline" radius="xl" leftIcon={<Book />} onClick={() => window.open(wiki, '_blank')}>
-                  {isSmall ? (
-                    ''
-                  ) : (
-                    <>
-                      Wiki{' '}
-                      <Badge ml="md" color="red">
-                        New!
-                      </Badge>
-                    </>
-                  )}
+                  {isSmall ? '' : 'Wikipedia'}
                 </Button>
               )}
+              <Button size="xl" variant="outline" radius="xl" leftIcon={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>
+                {isSmall ? (
+                  ''
+                ) : (
+                  <>
+                    FloTrack{' '}
+                    <Badge ml="md" color="red">
+                      New!
+                    </Badge>
+                  </>
+                )}
+              </Button>
             </Button.Group>
             {blurb && (
               <Accordion variant="contained" sx={{ width: '100%' }}>

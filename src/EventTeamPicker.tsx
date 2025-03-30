@@ -58,6 +58,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
     }
   };
 
+  const isClosed = !!entries?.[meet]?.[evt as AthleticsEvent]?.isClosed;
   const gridChildren = entries?.[meet]?.[evt!]?.entrants.map((entrant, i) => {
     const { id, firstName, lastName, pb, sb, nat, blurb } = entrant;
     if (!id) console.log(firstName, lastName);
@@ -65,7 +66,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
       <AthleteCard
         idx={i}
         numEntrants={numEntrants}
-        isClosed={!!entries?.[meet]?.[evt as AthleticsEvent]?.isClosed}
+        isClosed={isClosed}
         key={id}
         tableView={tableView}
         showPrev={() => {
@@ -100,9 +101,9 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
   const entriesEvt = entries?.[meet]?.[evt as AthleticsEvent];
   return (
     <>
-      <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ minHeight: 193 }}>
+      <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ minHeight: isClosed ? undefined : 193 }}>
         <Stack align="center">
-          {!!entries?.[meet]?.[evt as AthleticsEvent]?.isClosed ? (
+          {isClosed ? (
             <Text>Event Closed</Text>
           ) : entriesEvt?.entrants?.length === 0 ? (
             <>
@@ -199,7 +200,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                             const currentYear = String(new Date().getFullYear());
                             window.open(
                               normalize(
-                                `https://hpr.github.io/match/#/` +
+                                `https://hpr.github.io/match/#` +
                                   new URLSearchParams({
                                     athleteIds: JSON.stringify(athleteIds),
                                     athleteYears: JSON.stringify(Object.fromEntries(athleteIds.map((id) => [id, currentYear]))),

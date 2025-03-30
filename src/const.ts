@@ -41,7 +41,7 @@ export const mantineGray = 'rgb(55, 58, 64)';
 
 export const DIVIDER = 'divider' as 'divider';
 
-export const PAGES = ['events', 'scoring', 'submissions', 'leaderboard', 'standings'] as ['events', 'scoring', 'submissions', 'leaderboard', 'standings'];
+export const PAGES = ['home', 'events', 'scoring', 'submissions', 'leaderboard', 'standings'] as const;
 
 export const disciplineCodes: { [k: string]: string } = {
   '50 Meters': '50',
