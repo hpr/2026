@@ -30,7 +30,7 @@ import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToS
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
-import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book } from 'tabler-icons-react';
+import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book, SquareRoundedLetterF } from 'tabler-icons-react';
 import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_URL, standingsMeets } from './const';
 import { isEmail, useForm } from '@mantine/form';
 import { Submissions } from './Submissions';
@@ -357,6 +357,15 @@ export default function App() {
                           setNavbarOpen(false);
                         },
                       },
+                      ...(window.location.origin.includes('flotrack.org') ? [{
+                        icon: <SquareRoundedLetterF />,
+                        color: 'black',
+                        label: 'Back to FloTrack',
+                        path: 'flotrack',
+                        onClick: () => {
+                          window.location.href = 'https://www.flotrack.org/collections/12408809-wanda-diamond-league';
+                        },
+                      }] : []),
                       {
                         icon: <Switch2 />,
                         color: 'black',
