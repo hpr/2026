@@ -3,7 +3,7 @@ import fs from 'fs';
 import { nameFixer } from 'name-fixer';
 import { AthleticsEvent, BlurbCache, DLMeet, Entrant, Entries, EventCircuitStandings, MeetCache, WAEventCode } from './types.mjs';
 import PDFParser, { Output } from 'pdf2json';
-import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, runningEvents, getDomain, BLURBCACHE_PATH, MEET, GRAPHQL_ENDPOINT, GRAPHQL_API_KEY } from './const.mjs';
+import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, runningEvents, getDomain, BLURBCACHE_PATH, MEET, SERVER_URL } from './const.mjs';
 //import PDFJS from 'pdfjs-dist/legacy/build/pdf.js';
 import { PNG } from 'pngjs';
 import { TextItem } from 'pdfjs-dist/types/src/display/api.js';
@@ -29,6 +29,7 @@ import { TextItem } from 'pdfjs-dist/types/src/display/api.js';
   }
 })
 */
+const waApi: { apiKey: string, endpoint: string } = await (await fetch(SERVER_URL + '/wa')).json();
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
 
@@ -200,8 +201,8 @@ const getWaId = async (
   }
 ) => {
   const { data } = await (
-    await fetch(GRAPHQL_ENDPOINT, {
-      headers: { 'x-api-key': GRAPHQL_API_KEY },
+    await fetch(waApi.endpoint, {
+      headers: { 'x-api-key': waApi.apiKey },
       body: JSON.stringify({
         operationName: 'SearchCompetitors',
         variables: {
@@ -521,8 +522,8 @@ const getEntries = async () => {
       } else if (meetScheduleUrl === 'getEventCircuitStandings') {
         for (const sexCode of ['men', 'women']) {
           const { data }: EventCircuitStandings = await (
-            await fetch(GRAPHQL_ENDPOINT, {
-              headers: { 'x-api-key': GRAPHQL_API_KEY },
+            await fetch(waApi.endpoint, {
+              headers: { 'x-api-key': waApi.apiKey },
               body: JSON.stringify({
                 operationName: 'getEventCircuitStandings',
                 query: `

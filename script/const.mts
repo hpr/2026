@@ -4,6 +4,8 @@ export const MEET: DLMeet = 'brussels24';
 
 export const NUM_SCORING: number = 2;
 
+export const SERVER_URL = 'https://habs.sdf.org:8080';
+
 export const SCORE = [
   [20, 12, 8, 6, 5, 4],
   [10, 8, 6, 4, 3, 2],

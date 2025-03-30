@@ -26,7 +26,7 @@ import {
   Paper,
 } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
-import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToScore } from './types';
+import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToScore, WaApi } from './types';
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
@@ -58,6 +58,7 @@ export default function App() {
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
   const [teamToScore, setTeamToScore] = useState<TeamToScore | null>(null);
   const [athletesById, setAthletesById] = useState<{ [id: string]: Entrant }>({});
+  const [waApi, setWaApi] = useState<WaApi | null>(null);
   const registerForm = useForm({
     initialValues: {
       name: '',
@@ -212,7 +213,7 @@ export default function App() {
   );
 
   return (
-    <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById }}>
+    <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById, waApi, setWaApi }}>
       <Modal opened={modalOpen} onClose={() => setModalOpen(false)} title="Register / Login & Submit Picks">
         {arePicksComplete ? (
           <Stack>

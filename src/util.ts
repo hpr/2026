@@ -1,5 +1,5 @@
-import { codeToDiscipline } from './const';
-import { SparqlResponse } from './types';
+import { codeToDiscipline, SERVER_BASE } from './const';
+import { SparqlResponse, WaApi } from './types';
 
 export function isTouchDevice() {
   let check = false;
@@ -31,6 +31,10 @@ export const evtSort = (a: string, b: string) => {
   if (gender(a) !== gender(b)) return a.localeCompare(b);
   return Number.parseInt(firstNumericWord(a)) - Number.parseInt(firstNumericWord(b));
 };
+
+export const getWaApi = async (): Promise<WaApi> => {
+  return await (await fetch(SERVER_BASE + '/wa')).json();
+}
 
 export const getSitelink = async (id: string): Promise<SparqlResponse> => {
   const query = `SELECT ?item ?itemLabel ?enWikiSiteLink WHERE {

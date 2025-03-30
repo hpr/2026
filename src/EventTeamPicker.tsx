@@ -2,15 +2,15 @@ import { Avatar, Button, Code, Grid, GridProps, Group, Paper, Stack, Switch, Tab
 import { useContext, useEffect, useState } from 'react';
 import { Check, Clock, ClockPause, Dots, ExternalLink, HandClick, HandFinger, Robot, Tex } from 'tabler-icons-react';
 import { AthleteCard } from './AthleteCard';
-import { GRAPHQL_API_KEY, GRAPHQL_ENDPOINT, GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
+import { GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entries } from './types';
 import { modals } from '@mantine/modals';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
-import { getSitelink, normalize } from './util';
+import { getSitelink, getWaApi, normalize } from './util';
 
 export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | null; meet: DLMeet; evt: AthleticsEvent }) => {
-  const { myTeam, setMyTeam } = useContext(Store);
+  const { myTeam, setMyTeam, waApi, setWaApi } = useContext(Store);
   const [tableView, setTableView] = useState<boolean>(false);
 
   const TableAndTbody = ({ children, ...props }: TableProps) => (
@@ -41,10 +41,15 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
           setWikis({ ...wikis, [evt + i]: sparqlResp.results.bindings[0].enWikiSiteLink.value });
         }
       });
+      let curWaApi = waApi;
+      if (!waApi) {
+        curWaApi = await getWaApi();
+        setWaApi(curWaApi);
+      }
       const { competitor: competitorResp } = (
         await (
-          await fetch(GRAPHQL_ENDPOINT, {
-            headers: { 'x-api-key': GRAPHQL_API_KEY },
+          await fetch(curWaApi.endpoint, {
+            headers: { 'x-api-key': curWaApi.apiKey },
             body: JSON.stringify({
               operationName: 'GetCompetitorBasicInfo',
               query: GRAPHQL_QUERY,

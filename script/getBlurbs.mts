@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { BLURBCACHE_PATH, ENTRIES_PATH, GRAPHQL_API_KEY, GRAPHQL_ENDPOINT, GRAPHQL_QUERY, MEET, standingsMeets } from './const.mjs';
-import { AthleticsEvent, DLMeet, Entries, Competitor, ResultsByYearResult, BlurbCache } from './types.mjs';
+import { BLURBCACHE_PATH, ENTRIES_PATH, MEET, SERVER_URL } from './const.mjs';
+import { AthleticsEvent, Entries, BlurbCache } from './types.mjs';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -42,7 +42,7 @@ async function getBlurbs() {
     fs.writeFileSync(ENTRIES_PATH, JSON.stringify(entries));
     if (!blurbCache[MEET].blurbs[evt]) {
       console.log(evt);
-      const resp = (await (await fetch('https://habs.sdf.org:8080/match', {
+      const resp = (await (await fetch(SERVER_URL + '/match', {
         method: 'POST',
         body: JSON.stringify({
           discipline: ungenderedEvt,

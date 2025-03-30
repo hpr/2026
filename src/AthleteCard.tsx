@@ -13,20 +13,17 @@ import {
   Popover,
   Indicator,
   useMantineTheme,
-  Paper,
   Badge,
   Box,
   Grid,
-  CloseButton,
-  BackgroundImage,
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import { AlertCircle, ArrowLeft, ArrowRight, Book, Globe, Link, Minus, Plus, SquareRoundedLetterF, World } from 'tabler-icons-react';
-import { GRAPHQL_API_KEY, GRAPHQL_ENDPOINT, GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
+import { mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entrant, ResultsByYearResult } from './types';
-import { getSitelink, isTouchDevice } from './util';
+import { isTouchDevice } from './util';
 
 interface AthleteCardProps {
   avatar: string;

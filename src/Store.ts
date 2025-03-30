@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { Entrant, Team, TeamToScore } from './types';
+import { Entrant, Team, TeamToScore, WaApi } from './types';
 
 export const Store = createContext({
   myTeam: {} as Team,
@@ -8,4 +8,7 @@ export const Store = createContext({
   setTeamToScore: (_: TeamToScore) => {},
   athletesById: {} as { [id: string]: Entrant },
   setAthletesById: (_: { [id: string]: Entrant }) => {},
+
+  waApi: {} as WaApi,
+  setWaApi: (waApi: WaApi) => {},
 });

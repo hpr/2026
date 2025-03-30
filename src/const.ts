@@ -2,7 +2,8 @@ import { DLMeet } from "./types";
 
 export const scoring = [140, 120, 110, 100, 90, 80, 70, 60];
 
-export const SERVER_URL = 'https://habs.sdf.org:8080/fantasy';
+export const SERVER_BASE = 'https://habs.sdf.org:8080';
+export const SERVER_URL = SERVER_BASE + '/fantasy';
 
 export const PICKS_PER_EVT: number = 3;
 export const NUM_SCORING: number = 2;
@@ -12,8 +13,8 @@ export const scoreTable = [
   [6, 5, 4, 3, 2, 1],
 ];
 
-export const GRAPHQL_ENDPOINT = 'https://graphql-prod-4746.prod.aws.worldathletics.org/graphql';
-export const GRAPHQL_API_KEY = 'da2-lkoax6kydng4pglnfp2ytqmrte'; // intentionally public
+// export const GRAPHQL_ENDPOINT = 'https://graphql-prod-4746.prod.aws.worldathletics.org/graphql';
+// export const GRAPHQL_API_KEY = 'da2-lkoax6kydng4pglnfp2ytqmrte'; // intentionally public
 
 export const GRAPHQL_QUERY = `
 query GetCompetitorBasicInfo($id: Int, $urlSlug: String) {
