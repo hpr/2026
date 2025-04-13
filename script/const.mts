@@ -42,6 +42,15 @@ export const runningEvents: (AthleticsEvent | string)[][] = [
   ['3000m SC Men', '3000m Steeple Men', '3000m Steeplechase Men'],
   ['5000m Women', "Women's 5000 Meters", 'Women 5000 M'],
   ['5000m Men', "Men's 5000 Meters", 'Men 5000 M'],
+  
+  // add field event support
+  ['Pole Vault'],
+  ['Long Jump'],
+  ['Triple Jump'],
+  ['High Jump'],
+  ['Shot Put'],
+  ['Discus'],
+  ['Javelin'],
 ];
 
 export const distanceEvents: AthleticsEvent[] = [
