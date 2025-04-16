@@ -219,26 +219,36 @@ const cityNameTo = {
 
 function inTz(dateString: string, targetTimeZone: string) {
   const localDate = new Date(dateString);
-  if (isNaN(+localDate)) throw new Error("Invalid date string");
-  const targetDateString = localDate.toLocaleString("en-US", {
-    timeZone: targetTimeZone,
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
+  if (isNaN(localDate.getTime())) throw new Error("Invalid date string");
+  const offset = getOffsetInMs(localDate, targetTimeZone);
+  const desiredUtcTime = localDate.getTime() - offset;
+  return new Date(desiredUtcTime);
+}
+
+function getOffsetInMs(date: Date, timeZone: string): number {
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    timeZoneName: 'shortOffset',
     hour: '2-digit',
     minute: '2-digit',
     second: '2-digit',
-    hour12: false,
   });
-  const parsedTargetDate = new Date(targetDateString);
-  const diffMs = localDate.getTime() - parsedTargetDate.getTime();
-  return new Date(localDate.getTime() + diffMs);
+  const formatted = formatter.format(date);  
+  const offsetMatch = formatted.match(/GMT([+-]\d{1,2}(:?\d{0,2})?)/);
+  if (!offsetMatch) throw new Error(`Unable to parse offset from: "${formatted}"`);
+  const offsetString = offsetMatch[1];
+  const parts = offsetString.match(/([+-])(\d{1,2})(:?(\d{2}))?/);
+  if (!parts) throw new Error(`Invalid offset format: "${offsetString}"`);
+  const sign = parts[1] === '+' ? 1 : -1;
+  const hours = parseInt(parts[2], 10);
+  const minutes = parts[4] ? parseInt(parts[4], 10) : 0;
+  return sign * ((hours * 60 + minutes) * 60 * 1000);
 }
+
 function extractCssValue(str: string, key: string) {
   const parts = str.split(';')
       .map(p => p.trim())
       .filter(p => p);
-
   for (const part of parts) {
       const [currentKey, ...rest] = part.split(':').map(s => s.trim());
       if (currentKey === key) {
@@ -695,7 +705,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
         }
         const originalHtml = cache[meet].schedule.combined!;
         const { document, window } = new JSDOM(originalHtml, {
-          resources: 'usable',
+          // resources: 'usable',
           // runScripts: 'dangerously',
           beforeParse(window) {
             // Workaround for CSS variable parsing
