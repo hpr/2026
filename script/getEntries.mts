@@ -7,6 +7,8 @@ import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, runningEvents, getDomain, BL
 //import PDFJS from 'pdfjs-dist/legacy/build/pdf.js';
 import { PNG } from 'pngjs';
 import { TextItem } from 'pdfjs-dist/types/src/display/api.js';
+import * as sass from 'sass';
+import * as cheerio from 'cheerio';
 
 /*
 [...document.querySelectorAll('tr')].slice(1).map(tr => {
@@ -40,6 +42,9 @@ const targetTimes: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
 };
 
 const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
+  xiamen25: {
+    '300mH Men': '33.26',
+  },
   xiamen24: {
     "100m Men": '9.85',
   },
@@ -103,6 +108,8 @@ const deadlines: { [k in DLMeet]?: string } = {
   rome24: '3pm ET',
   zurich24: '2pm ET',
   brussels24: '2pm ET',
+
+  xiamen25: '5am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -143,7 +150,105 @@ const schedules: { [k in DLMeet]?: string[] } = {
   rome24: ['https://rome.diamondleague.com/en/programme-results/programme-results-rome/'],
   zurich24: ['https://zurich.diamondleague.com/en/programme-results/programme-results/'],
   brussels24: ['https://brussels.diamondleague.com/en/program-results/program-2024/program-2024/'],
+
+  xiamen25: ['https://xiamen.diamondleague.com/programme-results/'],
 };
+
+const cityNameTo = {
+  "xiamen": {
+    "countryCodeAlpha2": "cn",
+    "timeZone": "Asia/Shanghai"
+  },
+  "shanghai": {
+    "countryCodeAlpha2": "cn",
+    "timeZone": "Asia/Shanghai"
+  },
+  "doha": {
+    "countryCodeAlpha2": "qa",
+    "timeZone": "Asia/Qatar"
+  },
+  "rabat": {
+    "countryCodeAlpha2": "ma",
+    "timeZone": "Africa/Casablanca"
+  },
+  "eugene": {
+    "countryCodeAlpha2": "us",
+    "timeZone": "America/Los_Angeles"
+  },
+  "oslo": {
+    "countryCodeAlpha2": "no",
+    "timeZone": "Europe/Oslo"
+  },
+  "stockholm": {
+    "countryCodeAlpha2": "se",
+    "timeZone": "Europe/Stockholm"
+  },
+  "paris": {
+    "countryCodeAlpha2": "fr",
+    "timeZone": "Europe/Paris"
+  },
+  "monaco": {
+    "countryCodeAlpha2": "mc",
+    "timeZone": "Europe/Monaco"
+  },
+  "london": {
+    "countryCodeAlpha2": "gb",
+    "timeZone": "Europe/London"
+  },
+  "lausanne": {
+    "countryCodeAlpha2": "ch",
+    "timeZone": "Europe/Zurich"
+  },
+  "silesia": {
+    "countryCodeAlpha2": "pl",
+    "timeZone": "Europe/Warsaw"
+  },
+  "rome": {
+    "countryCodeAlpha2": "it",
+    "timeZone": "Europe/Rome"
+  },
+  "zurich": {
+    "countryCodeAlpha2": "ch",
+    "timeZone": "Europe/Zurich"
+  },
+  "brussels": {
+    "countryCodeAlpha2": "be",
+    "timeZone": "Europe/Brussels"
+  }
+};
+
+function inTz(dateString: string, targetTimeZone: string) {
+  const localDate = new Date(dateString);
+  if (isNaN(+localDate)) throw new Error("Invalid date string");
+  const targetDateString = localDate.toLocaleString("en-US", {
+    timeZone: targetTimeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  });
+  const parsedTargetDate = new Date(targetDateString);
+  const diffMs = localDate.getTime() - parsedTargetDate.getTime();
+  return new Date(localDate.getTime() + diffMs);
+}
+function extractCssValue(str: string, key: string) {
+  const parts = str.split(';')
+      .map(p => p.trim())
+      .filter(p => p);
+
+  for (const part of parts) {
+      const [currentKey, ...rest] = part.split(':').map(s => s.trim());
+      if (currentKey === key) {
+          const currentValue = rest.join(':').trim();
+          const match = currentValue.match(/'([^']*)'/);
+          return match ? match[1] : null;
+      }
+  }
+  return null;
+}
 
 const idTeams = {
   // TODO fetch from wikidata? <-- done, just need to move these to WD
@@ -153,14 +258,25 @@ const idTeams = {
   14642681: 'North Carolina A&T Aggies',
 };
 
-const entrantSortFunc = (a: Entrant, b: Entrant) => {
+const makeEntrantSortFunc = (isField: boolean) => (a: Entrant, b: Entrant) => {
   if (!a.pb && !b.pb) return 0;
   if (!a.pb) return 1;
   if (!b.pb) return -1;
-  const sigFigDiff = Number.parseInt(a.pb) - Number.parseInt(b.pb);
-  if (sigFigDiff) return sigFigDiff;
-  return a.pb.localeCompare(b.pb);
+  if (isField) {
+    const sigFigDiff = Number.parseInt(b.pb) - Number.parseInt(a.pb);
+    if (sigFigDiff) return sigFigDiff;
+    return b.pb.localeCompare(a.pb);
+  } else {
+    const sigFigDiff = Number.parseInt(a.pb) - Number.parseInt(b.pb);
+    if (sigFigDiff) return sigFigDiff;
+    return a.pb.localeCompare(b.pb);
+  }
 };
+
+const isField = (evt: string) => {
+  return ['discus', 'shot', 'javelin', 'jump', 'pole'].some(str => evt?.toLowerCase().includes(str));
+}
+
 const sanitizeEvtName = (name?: string, sex?: 'men' | 'women'): string | undefined => {
   name = name?.replace('  ', ' ');
   name = name?.replace('Bowerman ', '').replace('Emsley Carr ', '');
@@ -445,7 +561,7 @@ const getEntries = async () => {
           entries[meet] ??= {};
           entries[meet]![evt] = {
             date: '',
-            entrants: athletes.sort(entrantSortFunc),
+            entrants: athletes.sort(makeEntrantSortFunc(isField(evt))),
           };
           fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
         }
@@ -516,7 +632,7 @@ const getEntries = async () => {
           );
           entries[meet]![evt] = {
             date: '2023-02-25',
-            entrants: athletes.sort(entrantSortFunc),
+            entrants: athletes.sort(makeEntrantSortFunc(isField(evt))),
           };
         }
       } else if (meetScheduleUrl === 'getEventCircuitStandings') {
@@ -577,87 +693,49 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
           cache[meet].schedule = { combined: await (await fetch(meetScheduleUrl)).text() };
           fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
         }
-        const { document } = new JSDOM(cache[meet].schedule.combined).window;
-        const events = [...document.querySelectorAll('.competition.DR')]
-          .map((elem) => ({
-            name: sanitizeEvtName(elem.querySelector('.name')?.textContent!, elem.parentElement?.className as 'men' | 'women'),
-            url: elem.querySelector('.links a')?.getAttribute('href'),
-          }))
-          .filter(({ name, url }) => runningEvents.flat().some((evt) => (name ?? '').toLowerCase().startsWith(evt.toLowerCase())) && url)
-          .map((obj) => ({ ...obj, name: runningEvents.flat().find((evt) => (obj.name ?? '').toLowerCase().startsWith(evt.toLowerCase())) }));
-        for (const { name: origName, url } of events) {
-          const name = origName as AthleticsEvent;
-          if (!cache[meet].events?.[name]?.startlist) {
-            cache[meet].events ??= {};
-            cache[meet].events[name] ??= {};
-            cache[meet].events[name]!.startlist = await (await fetch(getDomain(meetScheduleUrl) + url)).text();
-            fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
+        const originalHtml = cache[meet].schedule.combined!;
+        const { document, window } = new JSDOM(originalHtml, {
+          resources: 'usable',
+          // runScripts: 'dangerously',
+          beforeParse(window) {
+            // Workaround for CSS variable parsing
+            window.CSSStyleDeclaration.prototype.setProperty = function(name, value) {
+              this[name] = value?.replace(/url\(["']?#/g, 'url("#');
+            };
           }
-          const { document } = new JSDOM(cache[meet].events[name]!.startlist).window;
-          console.log(name);
-          const entrants: Entrant[] = (
-            await Promise.all(
-              [...document.querySelectorAll('.tableBody .row')].flatMap(async (elem) => {
-                const [lastName, firstName] = elem
-                  .querySelector('.column.name')!
-                  .textContent!.split(' ')
-                  .map((word) => word.trim())
-                  .filter((word) => word)
-                  .join(' ')
-                  .split(', ');
-                const id =
-                  elem
-                    .querySelector('.column.name a')
-                    ?.getAttribute('href')
-                    ?.match(/\/(\d+)\.html$/)![1]! ?? (await getWaId(firstName, lastName, {}))?.id;
-                if (id === '14453864' && MEET === 'rabat23') return []; // marcel jacobs rabat
-                if (id === '14735365' && MEET === 'lausanne23') return []; // kiplimo lausanne
-                return {
-                  firstName,
-                  lastName: nameFixer(lastName),
-                  id,
-                  pb: sanitizeTime(elem.querySelector('.column.pb')?.textContent || null),
-                  sb: sanitizeTime(elem.querySelector('.column.sb')?.textContent || null),
-                  nat: elem.querySelector('.column.nat')!.textContent!.trim(),
-                  hasAvy: fs.existsSync(`./public/img/avatars/${id}_128x128.png`),
-                  team: idTeams[id],
-                };
-              })
-            )
-          ).filter((e) => (e as any)?.length !== 0) as Entrant[];
-          if (meet === 'lausanne23' && name === '5000m Men') {
-            if (!entrants.find((a) => a.id === '14477352'))
-              entrants.push({
-                firstName: 'Hagos',
-                lastName: 'Gebrhiwet',
-                id: '14477352',
-                pb: '12:45.82',
-                sb: '13:15.85',
-                nat: 'ETH',
-                hasAvy: true,
-              });
-            if (!entrants.find((a) => a.id === '14464221'))
-              entrants.push({
-                firstName: 'Muktar',
-                lastName: 'Edris',
-                id: '14464221',
-                pb: '12:54.83',
-                sb: '13:27.00',
-                nat: 'ETH',
-                hasAvy: true,
-              });
-          }
-          console.log(entrants);
-          const [day, month, year] = document.querySelector('.date')!.textContent!.trim().split('-');
-          entries[meet]![name as AthleticsEvent] = {
-            tiebreaker: tieBreakers[meet]?.[name],
-            date:
-              oldEntries[meet]?.[name as AthleticsEvent]?.date ?? `${year}-${month}-${day}T${document.querySelector('.time')!.getAttribute('data-starttime')}`,
+        }).window;
+        const city = [...meet].filter(c => !'0123456789'.includes(c)).join('');
+        const tz = cityNameTo[city].timeZone;
+        for (const eDiv of document.querySelectorAll('[data-row=time]')) {
+          const evt = eDiv.querySelectorAll('div')[2].textContent;
+          if (['U23', 'National'].some(k => evt?.includes(k))) continue;
+          const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);
+          const time = inTz(`${pv('--date-venue')} 2025 ${pv('--time-venue')}`, tz);
+          const entrants: Entrant[] = [...eDiv.nextElementSibling?.querySelectorAll('.grid') ?? []]
+            .filter(x => !x.classList.contains('font-medium'))
+            .map(entDiv => {
+              const entCols = [...entDiv.querySelectorAll('div')];
+              const [nat, athName, sb, pb] = entCols.map(d => d.textContent?.trim() ?? '');
+              const id = entDiv.querySelector('a')?.href.split('/').at(-1)!;
+              const words = athName.split(' ');
+              const firstMixedCase = words.findIndex(w => w.toUpperCase() !== w);
+              const lastName = nameFixer(words.slice(0, firstMixedCase).join(' '));
+              const firstName = words.slice(firstMixedCase).join(' ');
+              return {
+                pb, sb, nat, id,
+                hasAvy: fs.existsSync(`./public/img/avatars/${id}_128x128.png`),
+                firstName, lastName,
+              }
+            });
+      
+          entries[meet]![evt as AthleticsEvent] = {
+            tiebreaker: tieBreakers[meet]?.[evt as AthleticsEvent],
+            date: oldEntries[meet]?.[evt as AthleticsEvent]?.date ?? time.toISOString(),
             url: meetScheduleUrl,
             deadline: deadlines[meet],
-            blurb: blurbCache[meet]?.blurbs?.[name],
-            targetTime: targetTimes[meet]?.[name],
-            entrants: entrants.sort(entrantSortFunc),
+            blurb: blurbCache[meet]?.blurbs?.[evt as AthleticsEvent],
+            targetTime: targetTimes[meet]?.[evt as AthleticsEvent],
+            entrants: entrants.sort(makeEntrantSortFunc(isField(evt!))),
           };
         }
       }

@@ -34,7 +34,23 @@ export type DLMeet =
   | 'silesia24'
   | 'rome24'
   | 'zurich24'
-  | 'brussels24';
+  | 'brussels24'
+
+  | 'xiamen25'
+  | 'shanghai25'
+  | 'doha25'
+  | 'rabat25'
+  | 'rome25'
+  | 'oslo25'
+  | 'stockholm25'
+  | 'paris25'
+  | 'eugene25'
+  | 'monaco25'
+  | 'london25'
+  | 'silesia25'
+  | 'lausanne25'
+  | 'brussels25'
+  | 'zurich25';
 
 export type AuthPage = 'register' | 'addPicks';
 

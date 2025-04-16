@@ -31,17 +31,37 @@ export type DLMeet =
   | 'silesia24'
   | 'rome24'
   | 'zurich24'
-  | 'brussels24';
+  | 'brussels24'
+
+  | 'xiamen25'
+  | 'shanghai25'
+  | 'doha25'
+  | 'rabat25'
+  | 'rome25'
+  | 'oslo25'
+  | 'stockholm25'
+  | 'paris25'
+  | 'eugene25'
+  | 'monaco25'
+  | 'london25'
+  | 'silesia25'
+  | 'lausanne25'
+  | 'brussels25'
+  | 'zurich25';
 
 export type AthleticsEvent =
   | '100m Women'
   | '100m Men'
   | '100m H Women'
+  | '100mH Women'
   | '100m Hurdles Women'
   | '110m H Men'
+  | '110mH Men'
   | '110m Hurdles Men'
   | '200m Women'
   | '200m Men'
+  | '300mH Men'
+  | '400mH Men'
   | '400m Women'
   | '400m Men'
   | '400m H Women'
@@ -91,7 +111,21 @@ export type AthleticsEvent =
   | "Women's 3000 Meters"
   | "Women's 5000 Meters"
   | "Men's Marathon"
-  | "Women's Marathon";
+  | "Women's Marathon"
+  | 'Long Jump Men'
+  | 'Long Jump Women'
+  | 'Discus Men'
+  | 'Discus Women'
+  | 'Pole Vault Men'
+  | 'Pole Vault Women'
+  | 'Shot Put Men'
+  | 'Shot Put Women'
+  | 'High Jump Men'
+  | 'High Jump Women'
+  | 'Triple Jump Men'
+  | 'Triple Jump Women'
+  | 'Javelin Men'
+  | 'Javelin Women';
 
 export type WAEventCode =
   | '50'

@@ -1,6 +1,6 @@
 import { AthleticsEvent, DLMeet, WAEventCode } from './types.mjs';
 
-export const MEET: DLMeet = 'brussels24';
+export const MEET: DLMeet = 'xiamen25';
 
 export const NUM_SCORING: number = 2;
 
@@ -293,20 +293,20 @@ query GetCompetitorBasicInfo($id: Int, $urlSlug: String) {
 }
 `;
 
-export const standingsMeets: { meet: DLMeet; date: string }[] = [
-  { meet: 'xiamen24', date: '20 April 2024' },
-  { meet: 'shanghai24', date: '27 April 2024' },
-  { meet: 'doha24', date: '10 May 2024' },
-  { meet: 'rabat24', date: '19 May 2024' },
-  { meet: 'eugene24', date: '25 May 2024' },
-  { meet: 'oslo24', date: '30 May 2024' },
-  { meet: 'stockholm24', date: '2 June 2024' },
-  { meet: 'paris24', date: '7 July 2024' },
-  { meet: 'monaco24', date: '12 July 2024' },
-  { meet: 'london24', date: '20 July 2024' },
-  { meet: 'lausanne24', date: '22 August 2024' },
-  { meet: 'silesia24', date: '25 August 2024' },
-  { meet: 'rome24', date: '30 August 2024' },
-  { meet: 'zurich24', date: '5 September 2024' },
-  { meet: 'brussels24', date: '13-14 September 2024' },
+export const standingsMeets: { meet: DLMeet; date: string, color: string }[] = [
+  { meet: 'xiamen25', date: '26 April 2025', color: '#512a8a' },
+  { meet: 'shanghai25', date: '3 May 2025', color: '#3a9b20' },
+  { meet: 'doha25', date: '16 May 2025', color: '#6c193f' },
+  { meet: 'rabat25', date: '25 May 2025', color: '#add8e6' },
+  { meet: 'rome25', date: '6 June 2025', color: '#e5b122' },
+  { meet: 'oslo25', date: '12 June 2025', color: '#3f48cc' },
+  { meet: 'stockholm25', date: '15 June 2025', color: '#009fe3' },
+  { meet: 'paris25', date: '20 June 2025', color: '#d0ab4c' },
+  { meet: 'eugene25', date: '5 July 2025', color: '#000000' },
+  { meet: 'monaco25', date: '11 July 2025', color: '#dd291e' },
+  { meet: 'london25', date: '19 July 2025', color: '#c6362d' },
+  { meet: 'silesia25', date: '16 August 2025', color: '#09234e' },
+  { meet: 'lausanne25', date: '20 August 2025', color: '#dc0b28' },
+  { meet: 'brussels25', date: '22 August 2025', color: '#003781' },
+  { meet: 'zurich25', date: '27 August 2025', color: '#009fe3' },
 ];

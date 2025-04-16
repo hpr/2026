@@ -47,7 +47,7 @@ export default function App() {
   const { pathname } = useLocation();
   const hash = decodeURIComponent(pathname.slice(1));
   const [entries, setEntries] = useState<Entries | null>(null);
-  const [meet, setMeet] = useState<DLMeet>('brussels24');
+  const [meet, setMeet] = useState<DLMeet>('xiamen25');
   const [evt, setEvt] = useState<AthleticsEvent | null>(null);
   const [myTeam, setMyTeam] = useState<Team>({});
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -358,7 +358,7 @@ export default function App() {
                           setNavbarOpen(false);
                         },
                       },
-                      ...(document.referrer && new URL(document.referrer).origin.includes('flotrack.org') ? [{
+                      ...(new URL(document.referrer).origin.includes('flotrack.org') ? [{
                         icon: <SquareRoundedLetterF />,
                         color: 'black',
                         label: 'Back to FloTrack',
