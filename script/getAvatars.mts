@@ -52,7 +52,7 @@ const entrants: Entrant[] = tfrrsMode ? JSON.parse(fs.readFileSync('./script/tfr
 
 type PixelMeImage = { image: string; label: string };
 
-const getIcons = async (avatarBuffer: ArrayBuffer) => {
+const getIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
   const b64 = Buffer.from(avatarBuffer).toString('base64');
   const { data: detectData, ...rest } = await (
     await fetch(`${PIXELME_API}/detect?${new URLSearchParams({ key })}`, {
@@ -65,7 +65,8 @@ const getIcons = async (avatarBuffer: ArrayBuffer) => {
   ).json();
   if (Object.keys(rest).length) console.log(rest);
   if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.') {
-    return [];
+    if (attempts > 30) return [];
+    return await getIcons(avatarBuffer, attempts + 1);
   }
   const { image } = detectData;
   const { data: faceData } = await (

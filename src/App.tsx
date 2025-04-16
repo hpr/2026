@@ -137,34 +137,34 @@ export default function App() {
   const color = standingsMeets.find((m) => m.meet === meet)?.color;
 
   const getMeetButtons = () => {
+    const buttonify = (enabled: boolean) => ({ meet, color }: { meet: DLMeet, color: string }) => (
+      <Button
+        variant="default"
+        style={{ 
+          borderLeft: `10px solid ${color}`,
+          width: 140,
+          color: 'white',
+        }}
+        disabled={!enabled}
+        m="sm"
+        key={meet}
+        onClick={() => {
+          if (!enabled) return;
+          setMeet(meet);
+          navigate(`/home`);
+          setPage('home');
+          modals.closeAll();
+        }}
+      >
+        {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
+      </Button>
+    );
     const currentMeets = standingsMeets
       .filter(({ meet }) => entries?.[meet])
-      .map(({ meet, color }) => (
-        <Button
-          variant="default"
-          style={{ 
-            borderLeft: `10px solid ${color}`,
-            width: 140,
-          }}
-          m="sm"
-          key={meet}
-          onClick={() => {
-            setMeet(meet);
-            navigate(`/home`);
-            setPage('home');
-            modals.closeAll();
-          }}
-        >
-          {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
-        </Button>
-      ));
+      .map(buttonify(true));
     const futureMeets = standingsMeets
       .filter(({ meet }) => !entries?.[meet])
-      .map(({ meet, color }) => (
-        <Button disabled style={{ backgroundColor: color, width: 140, color: 'white' }} m="sm" key={meet}>
-          {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
-        </Button>
-      ));
+      .map(buttonify(false));
     return (
       <div style={{ textAlign: 'center' }}>
         <Title order={2} p="sm">
@@ -358,7 +358,7 @@ export default function App() {
                           setNavbarOpen(false);
                         },
                       },
-                      ...(new URL(document.referrer).origin.includes('flotrack.org') ? [{
+                      ...(document.referrer && new URL(document.referrer).origin.includes('flotrack.org') ? [{
                         icon: <SquareRoundedLetterF />,
                         color: 'black',
                         label: 'Back to FloTrack',
