@@ -1,4 +1,4 @@
-import React, { MouseEventHandler } from 'react';
+import React, { MouseEventHandler, useContext } from 'react';
 import { ThemeIcon, UnstyledButton, Group, Text, Divider } from '@mantine/core';
 import { DIVIDER } from './const';
 import { useLocation } from 'react-router-dom';
@@ -23,7 +23,7 @@ function MainLink({ icon, color, path, label, onClick = () => {} }: MainLinkProp
         padding: theme.spacing.xs,
         borderRadius: theme.radius.sm,
         color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
-        backgroundColor: path === hash ? theme.colors.dark[6] : undefined,
+        backgroundColor: path === hash ? (theme.colorScheme === 'dark' ? theme.colors.dark[6] : '#d1d2d7') : undefined,
         '&:hover': {
           backgroundColor:
             theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],

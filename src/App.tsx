@@ -41,6 +41,7 @@ import { Results } from './Results';
 import { EventTeamPicker } from './EventTeamPicker';
 import LeagueStandings from './LeagueStandings';
 import { modals } from '@mantine/modals';
+import { ColorSchemeToggle } from './ColorSchemeToggle';
 
 export default function App() {
   const navigate = useNavigate();
@@ -143,7 +144,7 @@ export default function App() {
         style={{ 
           borderLeft: `10px solid ${color}`,
           width: 140,
-          color: 'white',
+          color: theme.colorScheme === 'dark' ? 'white' : 'black',
         }}
         disabled={!enabled}
         m="sm"
@@ -349,7 +350,7 @@ export default function App() {
                     links={[
                       {
                         icon: <Home />,
-                        color: 'black',
+                        color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'Home',
                         path: 'home',
                         onClick: () => {
@@ -360,7 +361,7 @@ export default function App() {
                       },
                       ...(document.referrer && new URL(document.referrer).origin.includes('flotrack.org') ? [{
                         icon: <SquareRoundedLetterF />,
-                        color: 'black',
+                        color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'Back to FloTrack',
                         path: 'flotrack',
                         onClick: () => {
@@ -369,7 +370,7 @@ export default function App() {
                       }] : []),
                       {
                         icon: <Switch2 />,
-                        color: 'black',
+                        color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'Switch Meet',
                         path: 'switch',
                         onClick: () => {
@@ -408,7 +409,7 @@ export default function App() {
                         : []),
                       {
                         icon: <Diamond />,
-                        color: 'black',
+                        color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'League Standings',
                         path: 'standings',
                         onClick: () => {
@@ -419,7 +420,7 @@ export default function App() {
                       },
                       {
                         icon: <Users />,
-                        color: 'black',
+                        color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'Submissions',
                         path: `${meet}/submissions`,
                         onClick: () => {
@@ -477,6 +478,7 @@ export default function App() {
               <Text size="md">
                 Fantasy {meet[0].toUpperCase()}
                 {meet.slice(1, -2)} '{meet.slice(-2)}
+                <ColorSchemeToggle />
                 <Popover width="100%" position="bottom" withArrow shadow="md">
                   <Popover.Target>
                     <Button size="xs" ml={20} bg={color}>

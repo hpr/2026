@@ -115,7 +115,7 @@ export function AthleteCard({
       radius={128}
       size={128}
       pos="absolute"
-      sx={{ filter: 'brightness(20%)' }}
+      sx={{ filter: `brightness(${theme.colorScheme === 'dark' ? '20' : '90'}%)` }}
     />
   );
 
@@ -124,7 +124,7 @@ export function AthleteCard({
       <Modal
         size={500}
         title={
-          <Text variant="gradient" gradient={{ from: 'gray', to: 'white' }} size={30} sx={{ fontWeight: 'bold' }}>
+          <Text variant="gradient" gradient={theme.colorScheme === 'dark' ? { from: 'gray', to: 'white' } : { from: 'gray', to: 'black' }} size={30} sx={{ fontWeight: 'bold' }}>
             {entrant.firstName} {entrant.lastName.toUpperCase()}
           </Text>
         }
