@@ -104,6 +104,10 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
 
   const myTeamPicks = myTeam[meet]?.[evt!] ?? [];
   const entriesEvt = entries?.[meet]?.[evt as AthleticsEvent];
+
+  const numPicks = Object.values(myTeam[meet] ?? {}).flat().length;
+  const numMaxPicks = Object.keys(entries?.[meet] ?? {}).length * PICKS_PER_EVT;
+  const arePicksComplete = numPicks === numMaxPicks;
   return (
     <>
       <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ minHeight: isClosed ? undefined : 193 }}>
@@ -154,7 +158,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
               {myTeamPicks.length == PICKS_PER_EVT ? (
                 <>
                   <Check size={30} />
-                  Event Complete! Now select another event on the left menu
+                  Event team complete! {arePicksComplete ? 'Submit your picks by clicking "Save Picks"' : 'Select next event to continue'}
                 </>
               ) : (
                 <>

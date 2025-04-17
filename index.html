@@ -9,7 +9,7 @@
       montage -background "#141517" -tile 17x  $(jq -r 'map(select(.skipped | not)) | .[:170][].id' < script/tfrrsAthletes.json | sed -e 's|^|./public/img/tfrrsAvatars/|' | sed -e 's/$/_128x128.png/' | tr '\n' ' ') tempImg/tfrrsMontage.png && feh tempImg/tfrrsMontage.png
     -->
     <meta property="og:image" content="https://hpr.github.io/2025/montage.png" />
-    <title>Fantasy Athletics: Diamond League '25</title>
+    <title>Fantasy Athletics: 万达 WANDA Diamond League '25</title>
   </head>
   <body>
     <div id="root"></div>

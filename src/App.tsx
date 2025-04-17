@@ -519,7 +519,7 @@ export default function App() {
           {page === 'home' ? (
             <div style={{ textAlign: 'center' }}>
               <Paper shadow="xl" radius="xl" p="xl" withBorder>
-                <Title><Diamond /> Fantasy {meet[0].toUpperCase() + meet.slice(1, -2)} Diamond League</Title>
+                <Title><Diamond /> Fantasy <span style={{ color }}>{meet[0].toUpperCase() + meet.slice(1, -2)}</span> Wanda Diamond League</Title>
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
