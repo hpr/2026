@@ -717,6 +717,8 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
         const city = [...meet].filter(c => !'0123456789'.includes(c)).join('');
         const tz = cityNameTo[city].timeZone;
         for (const eDiv of document.querySelectorAll('[data-row=time]')) {
+          const firstSvg = eDiv.querySelector('svg');
+          if (firstSvg?.getAttribute('width') !== '20') continue; // filter out non-DL events
           const evt = eDiv.querySelectorAll('div')[2].textContent;
           if (['U23', 'National'].some(k => evt?.includes(k))) continue;
           const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);

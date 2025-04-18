@@ -520,9 +520,15 @@ export default function App() {
         <Stack align="center" mt={0}>
           {page === 'home' ? (
             <div style={{ textAlign: 'center' }}>
-              <Paper shadow="xl" radius="xl" p="xl" withBorder>
-                <img src={`FloTrack-ignite${theme.colorScheme === 'dark' ? 'white' : 'black'}.svg`} height={30} style={{ marginBottom: 10 }} />
-                <Title><Diamond /> FloTrack Fantasy Game: <span style={{ color }}>{meet[0].toUpperCase() + meet.slice(1, -2)}</span> Wanda Diamond League</Title>
+              <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ 
+                backgroundColor: 'white',
+                color: 'white',
+                backgroundImage: "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(diamondtrophy.png)",
+                backgroundPosition: 'center top',
+                textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
+              }}>
+                <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />
+                <Title><Diamond /> FloTrack Fantasy Game: Wanda Diamond League</Title>
                 <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>
               </Paper>
               {getMeetButtons()}
