@@ -137,6 +137,38 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
   }
 }
 
+const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
+  const b64 = Buffer.from(avatarBuffer).toString('base64');
+  const { data: detectData, ...rest } = await (
+    await fetch(`${process.env.PM_API}/detect?${new URLSearchParams({ key: process.env.PM_KEY! })}`, {
+      headers: { 'content-type': 'application/json;charset=UTF-8' },
+      body: JSON.stringify({
+        image: b64, // Buffer.from(fs.readFileSync('./script/kerley.jpg')).toString('base64'),
+      }),
+      method: 'POST',
+    })
+  ).json();
+  if (Object.keys(rest).length) console.log(rest);
+  if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.') {
+    if (attempts > 30) return [];
+    return await getPixelIcons(avatarBuffer, attempts + 1);
+  }
+  const { image } = detectData;
+  const { data: faceData } = await (
+    await fetch(`${process.env.PM_API}/convert/face?${new URLSearchParams({ key: process.env.PM_KEY! })}`, {
+      headers: { 'content-type': 'application/json;charset=UTF-8' },
+      body: JSON.stringify({ image }),
+      method: 'POST',
+    })
+  ).json();
+  if (!faceData) {
+    console.log('no faceData');
+    return [];
+  }
+  const { images }: { images: LabeledImage[] } = faceData;
+  return images;
+};
+
 const getProfilePic = async (
   url: string,
   { firstName, lastName }: { firstName: string; lastName: string }
