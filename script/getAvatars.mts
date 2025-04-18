@@ -1,11 +1,14 @@
 import fs from 'fs';
 import { Entrant, Entries } from './types.mjs';
-import google from 'googlethis';
 import { DOMWindow, JSDOM } from 'jsdom';
 import gm from 'gm';
 import { getDomain } from './const.mjs';
 import WBK, { EntityId, SimplifiedItem } from 'wikibase-sdk';
 import dotenv from 'dotenv';
+import AWS from 'aws-sdk';
+import sharp from 'sharp';
+import { fileTypeFromBuffer } from 'file-type';
+
 dotenv.config();
 
 //    .-.
@@ -15,8 +18,6 @@ dotenv.config();
 
 const tfrrsMode = false;
 
-const PIXELME_API = 'https://pixel-me-api-gateway-cj34o73d6a-an.a.run.app/api/v1';
-const key = 'AIzaSyB1icoMXVbxjiAzwBTI_4FufkzTnX78U0s'; // intentionally public
 const AVATAR_CACHE = './script/avatarCache.json';
 const P_TFRRS_ATHLETE_ID = 'P5120';
 const P_WA_ATHLETE_ID = 'P1146';
@@ -30,6 +31,75 @@ const P_EUROPEAN_ATHLETICS_ID = 'P3766';
 const P_MEMBER_OF_SPORTS_TEAM = 'P54';
 const P_INSTANCE_OF = 'P31';
 const Q_UNIVERSITY_SPORTS_CLUB = 'Q2367225';
+
+AWS.config.update({
+  accessKeyId: process.env.AWS_ACCESS_KEY,
+  secretAccessKey: process.env.AWS_SECRET_KEY,
+  region: 'us-east-2',
+});
+const rekognition = new AWS.Rekognition();
+async function detectFace(imageBuffer: Buffer) {
+  const params = {
+    Image: { Bytes: imageBuffer },
+    Attributes: ['ALL']
+  };
+  const response = await rekognition.detectFaces(params).promise();
+  if (!response.FaceDetails || response.FaceDetails.length === 0) {
+    throw new Error('No faces detected');
+  }
+  // first face
+  return response.FaceDetails[0].BoundingBox;
+}
+
+const makeu8 = (buffer: Buffer) => new Uint8Array(buffer.buffer, buffer.byteOffset, buffer.byteLength);
+
+async function cropHead(imageBuffer: Buffer, boundingBox: AWS.Rekognition.BoundingBox) {
+  const metadata = await sharp(imageBuffer).metadata();
+  const width = metadata.width!;
+  const height = metadata.height!;
+
+  // Calculate pixel coordinates
+  const left = Math.floor(boundingBox.Left! * width);
+  const top = Math.floor(boundingBox.Top! * height);
+  const boxWidth = Math.floor(boundingBox.Width! * width);
+  const boxHeight = Math.floor(boundingBox.Height! * height);
+
+  // Expand the bounding box to capture the head (adjust multiplier as needed)
+  const expand = 1.5;
+  const newWidth = boxWidth * expand;
+  const newHeight = boxHeight * expand;
+  const x = Math.max(0, left - (newWidth - boxWidth) / 2);
+  const y = Math.max(0, top - (newHeight - boxHeight) / 2);
+
+  return sharp(imageBuffer)
+    .extract({
+      left: Math.floor(x),
+      top: Math.floor(y),
+      width: Math.min(Math.floor(newWidth), width - Math.floor(x)),
+      height: Math.min(Math.floor(newHeight), height - Math.floor(y))
+    })
+    .toBuffer();
+}
+
+async function removeBackground(blob: Blob) {
+  const formData = new FormData();
+  formData.append("size", "auto");
+  formData.append("image_file", blob);
+
+  const response = await fetch("https://api.remove.bg/v1.0/removebg", {
+    method: "POST",
+    headers: { "X-Api-Key": process.env.REMOVEBG_KEY! },
+    body: formData,
+  });
+
+  if (response.ok) {
+    const arrayBuffer = await response.arrayBuffer();
+    const base64String = Buffer.from(arrayBuffer).toString('base64');
+    return base64String;
+  } else {
+    throw new Error(`${response.status}: ${response.statusText}`);
+  }
+}
 
 const wbk = WBK({
   instance: 'https://www.wikidata.org',
@@ -50,39 +120,22 @@ const entrants: Entrant[] = tfrrsMode ? JSON.parse(fs.readFileSync('./script/tfr
   nat: '',
 })) : Object.values(entries).flatMap((meet) => Object.values(meet).flatMap(({ entrants }) => entrants));
 
-type PixelMeImage = { image: string; label: string };
+type LabeledImage = { image: string; label: string };
 
-const getIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
-  const b64 = Buffer.from(avatarBuffer).toString('base64');
-  const { data: detectData, ...rest } = await (
-    await fetch(`${PIXELME_API}/detect?${new URLSearchParams({ key })}`, {
-      headers: { 'content-type': 'application/json;charset=UTF-8' },
-      body: JSON.stringify({
-        image: b64, // Buffer.from(fs.readFileSync('./script/kerley.jpg')).toString('base64'),
-      }),
-      method: 'POST',
-    })
-  ).json();
-  if (Object.keys(rest).length) console.log(rest);
-  if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.') {
-    if (attempts > 30) return [];
-    return await getIcons(avatarBuffer, attempts + 1);
-  }
-  const { image } = detectData;
-  const { data: faceData } = await (
-    await fetch(`${PIXELME_API}/convert/face?${new URLSearchParams({ key })}`, {
-      headers: { 'content-type': 'application/json;charset=UTF-8' },
-      body: JSON.stringify({ image }),
-      method: 'POST',
-    })
-  ).json();
-  if (!faceData) {
-    console.log('no faceData');
+const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
+  try {
+    const imageBuffer = Buffer.from(avatarBuffer);
+    const boundingBox = await detectFace(imageBuffer);
+    const cropped = await cropHead(imageBuffer, boundingBox!);
+    const fileType = await fileTypeFromBuffer(makeu8(cropped));
+    const mimeType = fileType?.mime || 'application/octet-stream';
+    const image = await removeBackground(new Blob([cropped], { type: mimeType }));
+    return [{ image, label: '128x128' }];
+  } catch (error) {
+    console.error('Processing failed:', error);
     return [];
   }
-  const { images }: { images: PixelMeImage[] } = faceData;
-  return images;
-};
+}
 
 const getProfilePic = async (
   url: string,
@@ -174,7 +227,7 @@ for (const entrant of entrants) {
   let avatarResp = tfrrsMode ? new Response(null, { status: 403 }) : await fetch(imageUrl);
   if (avatarResp.status !== 403) console.log(imageUrl);
   let avatarBuffer: ArrayBuffer | undefined;
-  let images: PixelMeImage[] = [];
+  let images: LabeledImage[] = [];
   if (avatarResp.status === 403) {
     const qid: EntityId = wbk.parse.pagesTitles(
       await (await fetch(wbk.cirrusSearchPages({ haswbstatement: `${tfrrsMode ? P_TFRRS_ATHLETE_ID : P_WA_ATHLETE_ID}=${id}` }))).json()
@@ -190,6 +243,7 @@ for (const entrant of entrants) {
     }
     if (avatarCache[avatarCacheKey][id]) {
       if (avatarCache[avatarCacheKey][id] === 'skip') {  (entrant as any).skipped = true; continue; }
+      console.log('  from cache:', avatarCache[avatarCacheKey][id]);
       avatarResp = await fetch(avatarCache[avatarCacheKey][id]);
     } else {
       if (fs.existsSync(`./public/img/${tfrrsMode ? 'tfrrsAvatars' : 'avatars'}/${id}.png`)) {
