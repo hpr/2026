@@ -67,7 +67,7 @@ export const Results = ({ entries, meet }: { entries: Entries | null; meet: DLMe
                             <Avatar
                               radius="xl"
                               size="sm"
-                              src={`img/avatars/${entrant.id ?? 'default'}_128x128.png`}
+                              src={`img/pixelAvatars/${entrant.id ?? 'default'}_128x128.png`}
                             />
                           }
                         >
