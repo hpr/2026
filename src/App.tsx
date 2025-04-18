@@ -476,8 +476,8 @@ export default function App() {
                 <Burger opened={navbarOpen} onClick={() => setNavbarOpen((o) => !o)} size="sm" color={theme.colors.gray[6]} mr="xl" />
               </MediaQuery>
               <Text size="md">
-                Fantasy {meet[0].toUpperCase()}
-                {meet.slice(1, -2)} '{meet.slice(-2)}
+                <img src="Hawk-ignite.png" height="20px" style={{ marginRight: 5 }} /> Fantasy {meet[0].toUpperCase()}
+                {meet.slice(1, -2)}
                 <ColorSchemeToggle />
                 <Popover width="100%" position="bottom" withArrow shadow="md">
                   <Popover.Target>
@@ -521,7 +521,9 @@ export default function App() {
           {page === 'home' ? (
             <div style={{ textAlign: 'center' }}>
               <Paper shadow="xl" radius="xl" p="xl" withBorder>
-                <Title><Diamond /> Fantasy <span style={{ color }}>{meet[0].toUpperCase() + meet.slice(1, -2)}</span> Wanda Diamond League</Title>
+                <img src={`FloTrack-ignite${theme.colorScheme === 'dark' ? 'white' : 'black'}.svg`} height={30} style={{ marginBottom: 10 }} />
+                <Title><Diamond /> FloTrack Fantasy Game: <span style={{ color }}>{meet[0].toUpperCase() + meet.slice(1, -2)}</span> Wanda Diamond League</Title>
+                <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
