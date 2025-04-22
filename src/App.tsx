@@ -138,7 +138,7 @@ export default function App() {
   const color = standingsMeets.find((m) => m.meet === meet)?.color;
 
   const getMeetButtons = () => {
-    const buttonify = (enabled: boolean) => ({ meet, color }: { meet: DLMeet, color: string }) => (
+    const buttonify = (enabled: boolean) => ({ meet: selectedMeet, color }: { meet: DLMeet, color: string }) => (
       <Button
         variant="default"
         style={{ 
@@ -148,12 +148,17 @@ export default function App() {
         }}
         disabled={!enabled}
         m="sm"
-        key={meet}
+        key={selectedMeet}
         onClick={() => {
           if (!enabled) return;
-          setMeet(meet);
-          navigate(`/home`);
-          setPage('home');
+          if (selectedMeet === meet) {
+            navigate('events');
+            setPage('events');
+          } else {
+            setMeet(selectedMeet);
+            navigate(`/home`);
+            setPage('home');
+          }
           modals.closeAll();
         }}
       >
@@ -533,8 +538,20 @@ export default function App() {
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <Paper shadow="sm" radius="sm" p="sm" mb="xl" w={200} withBorder><Title><Book /> Rules</Title></Paper>
-                <div>{rules}</div>
+                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>🏆 Build Your Squad. Compete Globally. Win Weekly.</Title></Paper>
+                <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard, claim bragging rights, and win prizes.</Title>
+                <Text mt={10} style={{ textAlign: 'left' }}>
+                  How to Play:
+                  <ol style={{ marginTop: 10 }}>
+                    <li>Pick 3 Athletes Per Event Discipline<br />
+                    Choose from sprinters, distance stars, jumpers, and throwers.</li>
+                    <li>Score Points<br />
+                    Your team earns based on finishes of your top two athletes per discipline.</li>
+                    <li>Win Prizes<br />
+                      Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
+                  </ol>
+                </Text>
+                <Button onClick={() => setPage('events')}>👉 Start Picking Your Team</Button>
               </Paper>
             </div>
           ) : page === 'submissions' ? (
