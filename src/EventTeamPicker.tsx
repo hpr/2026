@@ -88,7 +88,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
         wiki={wikis[evt + i]}
         showDetails={!!showDetails[evt + i]}
         setShowDetails={(sd: boolean) => setShowDetails({ ...showDetails, [evt + i]: sd })}
-        avatar={`img/${pixelMode ? 'pixelAvatars' : 'avatars'}/${id}_128x128.png`}
+        avatar={`img/${pixelMode ? 'avatars' : 'hqAvatars'}/${id}_128x128.png`}
         meet={meet}
         event={evt!}
         entrant={{ ...entrant, blurb: undefined }}
@@ -141,7 +141,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                         label={`${i === 0 ? 'Event Captain' : i < PICKS_PER_EVT ? `#${i + 1} Member` : 'Backup'}: ${lastName}`}
                         events={{ hover: true, focus: true, touch: true }}
                       >
-                        <Avatar size={i === 0 ? 'lg' : i < PICKS_PER_EVT ? 'md' : 'sm'} src={`img/${pixelMode ? 'pixelAvatars' : 'avatars'}/${id}_128x128.png`} radius="xl" />
+                        <Avatar size={i === 0 ? 'lg' : i < PICKS_PER_EVT ? 'md' : 'sm'} src={`img/${pixelMode ? 'avatars' : 'hqAvatars'}/${id}_128x128.png`} radius="xl" />
                       </Tooltip>
                     ))}
                   </Avatar.Group>
@@ -182,7 +182,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
               </Title>
               <Group>
                 <Switch checked={tableView} onChange={(e) => setTableView(e.currentTarget.checked)} label="Table view?" />
-                <Switch checked={pixelMode} onChange={(e) => setPixelMode(e.currentTarget.checked)} label="Pixel mode?" />
+                {/* <Switch checked={pixelMode} onChange={(e) => setPixelMode(e.currentTarget.checked)} label="Pixel mode?" /> */}
                 <Button size="xs" variant="default" color={mantineGray} onClick={() => setMyTeam({ ...myTeam, [meet]: { ...myTeam[meet], [evt]: [] } })}>
                   Reset team
                 </Button>
