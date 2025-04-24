@@ -162,7 +162,7 @@ export default function App() {
           modals.closeAll();
         }}
       >
-        {meet[0].toUpperCase() + meet.slice(1, -2) + " '" + meet.slice(-2)}
+        {selectedMeet[0].toUpperCase() + selectedMeet.slice(1, -2) + " '" + selectedMeet.slice(-2)}
       </Button>
     );
     const currentMeets = standingsMeets
