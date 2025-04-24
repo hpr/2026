@@ -109,7 +109,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   zurich24: '2pm ET',
   brussels24: '2pm ET',
 
-  xiamen25: '5am ET',
+  xiamen25: '7am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {

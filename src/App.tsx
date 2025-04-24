@@ -36,7 +36,7 @@ import { isEmail, useForm } from '@mantine/form';
 import { Submissions } from './Submissions';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Leaderboard } from './Leaderboard';
-import { evtSort } from './util';
+import { evtSort, isFlo } from './util';
 import { Results } from './Results';
 import { EventTeamPicker } from './EventTeamPicker';
 import LeagueStandings from './LeagueStandings';
@@ -364,7 +364,7 @@ export default function App() {
                           setNavbarOpen(false);
                         },
                       },
-                      ...(document.referrer && new URL(document.referrer).origin.includes('flotrack.org') ? [{
+                      ...(isFlo ? [{
                         icon: <SquareRoundedLetterF />,
                         color: theme.colorScheme === 'dark' ? 'black' : '',
                         label: 'Back to FloTrack',
@@ -481,7 +481,7 @@ export default function App() {
                 <Burger opened={navbarOpen} onClick={() => setNavbarOpen((o) => !o)} size="sm" color={theme.colors.gray[6]} mr="xl" />
               </MediaQuery>
               <Text size="md">
-                <img src="Hawk-ignite.png" height="20px" style={{ marginRight: 5 }} /> Fantasy {meet[0].toUpperCase()}
+                {isFlo && <img src="Hawk-ignite.png" height="20px" style={{ marginRight: 5 }} />} Fantasy {meet[0].toUpperCase()}
                 {meet.slice(1, -2)}
                 <ColorSchemeToggle />
                 <Popover width="100%" position="bottom" withArrow shadow="md">
@@ -532,25 +532,29 @@ export default function App() {
                 backgroundPosition: 'center top',
                 textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
               }}>
-                <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />
-                <Title><Diamond /> FloTrack Fantasy Game: Wanda Diamond League</Title>
-                <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>
+                {isFlo && <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />}
+                <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2025 Fantasy Diamond League'}</Title>
+                {isFlo && <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>}
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>🏆 Build Your Squad. Compete Globally. Win Weekly.</Title></Paper>
-                <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard, claim bragging rights, and win prizes.</Title>
-                <Text mt={10} style={{ textAlign: 'left' }}>
-                  How to Play:
-                  <ol style={{ marginTop: 10 }}>
-                    <li>Pick 3 Athletes Per Event Discipline<br />
-                    Choose from sprinters, distance stars, jumpers, and throwers.</li>
-                    <li>Score Points<br />
-                    Your team earns based on finishes of your top two athletes per discipline.</li>
-                    <li>Win Prizes<br />
-                      Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
-                  </ol>
-                </Text>
+                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>{isFlo ? '🏆 Build Your Squad. Compete Globally. Win Weekly.' : 'Rules'}</Title></Paper>
+                {isFlo ? (
+                  <React.Fragment>
+                    <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard, claim bragging rights, and win prizes.</Title>
+                    <Text mt={10} style={{ textAlign: 'left' }}>
+                      How to Play:
+                      <ol style={{ marginTop: 10 }}>
+                        <li>Pick 3 Athletes Per Event Discipline<br />
+                        Choose from sprinters, distance stars, jumpers, and throwers.</li>
+                        <li>Score Points<br />
+                        Your team earns based on finishes of your top two athletes per discipline.</li>
+                        <li>Win Prizes<br />
+                          Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
+                      </ol>
+                    </Text>
+                  </React.Fragment>
+                ) : rules}
                 <Button onClick={() => setPage('events')}>👉 Start Picking Your Team</Button>
               </Paper>
             </div>

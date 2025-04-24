@@ -53,3 +53,5 @@ export const normalize = (str: string) =>
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^\x00-\x7F]/g, '');
+
+export const isFlo = document.referrer && new URL(document.referrer).origin.includes('flotrack.org');
