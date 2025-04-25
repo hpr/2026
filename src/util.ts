@@ -54,4 +54,4 @@ export const normalize = (str: string) =>
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^\x00-\x7F]/g, '');
 
-export const isFlo = true; // document.referrer && new URL(document.referrer).origin.includes('flotrack.org');
+export const isFlo = false; // document.referrer && new URL(document.referrer).origin.includes('flotrack.org');
