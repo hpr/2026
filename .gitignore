@@ -3,6 +3,7 @@ build
 tempImg
 script/tfrrsAthletes.json
 #script/blurbCache.json
+script/reset.sh
 
 # Logs
 logs
