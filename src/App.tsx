@@ -543,10 +543,10 @@ export default function App() {
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>{isFlo ? '🏆 Build Your Squad. Compete Globally. Win Weekly.' : 'Rules'}</Title></Paper>
+                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>{isFlo ? '🏆 Build Your Squad. Compete Globally.' : 'Rules'}</Title></Paper>
                 {isFlo ? (
                   <React.Fragment>
-                    <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard, claim bragging rights, and win prizes.</Title>
+                    <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard and claim bragging rights.</Title>
                     <Text mt={10} style={{ textAlign: 'left' }}>
                       How to Play:
                       <ol style={{ marginTop: 10 }}>
@@ -554,7 +554,7 @@ export default function App() {
                         Choose from sprinters, distance stars, jumpers, and throwers.</li>
                         <li>Score Points<br />
                         Your team earns based on finishes of your top two athletes per discipline.</li>
-                        <li>Win Prizes<br />
+                        <li>Win Bragging Rights<br />
                           Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
                       </ol>
                     </Text>
