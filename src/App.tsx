@@ -119,7 +119,7 @@ export default function App() {
 
   const numPicks = Object.values(myTeam[meet] ?? {}).flat().length;
   const numMaxPicks = Object.keys(entries?.[meet] ?? {}).length * PICKS_PER_EVT;
-  const arePicksComplete = numPicks === numMaxPicks;
+  const arePicksComplete = numPicks >= numMaxPicks;
   const percentComplete = Math.round((numPicks / numMaxPicks) * 100);
 
   const picksText = Object.keys(myTeam[meet] ?? {})
@@ -528,13 +528,18 @@ export default function App() {
               <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ 
                 backgroundColor: 'white',
                 color: 'white',
-                backgroundImage: "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(diamondtrophy.png)",
+                backgroundImage: "linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(diamondtrophy.png)",
                 backgroundPosition: 'center top',
                 textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
               }}>
                 {isFlo && <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />}
                 <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2025 Fantasy Diamond League'}</Title>
-                {isFlo && <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>}
+                {/* {isFlo && <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>} */}
+                {isFlo && <React.Fragment>
+                  <Title order={4}>Watch all Diamond League meetings live on FloTrack, the exclusive U.S. provider of the 2025 Wanda Diamond League</Title>
+                  <Button color="red" mt="md" onClick={() => window.open('https://flosports.sjv.io/c/6198276/2930336/24751', '_self')}><Badge mr="md">New!</Badge> Save US$22.50 (15%) on an annual FloTrack subscription using this link!</Button>
+                  <Text italic>(Click "Sign Up" then enter an email and password to receive the discount cookie)</Text>
+                </React.Fragment>}
               </Paper>
               {getMeetButtons()}
               <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
