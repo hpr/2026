@@ -390,7 +390,7 @@ export default function App() {
                         ? [
                             {
                               icon: <Trophy />,
-                              color: 'gold',
+                              color: theme.colorScheme === 'dark' ? 'gold': '',
                               label: 'Leaderboard',
                               path: `${meet}/leaderboard`,
                               onClick: () => {
@@ -401,7 +401,7 @@ export default function App() {
                             },
                             {
                               icon: <Calculator />,
-                              color: 'black',
+                              color: theme.colorScheme === 'dark' ? 'black': '',
                               label: 'Results',
                               path: `${meet}/scoring`,
                               onClick: () => {
