@@ -96,6 +96,12 @@ export const BLURBCACHE_PATH = './script/blurbCache.json';
 export const MONTAGE_PATH = './public/montage.png';
 
 export const disciplineCodes: { [k: string]: WAEventCode } = {
+  '3000mSC': '3KSC',
+  '300mH': '300H',
+  '1000m': '1000',
+  '100mH': '100H',
+  '110mH': '110H',
+  'Discus': 'DT',
   '50 Meters': '50',
   '55 Meters': '55',
   '60 Meters': '60',
