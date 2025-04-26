@@ -41,7 +41,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   zurich24: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/ZURICH_2024_SCHEDULE_JSON.json',
   brussels24: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/BRUSSELS_2024_SCHEDULE_JSON.json',
 
-  xiamen25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/XIAMEN_2025_SCHEDULE_JSON.json',
+  xiamen25: 'https://ps-cache-next.ath.swisstiming.com/node/db/ATH_PROD/XIAMEN_2025_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -115,17 +115,27 @@ for (const key in resultsLinks) {
         };
       });
     }
-  } else if (resultsLinks[meet]?.includes('livecache.sportresult.com') || resultsLinks[meet]?.includes('web.swisstiming.com')) {
-    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : 'ps-cache.web.swisstiming.com';
-    const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache.web.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
+  } else if (resultsLinks[meet]?.includes('livecache.sportresult.com') || resultsLinks[meet]?.includes('swisstiming.com')) {
+    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : 'ps-cache-next.ath.swisstiming.com';
+    const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache-next.ath.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
     console.log('fetching', resultsLinks[meet]);
     const schedule: SportResultSchedule = await (await fetch(resultsLinks[meet]!)).json();
     console.log(resultsLinks[meet]);
     for (const key in entries[meet]) {
       const evt = key as AthleticsEvent;
+      // console.log(evt);
+      // if (evt === 'Discus Women') {
+      //   console.log(Object.values(schedule.content.full.Units).map(u => [u.EventName, u.Rsc?.ValueUnit]));
+      // }
       const evtId = Object.values(schedule.content.full.Units).find(
         (unit) =>
-          [evt, '1 ' + evt].some((s) => unit.EventName.replace('Steeplechase', 'Steeple') === s.replace('Steeplechase', 'Steeple')) && unit.Stats.DiamondId
+          [evt, '1 ' + evt, evt].some((s) => unit.EventName.replace('Steeplechase', 'Steeple') === s
+          .replace('Steeplechase', 'Steeple')
+          .replace('Discus Women', 'Discus Throw Women')
+          .replace('Discus Men', 'Discus Throw Men')
+          .replace('mH', 'm Hurdles')
+          .replace('mSC', 'm Steeple')
+        ) && unit.Stats.DiamondId
       )?.Rsc.ValueUnit;
       const evtResultUrl = `https://${domain}/node/db/ATH_PROD/${meetId}_TIMING_${evtId}_JSON.json`;
       console.log(evt, evtResultUrl);
