@@ -437,6 +437,10 @@ export type SportResultTiming = {
           FedCode?: string; // iaaf id
         };
       };
+      LastCompetitor?: {
+        Id: string,
+        Attempt: number,
+      }
     };
   };
 };

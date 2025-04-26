@@ -144,7 +144,7 @@ for (const key in resultsLinks) {
         console.log('skipping', evt, evtId);
       }
       const evtResult: SportResultTiming = await evtResultResp.json();
-      const results = Object.values(evtResult.content.full.CompetitorDetails)
+      const results = evtResult.content.full.LastCompetitor ? [] : Object.values(evtResult.content.full.CompetitorDetails)
         .sort((a, b) => +(a.Rank ?? Infinity) - +(b.Rank ?? Infinity))
         .map((comp) => ({
           mark: comp.Result!,
