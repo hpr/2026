@@ -2008,7 +2008,139 @@
           "lastName": "Wu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.53",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.32",
+            "sb": "12.70",
+            "nat": "JAM",
+            "id": "14450995",
+            "hasAvy": true,
+            "firstName": "Danielle",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "12.58",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "",
+            "nat": "USA",
+            "id": "14716925",
+            "hasAvy": true,
+            "firstName": "Grace",
+            "lastName": "Stark"
+          }
+        },
+        {
+          "mark": "12.62",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.49",
+            "sb": "12.69",
+            "nat": "RSA",
+            "id": "14838617",
+            "hasAvy": true,
+            "firstName": "Marione",
+            "lastName": "Fourie"
+          }
+        },
+        {
+          "mark": "12.74",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.12",
+            "sb": "",
+            "nat": "NGR",
+            "id": "14579526",
+            "hasAvy": true,
+            "firstName": "Tobi",
+            "lastName": "Amusan"
+          }
+        },
+        {
+          "mark": "12.81",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.37",
+            "sb": "",
+            "nat": "POL",
+            "id": "14736349",
+            "hasAvy": true,
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska"
+          }
+        },
+        {
+          "mark": "12.92",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.36",
+            "sb": "",
+            "nat": "USA",
+            "id": "14564128",
+            "hasAvy": true,
+            "firstName": "Tonea",
+            "lastName": "Marshall"
+          }
+        },
+        {
+          "mark": "13.00",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.74",
+            "sb": "",
+            "nat": "CHN",
+            "id": "14585472",
+            "hasAvy": true,
+            "firstName": "Yanni",
+            "lastName": "Wu"
+          }
+        },
+        {
+          "mark": "13.19",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "13.23",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "12.30",
+            "sb": "",
+            "nat": "USA",
+            "id": "14304647",
+            "hasAvy": true,
+            "firstName": "Nia",
+            "lastName": "Ali"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "12.44",
+            "sb": "",
+            "nat": "BAH",
+            "id": "14414505",
+            "hasAvy": true,
+            "firstName": "Devynne",
+            "lastName": "Charlton"
+          }
+        }
+      ]
     },
     "3000mSC Men": {
       "date": "2025-04-26T16:33:00.000Z",

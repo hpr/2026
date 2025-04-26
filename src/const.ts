@@ -45,6 +45,12 @@ export const DIVIDER = 'divider' as 'divider';
 export const PAGES = ['home', 'events', 'scoring', 'submissions', 'leaderboard', 'standings'] as const;
 
 export const disciplineCodes: { [k: string]: string } = {
+  '3000mSC': '3KSC',
+  '300mH': '300H',
+  '1000m': '1000',
+  '100mH': '100H',
+  '110mH': '110H',
+  'Discus': 'DT',
   '50 Meters': '50',
   '55 Meters': '55',
   '60 Meters': '60',
