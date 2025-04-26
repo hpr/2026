@@ -1,4 +1,4 @@
-// ssh habs@ma.sdf.org "sqlite3 -header -csv ~/db/fantasy1500.db 'select * from picks where meet = \"rabat24\";'" > picks.csv && ssh habs@ma.sdf.org 'sqlite3 -header -csv ~/db/fantasy1500.db "select * from users;"' > users.csv
+// ssh habs@ma.sdf.org "sqlite3 -header -csv ~/db/fantasy1500.db 'select * from picks where meet = \"xiamen25\";'" > picks.csv && ssh habs@ma.sdf.org 'sqlite3 -header -csv ~/db/fantasy1500.db "select * from users;"' > users.csv
 
 // ssh habs@ma.sdf.org 'sqlite3 -header -csv ~/db/fantasy1500.db "select id,name,email from users where id > 668;"' > emails.csv
 

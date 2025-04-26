@@ -209,42 +209,44 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                             const entrants = entries?.[meet]?.[evt]?.entrants ?? [];
                             const athleteIds = entrants.map((e) => e.id);
                             const currentYear = String(new Date().getFullYear());
-                            window.open(
-                              normalize(
-                                `https://hpr.github.io/match/#` +
-                                  new URLSearchParams({
-                                    athleteIds: JSON.stringify(athleteIds),
-                                    athleteYears: JSON.stringify(Object.fromEntries(athleteIds.map((id) => [id, currentYear]))),
-                                    athleteInfo: JSON.stringify(
-                                      Object.fromEntries(
-                                        entrants.map((ent) => [
-                                          ent.id,
-                                          {
-                                            gender,
-                                            givenName: ent.firstName,
-                                            familyName: ent.lastName,
-                                            aaAthleteId: ent.id,
-                                            disciplines: ungenderedEvt,
-                                          },
-                                        ])
-                                      )
-                                    ),
-                                    athleteBasicInfo: JSON.stringify(
-                                      Object.fromEntries(
-                                        entrants.map((ent) => [
-                                          ent.id,
-                                          {
-                                            resultsByYear: {
-                                              activeYears: [currentYear],
-                                            },
-                                          },
-                                        ])
-                                      )
-                                    ),
-                                    discipline: ungenderedEvt,
-                                    response: window.btoa(entries?.[meet]?.[evt]?.blurb ?? ''),
-                                  })
+                            const matchQuery = {
+                              athleteIds: JSON.stringify(athleteIds),
+                              athleteYears: JSON.stringify(Object.fromEntries(athleteIds.map((id) => [id, currentYear]))),
+                              athleteInfo: JSON.stringify(
+                                Object.fromEntries(
+                                  entrants.map((ent) => [
+                                    ent.id,
+                                    {
+                                      gender,
+                                      givenName: ent.firstName,
+                                      familyName: ent.lastName,
+                                      aaAthleteId: ent.id,
+                                      disciplines: ungenderedEvt,
+                                    },
+                                  ])
+                                )
                               ),
+                              athleteBasicInfo: JSON.stringify(
+                                Object.fromEntries(
+                                  entrants.map((ent) => [
+                                    ent.id,
+                                    {
+                                      resultsByYear: {
+                                        activeYears: [currentYear],
+                                      },
+                                    },
+                                  ])
+                                )
+                              ),
+                              discipline: ungenderedEvt,
+                              response: window.btoa(normalize(entries?.[meet]?.[evt]?.blurb ?? '')),
+                            };
+                            const matchUrl = normalize(
+                              `https://hpr.github.io/match/#` +
+                                new URLSearchParams(matchQuery)
+                            );
+                            window.open(
+                              matchUrl,
                               '_blank'
                             );
                           }}
