@@ -38,9 +38,11 @@ async function getBlurbs() {
     const ungenderedEvt = evt
       .split(' ') .filter((w) => 
       !w.toLowerCase().includes('men')).join(' ')
+      .replace('m Hurdles', ' Metres Hurdles')
       .replace('mH', ' Metres Hurdles')
       .replace('mSC', ' Metres Steeplechase')
-      .replace(/m$/, ' Metres')
+      .replace(/m Steeple$/, ' Metres Steeplechase')
+      .replace(/m$/, ' Metres')   
       .replace(/Steeple$/, 'Steeplechase')
       .replace(/Javelin$/, 'Javelin Throw')
       .replace(/Discus$/, 'Discus Throw');

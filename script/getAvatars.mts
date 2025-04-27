@@ -327,7 +327,7 @@ for (const entrant of entrants) {
           console.log(searchQuery, link);
           ({ imgUrl, avatarBuffer } = await getProfilePic(link, { firstName, lastName }));
           if (!avatarBuffer) continue;
-          images = await getIcons(avatarBuffer);
+          images = await getPixelIcons(avatarBuffer);
           if (images.length) break;
         }
         if (!images.length) {
@@ -405,7 +405,7 @@ for (const entrant of entrants) {
         .toBuffer('PNG', (_, buf) => res(buf))
     );
 
-  if (!images.length) images = await getIcons(avatarBuffer!);
+  if (!images.length) images = await getPixelIcons(avatarBuffer!);
   if (!images.length) {
     // fs.symlinkSync('./default_128x128.png', file128);
   } else {

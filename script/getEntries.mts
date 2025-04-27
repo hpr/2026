@@ -90,6 +90,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   brussels24: {
     "800m Men": "1:41.00",
   },
+  shanghai25: {
+    "100m Men": "9.99",
+  }
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -110,6 +113,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   brussels24: '2pm ET',
 
   xiamen25: '7am ET',
+  shanghai25: '6:20am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -152,6 +156,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   brussels24: ['https://brussels.diamondleague.com/en/program-results/program-2024/program-2024/'],
 
   xiamen25: ['https://xiamen.diamondleague.com/programme-results/'],
+  shanghai25: ['https://shanghai.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
@@ -727,7 +732,9 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
             .filter(x => !x.classList.contains('font-medium'))
             .map(entDiv => {
               const entCols = [...entDiv.querySelectorAll('div')];
-              const [nat, athName, sb, pb] = entCols.map(d => d.textContent?.trim() ?? '');
+              const entColTexts = entCols.map(d => d.textContent?.trim() ?? '');
+              const [nat, athName] = entColTexts;
+              const [sb, pb, worldRank] = entColTexts.slice(-3);
               const id = entDiv.querySelector('a')?.href.split('/').at(-1)!;
               const words = athName.split(' ');
               const firstMixedCase = words.findIndex(w => w.toUpperCase() !== w);
