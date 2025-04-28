@@ -472,7 +472,7 @@ export default function App() {
                 if (!hasEventClosed) setModalOpen(true);
               }}
             >
-              <User isClosed={hasEventClosed} />
+              <User isClosed={hasEventClosed} meet={meet} />
             </Navbar.Section>
           </Navbar>
         }
@@ -562,7 +562,7 @@ export default function App() {
                     </Text>
                   </React.Fragment>
                 ) : rules}
-                <Button onClick={() => setPage('events')}>👉 Start Picking Your Team</Button>
+                <Button onClick={() => { setEvt(Object.keys(entries?.[meet] ?? {})[0] as AthleticsEvent); setPage('events'); }}>👉 Start Picking Your Team</Button>
               </Paper>
             </div>
           ) : page === 'submissions' ? (

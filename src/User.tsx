@@ -1,12 +1,17 @@
 import { ChevronRight, ChevronLeft, DeviceFloppy } from 'tabler-icons-react';
 import { UnstyledButton, Group, Avatar, Text, Box, useMantineTheme } from '@mantine/core';
+import { useContext } from 'react';
+import { Store } from './Store';
+import { DLMeet } from './types';
 
 export function User({
   onClick = () => {},
   isClosed,
+  meet,
 }: {
   onClick?: React.MouseEventHandler;
   isClosed: boolean;
+  meet: DLMeet;
 }) {
   const theme = useMantineTheme();
 
@@ -43,7 +48,7 @@ export function User({
             </Text>
             <Text color="dimmed" size="xs">
               {isClosed
-                ? 'Picks submission is closed for this event'
+                ? `Picks submission is closed for ${meet}`
                 : 'Save and submit your picks'}
             </Text>
           </Box>
