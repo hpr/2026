@@ -148,7 +148,9 @@ const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
       method: 'POST',
     })
   ).json();
-  if (Object.keys(rest).length) console.log(rest);
+  if (Object.keys(rest).length) {
+    console.log(rest);
+  }
   if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.') {
     if (attempts > 30) return [];
     return await getPixelIcons(avatarBuffer, attempts + 1);
@@ -397,6 +399,7 @@ for (const entrant of entrants) {
   }
   if (avatarResp.status === 403 && !avatarBuffer) continue;
   avatarBuffer ??= await avatarResp.arrayBuffer();
+  if (avatarBuffer) avatarBuffer = (await sharp(Buffer.from(avatarBuffer)).png().toBuffer()).buffer as ArrayBuffer;
   const size: gm.Dimensions = await new Promise((res) => gm(Buffer.from(avatarBuffer!), 'image.jpg').size((_, size) => res(size)));
   if (size.width > 1024 || (size.height > 1024 && size.width > 800))
     avatarBuffer = await new Promise((res) =>
@@ -412,6 +415,7 @@ for (const entrant of entrants) {
     for (const { label, image } of images) {
       fs.writeFileSync(`./public/img/${tfrrsMode ? 'tfrrsAvatars' : 'avatars'}/${id}_${label}.png`, Buffer.from(image, 'base64'));
     }
+    console.log(`http://localhost:5173/2025/img/avatars/${id}_128x128.png`);
   }
   avatarCache[avatarCacheKey][id] ??= imageUrl;
   fs.writeFileSync(AVATAR_CACHE, JSON.stringify(avatarCache, null, 2));
