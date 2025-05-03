@@ -4981,7 +4981,121 @@
           "lastName": "Ingvaldsen"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "44.17",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "44.27",
+            "sb": "44.27",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Christopher",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "44.32",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.25",
+            "nat": "BOT",
+            "id": "14847443",
+            "hasAvy": true,
+            "firstName": "Bayapo",
+            "lastName": "Ndori"
+          }
+        },
+        {
+          "mark": "44.63",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "44.22",
+            "sb": "44.53",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "44.93",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.70",
+            "nat": "USA",
+            "id": "14490237",
+            "hasAvy": true,
+            "firstName": "Vernon",
+            "lastName": "Norwood"
+          }
+        },
+        {
+          "mark": "44.94",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.89",
+            "nat": "GRN",
+            "id": "14195659",
+            "hasAvy": true,
+            "firstName": "Kirani",
+            "lastName": "James"
+          }
+        },
+        {
+          "mark": "45.35",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "44.92",
+            "nat": "BEL",
+            "id": "14548983",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Doom"
+          }
+        },
+        {
+          "mark": "45.39",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.31",
+            "sb": "44.97",
+            "nat": "RSA",
+            "id": "14789653",
+            "hasAvy": true,
+            "firstName": "Lythe",
+            "lastName": "Pillay"
+          }
+        },
+        {
+          "mark": "45.99",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "43.40",
+            "sb": "",
+            "nat": "USA",
+            "id": "14597236",
+            "hasAvy": true,
+            "firstName": "Quincy",
+            "lastName": "Hall"
+          }
+        }
+      ]
     },
     "100m Hurdles Women": {
       "date": "2025-05-03T16:24:00.000Z",
