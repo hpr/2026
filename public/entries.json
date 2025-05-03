@@ -4881,7 +4881,149 @@
           "lastName": "Olivier"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "17.03",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "18.08",
+            "sb": "",
+            "nat": "POR",
+            "id": "14412588",
+            "hasAvy": true,
+            "firstName": "Pedro",
+            "lastName": "Pichardo"
+          }
+        },
+        {
+          "mark": "17.00",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "17.27",
+            "sb": "17.27",
+            "nat": "JAM",
+            "id": "14569308",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Scott"
+          }
+        },
+        {
+          "mark": "16.92",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "17.57",
+            "sb": "17.03",
+            "nat": "CHN",
+            "id": "14691893",
+            "hasAvy": true,
+            "firstName": "Yaming",
+            "lastName": "Zhu"
+          }
+        },
+        {
+          "mark": "16.88",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "17.43",
+            "sb": "16.85",
+            "nat": "USA",
+            "id": "14438760",
+            "hasAvy": true,
+            "firstName": "Donald",
+            "lastName": "Scott"
+          }
+        },
+        {
+          "mark": "16.85",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "17.82",
+            "sb": "16.41",
+            "nat": "BUR",
+            "id": "14523962",
+            "hasAvy": true,
+            "firstName": "Hugues Fabrice",
+            "lastName": "Zango"
+          }
+        },
+        {
+          "mark": "16.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "17.01",
+            "sb": "16.60",
+            "nat": "NZL",
+            "id": "14963302",
+            "hasAvy": true,
+            "firstName": "Ethan",
+            "lastName": "Olivier"
+          }
+        },
+        {
+          "mark": "16.53",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "17.17",
+            "sb": "16.78",
+            "nat": "CHN",
+            "id": "14839808",
+            "hasAvy": true,
+            "firstName": "Wen",
+            "lastName": "Su"
+          }
+        },
+        {
+          "mark": "16.42",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "17.52",
+            "sb": "16.44",
+            "nat": "USA",
+            "id": "14877777",
+            "hasAvy": true,
+            "firstName": "Salif",
+            "lastName": "Mane"
+          }
+        },
+        {
+          "mark": "15.96",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "17.11",
+            "sb": "15.87",
+            "nat": "POR",
+            "id": "14435170",
+            "hasAvy": true,
+            "firstName": "Tiago",
+            "lastName": "Pereira"
+          }
+        },
+        {
+          "mark": "NM",
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "17.43",
+            "sb": "16.31",
+            "nat": "ALG",
+            "id": "14597364",
+            "hasAvy": true,
+            "firstName": "Yasser Mohammed",
+            "lastName": "Triki"
+          }
+        }
+      ]
     },
     "110m Hurdles Men": {
       "date": "2025-05-03T15:50:00.000Z",
@@ -5611,7 +5753,135 @@
           "lastName": "Wu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.42",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "12.51",
+            "nat": "USA",
+            "id": "14716925",
+            "hasAvy": true,
+            "firstName": "Grace",
+            "lastName": "Stark"
+          }
+        },
+        {
+          "mark": "12.55",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.32",
+            "sb": "12.53",
+            "nat": "JAM",
+            "id": "14450995",
+            "hasAvy": true,
+            "firstName": "Danielle",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "12.62",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.49",
+            "sb": "12.62",
+            "nat": "RSA",
+            "id": "14838617",
+            "hasAvy": true,
+            "firstName": "Marione",
+            "lastName": "Fourie"
+          }
+        },
+        {
+          "mark": "12.66",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.12",
+            "sb": "12.74",
+            "nat": "NGR",
+            "id": "14579526",
+            "hasAvy": true,
+            "firstName": "Tobi",
+            "lastName": "Amusan"
+          }
+        },
+        {
+          "mark": "12.70",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.36",
+            "sb": "12.68",
+            "nat": "USA",
+            "id": "14564128",
+            "hasAvy": true,
+            "firstName": "Tonea",
+            "lastName": "Marshall"
+          }
+        },
+        {
+          "mark": "12.74",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.37",
+            "sb": "12.81",
+            "nat": "POL",
+            "id": "14736349",
+            "hasAvy": true,
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska"
+          }
+        },
+        {
+          "mark": "12.78",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.44",
+            "sb": "",
+            "nat": "BAH",
+            "id": "14414505",
+            "hasAvy": true,
+            "firstName": "Devynne",
+            "lastName": "Charlton"
+          }
+        },
+        {
+          "mark": "12.96",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.74",
+            "sb": "13.00",
+            "nat": "CHN",
+            "id": "14585472",
+            "hasAvy": true,
+            "firstName": "Yanni",
+            "lastName": "Wu"
+          }
+        },
+        {
+          "mark": "13.01",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "12.30",
+            "sb": "13.23",
+            "nat": "USA",
+            "id": "14304647",
+            "hasAvy": true,
+            "firstName": "Nia",
+            "lastName": "Ali"
+          }
+        }
+      ]
     },
     "3000m Steeple Men": {
       "date": "2025-05-03T16:33:00.000Z",
