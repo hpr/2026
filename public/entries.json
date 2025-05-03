@@ -3696,7 +3696,176 @@
           "lastName": "Berhe"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:56.64",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.15",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14774192",
+            "hasAvy": true,
+            "firstName": "Tsige",
+            "lastName": "Duguma"
+          }
+        },
+        {
+          "mark": "1:57.83",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.94",
+            "sb": "2:03.09",
+            "nat": "AUS",
+            "id": "14464575",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Billings"
+          }
+        },
+        {
+          "mark": "1:58.39",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.26",
+            "sb": "2:00.88",
+            "nat": "UGA",
+            "id": "14431159",
+            "hasAvy": true,
+            "firstName": "Halimah",
+            "lastName": "Nakaayi"
+          }
+        },
+        {
+          "mark": "1:58.43",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:55.96",
+            "sb": "1:59.78",
+            "nat": "JAM",
+            "id": "14285696",
+            "hasAvy": true,
+            "firstName": "Natoya",
+            "lastName": "Goule-Toppin"
+          }
+        },
+        {
+          "mark": "1:58.59",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "",
+            "nat": "USA",
+            "id": "14907337",
+            "hasAvy": true,
+            "firstName": "Addison",
+            "lastName": "Wiley"
+          }
+        },
+        {
+          "mark": "1:58.67",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.47",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14774194",
+            "hasAvy": true,
+            "firstName": "Nigist",
+            "lastName": "Getachew"
+          }
+        },
+        {
+          "mark": "1:59.11",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.53",
+            "sb": "1:59.26",
+            "nat": "USA",
+            "id": "14478094",
+            "hasAvy": true,
+            "firstName": "Sage",
+            "lastName": "Hurta-Klecker"
+          }
+        },
+        {
+          "mark": "1:59.57",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.71",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14730994",
+            "hasAvy": true,
+            "firstName": "Habitam",
+            "lastName": "Alemu"
+          }
+        },
+        {
+          "mark": "2:00.30",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:59.19",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14540786",
+            "hasAvy": true,
+            "firstName": "Erin",
+            "lastName": "Wallace"
+          }
+        },
+        {
+          "mark": "2:01.96",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.65",
+            "sb": "",
+            "nat": "BEN",
+            "id": "14270067",
+            "hasAvy": true,
+            "firstName": "Noélie",
+            "lastName": "Yarigo"
+          }
+        },
+        {
+          "mark": "2:02.43",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "2:02.26",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15009577",
+            "hasAvy": true,
+            "firstName": "Saron",
+            "lastName": "Berhe"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "2:02.19",
+            "sb": "",
+            "nat": "POL",
+            "id": "14876743",
+            "hasAvy": true,
+            "firstName": "Julia",
+            "lastName": "Jaguścik"
+          }
+        }
+      ]
     },
     "Javelin Throw Women": {
       "date": "2025-05-03T15:17:00.000Z",
