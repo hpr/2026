@@ -4545,7 +4545,135 @@
           "lastName": "Liu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.87",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.96",
+            "sb": "13.06",
+            "nat": "USA",
+            "id": "14719972",
+            "hasAvy": true,
+            "firstName": "Cordell",
+            "lastName": "Tinch"
+          }
+        },
+        {
+          "mark": "13.10",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "13.04",
+            "sb": "13.14",
+            "nat": "JPN",
+            "id": "14854913",
+            "hasAvy": true,
+            "firstName": "Rachid",
+            "lastName": "Muratake"
+          }
+        },
+        {
+          "mark": "13.24",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.94",
+            "sb": "13.37",
+            "nat": "JAM",
+            "id": "14744395",
+            "hasAvy": true,
+            "firstName": "Rasheed",
+            "lastName": "Broadbell"
+          }
+        },
+        {
+          "mark": "13.29",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "13.22",
+            "sb": "13.37",
+            "nat": "CHN",
+            "id": "14885102",
+            "hasAvy": true,
+            "firstName": "Zhuoyi",
+            "lastName": "Xu"
+          }
+        },
+        {
+          "mark": "13.30",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "13.24",
+            "sb": "13.24",
+            "nat": "CHN",
+            "id": "14977766",
+            "hasAvy": true,
+            "firstName": "Junxi",
+            "lastName": "Liu"
+          }
+        },
+        {
+          "mark": "13.32",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.93",
+            "sb": "13.49",
+            "nat": "JAM",
+            "id": "14325570",
+            "hasAvy": true,
+            "firstName": "Hansle",
+            "lastName": "Parchment"
+          }
+        },
+        {
+          "mark": "13.44",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "13.09",
+            "sb": "13.36",
+            "nat": "ESP",
+            "id": "14711683",
+            "hasAvy": true,
+            "firstName": "Enrique",
+            "lastName": "Llopis"
+          }
+        },
+        {
+          "mark": "13.49",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "13.09",
+            "sb": "13.39",
+            "nat": "JAM",
+            "id": "14739873",
+            "hasAvy": true,
+            "firstName": "Orlando",
+            "lastName": "Bennett"
+          }
+        },
+        {
+          "mark": "13.90",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13.15",
+            "sb": "13.42",
+            "nat": "USA",
+            "id": "14716336",
+            "hasAvy": true,
+            "firstName": "Eric",
+            "lastName": "Edwards"
+          }
+        }
+      ]
     },
     "200m Women": {
       "date": "2025-05-03T16:01:00.000Z",
