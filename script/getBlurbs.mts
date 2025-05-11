@@ -42,6 +42,7 @@ async function getBlurbs() {
       .replace('mH', ' Metres Hurdles')
       .replace('mSC', ' Metres Steeplechase')
       .replace(/m Steeple$/, ' Metres Steeplechase')
+      .replace(/m Steeplechase$/, ' Metres Steeplechase')
       .replace(/m$/, ' Metres')   
       .replace(/Steeple$/, 'Steeplechase')
       .replace(/Javelin$/, 'Javelin Throw')
