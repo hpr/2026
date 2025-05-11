@@ -92,6 +92,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   shanghai25: {
     "100m Men": "9.99",
+  },
+  doha25: {
+    "200m Men": "19.80",
   }
 };
 
@@ -114,6 +117,7 @@ const deadlines: { [k in DLMeet]?: string } = {
 
   xiamen25: '7am ET',
   shanghai25: '6:20am ET',
+  doha25: '10:45am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -157,6 +161,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
 
   xiamen25: ['https://xiamen.diamondleague.com/programme-results/'],
   shanghai25: ['https://shanghai.diamondleague.com/programme-results/'],
+  doha25: ['https://doha.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
