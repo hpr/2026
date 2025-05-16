@@ -196,6 +196,7 @@ export const disciplineCodes: { [k: string]: WAEventCode } = {
   'Hammer Throw (5kg)': 'HTY',
   'Hammer Throw (3kg)': 'HTYG',
   'Javelin Throw': 'JT',
+  'Javelin': 'JT',
   'Javelin Throw (old)': 'JTo',
   'Javelin Throw (700g)': 'JTY',
   'Javelin Throw (500g)': 'JTYG',

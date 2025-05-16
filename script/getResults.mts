@@ -43,6 +43,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
 
   xiamen25: 'https://ps-cache-next.ath.swisstiming.com/node/db/ATH_PROD/XIAMEN_2025_SCHEDULE_JSON.json',
   shanghai25: 'https://ps-cache-next.ath.swisstiming.com/node/db/ATH_PROD/SHANGHAI_2025_SCHEDULE_JSON.json',
+  doha25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/DOHA_2025_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -117,8 +118,8 @@ for (const key in resultsLinks) {
       });
     }
   } else if (resultsLinks[meet]?.includes('livecache.sportresult.com') || resultsLinks[meet]?.includes('swisstiming.com')) {
-    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : 'ps-cache-next.ath.swisstiming.com';
-    const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache-next.ath.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
+    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : 'ps-cache.web.swisstiming.com';
+    const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache.web.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
     console.log('fetching', resultsLinks[meet]);
     const schedule: SportResultSchedule = await (await fetch(resultsLinks[meet]!)).json();
     console.log(resultsLinks[meet]);
@@ -134,6 +135,8 @@ for (const key in resultsLinks) {
           .replace('Steeplechase', 'Steeple')
           .replace('Discus Women', 'Discus Throw Women')
           .replace('Discus Men', 'Discus Throw Men')
+          .replace('Javelin Men', 'Javelin Throw Men')
+          .replace('Javelin Women', 'Javelin Throw Women')
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
         ) && unit.Stats.DiamondId
