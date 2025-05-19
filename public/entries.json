@@ -8739,62 +8739,6 @@
       "isClosed": true,
       "results": [
         {
-          "mark": "DNF",
-          "place": 0,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "",
-            "sb": "",
-            "nat": "FRA",
-            "id": "14182819",
-            "hasAvy": true,
-            "firstName": "Mounir",
-            "lastName": "Akbache"
-          }
-        },
-        {
-          "mark": "DNF",
-          "place": 0,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "12:56.43",
-            "sb": "",
-            "nat": "DJI",
-            "id": "14661612",
-            "hasAvy": true,
-            "firstName": "Mohamed",
-            "lastName": "Ismail"
-          }
-        },
-        {
-          "mark": "DNF",
-          "place": 0,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "",
-            "sb": "",
-            "nat": "KEN",
-            "id": "14695615",
-            "hasAvy": true,
-            "firstName": "Boaz",
-            "lastName": "Kiprugut"
-          }
-        },
-        {
-          "mark": "DNF",
-          "place": 0,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "13:55.47",
-            "sb": "",
-            "nat": "CZE",
-            "id": "14474319",
-            "hasAvy": true,
-            "firstName": "Filip",
-            "lastName": "Sasínek"
-          }
-        },
-        {
           "mark": "13:16.40",
           "place": 1,
           "notes": "",
@@ -8989,6 +8933,62 @@
             "firstName": "Adehena",
             "lastName": "Kasaye"
           }
+        },
+        {
+          "mark": "DNF",
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14182819",
+            "hasAvy": true,
+            "firstName": "Mounir",
+            "lastName": "Akbache"
+          }
+        },
+        {
+          "mark": "DNF",
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "12:56.43",
+            "sb": "",
+            "nat": "DJI",
+            "id": "14661612",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Ismail"
+          }
+        },
+        {
+          "mark": "DNF",
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14695615",
+            "hasAvy": true,
+            "firstName": "Boaz",
+            "lastName": "Kiprugut"
+          }
+        },
+        {
+          "mark": "DNF",
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "13:55.47",
+            "sb": "",
+            "nat": "CZE",
+            "id": "14474319",
+            "hasAvy": true,
+            "firstName": "Filip",
+            "lastName": "Sasínek"
+          }
         }
       ]
     },
@@ -9127,20 +9127,6 @@
       ],
       "isClosed": true,
       "results": [
-        {
-          "mark": "DNF",
-          "place": 0,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "4:25.86",
-            "sb": "",
-            "nat": "MAR",
-            "id": "14649286",
-            "hasAvy": true,
-            "firstName": "Khadija",
-            "lastName": "Benkassem"
-          }
-        },
         {
           "mark": "4:05.00",
           "place": 1,
@@ -9321,6 +9307,20 @@
             "hasAvy": true,
             "firstName": "Mebriht",
             "lastName": "Mekonen"
+          }
+        },
+        {
+          "mark": "DNF",
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "4:25.86",
+            "sb": "",
+            "nat": "MAR",
+            "id": "14649286",
+            "hasAvy": true,
+            "firstName": "Khadija",
+            "lastName": "Benkassem"
           }
         }
       ]
