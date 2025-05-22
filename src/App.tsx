@@ -48,7 +48,7 @@ export default function App() {
   const { pathname } = useLocation();
   const hash = decodeURIComponent(pathname.slice(1));
   const [entries, setEntries] = useState<Entries | null>(null);
-  const [meet, setMeet] = useState<DLMeet>('doha25');
+  const [meet, setMeet] = useState<DLMeet>('rabat25');
   const [evt, setEvt] = useState<AthleticsEvent | null>(null);
   const [myTeam, setMyTeam] = useState<Team>({});
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -203,7 +203,7 @@ export default function App() {
       </Text>
       <Text mb={10} size="sm">
         <strong>Submissions Deadline:</strong> {earliestDate?.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })},
-        before the DL TV window starts, by {deadline} (for {meet}).
+        before the first event starts, by {deadline} (for {meet}).
         {/* <br />
         <strong>Prizes:</strong> First Place: Free Supporters Club Membership ($100 value!) + T-Shirt. Second Place: Free T-Shirt. Third Place:
         Free T-Shirt.
