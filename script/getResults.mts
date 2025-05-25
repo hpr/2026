@@ -185,7 +185,7 @@ document.querySelectorAll('table').forEach(t => {
             (ent) => ent.id === comp.FedCode || `${ent.firstName} ${ent.lastName}`.toLowerCase() === `${comp.FirstName} ${comp.Name}`.toLowerCase()
           )!,
         }));
-      console.log(results);
+      results.forEach(r => console.log(`${r.place}. ${r.entrant?.firstName} ${r.entrant?.lastName} (${r.mark})`));
       if (results.some((res) => res.entrant && res.mark && res.place)) {
         entries[meet]![evt]!.results = results;
       }
