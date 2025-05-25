@@ -44,6 +44,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   xiamen25: 'https://ps-cache-next.ath.swisstiming.com/node/db/ATH_PROD/XIAMEN_2025_SCHEDULE_JSON.json',
   shanghai25: 'https://ps-cache-next.ath.swisstiming.com/node/db/ATH_PROD/SHANGHAI_2025_SCHEDULE_JSON.json',
   doha25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/DOHA_2025_SCHEDULE_JSON.json',
+  rabat25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/RABAT_2025_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -122,7 +123,7 @@ for (const key in resultsLinks) {
     const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache.web.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
     console.log('fetching', resultsLinks[meet]);
     const schedule: SportResultSchedule = await (await fetch(resultsLinks[meet]!)).json();
-    console.log(resultsLinks[meet]);
+    console.log(schedule);
     for (const key in entries[meet]) {
       const evt = key as AthleticsEvent;
       // console.log(evt);
@@ -184,7 +185,10 @@ document.querySelectorAll('table').forEach(t => {
             (ent) => ent.id === comp.FedCode || `${ent.firstName} ${ent.lastName}`.toLowerCase() === `${comp.FirstName} ${comp.Name}`.toLowerCase()
           )!,
         }));
-      if (results.some((res) => res.entrant && res.mark && res.place)) entries[meet]![evt]!.results = results;
+      console.log(results);
+      if (results.some((res) => res.entrant && res.mark && res.place)) {
+        entries[meet]![evt]!.results = results;
+      }
       else entries[meet]![evt]!.results = undefined;
     }
   }
