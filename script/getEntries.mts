@@ -99,6 +99,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   rabat25: {
     "3000m Steeple Men": "8:05.00",
   },
+  rome25: {
+    "5000m Women": "14:20.00",
+  }
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -122,6 +125,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   shanghai25: '6:20am ET',
   doha25: '10:45am ET',
   rabat25: '1:20pm ET',
+  rome25: '1:15pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -167,6 +171,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   shanghai25: ['https://shanghai.diamondleague.com/programme-results/'],
   doha25: ['https://doha.diamondleague.com/programme-results/'],
   rabat25: ['https://rabat.diamondleague.com/en/programme-results/'],
+  rome25: ['https://rome.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
