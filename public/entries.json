@@ -14342,7 +14342,140 @@
           "lastName": "Osakue"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "69.21",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "73.52",
+            "sb": "73.52",
+            "nat": "USA",
+            "id": "14479216",
+            "hasAvy": true,
+            "firstName": "Valarie",
+            "lastName": "Allman"
+          }
+        },
+        {
+          "mark": "66.63",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "73.09",
+            "sb": "66.96",
+            "nat": "CUB",
+            "id": "14327290",
+            "hasAvy": true,
+            "firstName": "Yaimé",
+            "lastName": "Pérez"
+          }
+        },
+        {
+          "mark": "65.77",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "70.22",
+            "sb": "66.22",
+            "nat": "NED",
+            "id": "14676577",
+            "hasAvy": true,
+            "firstName": "Jorinde",
+            "lastName": "van Klinken"
+          }
+        },
+        {
+          "mark": "64.91",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "71.41",
+            "sb": "65.03",
+            "nat": "CRO",
+            "id": "14263753",
+            "hasAvy": true,
+            "firstName": "Sandra",
+            "lastName": "Elkasević"
+          }
+        },
+        {
+          "mark": "64.78",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "67.31",
+            "sb": "63.98",
+            "nat": "GER",
+            "id": "14373479",
+            "hasAvy": true,
+            "firstName": "Marike",
+            "lastName": "Steinacker"
+          }
+        },
+        {
+          "mark": "64.19",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "69.12",
+            "sb": "64.17",
+            "nat": "CHN",
+            "id": "14430151",
+            "hasAvy": true,
+            "firstName": "Bin",
+            "lastName": "Feng"
+          }
+        },
+        {
+          "mark": "64.12",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "67.87",
+            "sb": "67.61",
+            "nat": "GER",
+            "id": "14361447",
+            "hasAvy": true,
+            "firstName": "Kristin",
+            "lastName": "Pudenz"
+          }
+        },
+        {
+          "mark": "62.68",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "70.72",
+            "sb": "70.72",
+            "nat": "USA",
+            "id": "14647494",
+            "hasAvy": true,
+            "firstName": "Laulauga",
+            "lastName": "Tausaga"
+          }
+        },
+        {
+          "mark": "59.88",
+          "place": 9,
+          "notes": ""
+        },
+        {
+          "mark": "56.40",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "64.57",
+            "sb": "63.10",
+            "nat": "ITA",
+            "id": "14514026",
+            "hasAvy": true,
+            "firstName": "Daisy",
+            "lastName": "Osakue"
+          }
+        }
+      ]
     },
     "Triple Jump Women": {
       "date": "2025-06-06T21:48:00.000Z",
@@ -14441,7 +14574,135 @@
           "lastName": "Ion"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "14.64",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "15.03",
+            "sb": "14.54",
+            "nat": "JAM",
+            "id": "14413464",
+            "hasAvy": true,
+            "firstName": "Shanieka",
+            "lastName": "Ricketts"
+          }
+        },
+        {
+          "mark": "14.46",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "14.98",
+            "sb": "",
+            "nat": "CUB",
+            "id": "14828679",
+            "hasAvy": true,
+            "firstName": "Leyanis",
+            "lastName": "Pérez Hernández"
+          }
+        },
+        {
+          "mark": "14.30",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "15.02",
+            "sb": "14.39",
+            "nat": "DMA",
+            "id": "14416826",
+            "hasAvy": true,
+            "firstName": "Thea",
+            "lastName": "Lafond"
+          }
+        },
+        {
+          "mark": "14.17",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14.93",
+            "sb": "14.38",
+            "nat": "CUB",
+            "id": "14574170",
+            "hasAvy": true,
+            "firstName": "Liadagmis",
+            "lastName": "Povea"
+          }
+        },
+        {
+          "mark": "14.15",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "14.78",
+            "sb": "13.73",
+            "nat": "USA",
+            "id": "14715853",
+            "hasAvy": true,
+            "firstName": "Jasmine",
+            "lastName": "Moore"
+          }
+        },
+        {
+          "mark": "13.84",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14.42",
+            "sb": "14.42",
+            "nat": "SLO",
+            "id": "14474496",
+            "hasAvy": true,
+            "firstName": "Neja",
+            "lastName": "Filipič"
+          }
+        },
+        {
+          "mark": "13.76",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14.23",
+            "sb": "13.56",
+            "nat": "ROU",
+            "id": "14629838",
+            "hasAvy": true,
+            "firstName": "Diana Ana Maria",
+            "lastName": "Ion"
+          }
+        },
+        {
+          "mark": "13.59",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "14.59",
+            "sb": "14.13",
+            "nat": "FRA",
+            "id": "14516275",
+            "hasAvy": true,
+            "firstName": "Ilionis",
+            "lastName": "Guillaume"
+          }
+        },
+        {
+          "mark": "13.04",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "14.87",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14454805",
+            "hasAvy": true,
+            "firstName": "Ana",
+            "lastName": "Peleteiro-Compaoré"
+          }
+        }
+      ]
     },
     "400m Hurdles Women": {
       "date": "2025-06-06T23:04:00.000Z",
@@ -14531,7 +14792,126 @@
           "lastName": "Nielsen"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "53.67",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "53.26",
+            "sb": "53.90",
+            "nat": "JAM",
+            "id": "14512625",
+            "hasAvy": true,
+            "firstName": "Andrenette",
+            "lastName": "Knight"
+          }
+        },
+        {
+          "mark": "54.21",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "53.89",
+            "sb": "54.74",
+            "nat": "ITA",
+            "id": "14484475",
+            "hasAvy": true,
+            "firstName": "Ayomide",
+            "lastName": "Folorunso"
+          }
+        },
+        {
+          "mark": "54.31",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "52.51",
+            "sb": "54.83",
+            "nat": "JAM",
+            "id": "14425208",
+            "hasAvy": true,
+            "firstName": "Rushell",
+            "lastName": "Clayton"
+          }
+        },
+        {
+          "mark": "54.66",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "54.43",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14594317",
+            "hasAvy": true,
+            "firstName": "Lina",
+            "lastName": "Nielsen"
+          }
+        },
+        {
+          "mark": "54.86",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "53.71",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14750701",
+            "hasAvy": true,
+            "firstName": "Louise",
+            "lastName": "Maraval"
+          }
+        },
+        {
+          "mark": "55.29",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "53.90",
+            "sb": "55.09",
+            "nat": "RSA",
+            "id": "14639191",
+            "hasAvy": true,
+            "firstName": "Zenéy",
+            "lastName": "van der Walt"
+          }
+        },
+        {
+          "mark": "55.47",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "52.97",
+            "sb": "54.62",
+            "nat": "JAM",
+            "id": "14574022",
+            "hasAvy": true,
+            "firstName": "Shiann",
+            "lastName": "Salmon"
+          }
+        },
+        {
+          "mark": "56.06",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "56.15",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "54.01",
+            "sb": "55.59",
+            "nat": "USA",
+            "id": "14322468",
+            "hasAvy": true,
+            "firstName": "Cassandra",
+            "lastName": "Tate"
+          }
+        }
+      ]
     },
     "High Jump Men": {
       "date": "2025-06-06T23:11:00.000Z",
