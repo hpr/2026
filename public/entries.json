@@ -16079,7 +16079,134 @@
           "lastName": "Scotti"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "44.22",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.40",
+            "sb": "44.90",
+            "nat": "USA",
+            "id": "14597236",
+            "hasAvy": true,
+            "firstName": "Quincy",
+            "lastName": "Hall"
+          }
+        },
+        {
+          "mark": "44.23",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.22",
+            "sb": "44.22",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.51",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "44.22",
+            "sb": "44.53",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "44.64",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "44.23",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14762871",
+            "hasAvy": true,
+            "firstName": "Charles",
+            "lastName": "Dobson"
+          }
+        },
+        {
+          "mark": "44.86",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.70",
+            "nat": "USA",
+            "id": "14490237",
+            "hasAvy": true,
+            "firstName": "Vernon",
+            "lastName": "Norwood"
+          }
+        },
+        {
+          "mark": "44.92",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.89",
+            "nat": "GRN",
+            "id": "14195659",
+            "hasAvy": true,
+            "firstName": "Kirani",
+            "lastName": "James"
+          }
+        },
+        {
+          "mark": "45.60",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "44.92",
+            "nat": "BEL",
+            "id": "14548983",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Doom"
+          }
+        },
+        {
+          "mark": "45.68",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "45.21",
+            "sb": "45.99",
+            "nat": "ITA",
+            "id": "14741773",
+            "hasAvy": true,
+            "firstName": "Edoardo",
+            "lastName": "Scotti"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNS",
+          "entrant": {
+            "pb": "44.84",
+            "sb": "45.31",
+            "nat": "HUN",
+            "id": "14712930",
+            "hasAvy": true,
+            "firstName": "Attila",
+            "lastName": "Molnár"
+          }
+        }
+      ]
     },
     "200m Women": {
       "date": "2025-06-07T00:13:00.000Z",
