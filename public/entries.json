@@ -15010,7 +15010,154 @@
           "lastName": "Sioli"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "2.32",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "2.35",
+            "sb": "2.30",
+            "nat": "KOR",
+            "id": "14532326",
+            "hasAvy": true,
+            "firstName": "Sanghyeok",
+            "lastName": "Woo"
+          }
+        },
+        {
+          "mark": "2.30",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "2.31",
+            "sb": "",
+            "nat": "UKR",
+            "id": "14803002",
+            "hasAvy": true,
+            "firstName": "Oleh",
+            "lastName": "Doroshchuk"
+          }
+        },
+        {
+          "mark": "2.26",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.21",
+            "nat": "JAM",
+            "id": "14832929",
+            "hasAvy": true,
+            "firstName": "Romaine",
+            "lastName": "Beckford"
+          }
+        },
+        {
+          "mark": "2.26",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "2.36",
+            "sb": "2.25",
+            "nat": "USA",
+            "id": "14785286",
+            "hasAvy": true,
+            "firstName": "JuVaughn",
+            "lastName": "Harrison"
+          }
+        },
+        {
+          "mark": "2.23",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "2.23",
+            "sb": "2.21",
+            "nat": "ITA",
+            "id": "15010318",
+            "hasAvy": true,
+            "firstName": "Matteo",
+            "lastName": "Sioli"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "2.36",
+            "sb": "2.30",
+            "nat": "NZL",
+            "id": "14633982",
+            "hasAvy": true,
+            "firstName": "Hamish",
+            "lastName": "Kerr"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "2.25",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14737204",
+            "hasAvy": true,
+            "firstName": "Manuel",
+            "lastName": "Lando"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.23",
+            "nat": "CZE",
+            "id": "14761148",
+            "hasAvy": true,
+            "firstName": "Jan",
+            "lastName": "Štefela"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "2.34",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14595370",
+            "hasAvy": true,
+            "firstName": "Stefano",
+            "lastName": "Sottile"
+          }
+        },
+        {
+          "mark": "2.16",
+          "place": 10,
+          "notes": ""
+        },
+        {
+          "mark": "2.12",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.30",
+            "nat": "JAM",
+            "id": "14875577",
+            "hasAvy": true,
+            "firstName": "Raymond",
+            "lastName": "Richards"
+          }
+        }
+      ]
     },
     "1500m Men": {
       "date": "2025-06-06T23:16:00.000Z",
