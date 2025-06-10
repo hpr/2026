@@ -101,6 +101,12 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   rome25: {
     "5000m Women": "14:20.00",
+  },
+  oslo25: {
+    '5000m Men': '12:40.00',
+  },
+  stockholm25: {
+    '400m Hurdles Men': '47.50',
   }
 };
 
@@ -126,6 +132,9 @@ const deadlines: { [k in DLMeet]?: string } = {
   doha25: '10:45am ET',
   rabat25: '1:20pm ET',
   rome25: '1:15pm ET',
+
+  oslo25: '1:15pm ET',
+  stockholm25: '11:14am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -172,6 +181,8 @@ const schedules: { [k in DLMeet]?: string[] } = {
   doha25: ['https://doha.diamondleague.com/programme-results/'],
   rabat25: ['https://rabat.diamondleague.com/en/programme-results/'],
   rome25: ['https://rome.diamondleague.com/en/programme-results/'],
+  oslo25: ['https://oslo.diamondleague.com/en/programme-results/'],
+  stockholm25: ['https://stockholm.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
@@ -739,7 +750,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
         for (const eDiv of document.querySelectorAll('[data-row=time]')) {
           const firstSvg = eDiv.querySelector('svg');
           if (firstSvg?.getAttribute('width') !== '20') continue; // filter out non-DL events
-          const evt = eDiv.querySelectorAll('div')[2].textContent;
+          const evt = eDiv.querySelectorAll('div')[2].textContent?.replace(' Final', '');
           if (['U23', 'National'].some(k => evt?.includes(k))) continue;
           const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);
           const time = inTz(`${pv('--date-venue')} 2025 ${pv('--time-venue')}`, tz);

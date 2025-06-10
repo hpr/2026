@@ -138,8 +138,8 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
 }
 
 const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
-  // const b64 = Buffer.from(avatarBuffer).toString('base64');
-  const b64 = await sharp(Buffer.from(avatarBuffer)).modulate({ brightness: 0.4 }).toBuffer().then(b => b.toString('base64'));
+  const b64 = Buffer.from(avatarBuffer).toString('base64');
+  // const b64 = await sharp(Buffer.from(avatarBuffer)).modulate({ brightness: 0.7 }).toBuffer().then(b => b.toString('base64'));
   const { data: detectData, ...rest } = await (
     await fetch(`${process.env.PM_API}/detect?${new URLSearchParams({ key: process.env.PM_KEY! })}`, {
       headers: { 'content-type': 'application/json;charset=UTF-8' },

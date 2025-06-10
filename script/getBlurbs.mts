@@ -46,6 +46,7 @@ async function getBlurbs() {
       .replace(/m$/, ' Metres')   
       .replace(/Steeple$/, 'Steeplechase')
       .replace(/Javelin$/, 'Javelin Throw')
+      .replace('Dream', 'One')
       .replace(/Discus$/, 'Discus Throw');
     fs.writeFileSync(BLURBCACHE_PATH, JSON.stringify(blurbCache));
     fs.writeFileSync(ENTRIES_PATH, JSON.stringify(entries));
