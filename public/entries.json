@@ -17865,7 +17865,149 @@
         }
       ],
       "blurb": "### **Men's Pole Vault Competition Prediction & Preview**  \n\n#### **Predicted Finishes & Marks:**  \n1. **Armand Duplantis (SWE)** – **6.15m**  \n2. **Emmanouil Karalis (GRE)** – **6.00m**  \n3. **Sam Kendricks (USA)** – **5.95m**  \n4. **Menno Vloon (NED)** – **5.90m**  \n5. **Kurtis Marschall (AUS)** – **5.85m**  \n6. **Ernest John Obiena (PHI)** – **5.82m**  \n7. **Sondre Guttormsen (NOR)** – **5.80m**  \n8. **Ersu Şaşma (TUR)** – **5.75m**  \n9. **Ben Broeders (BEL)** – **5.70m**  \n10. **Renaud Lavillenie (FRA)** – **5.65m**  \n\n---\n\n### **Reasoning:**  \n\n#### **1. Armand Duplantis (SWE) – 6.15m**  \n- **Why 1st?** The undisputed king of pole vaulting. His recent form (6.26m in Chorzów, 6.27m in Clermont-Ferrand) shows he’s still pushing the limits. Even on an \"off\" day, he clears 6.00m effortlessly. His consistency is unmatched—he hasn’t lost a competition in **over a year**.  \n- **Weakness?** None. His only \"bad\" result was a 5.60m in Rome, but he followed it up with a **6.10m** two days later.  \n\n#### **2. Emmanouil Karalis (GRE) – 6.00m**  \n- **Why 2nd?** The **biggest riser** in the field. His recent indoor season was phenomenal—**6.01m, 6.02m, 6.05m**—and he’s now a legitimate threat to Kendricks. He beat Kendricks in **Piraeus (6.01m)** and **Clermont-Ferrand (6.02m)**.  \n- **Weakness?** Still lacks Duplantis’ consistency, but his trajectory suggests he’s peaking at the right time.  \n\n#### **3. Sam Kendricks (USA) – 5.95m**  \n- **Why 3rd?** The veteran is still elite but **no longer the clear No. 2**. His best mark this year is **6.01m**, but he’s been **inconsistent** (5.60m in Paris, 5.70m in Düsseldorf). He’s lost to Karalis multiple times in 2025.  \n- **Strength?** Big-meet experience—he’s a **two-time World Champion** and won silver at the 2024 Olympics.  \n\n#### **4. Menno Vloon (NED) – 5.90m**  \n- **Why 4th?** A **dark horse** who’s been quietly improving. He’s hit **5.90m multiple times** in 2025 and won in **Apeldoorn (5.90m)**. His consistency is better than Marschall and Obiena.  \n- **Weakness?** Struggles against the very top tier—hasn’t beaten Duplantis, Karalis, or Kendricks yet.  \n\n#### **5. Kurtis Marschall (AUS) – 5.85m**  \n- **Why 5th?** A **solid performer**, but his ceiling seems to be **5.85m–5.90m**. He’s been **inconsistent** (5.62m in Xiamen, 5.71m in Perth).  \n- **Strength?** When he’s on, he can challenge for top 3 (5.91m in Clermont-Ferrand).  \n\n#### **6. Ernest John Obiena (PHI) – 5.82m**  \n- **Why 6th?** A **disappointing 2025** so far—his best is **5.80m**, and he’s been **inconsistent** (5.55m in Düsseldorf, 5.65m in Tallinn).  \n- **Strength?** His **6.00m Asian record** shows potential, but he hasn’t been near that recently.  \n\n#### **7. Sondre Guttormsen (NOR) – 5.80m**  \n- **Why 7th?** A **talented vaulter**, but his **2025 form is shaky** (5.65m in Reno, 5.70m in Nanjing). His **5.85m in Albuquerque** was solid, but not enough here.  \n- **Weakness?** Struggles in deep fields—often finishes mid-pack.  \n\n#### **8. Ersu Şaşma (TUR) – 5.75m**  \n- **Why 8th?** **Inconsistent**—he’s had **NH (no-height) marks** in Zürich and Shaoxing. His **5.90m in Liévin** was good, but he’s unreliable.  \n\n#### **9. Ben Broeders (BEL) – 5.70m**  \n- **Why 9th?** **Struggles in big meets**—his **5.72m in Xiamen** is his best this year, but he’s often below 5.70m.  \n\n#### **10. Renaud Lavillenie (FRA) – 5.65m**  \n- **Why 10th?** The **legend is fading**—his **best in 2025 is 5.80m**, but he’s had **multiple NHs** and **5.40m jumps**. At **38**, he’s no longer competitive with the top tier.  \n\n---\n\n### **Final Thoughts:**  \n- **Duplantis** is untouchable.  \n- **Karalis** is the **biggest threat** and could push for **6.05m+** on a great day.  \n- **Kendricks** is still a podium contender but **losing ground** to Karalis.  \n- **Lavillenie’s era is over**—he’s now a **mid-tier vaulter**.  \n\nThis should be a **Duplantis masterclass**, with **Karalis confirming himself as the new No. 2**.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "6.15",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "6.26",
+            "sb": "6.11",
+            "nat": "SWE",
+            "id": "14679502",
+            "hasAvy": true,
+            "firstName": "Armand",
+            "lastName": "Duplantis"
+          }
+        },
+        {
+          "mark": "5.82",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "6.01",
+            "sb": "6.01",
+            "nat": "GRE",
+            "id": "14669731",
+            "hasAvy": true,
+            "firstName": "Emmanouil",
+            "lastName": "Karalis"
+          }
+        },
+        {
+          "mark": "5.72",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "5.95",
+            "sb": "5.85",
+            "nat": "AUS",
+            "id": "14565327",
+            "hasAvy": true,
+            "firstName": "Kurtis",
+            "lastName": "Marschall"
+          }
+        },
+        {
+          "mark": "5.72",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "6.05",
+            "sb": "5.82",
+            "nat": "FRA",
+            "id": "14185853",
+            "hasAvy": true,
+            "firstName": "Renaud",
+            "lastName": "Lavillenie"
+          }
+        },
+        {
+          "mark": "5.62",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "6.06",
+            "sb": "5.72",
+            "nat": "USA",
+            "id": "14440868",
+            "hasAvy": true,
+            "firstName": "Sam",
+            "lastName": "Kendricks"
+          }
+        },
+        {
+          "mark": "5.62",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "5.92",
+            "sb": "5.82",
+            "nat": "NED",
+            "id": "14482223",
+            "hasAvy": true,
+            "firstName": "Menno",
+            "lastName": "Vloon"
+          }
+        },
+        {
+          "mark": "5.62",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "5.90",
+            "sb": "5.72",
+            "nat": "TUR",
+            "id": "14737427",
+            "hasAvy": true,
+            "firstName": "Ersu",
+            "lastName": "Şaşma"
+          }
+        },
+        {
+          "mark": "5.40",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "5.90",
+            "sb": "",
+            "nat": "NOR",
+            "id": "14681630",
+            "hasAvy": true,
+            "firstName": "Sondre",
+            "lastName": "Guttormsen"
+          }
+        },
+        {
+          "mark": "5.40",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "5.85",
+            "sb": "5.75",
+            "nat": "BEL",
+            "id": "14474566",
+            "hasAvy": true,
+            "firstName": "Ben",
+            "lastName": "Broeders"
+          }
+        },
+        {
+          "mark": "NM",
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "6.00",
+            "sb": "5.80",
+            "nat": "PHI",
+            "id": "14522941",
+            "hasAvy": true,
+            "firstName": "Ernest John",
+            "lastName": "Obiena"
+          }
+        }
+      ]
     },
     "Javelin Women": {
       "date": "2025-06-12T21:53:00.000Z",
@@ -18931,7 +19073,126 @@
         }
       ],
       "blurb": "### **Men's Triple Jump Competition Prediction & Preview**  \n\n#### **Predicted Finish & Marks:**  \n1. **Pedro Pichardo (POR)** – **17.68m (+0.5)**  \n2. **Hugues Fabrice Zango (BUR)** – **17.45m (+0.3)**  \n3. **Jordan Scott (JAM)** – **17.22m (+1.1)**  \n4. **Russell Robinson (USA)** – **17.10m (+0.8)**  \n5. **Max Heß (GER)** – **16.98m (-0.2)**  \n6. **Yasser Mohammed Triki (ALG)** – **16.85m (+0.4)**  \n7. **Ethan Olivier (NZL)** – **16.72m (+1.3)**  \n8. **Lazaro Martinez (QAT)** – **15.90m (+0.6)**  \n9. **Henrik Flåtnes (NOR)** – **15.75m (+1.0)**  \n\n---  \n\n### **Reasoning:**  \n\n#### **1. Pedro Pichardo (POR) – 17.68m**  \nPichardo is the class of this field. Despite being 31, he has shown elite consistency, with **three jumps over 17.50m this season**, including an **18.04m** in June 2024—the **farthest jump in the world in years**. His Olympic silver in 2024 and past 18m+ jumps (18.06m PB) make him the favorite. His technique and experience under pressure give him the edge, even if he doesn’t hit 18m today.  \n\n#### **2. Hugues Fabrice Zango (BUR) – 17.45m**  \nZango is the **world indoor record holder (18.07m)** and the **reigning world champion**, but his **2025 form has been shaky** (16.41m in Xiamen, 16.85m in Shaoxing). However, his **17.57m in Hengelo (2024)** and **17.53m indoors** show he can still deliver big jumps. If he finds his rhythm, he could challenge Pichardo, but recent inconsistency makes 17.45m a safer bet.  \n\n#### **3. Jordan Scott (JAM) – 17.22m**  \nScott has been **quietly improving**, with a **17.27m in Xiamen (April 2025)** and a **17.14m indoors in January 2025**. He lacks the peak of Pichardo or Zango but is **more consistent than the rest of the field**. His **17.05m (+3.8w) in Bermuda (2024)** suggests he can handle big jumps, even if wind-aided.  \n\n#### **4. Russell Robinson (USA) – 17.10m**  \nThe **23-year-old American** is still developing but has shown **flashes of brilliance**, including a **17.30m in Fayetteville (April 2025)**. His **17.14m at US Trials (2024)** proves he can compete at this level. However, his **inconsistency (16.47m in Paris 2024)** keeps him just outside the podium.  \n\n#### **5. Max Heß (GER) – 16.98m**  \nHeß is a **former European champion**, but his **2025 form has been erratic**—**17.43m indoors in March**, but only **16.88m in Rovereto (June 2025)**. His **17.20m in Brussels (2024)** shows he can still perform, but he hasn’t consistently threatened 17m this year.  \n\n#### **6. Yasser Mohammed Triki (ALG) – 16.85m**  \nTriki is a **solid jumper (17.33m PB)**, but his **2025 results have been poor**—**16.84m in Oran** and a **no-mark in Shaoxing**. His **17.25m in Oslo (2024)** was strong, but he hasn’t replicated that since.  \n\n#### **7. Ethan Olivier (NZL) – 16.72m**  \nThe **19-year-old phenom** has **huge potential (17.01m PB)**, but he’s still raw. His **16.96m (+7.5w) in Sotteville (2024)** was wind-aided, and his **best legal jump is 17.01m**. He could surprise, but likely not today.  \n\n#### **8. Lazaro Martinez (QAT) – 15.90m**  \nMartinez is **primarily a sprinter/hurdler**, and his **triple jump performances are non-existent in the data**. Given his focus elsewhere, he’s unlikely to be competitive here.  \n\n#### **9. Henrik Flåtnes (NOR) – 15.75m**  \nFlåtnes is a **long jumper dabbling in triple jump**, with a **best of 15.83m indoors (2025)**. He’s out of his depth against specialists.  \n\n---  \n\n### **Final Thoughts:**  \n- **Pichardo** is the clear favorite, with **Zango** as the only real threat if he finds form.  \n- **Scott and Robinson** are the best of the next tier, with **Heß and Triki** fading slightly.  \n- **Olivier** is one to watch for the future, but not yet ready to challenge the top guys.  \n- **Martinez and Flåtnes** are non-factors in this field.  \n\nExpect a **tight battle for silver**, but **Pichardo should win comfortably** if he’s near his best.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "17.34",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "17.27",
+            "sb": "17.27",
+            "nat": "JAM",
+            "id": "14569308",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Scott"
+          }
+        },
+        {
+          "mark": "17.06",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "18.08",
+            "sb": "17.03",
+            "nat": "POR",
+            "id": "14412588",
+            "hasAvy": true,
+            "firstName": "Pedro",
+            "lastName": "Pichardo"
+          }
+        },
+        {
+          "mark": "16.96",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "17.38",
+            "sb": "16.88",
+            "nat": "GER",
+            "id": "14511112",
+            "hasAvy": true,
+            "firstName": "HEß Max",
+            "lastName": ""
+          }
+        },
+        {
+          "mark": "16.91",
+          "place": 4,
+          "notes": ""
+        },
+        {
+          "mark": "16.73",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "17.43",
+            "sb": "16.84",
+            "nat": "ALG",
+            "id": "14597364",
+            "hasAvy": true,
+            "firstName": "Yasser Mohammed",
+            "lastName": "Triki"
+          }
+        },
+        {
+          "mark": "16.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "17.01",
+            "sb": "16.84",
+            "nat": "NZL",
+            "id": "14963302",
+            "hasAvy": true,
+            "firstName": "Ethan",
+            "lastName": "Olivier"
+          }
+        },
+        {
+          "mark": "16.56",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "17.82",
+            "sb": "16.85",
+            "nat": "BUR",
+            "id": "14523962",
+            "hasAvy": true,
+            "firstName": "Hugues Fabrice",
+            "lastName": "Zango"
+          }
+        },
+        {
+          "mark": "16.50",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "17.30",
+            "sb": "17.30",
+            "nat": "USA",
+            "id": "14823057",
+            "hasAvy": true,
+            "firstName": "Russell",
+            "lastName": "Robinson"
+          }
+        },
+        {
+          "mark": "16.03",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "16.09",
+            "sb": "16.09",
+            "nat": "NOR",
+            "id": "14762156",
+            "hasAvy": true,
+            "firstName": "Henrik",
+            "lastName": "Flåtnes"
+          }
+        }
+      ]
     },
     "200m Men": {
       "date": "2025-06-12T22:42:00.000Z",
@@ -19847,7 +20108,246 @@
         }
       ],
       "blurb": "### **Men’s 5000 Metres – Predicted Finish & Times**  \n\n1. **Hagos Gebrhiwet (ETH)** – **12:48.10**  \n2. **Yomif Kejelcha (ETH)** – **12:49.50**  \n3. **Kuma Girma (ETH)** – **12:51.20**  \n4. **Nicholas Kipkorir (KEN)** – **12:53.75**  \n5. **Biniam Mehary (ETH)** – **12:55.40**  \n6. **Jacob Krop (KEN)** – **12:56.80**  \n7. **Dominic Lokinyomo Lobalu (SUI)** – **12:58.30**  \n8. **Nico Young (USA)** – **13:02.50**  \n9. **Cooper Teare (USA)** – **13:05.90**  \n10. **Graham Blanks (USA)** – **13:08.60**  \n11. **Birhanu Balew (BRN)** – **13:10.20**  \n12. **Thierry Ndikumwenayo (ESP)** – **13:12.80**  \n13. **George Mills (GBR)** – **13:15.40**  \n14. **Stewart McSweyn (AUS)** – **13:18.90**  \n15. **Gemechu Dida (ETH)** – **13:22.50**  \n16. **Maximilian Thorwirth (GER)** – **13:25.10**  \n17. **Mezgebu Sime (ETH)** – **13:28.50**  \n\n---  \n\n### **Race Preview & Reasoning**  \n\n#### **1. Hagos Gebrhiwet (ETH) – 12:48.10**  \n- **Why 1st?** Gebrhiwet is the most consistent and proven performer here. His **12:36.73** in Oslo (2024) is the fastest in the field, and he has multiple sub-12:50 performances, including a **12:51.07** win in Rome. Despite a mixed 10,000m result (27:12 in Nerja), his 5,000m pedigree is unmatched. His recent **12:44.25** in Brussels (2024) shows he’s still in peak form.  \n\n#### **2. Yomif Kejelcha (ETH) – 12:49.50**  \n- **Why 2nd?** Kejelcha is a world-class talent with a **12:38.95** PB and a **12:51.25** in Rome (2024). His recent **26:31.01** 10,000m win in Nerja proves his endurance, but he’s slightly less consistent than Gebrhiwet in the 5,000m. His **57:30 half-marathon** (2024) suggests he’s strong aerobically, but he may lack the final kick.  \n\n#### **3. Kuma Girma (ETH) – 12:51.20**  \n- **Why 3rd?** The **19-year-old phenom** has been improving rapidly, with a **12:50.69** in Shaoxing (2025). His **7:31.78** 3,000m (2025) shows speed, and he’s been competitive against top fields. Youthful energy could see him surprise the veterans.  \n\n#### **4. Nicholas Kipkorir (KEN) – 12:53.75**  \n- **Why 4th?** Kipkorir has strong **12:49.59** (Brussels 2024) and **12:56.81** (Shaoxing 2025) performances. His **26:50.94** 10,000m (Eugene 2024) indicates endurance, but he’s inconsistent (e.g., **13:07.80** in Rome). Likely to hang with the leaders but fade slightly in the last lap.  \n\n#### **5. Biniam Mehary (ETH) – 12:55.40**  \n- **Why 5th?** The **18-year-old** is a rising star with a **12:50.69** (Shaoxing 2025) and a **26:37.93** 10,000m (Nerja 2024). His **7:29.99** 3,000m (2025) shows speed, but he lacks the experience to outkick the top veterans.  \n\n#### **6. Jacob Krop (KEN) – 12:56.80**  \n- **Why 6th?** Krop has a **12:51.55** PB (Rome 2024) but has been inconsistent (e.g., **13:18.68** in Paris). His **7:28.83** 3,000m (Paris 2024) suggests good speed, but he struggles in deep fields.  \n\n#### **7. Dominic Lokinyomo Lobalu (SUI) – 12:58.30**  \n- **Why 7th?** Lobalu is a strong **13:15.27** performer (Paris 2024) with a **7:27.68** 3,000m (London 2024). His **10,000m strength** (28:00.32 in Rome) helps, but he lacks the top-end speed of the Ethiopians.  \n\n#### **8. Nico Young (USA) – 13:02.50**  \n- **Why 8th?** Young is a rising star with a **12:57.14** indoor PB (2024) and a **26:52.72** 10,000m (2024). However, his **13:54.65** (Eugene 2024) shows inconsistency. Likely to hang on but fade late.  \n\n#### **9. Cooper Teare (USA) – 13:05.90**  \n- **Why 9th?** Teare has a **13:15.12** (Copenhagen 2024) and **3:33.96** 1500m speed (2024), but his **DNFs** and inconsistency (e.g., **14:40.20** in Kingston 2025) suggest he’s not in peak form.  \n\n#### **10. Graham Blanks (USA) – 13:08.60**  \n- **Why 10th?** Blanks has a **12:59.89** indoor PB (2024) but has struggled outdoors (e.g., **13:18.67** in Paris 2024). Needs more experience in elite fields.  \n\n#### **11-17: The Rest**  \n- **Birhanu Balew (BRN)** – Strong **26:54** 10K (2025) but lacks 5,000m sharpness.  \n- **Thierry Ndikumwenayo (ESP)** – More of a **10K/XC** specialist; **DNFs** in 5,000m races hurt his case.  \n- **George Mills (GBR)** – Better at **1500m**; **14:37.08** in Paris (2024) is too slow.  \n- **Stewart McSweyn (AUS)** – A **1500m/3K** specialist; **13:31.38** in Paris (2024) is weak.  \n- **Gemechu Dida (ETH)** – More of a **road runner**; no recent elite 5,000m results.  \n- **Maximilian Thorwirth (GER)** – **7:50.88** 3K (2025) is too slow for this field.  \n- **Mezgebu Sime (ETH)** – Young but inconsistent (**DNFs** and **13:48.29** in Douala).  \n\n---  \n\n### **Final Thoughts**  \nThis is a **battle between Gebrhiwet and Kejelcha**, with **Kuma Girma** as the dark horse. The **Americans (Young, Teare, Blanks)** will fight for top 10, while **Krop and Kipkorir** could challenge for top 5 if they have a good day. The rest are either outclassed or better suited to other distances.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12:45.27",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "13:11.30",
+            "sb": "",
+            "nat": "USA",
+            "id": "14882782",
+            "hasAvy": true,
+            "firstName": "Nico",
+            "lastName": "Young"
+          }
+        },
+        {
+          "mark": "12:45.93",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12:54.10",
+            "sb": "13:03.57",
+            "nat": "ETH",
+            "id": "15118094",
+            "hasAvy": true,
+            "firstName": "Biniam",
+            "lastName": "Mehary"
+          }
+        },
+        {
+          "mark": "12:46.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12:50.69",
+            "sb": "12:50.69",
+            "nat": "ETH",
+            "id": "14975226",
+            "hasAvy": true,
+            "firstName": "Kuma",
+            "lastName": "Girma"
+          }
+        },
+        {
+          "mark": "12:46.59",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "13:18.33",
+            "sb": "13:52.11",
+            "nat": "GBR",
+            "id": "14646350",
+            "hasAvy": true,
+            "firstName": "George",
+            "lastName": "Mills"
+          }
+        },
+        {
+          "mark": "12:46.82",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12:36.73",
+            "sb": "14:40.20",
+            "nat": "ETH",
+            "id": "14477352",
+            "hasAvy": true,
+            "firstName": "Hagos",
+            "lastName": "Gebrhiwet"
+          }
+        },
+        {
+          "mark": "12:47.67",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12:48.10",
+            "sb": "14:41.23",
+            "nat": "ESP",
+            "id": "14661449",
+            "hasAvy": true,
+            "firstName": "Thierry",
+            "lastName": "Ndikumwenayo"
+          }
+        },
+        {
+          "mark": "12:48.20",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "13:12.61",
+            "sb": "",
+            "nat": "USA",
+            "id": "14884807",
+            "hasAvy": true,
+            "firstName": "Graham",
+            "lastName": "Blanks"
+          }
+        },
+        {
+          "mark": "12:49.07",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12:38.95",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14594967",
+            "hasAvy": true,
+            "firstName": "Yomif",
+            "lastName": "Kejelcha"
+          }
+        },
+        {
+          "mark": "12:49.80",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "12:51.86",
+            "sb": "12:51.86",
+            "nat": "ETH",
+            "id": "15024068",
+            "hasAvy": true,
+            "firstName": "Mezgebu",
+            "lastName": "Sime"
+          }
+        },
+        {
+          "mark": "12:50.87",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "12:50.90",
+            "sb": "13:17.70",
+            "nat": "SUI",
+            "id": "14792211",
+            "hasAvy": true,
+            "firstName": "Dominic Lokinyomo",
+            "lastName": "Lobalu"
+          }
+        },
+        {
+          "mark": "12:51.16",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "12:45.71",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14808798",
+            "hasAvy": true,
+            "firstName": "Jacob",
+            "lastName": "Krop"
+          }
+        },
+        {
+          "mark": "12:56.45",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "12:56.26",
+            "sb": "13:17.70",
+            "nat": "BRN",
+            "id": "14695983",
+            "hasAvy": true,
+            "firstName": "Birhanu",
+            "lastName": "Balew"
+          }
+        },
+        {
+          "mark": "12:57.05",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "12:54.72",
+            "sb": "13:39.16",
+            "nat": "USA",
+            "id": "14757466",
+            "hasAvy": true,
+            "firstName": "Cooper",
+            "lastName": "Teare"
+          }
+        },
+        {
+          "mark": "13:06.92",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "12:46.33",
+            "sb": "12:56.81",
+            "nat": "KEN",
+            "id": "14708978",
+            "hasAvy": true,
+            "firstName": "Nicholas",
+            "lastName": "Kipkorir"
+          }
+        },
+        {
+          "mark": "13:15.91",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "13:03.50",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14825107",
+            "hasAvy": true,
+            "firstName": "Gemechu",
+            "lastName": "Dida"
+          }
+        },
+        {
+          "mark": "13:16.20",
+          "place": 16,
+          "notes": "",
+          "entrant": {
+            "pb": "12:56.07",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14500488",
+            "hasAvy": true,
+            "firstName": "Stewart",
+            "lastName": "McSweyn"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "13:10.50",
+            "sb": "",
+            "nat": "GER",
+            "id": "14507787",
+            "hasAvy": true,
+            "firstName": "Maximilian",
+            "lastName": "Thorwirth"
+          }
+        }
+      ]
     },
     "400m Hurdles Women": {
       "date": "2025-06-12T23:36:00.000Z",
@@ -19928,7 +20428,112 @@
         }
       ],
       "blurb": "### **Women's 400m Hurdles – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Shiann Salmon (JAM)** – **53.45**  \n2. **Dalilah Muhammad (USA)** – **53.89**  \n3. **Anna Hall (USA)** – **54.12**  \n4. **Emma Zapletalová (SVK)** – **54.68**  \n5. **Amalie Iuel (NOR)** – **54.92**  \n6. **Ayomide Folorunso (ITA)** – **55.24**  \n7. **Sarah Carli (AUS)** – **55.60**  \n8. **Andrea Rooth (NOR)** – **56.10**  \n\n---\n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Shiann Salmon (JAM) – 53.45**  \n- **Why 1st?** Salmon has been the most consistent in 2024-25, with multiple sub-54 performances, including a **52.97** win in Zürich (Sep 2024). She also ran **53.13** in Paris (Aug 2024) and **53.20** in Rome (Aug 2024).  \n- **Recent Form:** Her **52.97** in Zürich is the fastest recent mark among this field. She has also shown strong flat speed (52.14 in 400m), which is crucial for hurdling.  \n- **Weakness?** Some inconsistency (e.g., 55.89 in April 2025), but when she’s on, she’s the fastest here.  \n\n#### **2. Dalilah Muhammad (USA) – 53.89**  \n- **Why 2nd?** The Olympic champion and former WR holder is past her prime (now 34), but still dangerous. Her **54.16** in Eugene (Jun 2024) and **54.59** in Kingston (Apr 2025) suggest she can still challenge.  \n- **Recent Form:** Struggled in late 2024 (55.99 in Poland/Italy), but her **52.21** flat 400m in April 2025 shows she still has speed.  \n- **Weakness?** Age and inconsistency—her last truly elite race was in 2021.  \n\n#### **3. Anna Hall (USA) – 54.12**  \n- **Why 3rd?** A heptathlete with freakish speed (51.68 in 400m, May 2025) and a **54.43** hurdles PB (May 2025).  \n- **Recent Form:** Her **7032 heptathlon** in June 2025 included a **2:01.23 800m**, proving endurance.  \n- **Weakness?** Not a pure hurdler—technique may falter under pressure, but raw speed keeps her in contention.  \n\n#### **4. Emma Zapletalová (SVK) – 54.68**  \n- **Why 4th?** The 2021 Euro U23 champ has been improving, with a **54.71** in Hengelo (Jun 2025) and **54.74** in Brussels (May 2025).  \n- **Recent Form:** Strong indoor 400m (52.61 in Jan 2025) suggests she’s in shape.  \n- **Weakness?** Lacks the elite-level races of Salmon/Muhammad.  \n\n#### **5. Amalie Iuel (NOR) – 54.92**  \n- **Why 5th?** Solid but unspectacular—**54.80** in Nairobi (May 2025) and **54.82** in Paris (Aug 2024).  \n- **Recent Form:** More of a relay specialist (3:26.61 in Guangzhou).  \n- **Weakness?** Never broken 54—lacks the top-end speed to medal.  \n\n#### **6. Ayomide Folorunso (ITA) – 55.24**  \n- **Why 6th?** Inconsistent—**54.21** in Rome (Jun 2025) but also **57.90** in Philadelphia (May 2025).  \n- **Recent Form:** Strong flat 400m (51.96 in May 2025), but hurdles form is erratic.  \n- **Weakness?** Too many races in the 55-57 range to challenge.  \n\n#### **7. Sarah Carli (AUS) – 55.60**  \n- **Why 7th?** Decent domestically (54.29 in Perth, Apr 2025), but struggles internationally (54.93 in Miramar).  \n- **Recent Form:** No sub-54 performances in years.  \n- **Weakness?** Lacks the pedigree to compete with the top tier.  \n\n#### **8. Andrea Rooth (NOR) – 56.10**  \n- **Why 8th?** Young and improving, but her **58.30** in May 2025 is far off the pace.  \n- **Recent Form:** Mostly racing 300m/100mH—not ready for elite 400mH.  \n\n---\n\n### **Final Thoughts:**  \n- **Salmon** is the clear favorite based on recent form.  \n- **Muhammad** is still dangerous but likely past her peak.  \n- **Hall** is the wildcard—if she nails her hurdles, she could surprise.  \n- The rest are fighting for minor places, with **Zapletalová** the best of the rest.  \n\n**Predicted Race Dynamic:** Salmon takes it out hard, Muhammad fades late, and Hall surges for bronze.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "53.34",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "51.58",
+            "sb": "53.81",
+            "nat": "USA",
+            "id": "14317560",
+            "hasAvy": true,
+            "firstName": "Dalilah",
+            "lastName": "Muhammad"
+          }
+        },
+        {
+          "mark": "54.44",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "54.28",
+            "sb": "54.74",
+            "nat": "SVK",
+            "id": "14647721",
+            "hasAvy": true,
+            "firstName": "Emma",
+            "lastName": "Zapletalová"
+          }
+        },
+        {
+          "mark": "54.45",
+          "place": 3,
+          "notes": ""
+        },
+        {
+          "mark": "55.03",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "53.89",
+            "sb": "54.21",
+            "nat": "ITA",
+            "id": "14484475",
+            "hasAvy": true,
+            "firstName": "Ayomide",
+            "lastName": "Folorunso"
+          }
+        },
+        {
+          "mark": "55.13",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "54.29",
+            "sb": "54.29",
+            "nat": "AUS",
+            "id": "14406120",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Carli"
+          }
+        },
+        {
+          "mark": "55.65",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "54.68",
+            "sb": "54.80",
+            "nat": "NOR",
+            "id": "14481392",
+            "hasAvy": true,
+            "firstName": "Amalie",
+            "lastName": "Iuel"
+          }
+        },
+        {
+          "mark": "57.02",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "55.74",
+            "sb": "56.51",
+            "nat": "NOR",
+            "id": "14713434",
+            "hasAvy": true,
+            "firstName": "Andrea",
+            "lastName": "Rooth"
+          }
+        },
+        {
+          "mark": "1:08.99",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "54.42",
+            "sb": "54.43",
+            "nat": "USA",
+            "id": "14713272",
+            "hasAvy": true,
+            "firstName": "Anna",
+            "lastName": "Hall"
+          }
+        }
+      ]
     },
     "300m Hurdles Men": {
       "date": "2025-06-12T23:53:00.000Z",
@@ -20009,7 +20614,121 @@
         }
       ],
       "blurb": "### **Men's 300m Hurdles – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Karsten Warholm (NOR)** – **33.50**  \n2. **Rai Benjamin (USA)** – **33.85**  \n3. **Alison dos Santos (BRA)** – **34.10**  \n4. **Matheus Lima (BRA)** – **34.25**  \n5. **Abderrahman Samba (QAT)** – **34.40**  \n6. **Trevor Bassitt (USA)** – **34.65**  \n7. **Berke Akçam (TUR)** – **34.80**  \n8. **Emil Agyekum (GER)** – **35.20**  \n\n---  \n\n### **Race Preview & Reasoning:**  \n\n#### **1. Karsten Warholm (NOR) – 33.50**  \n- **Why 1st?** Warholm is the **world record holder in the 300m hurdles (33.28)** and has dominated the 400m hurdles globally. His recent **33.05 in Xiamen (2025)** shows he’s still the best in this event.  \n- **Key Results:**  \n  - **33.28 (2024), 33.05 (2025)** – No one else in this field has broken 34 seconds.  \n  - **47.57 in Paris (2024)** – Proves he’s still the fastest 400m hurdler.  \n- **Weakness?** None in this field. He’s the clear favorite.  \n\n#### **2. Rai Benjamin (USA) – 33.85**  \n- **Why 2nd?** Benjamin is the **second-fastest 400m hurdler ever (46.17)** and has elite speed. His **32.21 in the 300m flat (2025, indoors)** suggests he has the raw speed to challenge Warholm.  \n- **Key Results:**  \n  - **46.46 in Paris (2024)** – Shows he’s in top form.  \n  - **32.21 (300m flat, 2025)** – Faster than Warholm’s flat speed.  \n- **Weakness?** Less experience in the 300m hurdles specifically.  \n\n#### **3. Alison dos Santos (BRA) – 34.10**  \n- **Why 3rd?** The **third-fastest 400m hurdler ever (46.63)** and a consistent performer. His **47.61 in Kingston (2025)** shows he’s in good shape.  \n- **Key Results:**  \n  - **47.18 in Monaco (2024)** – Close to Benjamin/Warholm level.  \n  - **48.11 in Philadelphia (2025)** – Still sharp.  \n- **Weakness?** Not as explosive as Warholm/Benjamin over 300m.  \n\n#### **4. Matheus Lima (BRA) – 34.25**  \n- **Why 4th?** The **second-fastest ever in the 300m hurdles (33.98)** and a rising star. His **34.15 in Bergen (2025)** proves he’s a threat.  \n- **Key Results:**  \n  - **33.98 (2024)** – Only Warholm has run faster.  \n  - **48.08 in Shaoxing (2025)** – Shows he’s improving.  \n- **Weakness?** Less consistent than the top 3.  \n\n#### **5. Abderrahman Samba (QAT) – 34.40**  \n- **Why 5th?** Formerly elite (46.98 PB) but **past his peak**. His **48.00 in Gumi (2025)** is solid but not world-class anymore.  \n- **Key Results:**  \n  - **47.69 in Chorzów (2024)** – Still competitive.  \n  - **48.20 in Brussels (2024)** – Not close to Warholm/Benjamin.  \n- **Weakness?** Declining speed and consistency.  \n\n#### **6. Trevor Bassitt (USA) – 34.65**  \n- **Why 6th?** A strong hurdler but **not in the same league** as the top 5. His **48.25 in Philadelphia (2025)** is decent but not elite.  \n- **Key Results:**  \n  - **48.29 in Paris (2024)** – Respectable, but not podium-worthy.  \n  - **45.47 (400m flat, 2025)** – Lacks the hurdle speed of others.  \n- **Weakness?** Not a specialist in this event.  \n\n#### **7. Berke Akçam (TUR) – 34.80**  \n- **Why 7th?** A solid hurdler but **not a contender here**. His **34.50 in Xiamen (2025)** is his best, which is well behind the leaders.  \n- **Key Results:**  \n  - **48.14 in Rome (2024)** – Good, but not great.  \n  - **34.50 (300mH, 2025)** – Far from the top.  \n- **Weakness?** Lacks the raw speed and experience.  \n\n#### **8. Emil Agyekum (GER) – 35.20**  \n- **Why 8th?** The **weakest in this field**. His **35.42 in Potchefstroom (2024)** is his only 300mH race, and he’s primarily a relay runner.  \n- **Key Results:**  \n  - **48.21 in Berlin (2024)** – Decent, but not in this league.  \n  - **35.42 (300mH, 2024)** – Far slower than everyone else.  \n- **Weakness?** Not a specialist, lacks speed.  \n\n---  \n\n### **Final Thoughts:**  \n- **Warholm** is the clear favorite, with **Benjamin** the only real challenger.  \n- **Dos Santos and Lima** will battle for 3rd, but Lima’s inexperience may cost him.  \n- **Samba** is past his prime, while **Bassitt, Akçam, and Agyekum** are outclassed.  \n\n**Predicted Race Dynamic:** Warholm takes it out hard, Benjamin pushes late, but Warholm’s hurdle technique and endurance win. Dos Santos holds off Lima for bronze.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "32.67",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "NOR",
+            "id": "14479487",
+            "hasAvy": true,
+            "firstName": "Karsten",
+            "lastName": "Warholm"
+          }
+        },
+        {
+          "mark": "33.22",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
+          }
+        },
+        {
+          "mark": "33.38",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "BRA",
+            "id": "14755064",
+            "hasAvy": true,
+            "firstName": "Alison",
+            "lastName": "dos Santos"
+          }
+        },
+        {
+          "mark": "33.84",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "QAT",
+            "id": "14752208",
+            "hasAvy": true,
+            "firstName": "Abderrahman",
+            "lastName": "Samba"
+          }
+        },
+        {
+          "mark": "34.34",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "BRA",
+            "id": "14918836",
+            "hasAvy": true,
+            "firstName": "Matheus",
+            "lastName": "Lima"
+          }
+        },
+        {
+          "mark": "34.58",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "GER",
+            "id": "14679384",
+            "hasAvy": true,
+            "firstName": "Emil",
+            "lastName": "Agyekum"
+          }
+        },
+        {
+          "mark": "34.65",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "USA",
+            "id": "14719193",
+            "hasAvy": true,
+            "firstName": "Trevor",
+            "lastName": "Bassitt"
+          }
+        },
+        {
+          "mark": "34.95",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "TUR",
+            "id": "14797505",
+            "hasAvy": true,
+            "firstName": "Berke",
+            "lastName": "Akçam"
+          }
+        }
+      ]
     }
   },
   "stockholm25": {
