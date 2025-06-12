@@ -17652,7 +17652,121 @@
         }
       ],
       "blurb": "### **Women's Triple Jump Competition Prediction & Preview**  \n\n#### **Predicted Finish & Marks:**  \n1. **Leyanis Pérez Hernández (CUB)** – **14.92m (+1.1)**  \n2. **Thea Lafond (DMA)** – **14.85m (+0.8)**  \n3. **Shanieka Ricketts (JAM)** – **14.78m (+0.5)**  \n4. **Jasmine Moore (USA)** – **14.65m (+1.2)**  \n5. **Liadagmis Povea (CUB)** – **14.48m (+0.3)**  \n6. **Ana Peleteiro-Compaoré (ESP)** – **14.32m (-0.2)**  \n7. **Ackelia Smith (JAM)** – **14.18m (+0.9)**  \n8. **Maja Åskag (SWE)** – **13.95m (+0.6)**  \n\n---  \n\n### **Reasoning:**  \n\n#### **1. Leyanis Pérez Hernández (CUB, 22) – 14.92m**  \n- **Why 1st?** Pérez Hernández has been **the most consistent big jumper** in 2024-25, with **multiple 14.80m+ marks**, including a **wind-aided 15.16m** in Guadalajara (2024).  \n- She has **beaten Lafond head-to-head** (Monaco 2024, Stockholm 2024) and **dominated indoors** (14.86m, 14.90m).  \n- Her **youth (22) and upward trajectory** suggest she’s peaking now, unlike older rivals.  \n- **Weakness?** Occasionally inconsistent (14.62m in Paris after 14.68m the day before), but **when she hits, she’s untouchable**.  \n\n#### **2. Thea Lafond (DMA, 30) – 14.85m**  \n- **Why 2nd?** The **Olympic champion (15.02m in Paris 2024)** and **2024 World Indoor champ (15.01m)** has **huge upside** but **less consistency** than Pérez.  \n- **Big-meet performer**, but **struggles in weaker fields** (14.18m in Nanjing 2025, 14.26m in Stockholm 2024).  \n- **Head-to-head vs. Pérez:** Lost in Monaco (14.87m vs. 14.96m) and Stockholm (14.26m vs. 14.67m).  \n- **If she hits, she wins—but Pérez is more reliable.**  \n\n#### **3. Shanieka Ricketts (JAM, 32) – 14.78m**  \n- **Why 3rd?** The **veteran (32)** is **still elite** but **lacks the explosive peak** of Pérez/Lafond.  \n- **Consistent 14.50m-14.70m jumper**, but **rarely breaks 14.80m** (only **14.87m in Paris 2024**).  \n- **Recent form (14.72m in Doha 2025, 14.64m in Rome 2025)** shows she’s still competitive, but **younger rivals are overtaking her**.  \n\n#### **4. Jasmine Moore (USA, 23) – 14.65m**  \n- **Why 4th?** The **Olympic bronze medalist** is **improving rapidly** but **still behind the top 3**.  \n- **Best legal mark: 14.67m (Paris 2024)**—shows potential, but **not yet a 14.80m+ jumper**.  \n- **Focus split with long jump** hurts her consistency (often jumps **<14.30m** when fatigued).  \n- **Future star? Yes. But not today.**  \n\n#### **5. Liadagmis Povea (CUB, 28) – 14.48m**  \n- **Why 5th?** The **second Cuban** is **good but not great**—**never broken 14.80m legally**.  \n- **Best mark: 14.81m (+2.6w)**, but **legal best only 14.73m**.  \n- **Inconsistent** (13.33m in Chorzów 2024, 14.64m in Paris 2024).  \n- **Good for a mid-14m jump, but not a medal threat.**  \n\n#### **6. Ana Peleteiro-Compaoré (ESP, 29) – 14.32m**  \n- **Why 6th?** The **former world-class jumper (14.87m NR in 2020)** is **past her prime**.  \n- **2025 form is weak** (14.14m in Apeldoorn, **13.04m in Rome**).  \n- **Still competitive in Europe**, but **not at global elite level anymore**.  \n\n#### **7. Ackelia Smith (JAM, 22) – 14.18m**  \n- **Why 7th?** **Too focused on long jump**—only **one 14.50m+ mark ever (14.52m in 2024)**.  \n- **Inconsistent** (13.78m in Zagreb 2025, 14.44m in Kingston 2024).  \n- **Potential is there, but not today.**  \n\n#### **8. Maja Åskag (SWE, 22) – 13.95m**  \n- **Why 8th?** **Good junior, but not elite yet**—**best legal mark: 14.06m (Turku 2024, +2.2w)**.  \n- **Struggles in strong fields** (13.79m in Paris 2024, 13.76m in Apeldoorn 2025).  \n- **Needs more experience at this level.**  \n\n---  \n\n### **Final Thoughts:**  \n- **Pérez Hernández** is the **future of the event** and **wins today**.  \n- **Lafond** is the **most dangerous if she nails one**, but **Pérez is more consistent**.  \n- **Ricketts** is **still a podium threat**, but **age is catching up**.  \n- **Moore** is **one to watch for 2026+**, but **not quite there yet**.  \n- **The rest? Too inconsistent or past their peak.**  \n\n**Winner: Pérez Hernández in a tight battle over Lafond.**",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "14.72",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "14.98",
+            "sb": "14.46",
+            "nat": "CUB",
+            "id": "14828679",
+            "hasAvy": true,
+            "firstName": "Leyanis",
+            "lastName": "Pérez Hernández"
+          }
+        },
+        {
+          "mark": "14.57",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "15.03",
+            "sb": "14.64",
+            "nat": "JAM",
+            "id": "14413464",
+            "hasAvy": true,
+            "firstName": "Shanieka",
+            "lastName": "Ricketts"
+          }
+        },
+        {
+          "mark": "14.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "14.78",
+            "sb": "14.15",
+            "nat": "USA",
+            "id": "14715853",
+            "hasAvy": true,
+            "firstName": "Jasmine",
+            "lastName": "Moore"
+          }
+        },
+        {
+          "mark": "14.31",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14.93",
+            "sb": "14.38",
+            "nat": "CUB",
+            "id": "14574170",
+            "hasAvy": true,
+            "firstName": "Liadagmis",
+            "lastName": "Povea"
+          }
+        },
+        {
+          "mark": "14.26",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "15.02",
+            "sb": "14.39",
+            "nat": "DMA",
+            "id": "14416826",
+            "hasAvy": true,
+            "firstName": "Thea",
+            "lastName": "Lafond"
+          }
+        },
+        {
+          "mark": "14.26",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14.54",
+            "sb": "13.84",
+            "nat": "JAM",
+            "id": "14693884",
+            "hasAvy": true,
+            "firstName": "Ackelia",
+            "lastName": "Smith"
+          }
+        },
+        {
+          "mark": "13.77",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14.27",
+            "sb": "14.00",
+            "nat": "SWE",
+            "id": "14774822",
+            "hasAvy": true,
+            "firstName": "Maja",
+            "lastName": "Åskag"
+          }
+        },
+        {
+          "mark": "13.71",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "14.87",
+            "sb": "13.04",
+            "nat": "ESP",
+            "id": "14454805",
+            "hasAvy": true,
+            "firstName": "Ana",
+            "lastName": "Peleteiro-Compaoré"
+          }
+        }
+      ]
     },
     "Pole Vault Men": {
       "date": "2025-06-12T21:20:00.000Z",
@@ -17913,7 +18027,121 @@
         }
       ],
       "blurb": "### **Women's 400m Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Rhasidat Adeleke (IRL)** – **48.95**  \n2. **Natalia Bukowiecka (POL)** – **49.12**  \n3. **Lieke Klaver (NED)** – **49.45**  \n4. **Amber Anning (GBR)** – **49.68**  \n5. **Henriette Jæger (NOR)** – **49.92**  \n6. **Sada Williams (BAR)** – **50.15**  \n7. **Isabella Whittaker (USA)** – **50.38**  \n8. **Paula Sevilla (ESP)** – **51.20**  \n\n---  \n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Rhasidat Adeleke (IRL) – 48.95**  \nAdeleke is the clear favorite based on recent form. She has consistently run **sub-49.30** this season, including a **48.90** in London (July 2024) and a **49.07** in Rome (June 2024). Her speed endurance is unmatched—she has also run **22.35 in the 200m**, showing she has the raw speed to close hard. She’s the youngest in the field but has the most upside, and her **Irish national records** prove she thrives under pressure.  \n\n#### **2. Natalia Bukowiecka (POL) – 49.12**  \nBukowiecka is a proven championship performer (Olympic bronze in 2024, multiple relay medals). She has **sub-49 potential**, with a **48.90** in London (July 2024) and a **48.98** in Rome (June 2024). However, she has been slightly inconsistent (e.g., **50.70 in Rome** the day before her 48.98). If she runs a clean race, she’ll challenge Adeleke, but her **tendency to fade in some races** keeps her just behind.  \n\n#### **3. Lieke Klaver (NED) – 49.45**  \nKlaver is a **relay beast** (World Champion in 2023, Olympic gold in mixed 4x400m), but her **individual 400m races have been hit or miss**. She ran **49.58 in London (July 2024)** and **49.64 in Monaco**, but also had a **50.89 in Paris**. She’s strong in the second half but lacks the closing speed of Adeleke and Bukowiecka. Expect her to **hold on for bronze**.  \n\n#### **4. Amber Anning (GBR) – 49.68**  \nAnning has **great indoor speed** (British record holder, 49.29 in Paris 2024), but she **struggles to replicate that outdoors**. Her **best outdoor time is 49.47**, and she’s been **inconsistent** (e.g., **50.85 in Miramar 2025**). She’ll be in the mix early but likely **fades late** compared to the top three.  \n\n#### **5. Henriette Jæger (NOR) – 49.92**  \nJæger is a rising star (Norwegian record holder, **49.85 in La Chaux-de-Fonds 2024**), but she’s **not yet at the elite level**. She’s had **some strong races (49.96 in Paris 2024)** but also **inconsistent (50.81 in Oslo 2024)**. She’ll push for top 5 but lacks the experience to medal.  \n\n#### **6. Sada Williams (BAR) – 50.15**  \nWilliams was **dominant in 2022** (Commonwealth gold, 49.75 NR), but her **form has dipped**. Her **best recent time is 49.80 (Kingston 2024)**, but she’s been **inconsistent (50.82 in Chorzów 2024, 51.48 in LA 2024)**. She’s still dangerous but **not in the same league as the top contenders**.  \n\n#### **7. Isabella Whittaker (USA) – 50.38**  \nWhittaker is **fast indoors (49.24 NR in 2025)**, but **outdoors, she hasn’t broken 50.00**. Her **best outdoor time is 50.16 (Philadelphia 2025)**, and she lacks the **big-meet experience** of the others. She’ll be **competitive but outclassed here**.  \n\n#### **8. Paula Sevilla (ESP) – 51.20**  \nSevilla is **primarily a 200m runner** (Spanish champion) and **lacks the endurance** for a fast 400m. Her **best 400m is 50.99 (indoors 2025)**, and she’s **never broken 51 outdoors**. She’ll be **out of contention early**.  \n\n---  \n\n### **Final Thoughts:**  \nThis is **Adeleke’s race to lose**—she has the speed, consistency, and championship pedigree. Bukowiecka and Klaver will battle for silver/bronze, with the **Polish star edging the Dutchwoman** due to her superior closing speed. Anning and Jæger will fight for 4th, while Williams, Whittaker, and Sevilla round out the field. Expect a **fast race, with Adeleke potentially threatening the 48-second barrier**.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "49.58",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "50.16",
+            "sb": "50.16",
+            "nat": "USA",
+            "id": "14846088",
+            "hasAvy": true,
+            "firstName": "Isabella",
+            "lastName": "Whittaker"
+          }
+        },
+        {
+          "mark": "49.62",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "49.85",
+            "sb": "",
+            "nat": "NOR",
+            "id": "14780807",
+            "hasAvy": true,
+            "firstName": "Henriette",
+            "lastName": "Jæger"
+          }
+        },
+        {
+          "mark": "50.24",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "49.29",
+            "sb": "50.85",
+            "nat": "GBR",
+            "id": "14632781",
+            "hasAvy": true,
+            "firstName": "Amber",
+            "lastName": "Anning"
+          }
+        },
+        {
+          "mark": "50.42",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "49.07",
+            "sb": "",
+            "nat": "IRL",
+            "id": "14745252",
+            "hasAvy": true,
+            "firstName": "Rhasidat",
+            "lastName": "Adeleke"
+          }
+        },
+        {
+          "mark": "50.64",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "49.58",
+            "sb": "51.12",
+            "nat": "NED",
+            "id": "14560483",
+            "hasAvy": true,
+            "firstName": "Lieke",
+            "lastName": "Klaver"
+          }
+        },
+        {
+          "mark": "50.67",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "48.90",
+            "sb": "50.44",
+            "nat": "POL",
+            "id": "14642563",
+            "hasAvy": true,
+            "firstName": "Natalia",
+            "lastName": "Bukowiecka"
+          }
+        },
+        {
+          "mark": "50.92",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "51.00",
+            "sb": "51.00",
+            "nat": "ESP",
+            "id": "14595639",
+            "hasAvy": true,
+            "firstName": "Paula",
+            "lastName": "Sevilla"
+          }
+        },
+        {
+          "mark": "50.94",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "49.58",
+            "sb": "51.27",
+            "nat": "BAR",
+            "id": "14592846",
+            "hasAvy": true,
+            "firstName": "Sada",
+            "lastName": "Williams"
+          }
+        }
+      ]
     },
     "800m Men": {
       "date": "2025-06-12T22:19:00.000Z",
@@ -18012,7 +18240,146 @@
         }
       ],
       "blurb": "### **Men’s 800 Metres – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Emmanuel Wanyonyi (KEN)** – **1:41.30**  \n2. **Djamel Sedjati (ALG)** – **1:41.45**  \n3. **Gabriel Tual (FRA)** – **1:42.10**  \n4. **Max Burgin (GBR)** – **1:42.35**  \n5. **Mohamed Attaoui (ESP)** – **1:42.60**  \n6. **Kethobogile Haingura (BOT)** – **1:43.15**  \n7. **Mark English (IRL)** – **1:43.40**  \n8. **Andreas Kramer (SWE)** – **1:43.75**  \n9. **Tobias Grønstad (NOR)** – **1:44.20**  \n10. **Patryk Sieradzki (POL)** – **DNF**  \n\n---\n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Emmanuel Wanyonyi (KEN) – 1:41.30**  \nThe **Olympic champion** and **second-fastest man in history** (tied with Kipketer) is the clear favorite. His **1:41.11 PB** (Lausanne 2024) and **1:41.19** (Paris 2024) show he is consistently in world-record-contending shape. He has **beaten Sedjati twice** (Paris & Lausanne) and **dominated** in Rabat (1:43.34, 3rd but in a tactical race). His **speed endurance** (3:35.18 1500m) and **killer kick** make him unbeatable in a fast race.  \n\n#### **2. Djamel Sedjati (ALG) – 1:41.45**  \nThe **third-fastest man in history (1:41.46)** is Wanyonyi’s biggest rival. He **beat Wanyonyi in Paris (1:41.56 vs 1:41.58)** and Monaco (1:41.46). However, he **lost to Wanyonyi in Lausanne (1:41.11 vs 1:42.30)** and has **less consistency** in championship races (Olympic bronze). His **tactical awareness** is strong, but Wanyonyi’s closing speed is superior.  \n\n#### **3. Gabriel Tual (FRA) – 1:42.10**  \nThe **European champion** has **improved massively** (1:41.61 PB). He **beat Burgin** in Paris (1:45.13 vs Burgin’s 1:45.36) and **has podium pedigree**. However, he **struggles against Africans**—**lost to Wanyonyi & Sedjati** in Paris (1:41.58/1:41.56 vs his 1:41.61). His **400m speed (46.71)** helps, but he lacks the **final 200m surge** of the top two.  \n\n#### **4. Max Burgin (GBR) – 1:42.35**  \nA **rising star**, Burgin has **1:43.34** (Rabat 2025) and **1:43.50** (Paris 2024) to his name. He **lacks big-race experience** (8th in Paris 1:43.84) but has **raw speed**. His **tactical naivety** (often goes out too hard) costs him against seasoned racers like Tual.  \n\n#### **5. Mohamed Attaoui (ESP) – 1:42.60**  \nA **1500m/800m hybrid**, Attaoui has **1:42.04** (Monaco 2024) and **1:43.56** (Rovereto 2025). His **speed endurance** (3:33.30 1500m) helps, but he **fades in championships** (7th in Kingston 1:48.44). He’s **dangerous in fast races** but **lacks the kick** to medal.  \n\n#### **6. Kethobogile Haingura (BOT) – 1:43.15**  \nA **consistent 1:43 runner** (1:43.75 in Miramar, 1:43.88 in Johannesburg), but **lacks top-tier competition experience**. His **best win is a 1:43.94 in Pretoria**—nowhere near Wanyonyi/Sedjati level.  \n\n#### **7. Mark English (IRL) – 1:43.40**  \nThe **Irish record holder** (1:43.92) is **past his prime at 31**. He **struggles in Diamond League races** (6th in Paris 1:45.97) and **relies on tactical races**. His **1:44.34 in Bydgoszcz (2025)** is solid, but he **can’t hang with the elites anymore**.  \n\n#### **8. Andreas Kramer (SWE) – 1:43.75**  \nA **decent 1:44 runner** (1:44.08 PB), but **nowhere near his 2018 peak**. His **2025 form is weak** (1:45.09 in Bydgoszcz, 1:45.63 in Rabat). **No threat to the top guys**.  \n\n#### **9. Tobias Grønstad (NOR) – 1:44.20**  \nA **400m/800m hybrid** (47.55 PB), he **lacks endurance**. His **1:44.67 in Oslo (2024)** is decent, but he **fades in stacked races** (7th in Paris 1:46.37).  \n\n#### **10. Patryk Sieradzki (POL) – DNF**  \n**The most unreliable runner in the field.** He has **DNF’d in 12 of his last 20 races**, including **four straight in early 2025**. Even when he finishes, he’s **slow** (1:46.32 indoor). **No chance**.  \n\n---\n\n### **Final Thoughts:**  \n- **Wanyonyi wins**—he’s the **best closer** and **most consistent**.  \n- **Sedjati takes silver**—he can challenge but **loses in a sprint**.  \n- **Tual gets bronze**—strong **Euro form**, but **not elite globally**.  \n- **Burgin & Attaoui** round out the top 5, but **lack championship grit**.  \n- **Sieradzki DNFs**—because **of course he does**.  \n\nThis will be a **fast, tactical battle**, but **Wanyonyi’s dominance is undeniable**.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:42.78",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.11",
+            "sb": "1:43.37",
+            "nat": "KEN",
+            "id": "14974928",
+            "hasAvy": true,
+            "firstName": "Emmanuel",
+            "lastName": "Wanyonyi"
+          }
+        },
+        {
+          "mark": "1:42.90",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.04",
+            "sb": "1:43.56",
+            "nat": "ESP",
+            "id": "14929058",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Attaoui"
+          }
+        },
+        {
+          "mark": "1:43.06",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.46",
+            "sb": "",
+            "nat": "ALG",
+            "id": "14976579",
+            "hasAvy": true,
+            "firstName": "Djamel",
+            "lastName": "Sedjati"
+          }
+        },
+        {
+          "mark": "1:43.09",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.61",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14646018",
+            "hasAvy": true,
+            "firstName": "Gabriel",
+            "lastName": "Tual"
+          }
+        },
+        {
+          "mark": "1:43.58",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.75",
+            "sb": "1:43.75",
+            "nat": "BOT",
+            "id": "15015852",
+            "hasAvy": true,
+            "firstName": "Kethobogile",
+            "lastName": "Haingura"
+          }
+        },
+        {
+          "mark": "1:43.73",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.13",
+            "sb": "1:44.84",
+            "nat": "SWE",
+            "id": "14538207",
+            "hasAvy": true,
+            "firstName": "Andreas",
+            "lastName": "Kramer"
+          }
+        },
+        {
+          "mark": "1:44.33",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:44.34",
+            "sb": "1:44.34",
+            "nat": "IRL",
+            "id": "14377494",
+            "hasAvy": true,
+            "firstName": "Mark",
+            "lastName": "English"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNS",
+          "entrant": {
+            "pb": "1:43.34",
+            "sb": "1:43.34",
+            "nat": "GBR",
+            "id": "14755557",
+            "hasAvy": true,
+            "firstName": "Max",
+            "lastName": "Burgin"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:45.13",
+            "sb": "1:45.48",
+            "nat": "POL",
+            "id": "14647295",
+            "hasAvy": true,
+            "firstName": "Patryk",
+            "lastName": "Sieradzki"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:44.57",
+            "sb": "1:52.68",
+            "nat": "NOR",
+            "id": "14855967",
+            "hasAvy": true,
+            "firstName": "Tobias",
+            "lastName": "Grønstad"
+          }
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2025-06-12T22:26:00.000Z",
@@ -18165,7 +18532,202 @@
         }
       ],
       "blurb": "### **Women’s 3000m Steeplechase – Predicted Finish & Preview**  \n\n#### **Predicted Results:**  \n1. **Winfred Yavi (BRN)** – **8:48.12**  \n2. **Faith Cherotich (KEN)** – **8:52.45**  \n3. **Norah Jeruto (KAZ)** – **8:55.89**  \n4. **Gesa Felicitas Krause (GER)** – **9:01.33**  \n5. **Marwa Bouzayani (TUN)** – **9:04.76**  \n6. **Gabrielle Jennings (USA)** – **9:06.50**  \n7. **Valerie Constien (USA)** – **9:08.92**  \n8. **Lea Meyer (GER)** – **9:10.14**  \n9. **Lomi Muleta (ETH)** – **9:12.47**  \n10. **Daisy Jepkemei (KAZ)** – **9:14.88**  \n11. **Courtney Wayment (USA)** – **9:16.20**  \n12. **Olivia Markezich (USA)** – **9:18.55**  \n13. **Elise Thorner (GBR)** – **9:22.10**  \n14. **Flavie Renouard (FRA)** – **9:25.40**  \n15. **Kinga Królik (POL)** – **9:28.90**  \n16. **Jackline Chepkoech (KEN)** – **9:35.60**  \n\n---  \n\n### **Race Preview & Reasoning:**  \n\n#### **1. Winfred Yavi (BRN) – 8:48.12**  \n- **Why?** The clear favorite. She has been **dominant** in 2024-25, including an **Olympic gold** and a **PB of 8:44.39** (second-fastest in history). Her recent **8:52.76** and **8:44.39** performances show she’s in peak form. Even her \"off\" races (9:21.62, 9:02.87) are still competitive.  \n- **Weakness?** None. She has beaten everyone here before.  \n\n#### **2. Faith Cherotich (KEN) – 8:52.45**  \n- **Why?** The **rising star** at just 20 years old. She has **multiple sub-9:00** performances (8:55.15, 8:57.65) and **beat Yavi in Brussels (9:02.36 vs. 9:02.87)**. Her **consistency** (no bad races) makes her a lock for silver.  \n- **Weakness?** Still young—may lack the tactical maturity to challenge Yavi in a kick.  \n\n#### **3. Norah Jeruto (KAZ) – 8:55.89**  \n- **Why?** Former **world champion (2022)** and **Diamond League winner**, but her **2024-25 form is shaky**. She’s had **mixed results** (9:08.97, 9:10.43) but **won in Gumi (9:10.46)**. If she’s healthy, she can still podium.  \n- **Weakness?** Inconsistent lately—her **9:22.45 and 9:22.91** early in 2024 suggest she may not be at her best.  \n\n#### **4. Gesa Felicitas Krause (GER) – 9:01.33**  \n- **Why?** A **veteran** with **two World Champs bronzes**. Her **9:03.30 PB** is strong, and she ran **9:08.94 in Brussels**. She’s **consistent** but lacks the firepower to challenge the top three.  \n- **Weakness?** Age (32) and **no recent sub-9:00** performances.  \n\n#### **5. Marwa Bouzayani (TUN) – 9:04.76**  \n- **Why?** Underrated performer—**9:04.93 in Rome** and **9:10.19 in Brussels** show she’s in good shape.  \n- **Weakness?** Not quite at the level of the top four.  \n\n#### **6. Gabrielle Jennings (USA) – 9:06.50**  \n- **Why?** **Strong 2024-25 season** (9:07.70 in Rome, 9:09.89 in Brussels).  \n- **Weakness?** Never broken 9:00—**lacks elite speed**.  \n\n#### **7. Valerie Constien (USA) – 9:08.92**  \n- **Why?** **Olympian** but **inconsistent** (9:34.08 in Paris, 9:04.92 in Rome).  \n- **Weakness?** Too up-and-down to challenge for top 5.  \n\n#### **8. Lea Meyer (GER) – 9:10.14**  \n- **Why?** **Solid but unspectacular**—9:09.59 in Paris, 9:11.37 in Rome.  \n- **Weakness?** Never a true contender in big races.  \n\n#### **9-16: The Rest**  \n- **Lomi Muleta (ETH)** – **DNF in Rome** but **9:06.07 in Paris** shows potential.  \n- **Daisy Jepkemei (KAZ)** – **Past her prime**, best days were pre-2022.  \n- **Courtney Wayment (USA)** – **Inconsistent**, with **DNFs** and **9:13.6 in Paris**.  \n- **Olivia Markezich (USA)** – **NCAA star**, but **not yet elite at pro level**.  \n- **Elise Thorner (GBR)** – **Improving**, but **9:17.57 PB** isn’t enough.  \n- **Flavie Renouard (FRA)** – **Decent, but not a threat**.  \n- **Kinga Królik (POL)** – **No standout performances**.  \n- **Jackline Chepkoech (KEN)** – **DNF in Paris, 9:44.48 in Nairobi**—**out of form**.  \n\n---  \n\n### **Final Thoughts:**  \n- **Yavi is untouchable**—she’s in a league of her own.  \n- **Cherotich is the future** but needs more experience to beat Yavi.  \n- **Jeruto is a wildcard**—if she’s healthy, she can challenge for silver.  \n- **Americans (Jennings, Constien, Wayment) are decent but not podium threats**.  \n- **The rest are fighting for top 10, not medals.**  \n\n**Predicted Race:** Yavi controls from the front, Cherotich hangs on for silver, and Jeruto battles Krause for bronze. The Americans and Europeans round out the top 10.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "9:02.60",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:55.15",
+            "sb": "9:05.08",
+            "nat": "KEN",
+            "id": "14989893",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Cherotich"
+          }
+        },
+        {
+          "mark": "9:02.76",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:44.39",
+            "sb": "9:05.26",
+            "nat": "BRN",
+            "id": "14695622",
+            "hasAvy": true,
+            "firstName": "Winfred",
+            "lastName": "Yavi"
+          }
+        },
+        {
+          "mark": "9:06.84",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "9:04.93",
+            "sb": "9:12.13",
+            "nat": "TUN",
+            "id": "14595096",
+            "hasAvy": true,
+            "firstName": "Marwa",
+            "lastName": "Bouzayani"
+          }
+        },
+        {
+          "mark": "9:09.21",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "9:09.59",
+            "sb": "",
+            "nat": "GER",
+            "id": "14509240",
+            "hasAvy": true,
+            "firstName": "Lea",
+            "lastName": "Meyer"
+          }
+        },
+        {
+          "mark": "9:13.44",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.07",
+            "sb": "9:22.30",
+            "nat": "ETH",
+            "id": "14893973",
+            "hasAvy": true,
+            "firstName": "Lomi",
+            "lastName": "Muleta"
+          }
+        },
+        {
+          "mark": "9:13.65",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.50",
+            "sb": "",
+            "nat": "USA",
+            "id": "14617090",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Wayment"
+          }
+        },
+        {
+          "mark": "9:15.06",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9:17.57",
+            "sb": "9:17.57",
+            "nat": "GBR",
+            "id": "14648621",
+            "hasAvy": true,
+            "firstName": "Elise",
+            "lastName": "Thorner"
+          }
+        },
+        {
+          "mark": "9:20.85",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "9:07.70",
+            "sb": "",
+            "nat": "USA",
+            "id": "14490787",
+            "hasAvy": true,
+            "firstName": "Gabrielle",
+            "lastName": "Jennings"
+          }
+        },
+        {
+          "mark": "9:32.87",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "9:03.22",
+            "sb": "9:33.19",
+            "nat": "USA",
+            "id": "14587271",
+            "hasAvy": true,
+            "firstName": "Valerie",
+            "lastName": "Constien"
+          }
+        },
+        {
+          "mark": "9:36.87",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "8:57.35",
+            "sb": "9:44.48",
+            "nat": "KEN",
+            "id": "14989892",
+            "hasAvy": true,
+            "firstName": "Jackline",
+            "lastName": "Chepkoech"
+          }
+        },
+        {
+          "mark": "9:36.92",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "9:14.67",
+            "sb": "",
+            "nat": "USA",
+            "id": "14846039",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "Markezich"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:19.07",
+            "sb": "9:21.50",
+            "nat": "FRA",
+            "id": "14753918",
+            "hasAvy": true,
+            "firstName": "Flavie",
+            "lastName": "Renouard"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:03.30",
+            "sb": "",
+            "nat": "GER",
+            "id": "14329341",
+            "hasAvy": true,
+            "firstName": "Gesa Felicitas",
+            "lastName": "Krause"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:22.14",
+            "sb": "9:22.14",
+            "nat": "POL",
+            "id": "14701702",
+            "hasAvy": true,
+            "firstName": "Kinga",
+            "lastName": "Królik"
+          }
+        }
+      ]
     },
     "Triple Jump Men": {
       "date": "2025-06-12T22:41:00.000Z",
