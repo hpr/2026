@@ -19573,32 +19573,6 @@
       "isClosed": true,
       "results": [
         {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "10.93",
-            "sb": "11.07",
-            "nat": "GER",
-            "id": "14450088",
-            "hasAvy": true,
-            "firstName": "Gina",
-            "lastName": "Lückenkemper"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "11.00",
-            "sb": "11.05",
-            "nat": "LUX",
-            "id": "14621598",
-            "hasAvy": true,
-            "firstName": "Patrizia",
-            "lastName": "van der Weken"
-          }
-        },
-        {
           "mark": "10.89",
           "place": 1,
           "notes": "",
@@ -19641,6 +19615,49 @@
           }
         },
         {
+          "mark": "11.16",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "11.00",
+            "sb": "11.05",
+            "nat": "LUX",
+            "id": "14621598",
+            "hasAvy": true,
+            "firstName": "Patrizia",
+            "lastName": "van der Weken"
+          }
+        },
+        {
+          "mark": "11.16",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "11.02",
+            "sb": "11.02",
+            "nat": "LBR",
+            "id": "14532017",
+            "hasAvy": true,
+            "firstName": "Maia",
+            "lastName": "McCoy"
+          }
+        },
+        {
+          "mark": "11.16",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "10.93",
+            "sb": "11.07",
+            "nat": "GER",
+            "id": "14450088",
+            "hasAvy": true,
+            "firstName": "Gina",
+            "lastName": "Lückenkemper"
+          }
+        },
+        {
+          "mark": "11.20",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -19654,7 +19671,8 @@
           }
         },
         {
-          "place": null,
+          "mark": "11.26",
+          "place": 8,
           "notes": "",
           "entrant": {
             "pb": "11.01",
@@ -19664,19 +19682,6 @@
             "hasAvy": true,
             "firstName": "Zaynab",
             "lastName": "Dosso"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "11.02",
-            "sb": "11.02",
-            "nat": "LBR",
-            "id": "14532017",
-            "hasAvy": true,
-            "firstName": "Maia",
-            "lastName": "McCoy"
           }
         }
       ]
