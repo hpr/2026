@@ -177,6 +177,7 @@ export const disciplineCodes: { [k: string]: WAEventCode } = {
   '200 Metres Hurdles': '200H',
   '300m Hurdles (84.0cm)': '300HY',
   '300 Metres Hurdles': '300H',
+  '300m Hurdles': '300H',
   '400m hurdles (84.0cm)': '400HY',
   '400 Metres Hurdles': '400H',
   '400m Hurdles': '400H',
