@@ -47,6 +47,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   rabat25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/RABAT_2025_SCHEDULE_JSON.json',
   rome25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/ROME_2025_SCHEDULE_JSON.json',
   oslo25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/OSLO_2025_SCHEDULE_JSON.json',
+  stockholm25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/STOCKHOLM_2025_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -140,7 +141,11 @@ for (const key in resultsLinks) {
           .replace('Discus Men', 'Discus Throw Men')
           .replace('Javelin Men', 'Javelin Throw Men')
           .replace('Javelin Women', 'Javelin Throw Women')
+          .replace(',', '')
+          .replace('meters', 'Metres')
+          .replace('Meters', 'Metres')
           .replace('Dream ', '')
+          .replace('Metres Hurdles', 'm Hurdles') // only stockholm?
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
         ) && unit.Stats.DiamondId

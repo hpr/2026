@@ -20819,7 +20819,8 @@
           "firstName": "Engla",
           "lastName": "Nilsson"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Pole Vault, Men": {
       "date": "2025-06-15T19:17:00.000Z",
@@ -20899,7 +20900,8 @@
           "firstName": "Ersu",
           "lastName": "Şaşma"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400 meters Hurdles Women": {
       "date": "2025-06-15T20:04:00.000Z",
@@ -20979,7 +20981,8 @@
           "firstName": "Moa",
           "lastName": "Granat"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "200 meters, Men": {
       "date": "2025-06-15T20:13:00.000Z",
@@ -21059,7 +21062,8 @@
           "firstName": "Erik",
           "lastName": "Erlandsson"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "3000 meters, Women": {
       "date": "2025-06-15T20:20:00.000Z",
@@ -21193,7 +21197,8 @@
           "firstName": "Águeda",
           "lastName": "Marqués"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Long Jump, Women": {
       "date": "2025-06-15T20:23:00.000Z",
@@ -21291,7 +21296,8 @@
           "firstName": "Maja",
           "lastName": "Åskag"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100 meters Hurdles, Women": {
       "date": "2025-06-15T20:39:00.000Z",
@@ -21371,7 +21377,8 @@
           "firstName": "Devynne",
           "lastName": "Charlton"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "800 meters, Men": {
       "date": "2025-06-15T20:48:00.000Z",
@@ -21460,7 +21467,8 @@
           "firstName": "Patryk",
           "lastName": "Sieradzki"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Discus Throw, Men": {
       "date": "2025-06-15T20:55:00.000Z",
@@ -21540,7 +21548,8 @@
           "firstName": "Henrik",
           "lastName": "Janssen"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400 meters, Women": {
       "date": "2025-06-15T21:00:00.000Z",
@@ -21620,7 +21629,8 @@
           "firstName": "Martina",
           "lastName": "Weil"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "5000 meters, Men": {
       "date": "2025-06-15T21:09:00.000Z",
@@ -21781,7 +21791,8 @@
           "firstName": "Adam",
           "lastName": "Czerwiński"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "800 meters, Women": {
       "date": "2025-06-15T21:31:00.000Z",
@@ -21870,7 +21881,8 @@
           "firstName": "Margarita",
           "lastName": "Koczanowa"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100 meters, Women": {
       "date": "2025-06-15T21:42:00.000Z",
@@ -21950,7 +21962,8 @@
           "firstName": "Julia",
           "lastName": "Henriksson"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400 meters Hurdles, Men": {
       "tiebreaker": "47.50",
@@ -22031,7 +22044,8 @@
           "firstName": "Karl",
           "lastName": "Wållgren"
         }
-      ]
+      ],
+      "isClosed": true
     }
   }
 }
