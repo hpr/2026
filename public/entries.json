@@ -21416,7 +21416,197 @@
           "lastName": "Marqués"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "8:30.01",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:40.59",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14272002",
+            "hasAvy": true,
+            "firstName": "Linden",
+            "lastName": "Hall"
+          }
+        },
+        {
+          "mark": "8:31.27",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:32.53",
+            "sb": "",
+            "nat": "UGA",
+            "id": "14786748",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Chelangat"
+          }
+        },
+        {
+          "mark": "8:32.90",
+          "place": 3,
+          "notes": ""
+        },
+        {
+          "mark": "8:33.82",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:45.63",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14523341",
+            "hasAvy": true,
+            "firstName": "Hannah",
+            "lastName": "Nuttall"
+          }
+        },
+        {
+          "mark": "8:34.79",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "8:30.99",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14814043",
+            "hasAvy": true,
+            "firstName": "Caroline",
+            "lastName": "Nyaga"
+          }
+        },
+        {
+          "mark": "8:36.85",
+          "place": 6,
+          "notes": ""
+        },
+        {
+          "mark": "8:37.24",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14691558",
+            "hasAvy": true,
+            "firstName": "Águeda",
+            "lastName": "Marqués"
+          }
+        },
+        {
+          "mark": "8:38.83",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "8:29.32",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14635475",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "García"
+          }
+        },
+        {
+          "mark": "8:39.31",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "POR",
+            "id": "14594593",
+            "hasAvy": true,
+            "firstName": "Salomé",
+            "lastName": "Afonso"
+          }
+        },
+        {
+          "mark": "8:41.72",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "8:44.10",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14680524",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "Zenoni"
+          }
+        },
+        {
+          "mark": "8:50.18",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "8:34.09",
+            "sb": "8:44.51",
+            "nat": "JPN",
+            "id": "14632538",
+            "hasAvy": true,
+            "firstName": "Nozomi",
+            "lastName": "Tanaka"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "8:50.97",
+            "sb": "",
+            "nat": "SWE",
+            "id": "14403185",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Lahti"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "8:40.95",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14360725",
+            "hasAvy": true,
+            "firstName": "Katie",
+            "lastName": "Snowden"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "CZE",
+            "id": "14754762",
+            "hasAvy": true,
+            "firstName": "Nikola",
+            "lastName": "Bisová"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "8:52.30",
+            "sb": "",
+            "nat": "UGA",
+            "id": "14534257",
+            "hasAvy": true,
+            "firstName": "Winnie",
+            "lastName": "Nanyondo"
+          }
+        }
+      ]
     },
     "Long Jump, Women": {
       "date": "2025-06-15T20:23:00.000Z",
