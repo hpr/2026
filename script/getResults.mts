@@ -145,7 +145,7 @@ for (const key in resultsLinks) {
           .replace('meters', 'Metres')
           .replace('Meters', 'Metres')
           .replace('Dream ', '')
-          .replace('Metres Hurdles', 'm Hurdles') // only stockholm?
+          .replace(' Metres', 'm') // only stockholm?
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
         ) && unit.Stats.DiamondId

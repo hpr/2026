@@ -64,10 +64,11 @@ const fixIds = (picks: MeetTeam) => {
 };
 
 const evtToGenderedCode = (evt: string): AthleticsEvent => {
-  const words = evt.split(' ');
+  const words = evt.replace(',', '').replace('meters', 'Meters').split(' ');
   const genderWordIdx = words.findIndex((word) => word.toLowerCase().includes('men'));
   const [genderWord] = words.splice(genderWordIdx, 1);
-  return (genderWord[0].toUpperCase() + disciplineCodes[words.join(' ')]) as AthleticsEvent;
+  const result = (genderWord[0].toUpperCase() + disciplineCodes[words.join(' ')]);
+  return result as AthleticsEvent;
 };
 
 for (const meet of [MEET] as DLMeet[]) {
@@ -82,7 +83,6 @@ for (const meet of [MEET] as DLMeet[]) {
 
     const userPicks = Object.keys(picks!).reduce((acc, evt) => {
       const evtCode = evtToGenderedCode(evt);
-      console.log(evtCode, evt);
       acc[evtCode as AthleticsEvent] = { team: picks![evt as AthleticsEvent]!.map(({ id }) => id) };
       return acc;
     }, {} as LBPicks);
@@ -92,7 +92,8 @@ for (const meet of [MEET] as DLMeet[]) {
     let eventsScored = 0;
     for (const key in picks) {
       const evt = key as AthleticsEvent;
-      if (!entries[meet]![evt]!.results) continue;
+      if (!entries[meet]?.[evt]) console.log('Event not found: Something is wrong', name);
+      if (!entries[meet]?.[evt]?.results) continue;
       const { score: evtScore, scorers } = getScore(meet, picks, evt);
       userPicks[evtToGenderedCode(evt)]!.scorers = scorers;
       distanceScore += evtScore; // FIXME when we want to have King of the Distance again
