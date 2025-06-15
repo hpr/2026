@@ -21168,7 +21168,120 @@
           "lastName": "Erlandsson"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "20.05",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.63",
+            "sb": "20.15",
+            "nat": "CUB",
+            "id": "14518308",
+            "hasAvy": true,
+            "firstName": "Reynier",
+            "lastName": "Mena"
+          }
+        },
+        {
+          "mark": "20.32",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.83",
+            "sb": "20.07",
+            "nat": "LBR",
+            "id": "14803230",
+            "hasAvy": true,
+            "firstName": "Joseph",
+            "lastName": "Fahnbulleh"
+          }
+        },
+        {
+          "mark": "20.49",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.90",
+            "sb": "20.28",
+            "nat": "USA",
+            "id": "14476000",
+            "hasAvy": true,
+            "firstName": "Kyree",
+            "lastName": "King"
+          }
+        },
+        {
+          "mark": "20.51",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "20.44",
+            "sb": "",
+            "nat": "SWE",
+            "id": "14678946",
+            "hasAvy": true,
+            "firstName": "Henrik",
+            "lastName": "Larsson"
+          }
+        },
+        {
+          "mark": "20.52",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "20.15",
+            "sb": "20.15",
+            "nat": "RSA",
+            "id": "14942673",
+            "hasAvy": true,
+            "firstName": "Abduraqhman",
+            "lastName": "Karriem"
+          }
+        },
+        {
+          "mark": "20.57",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "20.49",
+            "sb": "",
+            "nat": "SWE",
+            "id": "14948375",
+            "hasAvy": true,
+            "firstName": "Erik",
+            "lastName": "Erlandsson"
+          }
+        },
+        {
+          "mark": "20.97",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "20.02",
+            "sb": "20.77",
+            "nat": "GER",
+            "id": "14705838",
+            "hasAvy": true,
+            "firstName": "Joshua",
+            "lastName": "Hartmann"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "19.95",
+            "sb": "20.35",
+            "nat": "CAN",
+            "id": "14366482",
+            "hasAvy": true,
+            "firstName": "Aaron",
+            "lastName": "Brown"
+          }
+        }
+      ]
     },
     "3000 meters, Women": {
       "date": "2025-06-15T20:20:00.000Z",
