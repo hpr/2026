@@ -55,6 +55,10 @@ async function getBlurbs() {
     fs.writeFileSync(ENTRIES_PATH, JSON.stringify(entries));
     if (!blurbCache[MEET].blurbs[evt]) {
       console.log(evt);
+      if (!entries[MEET][evt]?.entrants.length) {
+        console.log('no entrants');
+        continue;
+      }
       const resp = (await (await fetch(SERVER_URL + '/match', {
         method: 'POST',
         body: JSON.stringify({
