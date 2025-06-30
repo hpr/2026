@@ -80,7 +80,7 @@ async function getBlurbs() {
   for (const evt in oldEntries[MEET]) {
     oldEntries[MEET][evt].blurb = blurbCache[MEET]?.blurbs?.[evt];
   }
-  fs.writeFileSync(ENTRIES_PATH, JSON.stringify(oldEntries));
+  fs.writeFileSync(ENTRIES_PATH, JSON.stringify(oldEntries)); // if commented out, run getEntries
 }
 
 await getBlurbs();
