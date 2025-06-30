@@ -110,6 +110,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   paris25: {
     '110m Hurdles Men': '13.00',
+  },
+  eugene25: {
+    'Mile Men': '3:46.00',
   }
 };
 
@@ -139,6 +142,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   oslo25: '1:15pm ET',
   stockholm25: '11:14am ET',
   paris25: '1:50pm ET',
+  eugene25: '3:27pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -188,6 +192,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   oslo25: ['https://oslo.diamondleague.com/en/programme-results/'],
   stockholm25: ['https://stockholm.diamondleague.com/en/programme-results/'],
   paris25: ['https://paris.diamondleague.com/en/programme-results/'],
+  eugene25: ['https://eugene.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
@@ -325,7 +330,7 @@ const isField = (evt: string) => {
 
 const sanitizeEvtName = (name?: string, sex?: 'men' | 'women'): string | undefined => {
   name = name?.replace('  ', ' ');
-  name = name?.replace('Bowerman ', '').replace('Emsley Carr ', '');
+  name = name?.replace('Bowerman ', '').replace('Emsley Carr ', '').replace('Mutola ', '');
   if (name?.startsWith('Men ')) name = name.replace('Men ', '') + ' Men';
   if (name?.startsWith('Women ')) name = name.replace('Women ', '') + ' Women';
   if (!name?.toLowerCase().includes('men')) name += ` ${sex![0].toUpperCase() + sex?.slice(1)}`;
@@ -766,11 +771,15 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
               const entColTexts = entCols.map(d => d.textContent?.trim() ?? '');
               const [nat, athName] = entColTexts;
               const [sb, pb, worldRank] = entColTexts.slice(-3);
-              const id = entDiv.querySelector('a')?.href.split('/').at(-1)!;
               const words = athName.split(' ');
               const firstMixedCase = words.findIndex(w => w.toUpperCase() !== w);
               const lastName = nameFixer(words.slice(0, firstMixedCase).join(' '));
               const firstName = words.slice(firstMixedCase).join(' ');
+              let id = entDiv.querySelector('a')?.href.split('/').at(-1)!;
+              if (!id) id = {
+                'Cierra Jackson': '14839155',
+                'Mya Lesnar': '14847391',
+              }[`${firstName} ${lastName}`];
               return {
                 pb, sb, nat, id,
                 hasAvy: fs.existsSync(`./public/img/avatars/${id}_128x128.png`),
