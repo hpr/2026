@@ -27352,7 +27352,246 @@
           "lastName": "Liberman"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:57.02",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.14",
+            "sb": "3:58.04",
+            "nat": "KEN",
+            "id": "14892139",
+            "hasAvy": true,
+            "firstName": "Nelly",
+            "lastName": "Chepchirchir"
+          }
+        },
+        {
+          "mark": "3:57.15",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.46",
+            "sb": "3:59.17",
+            "nat": "IRL",
+            "id": "14705242",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Healy"
+          }
+        },
+        {
+          "mark": "3:57.50",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:53.22",
+            "sb": "3:59.19",
+            "nat": "ETH",
+            "id": "15009582",
+            "hasAvy": true,
+            "firstName": "Birke",
+            "lastName": "Haylom"
+          }
+        },
+        {
+          "mark": "3:57.63",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.40",
+            "sb": "3:58.70",
+            "nat": "AUS",
+            "id": "14272002",
+            "hasAvy": true,
+            "firstName": "Linden",
+            "lastName": "Hall"
+          }
+        },
+        {
+          "mark": "3:57.95",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.00",
+            "sb": "3:58.44",
+            "nat": "ETH",
+            "id": "14852703",
+            "hasAvy": true,
+            "firstName": "Worknesh",
+            "lastName": "Mesele"
+          }
+        },
+        {
+          "mark": "3:58.06",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:52.61",
+            "sb": "4:00.85",
+            "nat": "GBR",
+            "id": "14329797",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Hunter Bell"
+          }
+        },
+        {
+          "mark": "3:58.44",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.69",
+            "sb": "4:01.49",
+            "nat": "FRA",
+            "id": "14685757",
+            "hasAvy": true,
+            "firstName": "Agathe",
+            "lastName": "Guillemot"
+          }
+        },
+        {
+          "mark": "3:58.65",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.07",
+            "sb": "3:59.73",
+            "nat": "KEN",
+            "id": "14700633",
+            "hasAvy": true,
+            "firstName": "Susan Lokayo",
+            "lastName": "Ejore"
+          }
+        },
+        {
+          "mark": "3:59.06",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "4:04.92",
+            "sb": "4:04.92",
+            "nat": "FRA",
+            "id": "14683883",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Madeleine"
+          }
+        },
+        {
+          "mark": "3:59.32",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.96",
+            "sb": "",
+            "nat": "POR",
+            "id": "14594593",
+            "hasAvy": true,
+            "firstName": "Salomé",
+            "lastName": "Afonso"
+          }
+        },
+        {
+          "mark": "3:59.42",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "3:58.65",
+            "sb": "4:07.33",
+            "nat": "GBR",
+            "id": "14533469",
+            "hasAvy": true,
+            "firstName": "Jemma",
+            "lastName": "Reekie"
+          }
+        },
+        {
+          "mark": "4:00.69",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "4:00.84",
+            "sb": "4:02.25",
+            "nat": "ETH",
+            "id": "14805824",
+            "hasAvy": true,
+            "firstName": "Netsanet",
+            "lastName": "Desta"
+          }
+        },
+        {
+          "mark": "4:01.36",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "3:58.40",
+            "sb": "4:01.10",
+            "nat": "AUS",
+            "id": "14549778",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Griffith"
+          }
+        },
+        {
+          "mark": "4:01.41",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.21",
+            "sb": "3:59.93",
+            "nat": "ETH",
+            "id": "15009577",
+            "hasAvy": true,
+            "firstName": "Saron",
+            "lastName": "Berhe"
+          }
+        },
+        {
+          "mark": "4:01.86",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.74",
+            "sb": "4:04.05",
+            "nat": "ESP",
+            "id": "14261358",
+            "hasAvy": true,
+            "firstName": "Esther",
+            "lastName": "Guerrero"
+          }
+        },
+        {
+          "mark": "4:07.70",
+          "place": 16,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.32",
+            "sb": "3:59.32",
+            "nat": "AUS",
+            "id": "14636659",
+            "hasAvy": true,
+            "firstName": "Abbey",
+            "lastName": "Caldwell"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "4:12.72",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14737263",
+            "hasAvy": true,
+            "firstName": "Clara",
+            "lastName": "Liberman"
+          }
+        }
+      ]
     }
   }
 }
