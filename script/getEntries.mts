@@ -112,7 +112,7 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
     '110m Hurdles Men': '13.00',
   },
   eugene25: {
-    'Mile Men': '3:46.00',
+    'Bowerman Mile Men': '3:46.00',
   }
 };
 

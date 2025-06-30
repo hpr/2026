@@ -50,6 +50,7 @@ export type DLMeet =
   | 'zurich25';
 
 export type AthleticsEvent =
+  | 'Bowerman Mile Men'
   | '100m Women'
   | '100m Men'
   | '100m H Women'
