@@ -49,6 +49,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   oslo25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/OSLO_2025_SCHEDULE_JSON.json',
   stockholm25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/STOCKHOLM_2025_SCHEDULE_JSON.json',
   paris25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/PARIS_2025_SCHEDULE_JSON.json',
+  eugene25: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/EUGENE_2025_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -146,6 +147,8 @@ for (const key in resultsLinks) {
           .replace('meters', 'Metres')
           .replace('Meters', 'Metres')
           .replace('Dream ', '')
+          .replace('Bowerman ', '')
+          .replace('Mutola ', '')
           .replace(' Metres', 'm') // only stockholm?
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
