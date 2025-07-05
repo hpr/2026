@@ -29124,7 +29124,121 @@
         }
       ],
       "blurb": "### **Men's 400 Metres – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Quincy Hall (USA)** – **43.65**  \n2. **Matthew Hudson-Smith (GBR)** – **43.78**  \n3. **Muzala Samukonga (ZAM)** – **43.92**  \n4. **Kirani James (GRN)** – **44.05**  \n5. **Christopher Bailey (USA)** – **44.12**  \n6. **Jacory Patterson (USA)** – **44.30**  \n7. **Alexander Doom (BEL)** – **44.45**  \n8. **Khaleb McRae (USA)** – **44.60**  \n9. **Charles Dobson (GBR)** – **44.65**  \n\n---\n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Quincy Hall (USA) – 43.65**  \n- **Why 1st?** Hall is the reigning Olympic champion (2024) and has been **on fire** in recent races, with **three sub-44 performances** (43.80, 43.95, 43.40). His **consistency** is unmatched—he has won **six of his last seven races**, including a **43.40 PB in Paris**. His **late-season form** (44.22 in Rome 2025) suggests he’s still sharp.  \n- **Weakness?** His **early 2025 was shaky** (45.99 in China), but he bounced back with a **44.22 win in Rome**. If he avoids a slow start, he’s the clear favorite.  \n\n#### **2. Matthew Hudson-Smith (GBR) – 43.78**  \n- **Why 2nd?** The **European record holder (43.44)** and **2024 Olympic silver medalist**, Hudson-Smith is a **big-race performer**. His **44.07 in Oslo 2024 and 43.74 in London** prove his elite speed.  \n- **Concerns?** His **2025 form is inconsistent**—**44.37 in Miramar** is solid, but he was **7th in a 200m (20.64)** and **5th in another (20.70)**. If he’s not at 100%, Hall beats him.  \n\n#### **3. Muzala Samukonga (ZAM) – 43.92**  \n- **Why 3rd?** The **youngest (22) and rising star**—**43.74 PB (Paris 2024)** and **43.99 win in Rome 2024**. His **44.06 in Lausanne** shows he can compete with the best.  \n- **Downside?** His **2025 form is mixed**—**44.56 in Miramar**, **45.10 in Philly**. If he runs like he did in **Paris 2024**, he could even challenge for **2nd**.  \n\n#### **4. Kirani James (GRN) – 44.05**  \n- **Why 4th?** The **legendary veteran (32)** still has elite speed (**43.78 in Paris 2024**), but his **2025 results are declining**—**44.89 in Xiamen, 44.92 in Rome**.  \n- **Can he surprise?** Yes—he’s a **three-time Olympic medalist**, but his **peak was 2024**. He’ll fight hard but likely **miss the podium**.  \n\n#### **5. Christopher Bailey (USA) – 44.12**  \n- **Why 5th?** A **strong relay performer (2:54.43 WR in Paris 2024)** but **inconsistent individually**. His **44.17 in Shaoxing 2025** was impressive, but he **struggled in Paris (44.58 in final)**.  \n- **Potential?** If he runs like his **44.27 in Xiamen**, he could **challenge James**.  \n\n#### **6. Jacory Patterson (USA) – 44.30**  \n- **Why 6th?** **Fastest PB (43.98 in 2025)**, but **inconsistent**. His **44.27 in Gainesville** was strong, but he **lacks big-race experience** compared to Hall/Hudson-Smith.  \n- **Wildcard?** If he replicates his **43.98**, he could **steal 4th or 5th**.  \n\n#### **7. Alexander Doom (BEL) – 44.45**  \n- **Why 7th?** **2024 World Indoor champ**, but his **outdoor form is shaky**—**45.60 in Rome 2025, 44.92 in Xiamen**. His **44.15 PB is strong**, but he hasn’t shown it lately.  \n\n#### **8. Khaleb McRae (USA) – 44.60**  \n- **Why 8th?** **43.91 in London 2025** was a **huge PB**, but his **other 2025 races (45.38, 45.04)** suggest inconsistency.  \n\n#### **9. Charles Dobson (GBR) – 44.65**  \n- **Why 9th?** **Relay specialist**—his **44.49 in Brussels 2024** was good, but he’s **not in the same league as Hall/Hudson-Smith**.  \n\n---\n\n### **Final Thoughts:**  \n- **Hall** is the **favorite** based on **peak form and consistency**.  \n- **Hudson-Smith** is the **biggest threat** if he runs near his **43.44 PB**.  \n- **Samukonga** is the **dark horse**—if he runs like **Paris 2024**, he could **upset**.  \n- **James and Bailey** will battle for **4th**, but age and inconsistency may hold them back.  \n- **Patterson, Doom, McRae, Dobson** are **outside podium contenders** but lack the **big-race pedigree**.  \n\n**Predicted Race Dynamic:** Hall takes control **off the final bend**, Hudson-Smith pushes hard but **falls short**, and Samukonga **sneaks into 3rd** with a late surge. James fades slightly but holds off Bailey.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "44.10",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "44.37",
+            "nat": "GBR",
+            "id": "14407278",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Hudson-Smith"
+          }
+        },
+        {
+          "mark": "44.15",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.17",
+            "sb": "44.17",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Christopher",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "44.31",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "43.98",
+            "sb": "43.98",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "44.45",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "43.91",
+            "sb": "43.91",
+            "nat": "USA",
+            "id": "14797010",
+            "hasAvy": true,
+            "firstName": "Khaleb",
+            "lastName": "McRae"
+          }
+        },
+        {
+          "mark": "44.49",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.56",
+            "nat": "ZAM",
+            "id": "14930603",
+            "hasAvy": true,
+            "firstName": "Muzala",
+            "lastName": "Samukonga"
+          }
+        },
+        {
+          "mark": "44.65",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "44.23",
+            "sb": "44.64",
+            "nat": "GBR",
+            "id": "14762871",
+            "hasAvy": true,
+            "firstName": "Charles",
+            "lastName": "Dobson"
+          }
+        },
+        {
+          "mark": "44.80",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.89",
+            "nat": "GRN",
+            "id": "14195659",
+            "hasAvy": true,
+            "firstName": "Kirani",
+            "lastName": "James"
+          }
+        },
+        {
+          "mark": "45.68",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "44.92",
+            "nat": "BEL",
+            "id": "14548983",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Doom"
+          }
+        }
+      ]
     },
     "Discus Women": {
       "date": "2025-07-06T00:46:00.000Z",
@@ -29205,7 +29319,121 @@
         }
       ],
       "blurb": "### **Women's Discus Throw Competition Prediction & Preview**  \n\n#### **Predicted Finish & Marks:**  \n1. **Valarie Allman (USA)** – **71.25m**  \n2. **Yaimé Pérez (CUB)** – **69.50m**  \n3. **Jorinde van Klinken (NED)** – **67.85m**  \n4. **Jayden Ulrich (USA)** – **66.90m**  \n5. **Laulauga Tausaga (USA)** – **65.75m**  \n6. **Sandra Elkasević (CRO)** – **64.30m**  \n7. **Marike Steinacker (GER)** – **63.80m**  \n8. **Cierra Jackson (USA)** – **62.50m**  \n\n---  \n\n### **Reasoning & Analysis:**  \n\n#### **1. Valarie Allman (USA) – 71.25m**  \n**Why?** Allman is the clear favorite—she’s in the form of her life, having thrown **73.52m** in April 2025 (her best mark in years) and consistently hitting **69m+** in major competitions. She’s a two-time Olympic champion (2021, 2024) and has **beaten Pérez head-to-head multiple times** (e.g., 70.89m vs. Pérez’s 67.25m in June 2024). Her recent **70.08m in Shaoxing** (May 2025) shows she’s still peaking. Unless she has an off day, she wins.  \n\n#### **2. Yaimé Pérez (CUB) – 69.50m**  \n**Why?** Pérez is the most consistent challenger to Allman, with a **73.09m** throw in April 2024 and multiple **68m+** performances. However, she’s **lost to Allman in their last 5 meetings** (e.g., 66.63m vs. Allman’s 69.21m in Rome 2025). Her **66.96m in Ramona (April 2025)** was underwhelming, but she rebounded with **68.18m in May 2025**, proving she can still threaten 70m.  \n\n#### **3. Jorinde van Klinken (NED) – 67.85m**  \n**Why?** The Dutch thrower has been **inconsistent but dangerous**, with a **66.42m** in Paris (June 2025) and a **66.22m** in Shaoxing (May 2025). She’s **young (24)** and improving, but her **shot put focus** (she competes in both) may limit her discus ceiling. Still, she’s beaten **Elkasević and Steinacker** recently and has the power to podium.  \n\n#### **4. Jayden Ulrich (USA) – 66.90m**  \n**Why?** The **22-year-old rising star** has made huge strides, throwing **69.39m in April 2025**—her first real elite mark. She also hit **66.14m in March 2025**, showing she’s no fluke. However, she lacks experience in deep fields (e.g., **62.68m in Rome 2025** was only 8th). If she replicates her **69m form**, she could even challenge for bronze.  \n\n#### **5. Laulauga Tausaga (USA) – 65.75m**  \n**Why?** The **2023 World Champion** has been **erratic**—she threw **70.72m in April 2025** but followed it with **61.34m in Shaoxing**. Her **66.59m in June 2025** was solid, but she’s **too inconsistent** to trust for a podium. If she’s on, she could surprise, but recent **57m throws (Paris 2025)** suggest she’s not in top form.  \n\n#### **6. Sandra Elkasević (CRO) – 64.30m**  \n**Why?** The **legendary Croatian** is **past her prime (34 years old)**. Her **68.81m in Zagreb (2024)** was impressive, but she’s **struggled in elite fields** (e.g., **63.55m in Xiamen 2025, 62.68m in Shaoxing 2025**). She’s still capable of **65m+**, but she’s no longer a medal threat.  \n\n#### **7. Marike Steinacker (GER) – 63.80m**  \n**Why?** The **German veteran** has been **solid but unspectacular**, with a **66.84m in July 2024** her best recent mark. She’s **struggled in Diamond League meets** (e.g., **60.65m in Paris 2025**), and her **63.66m in June 2025** suggests she’s plateauing.  \n\n#### **8. Cierra Jackson (USA) – 62.50m**  \n**Why?** The **youngest (22) and least experienced**, Jackson is **more of a shot put/hammer specialist**. Her **65.82m in June 2025** was a breakthrough, but she’s **never faced a field this strong**. Expect her to finish last but gain valuable experience.  \n\n---  \n\n### **Final Thoughts:**  \n- **Allman** is the **heavy favorite**, but **Pérez** could push her if she hits 70m.  \n- **Van Klinken vs. Ulrich** will be the **battle for bronze**—Ulrich has higher upside, but van Klinken is more consistent.  \n- **Tausaga** is a **wildcard**—if she’s on, she could steal a medal.  \n- **Elkasević and Steinacker** are **fading veterans**, while **Jackson** is still developing.  \n\n**Predicted Winner: Valarie Allman (71.25m)** – She’s simply the best in the world right now.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "70.68",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "73.52",
+            "sb": "73.52",
+            "nat": "USA",
+            "id": "14479216",
+            "hasAvy": true,
+            "firstName": "Valarie",
+            "lastName": "Allman"
+          }
+        },
+        {
+          "mark": "67.82",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "USA",
+            "id": "14839155",
+            "hasAvy": true,
+            "firstName": "Cierra",
+            "lastName": "Jackson"
+          }
+        },
+        {
+          "mark": "66.97",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "71.41",
+            "sb": "65.03",
+            "nat": "CRO",
+            "id": "14263753",
+            "hasAvy": true,
+            "firstName": "Sandra",
+            "lastName": "Elkasević"
+          }
+        },
+        {
+          "mark": "66.19",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "70.22",
+            "sb": "66.42",
+            "nat": "NED",
+            "id": "14676577",
+            "hasAvy": true,
+            "firstName": "Jorinde",
+            "lastName": "van Klinken"
+          }
+        },
+        {
+          "mark": "65.96",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "73.09",
+            "sb": "68.18",
+            "nat": "CUB",
+            "id": "14327290",
+            "hasAvy": true,
+            "firstName": "Yaimé",
+            "lastName": "Pérez"
+          }
+        },
+        {
+          "mark": "64.94",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "70.72",
+            "sb": "70.72",
+            "nat": "USA",
+            "id": "14647494",
+            "hasAvy": true,
+            "firstName": "Laulauga",
+            "lastName": "Tausaga"
+          }
+        },
+        {
+          "mark": "63.64",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "67.31",
+            "sb": "64.78",
+            "nat": "GER",
+            "id": "14373479",
+            "hasAvy": true,
+            "firstName": "Marike",
+            "lastName": "Steinacker"
+          }
+        },
+        {
+          "mark": "62.15",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "69.39",
+            "sb": "69.39",
+            "nat": "USA",
+            "id": "14907500",
+            "hasAvy": true,
+            "firstName": "Jayden",
+            "lastName": "Ulrich"
+          }
+        }
+      ]
     },
     "Shot Put Men": {
       "date": "2025-07-06T00:56:00.000Z",
@@ -29286,7 +29514,121 @@
         }
       ],
       "blurb": "### **Men's Shot Put Competition Prediction & Preview**  \n\n#### **Predicted Finish & Marks:**  \n1. **Leonardo Fabbri (ITA)** – **22.65m**  \n2. **Joe Kovacs (USA)** – **22.40m**  \n3. **Payton Otterdahl (USA)** – **22.15m**  \n4. **Tom Walsh (NZL)** – **21.85m**  \n5. **Rajindra Campbell (JAM)** – **21.50m**  \n6. **Adrian Piperi (USA)** – **21.30m**  \n7. **Roger Steen (USA)** – **21.10m**  \n8. **Chukwuebuka Enekwechi (NGR)** – **20.90m**  \n\n---  \n\n### **Reasoning:**  \n\n#### **1. Leonardo Fabbri (ITA) – 22.65m**  \nFabbri is the **most consistent performer** in this field right now. His 2024 season was outstanding, with **multiple 22m+ throws**, including a **22.98m** in Brussels (Sep 2024). He has also shown **strong indoor performances (22.37m in Liévin)** and has been **dominant in European meets**. His recent **22.31m in Lucca (June 2025)** suggests he’s still in top form. While Kovacs has the pedigree, Fabbri’s **recent consistency and peak form** give him the edge.  \n\n#### **2. Joe Kovacs (USA) – 22.40m**  \nKovacs is a **legend** (2x World Champion, Olympic silver medalist) and has thrown **23.13m in 2024**, but his **2025 results have been inconsistent** (20.79m in Halle, 21.52m in Rabat). His **best days may be behind him at 35**, but he’s still capable of a **big throw under pressure**. If he hits his best, he could win, but Fabbri’s **recent momentum** makes him the safer pick.  \n\n#### **3. Payton Otterdahl (USA) – 22.15m**  \nOtterdahl has been **quietly excellent** in 2024-25, with **multiple 22m+ marks**, including a **22.59m in Des Moines (April 2024)** and a **22.09m in June 2025**. He’s **less flashy** than Kovacs or Fabbri but **rarely bombs** (unlike Walsh or Campbell). His **consistency** should land him on the podium.  \n\n#### **4. Tom Walsh (NZL) – 21.85m**  \nWalsh is a **former world champion**, but his **2024-25 results have been shaky**—**21.89m in Rome (June 2025)** is solid, but he’s had **multiple 21m-range throws with no real peak**. His **best days (22.90m PB) seem distant**, and he’s **not as reliable as Fabbri or Kovacs**. Still, his experience keeps him ahead of the lower-tier throwers.  \n\n#### **5. Rajindra Campbell (JAM) – 21.50m**  \nCampbell is **inconsistent but dangerous**. He threw **22.15m in Paris (Aug 2024)** and **21.95m in Brussels (Sep 2024)**, but he also has **many sub-21m marks** (20.72m in Bydgoszcz, May 2025). If he’s on, he could challenge Walsh, but **too many off days** keep him mid-pack.  \n\n#### **6. Adrian Piperi (USA) – 21.30m**  \nPiperi is **young (25) and improving**, with a **21.96m in Lucca (June 2025)** showing promise. However, he **lacks the big-meet experience** of the top guys and has **too many 20m-range throws** to be a real threat here.  \n\n#### **7. Roger Steen (USA) – 21.10m**  \nSteen has **some solid marks (21.77m in Rovereto, June 2025)**, but he’s **not a consistent 21.50m+ guy**. He’s **beaten Piperi before**, but his **lack of elite-level throws** keeps him in the lower half.  \n\n#### **8. Chukwuebuka Enekwechi (NGR) – 20.90m**  \nEnekwechi is **Nigeria’s best**, but his **2025 results (21.38m in Rabat, 21.27m in Bydgoszcz)** are **well below the top contenders**. He’s **reliable for 21m but not a podium threat** in this field.  \n\n---  \n\n### **Final Thoughts:**  \n- **Fabbri** is the **favorite** based on **recent dominance**.  \n- **Kovacs** could **steal the win** if he finds his old form.  \n- **Otterdahl** is the **dark horse** for a podium spot.  \n- **Walsh and Campbell** are **too inconsistent** to challenge the top three.  \n- **Piperi, Steen, and Enekwechi** are **fighting for scraps** in this stacked field.  \n\n**Predicted Winning Mark:** **22.65m** (Fabbri, with Kovacs pushing him close).",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.48",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "23.23",
+            "sb": "21.59",
+            "nat": "USA",
+            "id": "14243308",
+            "hasAvy": true,
+            "firstName": "Joe",
+            "lastName": "Kovacs"
+          }
+        },
+        {
+          "mark": "22.11",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "22.08",
+            "sb": "21.77",
+            "nat": "USA",
+            "id": "14515622",
+            "hasAvy": true,
+            "firstName": "Roger",
+            "lastName": "Steen"
+          }
+        },
+        {
+          "mark": "22.10",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "21.91",
+            "sb": "21.62",
+            "nat": "NGR",
+            "id": "14463876",
+            "hasAvy": true,
+            "firstName": "Chukwuebuka Cornnell",
+            "lastName": "Enekwechi"
+          }
+        },
+        {
+          "mark": "22.09",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "21.96",
+            "sb": "21.96",
+            "nat": "USA",
+            "id": "14713124",
+            "hasAvy": true,
+            "firstName": "Adrian",
+            "lastName": "Piperi"
+          }
+        },
+        {
+          "mark": "22.04",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "22.31",
+            "sb": "21.95",
+            "nat": "JAM",
+            "id": "14687604",
+            "hasAvy": true,
+            "firstName": "Rajindra",
+            "lastName": "Campbell"
+          }
+        },
+        {
+          "mark": "21.92",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.46",
+            "sb": "22.09",
+            "nat": "USA",
+            "id": "14674710",
+            "hasAvy": true,
+            "firstName": "Payton",
+            "lastName": "Otterdahl"
+          }
+        },
+        {
+          "mark": "21.71",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "22.98",
+            "sb": "22.31",
+            "nat": "ITA",
+            "id": "14567432",
+            "hasAvy": true,
+            "firstName": "Leonardo",
+            "lastName": "Fabbri"
+          }
+        },
+        {
+          "mark": "21.50",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "22.90",
+            "sb": "21.89",
+            "nat": "NZL",
+            "id": "14413007",
+            "hasAvy": true,
+            "firstName": "Tom",
+            "lastName": "Walsh"
+          }
+        }
+      ]
     },
     "1500m Women": {
       "date": "2025-07-06T00:58:00.000Z",
@@ -29430,7 +29772,223 @@
         }
       ],
       "blurb": "### **Women's 1500m Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Faith Kipyegon (KEN)** – **3:50.12**  \n2. **Diribe Welteji (ETH)** – **3:51.45**  \n3. **Freweyni Hailu (ETH)** – **3:52.10**  \n4. **Jessica Hull (AUS)** – **3:52.89**  \n5. **Georgia Hunter Bell (GBR)** – **3:53.50**  \n6. **Nikki Hiltz (USA)** – **3:54.20**  \n7. **Susan Lokayo Ejore (KEN)** – **3:55.10**  \n8. **Sarah Healy (IRL)** – **3:56.50**  \n9. **Heather MacLean (USA)** – **3:57.20**  \n10. **Sinclaire Johnson (USA)** – **3:58.10**  \n11. **Shelby Houlihan (USA)** – **3:59.50**  \n12. **Emily MacKay (USA)** – **4:00.30**  \n13. **Elise Cranny (USA)** – **4:01.50**  \n14. **Erin Wallace (GBR)** – **4:02.80**  \n15. **Saron Berhe (ETH)** – **4:04.50**  \n\n---  \n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Faith Kipyegon (KEN) – 3:50.12**  \n- **Why 1st?** The undisputed queen of the 1500m. Even at 30, she’s still in peak form, with multiple sub-3:53 performances in 2024, including a **3:49.04** in Paris. She’s a three-time Olympic champion and holds the world record. Her tactical awareness and closing speed (evident in her **3:51.29** win at Stade de France) make her unbeatable in a fast race.  \n\n#### **2. Diribe Welteji (ETH) – 3:51.45**  \n- **Why 2nd?** The 22-year-old has been on fire, with a **3:53.75** win in Eugene and a **3:55.10** victory in Paris. She’s aggressive, has great endurance (as seen in her **8:21.50** 3000m), and can handle Kipyegon’s surges better than most.  \n\n#### **3. Freweyni Hailu (ETH) – 3:52.10**  \n- **Why 3rd?** A consistent performer with a **3:54.16** in Rome and a **3:55.48** in LA. She’s strong tactically and has the speed to outkick Hull and Bell. Her **4:00.42** in Doha was a controlled effort, and she’s capable of much faster.  \n\n#### **4. Jessica Hull (AUS) – 3:52.89**  \n- **Why 4th?** Hull has been in great form, with a **3:50.83** PB and multiple sub-3:53 races. However, she often loses to Kipyegon and the Ethiopians in championship-style races (e.g., **3:52.56** in Paris, **2nd** to Kipyegon). She’s consistent but lacks the final kick to win.  \n\n#### **5. Georgia Hunter Bell (GBR) – 3:53.50**  \n- **Why 5th?** A strong tactician with a **3:52.61** PB, but she’s inconsistent. She was **3rd** in Paris but has also finished **7th** in Brussels. Her indoor dominance doesn’t always translate outdoors.  \n\n#### **6. Nikki Hiltz (USA) – 3:54.20**  \n- **Why 6th?** A strong kicker (as seen in their **3:55.33** win in Eugene), but struggles in truly elite fields (e.g., **7th** in Paris with **3:56.38**). Their 800m speed (**1:58.23**) helps, but they lack the endurance to match the top Africans.  \n\n#### **7. Susan Lokayo Ejore (KEN) – 3:55.10**  \n- **Why 7th?** A solid performer but not at Kipyegon’s level. She’s been **5th-6th** in most major races (e.g., **3:56.07** in Paris). Her **1:57.12** 800m shows she has speed, but she fades in the last 200m.  \n\n#### **8. Sarah Healy (IRL) – 3:56.50**  \n- **Why 8th?** A rising talent with a **3:57.15** recently in Paris, but she’s still developing. Her **4:02.12** in Ostrava shows she can hang, but she lacks the experience to medal yet.  \n\n#### **9. Heather MacLean (USA) – 3:57.20**  \n- **Why 9th?** Decent speed (**1:59.44** 800m), but her 1500m performances (**4:02.49** best in 2024) suggest she’s a tier below the top contenders.  \n\n#### **10. Sinclaire Johnson (USA) – 3:58.10**  \n- **Why 10th?** Inconsistent. She ran **3:56.75** in Eugene but also **4:00.43** in the same season. Struggles in deep fields.  \n\n#### **11. Shelby Houlihan (USA) – 3:59.50**  \n- **Why 11th?** Just returning from a ban, her fitness is questionable. Her **4:03.40** indoors is decent, but she’s not at her 2019 level yet.  \n\n#### **12. Emily MacKay (USA) – 4:00.30**  \n- **Why 12th?** Solid but unspectacular. Her **3:55.90** in Eugene was a one-off; she’s usually around **3:59-4:02**.  \n\n#### **13. Elise Cranny (USA) – 4:01.50**  \n- **Why 13th?** More of a 5000m runner. Her **4:02.85** indoors is her best, and she lacks the speed for a fast 1500m.  \n\n#### **14. Erin Wallace (GBR) – 4:02.80**  \n- **Why 14th?** Primarily an 800m runner (**1:59.19** PB). Her **4:02.74** in Troyes is her best, but she’s outclassed here.  \n\n#### **15. Saron Berhe (ETH) – 4:04.50**  \n- **Why 15th?** Only 17, still developing. Her **3:59.93** in Rabat is promising, but she’s not ready for this level yet.  \n\n---  \n\n### **Final Thoughts:**  \n- **Kipyegon wins easily**—she’s in a league of her own.  \n- **Welteji & Hailu** battle for silver, with Welteji’s recent form giving her the edge.  \n- **Hull & Bell** are strong but lack the closing speed to medal.  \n- **Americans struggle**—Hiltz is the best of them, but none are true contenders here.  \n- **Youth vs. Experience:** Berhe and Healy show promise but aren’t ready to challenge the top yet.  \n\nThis will be a fast race, but Kipyegon’s dominance is undeniable.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:48.68",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:49.04",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14413305",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Kipyegon"
+          }
+        },
+        {
+          "mark": "3:51.44",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:52.75",
+            "sb": "3:58.04",
+            "nat": "ETH",
+            "id": "14848719",
+            "hasAvy": true,
+            "firstName": "Diribe",
+            "lastName": "Welteji"
+          }
+        },
+        {
+          "mark": "3:52.67",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:50.83",
+            "sb": "3:58.36",
+            "nat": "AUS",
+            "id": "14464506",
+            "hasAvy": true,
+            "firstName": "Jessica",
+            "lastName": "Hull"
+          }
+        },
+        {
+          "mark": "3:54.76",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:52.61",
+            "sb": "3:58.06",
+            "nat": "GBR",
+            "id": "14329797",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Hunter Bell"
+          }
+        },
+        {
+          "mark": "3:55.96",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "3:55.33",
+            "sb": "4:00.54",
+            "nat": "USA",
+            "id": "14465104",
+            "hasAvy": true,
+            "firstName": "Nikki",
+            "lastName": "Hiltz"
+          }
+        },
+        {
+          "mark": "3:56.93",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.75",
+            "sb": "4:01.46",
+            "nat": "USA",
+            "id": "14620126",
+            "hasAvy": true,
+            "firstName": "Sinclaire",
+            "lastName": "Johnson"
+          }
+        },
+        {
+          "mark": "3:57.20",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.15",
+            "sb": "3:57.15",
+            "nat": "IRL",
+            "id": "14705242",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Healy"
+          }
+        },
+        {
+          "mark": "3:57.72",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.21",
+            "sb": "3:59.93",
+            "nat": "ETH",
+            "id": "15009577",
+            "hasAvy": true,
+            "firstName": "Saron",
+            "lastName": "Berhe"
+          }
+        },
+        {
+          "mark": "3:57.74",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "3:54.16",
+            "sb": "4:06.96",
+            "nat": "ETH",
+            "id": "14836656",
+            "hasAvy": true,
+            "firstName": "Freweyni",
+            "lastName": "Hailu"
+          }
+        },
+        {
+          "mark": "3:57.91",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "3:55.90",
+            "sb": "4:03.33",
+            "nat": "USA",
+            "id": "14667572",
+            "hasAvy": true,
+            "firstName": "Emily",
+            "lastName": "MacKay"
+          }
+        },
+        {
+          "mark": "3:58.05",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.07",
+            "sb": "3:58.65",
+            "nat": "KEN",
+            "id": "14700633",
+            "hasAvy": true,
+            "firstName": "Susan Lokayo",
+            "lastName": "Ejore"
+          }
+        },
+        {
+          "mark": "4:00.20",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "3:58.31",
+            "sb": "3:59.71",
+            "nat": "USA",
+            "id": "14535001",
+            "hasAvy": true,
+            "firstName": "Heather",
+            "lastName": "MacLean"
+          }
+        },
+        {
+          "mark": "4:02.38",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "3:54.99",
+            "sb": "4:04.76",
+            "nat": "USA",
+            "id": "14368938",
+            "hasAvy": true,
+            "firstName": "Shelby",
+            "lastName": "Houlihan"
+          }
+        },
+        {
+          "mark": "4:03.31",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.87",
+            "sb": "",
+            "nat": "USA",
+            "id": "14531083",
+            "hasAvy": true,
+            "firstName": "Elise",
+            "lastName": "Cranny"
+          }
+        },
+        {
+          "mark": "4:06.27",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "4:02.74",
+            "sb": "4:02.74",
+            "nat": "GBR",
+            "id": "14540786",
+            "hasAvy": true,
+            "firstName": "Erin",
+            "lastName": "Wallace"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2025-07-06T01:09:00.000Z",
@@ -29592,7 +30150,250 @@
         }
       ],
       "blurb": "### **Women's 3000m Steeplechase Race Prediction & Preview**  \n\n#### **Predicted Finish & Times**  \n1. **Winfred Yavi (BRN)** – **8:48.12**  \n2. **Faith Cherotich (KEN)** – **8:50.45**  \n3. **Peruth Chemutai (UGA)** – **8:52.89**  \n4. **Sembo Almayew (ETH)** – **8:56.33**  \n5. **Norah Jeruto (KAZ)** – **8:58.21**  \n6. **Alice Finot (FRA)** – **9:01.47**  \n7. **Marwa Bouzayani (TUN)** – **9:03.82**  \n8. **Gesa Felicitas Krause (GER)** – **9:06.15**  \n9. **Gabrielle Jennings (USA)** – **9:08.94**  \n10. **Courtney Wayment (USA)** – **9:11.28**  \n11. **Valerie Constien (USA)** – **9:14.50**  \n12. **Lomi Muleta (ETH)** – **9:16.77**  \n13. **Lexy Halladay (USA)** – **9:19.32**  \n14. **Kristlin Gear (USA)** – **9:22.45**  \n15. **Kaylee Mitchell (USA)** – **9:25.60**  \n16. **Olivia Markezich (USA)** – **9:28.91**  \n17. **Alemnat Walle (ETH)** – **9:35.44**  \n\n---  \n\n### **Race Analysis & Reasoning**  \n\n#### **1. Winfred Yavi (BRN) – 8:48.12**  \n- **Why 1st?** Yavi is the **Olympic champion** (8:44.39 PB) and has been **dominant in 2024-25**, with multiple wins under 9:05. Her **8:52.76 in Paris (Aug 2024)** and **8:44.39 in Rome (Aug 2024)** show she’s in peak form.  \n- **Recent Form:** She won in **Doha (9:05.26, May 2025)** and was **2nd in Oslo (9:02.76, June 2025)**, proving consistency.  \n- **Race Tactics:** She has the **best closing speed** and **strongest PB** in the field. Expect her to kick hard in the final lap.  \n\n#### **2. Faith Cherotich (KEN) – 8:50.45**  \n- **Why 2nd?** The **20-year-old phenom** has been **rapidly improving**, with a **8:53.37 win in Paris (June 2025)** and **9:02.36 in Brussels (Sep 2024)**.  \n- **Recent Wins:** She beat Yavi in **Doha (May 2025, 9:05.08)** and **Oslo (June 2025, 9:02.60)**, showing she can challenge the best.  \n- **Weakness?** Slightly **less experienced** than Yavi in championship races, but her **speed is undeniable**.  \n\n#### **3. Peruth Chemutai (UGA) – 8:52.89**  \n- **Why 3rd?** The **Olympic silver medalist (2024)** has a **PB of 8:48.03** and is a **proven big-race performer**.  \n- **Recent Form:** **8:54.41 in Paris (June 2025)** shows she’s still elite, but she **hasn’t beaten Yavi or Cherotich recently**.  \n- **Consistency:** Always in the mix, but **lacks the final kick** to beat the top two.  \n\n#### **4. Sembo Almayew (ETH) – 8:56.33**  \n- **Why 4th?** The **19-year-old** has **huge upside**, with a **9:01.22 in Paris (June 2025)** and **9:09.27 in Doha (May 2025)**.  \n- **Potential:** She’s **improving fast** and could challenge for a medal soon, but **not yet at Yavi/Cherotich level**.  \n\n#### **5. Norah Jeruto (KAZ) – 8:58.21**  \n- **Why 5th?** The **2022 World Champion** has been **inconsistent** since switching to Kazakhstan.  \n- **Recent Form:** **9:10.46 in Gumi (May 2025)** is solid, but **far from her 8:53 PB**.  \n- **Fitness Concerns?** She’s been **racing a lot on the roads**, suggesting **steeple isn’t her sole focus**.  \n\n#### **6. Alice Finot (FRA) – 9:01.47**  \n- **Why 6th?** The **European record holder** (9:03.30) is **consistent but lacks elite speed**.  \n- **Recent Form:** **9:15.33 in Paris (June 2025)** was disappointing, but she’s **capable of sub-9:05**.  \n\n#### **7. Marwa Bouzayani (TUN) – 9:03.82**  \n- **Why 7th?** She’s **improving**, with a **9:06.84 in Oslo (June 2025)**, but **not a medal threat yet**.  \n\n#### **8. Gesa Felicitas Krause (GER) – 9:06.15**  \n- **Why 8th?** The **veteran** (32) is **past her prime**, with a **DNF in Oslo (June 2025)** and **9:28.75 in Paris (June 2025)**.  \n\n#### **9-17: The Americans & Others**  \n- **Gabrielle Jennings (USA, 9:08.94)** – **Solid but not elite**.  \n- **Courtney Wayment (USA, 9:11.28)** – **Inconsistent, DNFs in key races**.  \n- **Valerie Constien (USA, 9:14.50)** – **Faded in 2025 (9:33 in Doha)**.  \n- **Lomi Muleta (ETH, 9:16.77)** – **DNF in Rome (2024) shows unreliability**.  \n- **Lexy Halladay (USA, 9:19.32)** – **Promising but not yet world-class**.  \n- **Kristlin Gear (USA, 9:22.45)** – **More of a miler, struggles in steeple**.  \n- **Kaylee Mitchell (USA, 9:25.60)** – **Decent but not competitive here**.  \n- **Olivia Markezich (USA, 9:28.91)** – **NCAA star, but outclassed in pro races**.  \n- **Alemnat Walle (ETH, 9:35.44)** – **Too young, lacks experience**.  \n\n---  \n\n### **Final Thoughts**  \n- **Yavi vs. Cherotich** will be the battle, with **Yavi’s experience** giving her the edge.  \n- **Chemutai** is a **safe bet for bronze**, but **Almayew could surprise**.  \n- **Americans are depth runners**—none are podium threats.  \n- **Jeruto is a wildcard**—if she’s in **2022 shape**, she could medal, but recent form says no.  \n\n**Predicted Race:** Fast early, Yavi and Cherotich break away late, with Chemutai holding off Almayew for bronze.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "8:45.25",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:44.39",
+            "sb": "9:02.76",
+            "nat": "BRN",
+            "id": "14695622",
+            "hasAvy": true,
+            "firstName": "Winfred",
+            "lastName": "Yavi"
+          }
+        },
+        {
+          "mark": "8:48.71",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:53.37",
+            "sb": "8:53.37",
+            "nat": "KEN",
+            "id": "14989893",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Cherotich"
+          }
+        },
+        {
+          "mark": "8:51.77",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8:48.03",
+            "sb": "8:54.41",
+            "nat": "UGA",
+            "id": "14707661",
+            "hasAvy": true,
+            "firstName": "Peruth",
+            "lastName": "Chemutai"
+          }
+        },
+        {
+          "mark": "8:59.46",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:53.02",
+            "sb": "9:10.46",
+            "nat": "KAZ",
+            "id": "14479154",
+            "hasAvy": true,
+            "firstName": "Norah",
+            "lastName": "Jeruto"
+          }
+        },
+        {
+          "mark": "8:59.90",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9:00.71",
+            "sb": "9:01.22",
+            "nat": "ETH",
+            "id": "14968520",
+            "hasAvy": true,
+            "firstName": "Sembo",
+            "lastName": "Almayew"
+          }
+        },
+        {
+          "mark": "9:06.61",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "9:07.70",
+            "sb": "9:08.05",
+            "nat": "USA",
+            "id": "14490787",
+            "hasAvy": true,
+            "firstName": "Gabrielle",
+            "lastName": "Jennings"
+          }
+        },
+        {
+          "mark": "9:06.88",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9:20.08",
+            "sb": "9:20.08",
+            "nat": "ETH",
+            "id": "15024112",
+            "hasAvy": true,
+            "firstName": "Alemnat",
+            "lastName": "Walle"
+          }
+        },
+        {
+          "mark": "9:08.66",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "9:14.05",
+            "sb": "9:24.95",
+            "nat": "USA",
+            "id": "14874875",
+            "hasAvy": true,
+            "firstName": "Kaylee",
+            "lastName": "Mitchell"
+          }
+        },
+        {
+          "mark": "9:09.47",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "9:08.68",
+            "sb": "9:08.68",
+            "nat": "USA",
+            "id": "14741102",
+            "hasAvy": true,
+            "firstName": "Lexy",
+            "lastName": "Halladay"
+          }
+        },
+        {
+          "mark": "9:09.84",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "8:58.67",
+            "sb": "9:15.33",
+            "nat": "FRA",
+            "id": "14758606",
+            "hasAvy": true,
+            "firstName": "Alice",
+            "lastName": "Finot"
+          }
+        },
+        {
+          "mark": "9:15.77",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "9:04.93",
+            "sb": "9:06.84",
+            "nat": "TUN",
+            "id": "14595096",
+            "hasAvy": true,
+            "firstName": "Marwa",
+            "lastName": "Bouzayani"
+          }
+        },
+        {
+          "mark": "9:16.57",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "9:03.22",
+            "sb": "9:32.87",
+            "nat": "USA",
+            "id": "14587271",
+            "hasAvy": true,
+            "firstName": "Valerie",
+            "lastName": "Constien"
+          }
+        },
+        {
+          "mark": "9:17.95",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "9:14.67",
+            "sb": "9:26.55",
+            "nat": "USA",
+            "id": "14846039",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "Markezich"
+          }
+        },
+        {
+          "mark": "9:20.46",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.07",
+            "sb": "9:13.44",
+            "nat": "ETH",
+            "id": "14893973",
+            "hasAvy": true,
+            "firstName": "Lomi",
+            "lastName": "Muleta"
+          }
+        },
+        {
+          "mark": "9:22.66",
+          "place": 15,
+          "notes": ""
+        },
+        {
+          "mark": "9:25.86",
+          "place": 16,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.50",
+            "sb": "9:08.88",
+            "nat": "USA",
+            "id": "14617090",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Wayment"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:03.30",
+            "sb": "9:28.75",
+            "nat": "GER",
+            "id": "14329341",
+            "hasAvy": true,
+            "firstName": "Gesa Felicitas",
+            "lastName": "Krause"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:12.81",
+            "sb": "9:24.36",
+            "nat": "USA",
+            "id": "14694660",
+            "hasAvy": true,
+            "firstName": "Kristlin",
+            "lastName": "Gear"
+          }
+        }
+      ]
     },
     "200m Men": {
       "date": "2025-07-06T01:25:00.000Z",
@@ -29682,7 +30483,126 @@
         }
       ],
       "blurb": "### **Men's 200m Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Letsile Tebogo (BOT)** – **19.55**  \n2. **Kenneth Bednarek (USA)** – **19.62**  \n3. **Alexander Ogando (DOM)** – **19.87**  \n4. **Courtney Lindsey (USA)** – **19.92**  \n5. **Jereem Richards (TTO)** – **19.98**  \n6. **Joseph Fahnbulleh (LBR)** – **20.08**  \n7. **Robert Gregory (USA)** – **20.15**  \n8. **Kyree King (USA)** – **20.25**  \n9. **Bryan Levell (JAM)** – **20.40**  \n\n---  \n\n### **Race Analysis & Reasoning:**  \n\n#### **1. Letsile Tebogo (BOT) – 19.55**  \n- **Why 1st?** Tebogo is the Olympic champion and has been in blistering form, with multiple sub-19.70 performances in 2024, including a **19.46** in Paris. His consistency is unmatched—he has run **five sub-19.70 times** this season, more than anyone else in the field.  \n- **Key Performances:**  \n  - **19.46 (+0.4)** in Paris (fastest in the field)  \n  - **19.55 (+0.4)** in Zürich (dominant win)  \n  - **19.64 (+0.9)** in Lausanne (strong against top competition)  \n- **Weakness?** None. He’s the clear favorite.  \n\n#### **2. Kenneth Bednarek (USA) – 19.62**  \n- **Why 2nd?** Bednarek is a proven championship performer (Olympic silver, Worlds silver) and has run **19.59** this season. However, he lacks Tebogo’s consistency—his best races are often in rounds, not always in finals.  \n- **Key Performances:**  \n  - **19.59 (+0.5)** in Eugene (fastest of his season)  \n  - **19.62 (+0.4)** in Paris (lost to Tebogo)  \n  - **19.67 (+1.7)** in Doha (wind-aided but strong)  \n- **Weakness?** Slightly less clutch than Tebogo in head-to-heads.  \n\n#### **3. Alexander Ogando (DOM) – 19.87**  \n- **Why 3rd?** Ogando is a rising star with **19.86 (+1.7)** and **19.94 (+0.9)** this season. His 400m speed (44.78 PB) gives him a strong finish, but he lacks the raw 200m consistency of Tebogo/Bednarek.  \n- **Key Performances:**  \n  - **19.86 (+1.7)** in Miramar (wind-aided but impressive)  \n  - **19.94 (+0.9)** in Lausanne (close to Bednarek)  \n  - **20.02 (+0.6)** in Monaco (solid, but not elite)  \n- **Weakness?** Needs a perfect race to challenge the top two.  \n\n#### **4. Courtney Lindsey (USA) – 19.92**  \n- **Why 4th?** Lindsey has run **19.71 (-1.5)** and **19.88 (+1.6)** this year, showing he can compete. However, he’s inconsistent—his **20.62 (+0.2)** in Kingston was awful.  \n- **Key Performances:**  \n  - **19.71 (-1.5)** in Nairobi (proves he can run fast in bad conditions)  \n  - **19.88 (+1.6)** in Gainesville (wind-aided but strong)  \n  - **20.01 (+1.7)** in Doha (solid, but not elite)  \n- **Weakness?** Too hit-or-miss to medal here.  \n\n#### **5. Jereem Richards (TTO) – 19.98**  \n- **Why 5th?** Richards is a 400m specialist (43.78 PB) who can close hard, but his 200m speed isn’t quite elite. His **19.86 (+1.7)** was wind-aided, and his **20.10 (+0.9)** in Lausanne was decent but not enough.  \n- **Key Performances:**  \n  - **19.86 (+1.7)** in Miramar (wind-aided, not legal)  \n  - **20.10 (+0.9)** in Lausanne (solid, but not podium-worthy)  \n  - **20.19 (-0.1)** in Luzern (good, but not great)  \n- **Weakness?** Lacks the pure 200m speed to medal.  \n\n#### **6. Joseph Fahnbulleh (LBR) – 20.08**  \n- **Why 6th?** Fahnbulleh was a rising star in 2022, but his 2024-25 form has been **inconsistent**. His **20.08 (-0.6)** in Zagreb was decent, but his **20.53 (+0.7)** in Brussels was poor.  \n- **Key Performances:**  \n  - **20.08 (-0.6)** in Zagreb (his best recent race)  \n  - **20.21 (+1.5)** in Baton Rouge (wind-aided)  \n  - **20.32 (+2.0)** in Stockholm (wind-aided, still not fast)  \n- **Weakness?** No longer in peak form—has regressed.  \n\n#### **7. Robert Gregory (USA) – 20.15**  \n- **Why 7th?** Gregory is a solid NCAA-level sprinter but hasn’t broken through internationally. His **20.07 (+1.3)** is his best, but he lacks big-race experience.  \n- **Key Performances:**  \n  - **20.07 (+1.3)** in Gainesville (wind-aided)  \n  - **20.24 (-2.0)** in Tokyo (slow, even with negative wind)  \n  - **20.44 (+1.5)** in Baton Rouge (not elite)  \n- **Weakness?** Not yet at world-class level.  \n\n#### **8. Kyree King (USA) – 20.25**  \n- **Why 8th?** King is a relay specialist who occasionally pops a good 200m, but his **20.11 (-1.4)** and **20.15 (+1.8)** are his best—not enough here.  \n- **Key Performances:**  \n  - **20.11 (-1.4)** in Walnut (solid, but not fast)  \n  - **20.15 (+1.8)** in Eugene (wind-aided)  \n  - **20.45 (+0.7)** in Brussels (slow for this field)  \n- **Weakness?** Just not fast enough.  \n\n#### **9. Bryan Levell (JAM) – 20.40**  \n- **Why 9th?** Levell is young and improving, but his **19.79* (+2.5)** was wind-aided, and his legal best is only **20.06* (+2.2)**. He’s outclassed here.  \n- **Key Performances:**  \n  - **19.79* (+2.5)** in Kingston (wind-aided, doesn’t count)  \n  - **20.06* (+2.2)** in Atlanta (also wind-aided)  \n  - **20.51 (-1.5)** in Kingston (slow)  \n- **Weakness?** Not ready for this level yet.  \n\n---  \n\n### **Final Thoughts:**  \n- **Tebogo** is the clear favorite—his **19.46** and **19.55** prove he’s in a league of his own.  \n- **Bednarek** is the only one who can challenge him, but he’s not as consistent.  \n- **Ogando** is the dark horse—if he runs a perfect race, he could surprise for bronze.  \n- **Lindsey & Richards** are solid but not podium threats.  \n- **Fahnbulleh has regressed**, while Gregory, King, and Levell are just not at this level yet.  \n\n**Predicted Race:** Tebogo dominates early, Bednarek closes hard but falls short, Ogando sneaks into 3rd.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "19.76",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.46",
+            "sb": "20.10",
+            "nat": "BOT",
+            "id": "14883897",
+            "hasAvy": true,
+            "firstName": "Letsile",
+            "lastName": "Tebogo"
+          }
+        },
+        {
+          "mark": "19.87",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.71",
+            "sb": "20.04",
+            "nat": "USA",
+            "id": "14845926",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Lindsey"
+          }
+        },
+        {
+          "mark": "19.94",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.86",
+            "sb": "19.86",
+            "nat": "DOM",
+            "id": "14912251",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Ogando"
+          }
+        },
+        {
+          "mark": "20.04",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "19.89",
+            "sb": "20.24",
+            "nat": "USA",
+            "id": "14843727",
+            "hasAvy": true,
+            "firstName": "Robert",
+            "lastName": "Gregory"
+          }
+        },
+        {
+          "mark": "20.23",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "19.80",
+            "sb": "19.86",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "20.25",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "19.97",
+            "sb": "20.51",
+            "nat": "JAM",
+            "id": "14925442",
+            "hasAvy": true,
+            "firstName": "Bryan",
+            "lastName": "Levell"
+          }
+        },
+        {
+          "mark": "20.44",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "20.53",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "19.83",
+            "sb": "20.07",
+            "nat": "LBR",
+            "id": "14803230",
+            "hasAvy": true,
+            "firstName": "Joseph",
+            "lastName": "Fahnbulleh"
+          }
+        },
+        {
+          "mark": "20.67",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "19.90",
+            "sb": "20.28",
+            "nat": "USA",
+            "id": "14476000",
+            "hasAvy": true,
+            "firstName": "Kyree",
+            "lastName": "King"
+          }
+        }
+      ]
     },
     "Mutola 800m Women": {
       "date": "2025-07-06T01:34:00.000Z",
@@ -29781,7 +30701,153 @@
         }
       ],
       "blurb": "### **Women’s 800 Metres – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Mary Moraa (KEN)** – **1:56.12**  \n2. **Tsige Duguma (ETH)** – **1:56.45**  \n3. **Athing Mu-Nikolayev (USA)** – **1:56.78**  \n4. **Jemma Reekie (GBR)** – **1:57.20**  \n5. **Prudence Sekgodiso (RSA)** – **1:57.65**  \n6. **Shafiqua Maloney (VIN)** – **1:58.10**  \n7. **Halimah Nakaayi (UGA)** – **1:58.50**  \n8. **Worknesh Mesele (ETH)** – **1:58.90**  \n9. **Anaïs Bourgoin (FRA)** – **1:59.30**  \n10. **Raevyn Rogers (USA)** – **2:00.50**  \n\n---  \n\n### **Race Preview & Reasoning:**  \n\n#### **1. Mary Moraa (KEN) – 1:56.12**  \n- **Why 1st?** Moraa is the most consistent and dominant 800m runner in this field. Her **1:56.56** in Brussels (2024) and **1:57.08** in Zürich (2024) show she peaks in big races.  \n- **Recent Form:** She has multiple sub-1:58 performances and **beat Duguma head-to-head** in Stockholm (1:57.83 vs. 1:58.00).  \n- **Tactical Edge:** Moraa has the best closing speed (her 400m PB of **50.57** is elite for an 800m runner) and can win from the front or a kick.  \n\n#### **2. Tsige Duguma (ETH) – 1:56.45**  \n- **Why 2nd?** Duguma has been **unstoppable indoors** (2024 World Indoor Champion) and has **beaten Mu and Reekie** in Paris (1:57.47).  \n- **Consistency:** She has **five sub-1:58 runs in 2024-25**, including a **1:56.64** in China (2025).  \n- **Weakness:** Moraa has beaten her in head-to-heads, and she sometimes struggles in tactical races.  \n\n#### **3. Athing Mu-Nikolayev (USA) – 1:56.78**  \n- **Why 3rd?** Mu is the most talented runner here (Olympic & World Champion), but **her form is shaky**.  \n- **Recent Struggles:** A **DNF in a 5000m race (2025)** and a **2:19.69** in Eugene (2024) suggest endurance issues.  \n- **Potential Upside:** If she’s back to her best, she could win, but recent **1:58.84** (2024) isn’t enough to beat Moraa/Duguma.  \n\n#### **4. Jemma Reekie (GBR) – 1:57.20**  \n- **Why 4th?** Reekie is **consistent (1:55.61 PB in 2024)** but **lacks a killer instinct** in big races.  \n- **Recent Form:** She’s been **beaten by Moraa, Duguma, and Mu** in key races (e.g., **1:57.45 in Eugene, 3rd place**).  \n- **Tactical Runner:** She’s strong but often gets outkicked.  \n\n#### **5. Prudence Sekgodiso (RSA) – 1:57.65**  \n- **Why 5th?** She’s **improving rapidly** (1:57.16 in Ostrava, 2025) and has **indoor success (1:58.40 PB)**.  \n- **Lacks Big-Race Experience:** She hasn’t beaten **Moraa/Duguma/Mu** yet, but she’s close.  \n\n#### **6. Shafiqua Maloney (VIN) – 1:58.10**  \n- **Why 6th?** She’s **fast (1:57.59 PB in 2024)** but **inconsistent** (DNFs and mixed results).  \n- **Versatile (400m speed)** but struggles against elite 800m specialists.  \n\n#### **7. Halimah Nakaayi (UGA) – 1:58.50**  \n- **Why 7th?** Former world champ, but **past her peak**.  \n- **Recent Form:** **1:58.39 in China (2025)** is solid, but she’s been **beaten by younger runners**.  \n\n#### **8. Worknesh Mesele (ETH) – 1:58.90**  \n- **Why 8th?** More of a **1500m runner** (3:57.61 PB).  \n- **Lacks 800m firepower** compared to Duguma.  \n\n#### **9. Anaïs Bourgoin (FRA) – 1:59.30**  \n- **Why 9th?** Decent **1:58.60 PB (2025)**, but **not in the same league** as the top contenders.  \n\n#### **10. Raevyn Rogers (USA) – 2:00.50**  \n- **Why 10th?** **Past her prime** (bronze in Tokyo 2020).  \n- **Recent Form:** **2:00.45 in 2025** is too slow for this field.  \n\n---  \n\n### **Final Thoughts:**  \n- **Moraa wins** due to **consistency, speed, and championship mentality**.  \n- **Duguma is the biggest threat**, but Moraa has beaten her before.  \n- **Mu is a wildcard**—if she’s back to her best, she could challenge, but recent results suggest she’s not.  \n- **Reekie and Sekgodiso** will fight for top 5, but lack the closing speed of the top 3.  \n- **Rogers and Bourgoin** are outclassed in this field.  \n\n**Predicted Race:** Fast early pace set by Maloney or Reekie, with Moraa and Duguma kicking hard in the last 200m. Mu hangs on for 3rd, but Moraa’s strength wins out.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:57.10",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.64",
+            "sb": "1:56.64",
+            "nat": "ETH",
+            "id": "14774192",
+            "hasAvy": true,
+            "firstName": "Tsige",
+            "lastName": "Duguma"
+          }
+        },
+        {
+          "mark": "1:57.16",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.16",
+            "sb": "1:57.16",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "mark": "1:57.89",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.26",
+            "sb": "1:58.39",
+            "nat": "UGA",
+            "id": "14431159",
+            "hasAvy": true,
+            "firstName": "Halimah",
+            "lastName": "Nakaayi"
+          }
+        },
+        {
+          "mark": "1:58.41",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.81",
+            "sb": "1:57.81",
+            "nat": "FRA",
+            "id": "14523787",
+            "hasAvy": true,
+            "firstName": "Anaïs",
+            "lastName": "Bourgoin"
+          }
+        },
+        {
+          "mark": "1:58.49",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.59",
+            "sb": "1:58.00",
+            "nat": "VIN",
+            "id": "14574729",
+            "hasAvy": true,
+            "firstName": "Shafiqua",
+            "lastName": "Maloney"
+          }
+        },
+        {
+          "mark": "1:58.49",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.81",
+            "sb": "2:00.45",
+            "nat": "USA",
+            "id": "14378260",
+            "hasAvy": true,
+            "firstName": "Raevyn",
+            "lastName": "Rogers"
+          }
+        },
+        {
+          "mark": "1:58.66",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:55.61",
+            "sb": "1:58.66",
+            "nat": "GBR",
+            "id": "14533469",
+            "hasAvy": true,
+            "firstName": "Jemma",
+            "lastName": "Reekie"
+          }
+        },
+        {
+          "mark": "1:59.72",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.06",
+            "sb": "1:58.40",
+            "nat": "ETH",
+            "id": "14852703",
+            "hasAvy": true,
+            "firstName": "Worknesh",
+            "lastName": "Mesele"
+          }
+        },
+        {
+          "mark": "2:00.51",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.03",
+            "sb": "1:57.83",
+            "nat": "KEN",
+            "id": "14798209",
+            "hasAvy": true,
+            "firstName": "Mary",
+            "lastName": "Moraa"
+          }
+        },
+        {
+          "mark": "2:03.44",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:54.97",
+            "sb": "",
+            "nat": "USA",
+            "id": "14708132",
+            "hasAvy": true,
+            "firstName": "Athing",
+            "lastName": "Mu-Nikolayev"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "100m Women": {
       "date": "2025-07-06T01:44:00.000Z",
@@ -29871,7 +30937,126 @@
         }
       ],
       "blurb": "### **Women's 100m Race Prediction & Preview**  \n\n#### **Predicted Finish & Times:**  \n1. **Julien Alfred (LCA)** – **10.72**  \n2. **Sha'Carri Richardson (USA)** – **10.76**  \n3. **Melissa Jefferson-Wooden (USA)** – **10.82**  \n4. **Dina Asher-Smith (GBR)** – **10.89**  \n5. **Tia Clayton (JAM)** – **10.91**  \n6. **Marie-Josée Ta Lou-Smith (CIV)** – **10.95**  \n7. **Favour Ofili (NGR)** – **10.98**  \n8. **Tina Clayton (JAM)** – **11.02**  \n9. **Twanisha Terry (USA)** – **11.05**  \n\n---  \n\n### **Race Analysis & Reasoning**  \n\n#### **1. Julien Alfred (10.72) – The Rising Star**  \nAlfred has been **the most consistent** performer in 2024-25, with multiple **sub-10.80** runs, including **10.72 (-0.1)** in Paris (Aug 2024). She also beat Richardson head-to-head in Paris (10.72 vs. 10.87). Her **Olympic gold** and recent **10.75 (+0.9) in Stockholm (June 2025)** show she’s in peak form. Her **explosive starts** and **strong finishes** make her the favorite.  \n\n#### **2. Sha'Carri Richardson (10.76) – The Flamethrower (But Inconsistent)**  \nRichardson has **raw speed** (10.71 in June 2024) but **fades in big races**—she lost to Alfred in Paris and was **8th in Brussels (11.23, Sep 2024)**. Her **10.83 (+1.5) in Eugene** was wind-aided, and her **11.47 (-0.9) in Tokyo (May 2025)** was alarming. If she gets a clean start, she can challenge Alfred, but **her consistency issues** keep her from #1.  \n\n#### **3. Melissa Jefferson-Wooden (10.82) – The Dark Horse**  \nJefferson-Wooden has **improved drastically** in 2025, running **10.73 (+1.4) in Philadelphia (June 2025)** and **10.75* (+2.4, windy) in Miramar**. She’s **beaten Richardson before** (10.87 vs. 10.89 in Paris, Aug 2024) and has **better race execution**. If she avoids a slow start, she could even upset Richardson.  \n\n#### **4. Dina Asher-Smith (10.89) – The Veteran**  \nAsher-Smith is **consistent but lacks top-end speed** compared to the Americans and Alfred. Her **10.88 (-0.4) in Lausanne (Aug 2024)** and **10.93 (+0.9) in Stockholm (June 2025)** show she’s still elite, but she **rarely dips under 10.90** now. She’ll be in the mix but likely **just off the podium**.  \n\n#### **5. Tia Clayton (10.91) – The Jamaican Wildcard**  \nTia has **upside**—she ran **10.86 (+1.0) in Kingston (June 2024)** and **10.89 (+0.2) in Paris (Aug 2024)**. However, she’s **inconsistent** (11.04 in Paris, 11.21 in Kingston). If she nails her start, she could surprise, but **her twin sister Tina is less reliable**.  \n\n#### **6. Marie-Josée Ta Lou-Smith (10.95) – The Aging Legend**  \nTa Lou-Smith is **still fast** (10.83* +2.9 in Chorzów, Aug 2024), but at **36**, she’s lost a step. Her **10.92 (+0.6) in Ostrava (June 2025)** is solid, but she **struggles against elite fields** (8th in Paris, 13.84 in a botched race). She’ll fight but likely **miss the top 5**.  \n\n#### **7. Favour Ofili (10.98) – The 200m Specialist**  \nOfili is **dangerous** (10.78* +3.1 in June 2025), but **her best events are 150m/200m**. Her **100m consistency is lacking**—she ran **11.20 (+0.8) in Atlanta (May 2024)** and **11.13 (-0.9) in Memphis (July 2024)**. She’ll be **close but not a medal threat**.  \n\n#### **8. Tina Clayton (11.02) – The Inconsistent Twin**  \nTina has **flashes of brilliance** (10.81 +0.1 in June 2025) but **too many off days** (11.27 -2.2 in Kingston, June 2025). She’s **young and improving**, but **not yet reliable** in a stacked field.  \n\n#### **9. Twanisha Terry (11.05) – The Relay Specialist**  \nTerry is **great in relays** but **struggles individually**. Her **10.83* (+2.6) in June 2025** was wind-aided, and her **legal best is 10.85 (+1.2)**. She’s **consistent but lacks the firepower** to keep up with the top women.  \n\n---  \n\n### **Final Thoughts:**  \n- **Alfred** is the **clear favorite** based on **recent dominance**.  \n- **Richardson** has **the talent** but **too many off races** to be trusted for gold.  \n- **Jefferson-Wooden** is the **sleeper**—if she runs clean, she could **steal silver**.  \n- **Asher-Smith and Ta Lou-Smith** are **past their primes** but still competitive.  \n- **The Claytons and Ofili** have **potential but need more consistency**.  \n- **Terry** is **outclassed** in this field.  \n\n**Predicted Race Dynamic:** Alfred gets a **strong start**, Richardson **closes hard**, but **Alfred holds on**. Jefferson-Wooden **edges Asher-Smith** for bronze. The rest battle for scraps.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "10.75",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "10.73",
+            "sb": "10.73",
+            "nat": "USA",
+            "id": "14756997",
+            "hasAvy": true,
+            "firstName": "Melissa",
+            "lastName": "Jefferson-Wooden"
+          }
+        },
+        {
+          "mark": "10.77",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "10.72",
+            "sb": "10.75",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "10.90",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "10.72",
+            "sb": "10.92",
+            "nat": "CIV",
+            "id": "14415994",
+            "hasAvy": true,
+            "firstName": "Marie-Josée",
+            "lastName": "Ta Lou-Smith"
+          }
+        },
+        {
+          "mark": "11.02",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "10.81",
+            "sb": "10.81",
+            "nat": "JAM",
+            "id": "14776879",
+            "hasAvy": true,
+            "firstName": "Tina",
+            "lastName": "Clayton"
+          }
+        },
+        {
+          "mark": "11.09",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "10.87",
+            "sb": "10.87",
+            "nat": "NGR",
+            "id": "14756075",
+            "hasAvy": true,
+            "firstName": "Favour",
+            "lastName": "Ofili"
+          }
+        },
+        {
+          "mark": "11.14",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "10.83",
+            "sb": "10.93",
+            "nat": "GBR",
+            "id": "14378282",
+            "hasAvy": true,
+            "firstName": "Dina",
+            "lastName": "Asher-Smith"
+          }
+        },
+        {
+          "mark": "11.17",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "10.82",
+            "sb": "10.85",
+            "nat": "USA",
+            "id": "14553598",
+            "hasAvy": true,
+            "firstName": "Twanisha",
+            "lastName": "Terry"
+          }
+        },
+        {
+          "mark": "11.17",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "11.19",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "10.65",
+            "sb": "11.47",
+            "nat": "USA",
+            "id": "14717691",
+            "hasAvy": true,
+            "firstName": "Sha'Carri",
+            "lastName": "Richardson"
+          }
+        }
+      ]
     },
     "Bowerman Mile Men": {
       "tiebreaker": "3:46.00",
@@ -30034,7 +31219,232 @@
         }
       ],
       "blurb": "### **Men’s One Mile – Race Prediction & Preview**  \n\n#### **Predicted Finish & Times**  \n1. **Cole Hocker (USA)** – **3:46.50**  \n2. **Yared Nuguse (USA)** – **3:46.75**  \n3. **Hobbs Kessler (USA)** – **3:47.10**  \n4. **Azeddine Habz (FRA)** – **3:47.45**  \n5. **Timothy Cheruiyot (KEN)** – **3:47.80**  \n6. **Reynold Cheruiyot (KEN)** – **3:48.00**  \n7. **Neil Gourley (GBR)** – **3:48.30**  \n8. **Oliver Hoare (AUS)** – **3:48.60**  \n9. **Jake Wightman (GBR)** – **3:48.90**  \n10. **Cameron Myers (AUS)** – **3:49.20**  \n11. **Niels Laros (NED)** – **3:49.50**  \n12. **Stefan Nillessen (NED)** – **3:50.00**  \n13. **Tshepiso Masalela (BOT)** – **3:50.50**  \n14. **Festus Lagat (KEN)** – **3:51.00**  \n15. **Grant Fisher (USA)** – **3:52.00**  \n16. **Abel Kipsang (KEN)** – **3:52.50**  \n17. **Abraham Alvarado (USA)** – **DNF**  \n\n---  \n\n### **Race Analysis & Reasoning**  \n\n#### **1. Cole Hocker (USA) – 3:46.50**  \nHocker is the **Olympic 1500m champion (3:27.65)** and has been **dominant in 2024-25**, with multiple sub-3:31 performances. His **mile consistency (3:46.22 PB)** and **kicking speed** (evident in his **3:29.85 in Lausanne**) make him the favorite. His **recent 800m speed (1:43.64)** suggests he can close hard, and he has beaten Nuguse head-to-head in 1500m races.  \n\n#### **2. Yared Nuguse (USA) – 3:46.75**  \nNuguse is the **North American mile record holder (3:43.97i)** and has **strong recent form**, including a **3:46.63i win in Feb 2025**. However, he has **struggled in tactical races** (e.g., **3:51.9h road mile loss in Düsseldorf**), and Hocker has outkicked him in 1500m races.  \n\n#### **3. Hobbs Kessler (USA) – 3:47.10**  \nKessler has **elite 800m speed (1:43.64)** and **strong mile performances (3:46.90i in Feb 2025)**. His **versatility** (3:31.53 1500m) makes him dangerous, but he **lacks the pure mile pedigree** of Hocker and Nuguse.  \n\n#### **4. Azeddine Habz (FRA) – 3:47.45**  \nHabz has been **consistent in 2025**, with a **3:47.56i mile** and a **3:27.49 1500m in June 2025**. He’s a **strong closer**, but his **mile-specific races are slightly weaker** than the top Americans.  \n\n#### **5. Timothy Cheruiyot (KEN) – 3:47.80**  \nThe **Olympic silver medalist** is **past his peak** but still dangerous. His **3:28.71 in Monaco (2024)** shows he can still compete, but his **mile races have been slower (3:49.06 in Oslo 2025)**.  \n\n#### **6. Reynold Cheruiyot (KEN) – 3:48.00**  \nThe **young phenom** has **3:30.94 speed** and is improving, but his **mile experience is limited (3:48.59 PB)**. He could surprise, but likely **not yet ready to win**.  \n\n#### **7. Neil Gourley (GBR) – 3:48.30**  \nGourley is a **strong indoor miler (3:47.22i in Mar 2025)** but has **struggled outdoors (3:49.22i in Feb 2025)**. His **tactical racing** keeps him in contention, but he lacks the **top-end speed** of the Americans.  \n\n#### **8. Oliver Hoare (AUS) – 3:48.60**  \nHoare has **mile pedigree (3:47.48i in Feb 2025)** but has been **inconsistent (3:50.92 in Oslo 2025)**. His **3:34.00 in Paris (2024)** shows he’s still competitive, but not at his **2022 peak**.  \n\n#### **9. Jake Wightman (GBR) – 3:48.90**  \nThe **2022 World Champion** has **focused more on 800m lately (1:44.10 in 2024)** and hasn’t shown **mile-specific fitness** recently.  \n\n#### **10. Cameron Myers (AUS) – 3:49.20**  \nThe **18-year-old sensation** has **huge potential (3:48.87 in Oslo 2025)** but is still **developing**. Expect a **strong race**, but not yet a winner.  \n\n#### **11-17: The Rest**  \n- **Niels Laros (NED)** – Fast but **more of a 1500m specialist**.  \n- **Stefan Nillessen (NED)** – Decent but **not in top-tier form**.  \n- **Tshepiso Masalela (BOT)** – **800m specialist**, not a true miler.  \n- **Festus Lagat (KEN)** – **Inconsistent**, better at 800m.  \n- **Grant Fisher (USA)** – A **10k specialist**, out of his element here.  \n- **Abel Kipsang (KEN)** – **Past his prime**, not competitive.  \n- **Abraham Alvarado (USA)** – Likely **DNFs** based on recent struggles.  \n\n---  \n\n### **Final Thoughts**  \nThis will be a **fast, tactical race**, with **Hocker’s closing speed** proving decisive over Nuguse. Kessler and Habz will challenge, while the Kenyans (Cheruiyots) will be in the mix but **not quite sharp enough**. The **youngsters (Myers, Laros)** will show promise but **not win yet**.  \n\n**Winner: Cole Hocker** – Best combination of **mile strength, speed, and recent form**.",
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:45.94",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.93",
+            "sb": "",
+            "nat": "NED",
+            "id": "14910035",
+            "hasAvy": true,
+            "firstName": "Niels",
+            "lastName": "Laros"
+          }
+        },
+        {
+          "mark": "3:45.95",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:43.97",
+            "sb": "",
+            "nat": "USA",
+            "id": "14798735",
+            "hasAvy": true,
+            "firstName": "Yared",
+            "lastName": "Nuguse"
+          }
+        },
+        {
+          "mark": "3:46.65",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.64",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14640588",
+            "hasAvy": true,
+            "firstName": "Azeddine",
+            "lastName": "Habz"
+          }
+        },
+        {
+          "mark": "3:47.43",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.08",
+            "sb": "",
+            "nat": "USA",
+            "id": "14905834",
+            "hasAvy": true,
+            "firstName": "Cole",
+            "lastName": "Hocker"
+          }
+        },
+        {
+          "mark": "3:47.46",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.06",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14997479",
+            "hasAvy": true,
+            "firstName": "Reynold",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "mark": "3:47.50",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.87",
+            "sb": "3:48.87",
+            "nat": "AUS",
+            "id": "14962470",
+            "hasAvy": true,
+            "firstName": "Cameron",
+            "lastName": "Myers"
+          }
+        },
+        {
+          "mark": "3:47.71",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "3:49.06",
+            "sb": "3:49.06",
+            "nat": "KEN",
+            "id": "14643526",
+            "hasAvy": true,
+            "firstName": "Timothy",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "mark": "3:47.82",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.83",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14522654",
+            "hasAvy": true,
+            "firstName": "Jake",
+            "lastName": "Wightman"
+          }
+        },
+        {
+          "mark": "3:48.29",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.38",
+            "sb": "",
+            "nat": "USA",
+            "id": "14591210",
+            "hasAvy": true,
+            "firstName": "Grant",
+            "lastName": "Fisher"
+          }
+        },
+        {
+          "mark": "3:48.32",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "3:58.73",
+            "sb": "",
+            "nat": "USA",
+            "id": "14970747",
+            "hasAvy": true,
+            "firstName": "Hobbs",
+            "lastName": "Kessler"
+          }
+        },
+        {
+          "mark": "3:48.93",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "3:52.63",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14877138",
+            "hasAvy": true,
+            "firstName": "Festus",
+            "lastName": "Lagat"
+          }
+        },
+        {
+          "mark": "3:49.41",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.74",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14513077",
+            "hasAvy": true,
+            "firstName": "Neil",
+            "lastName": "Gourley"
+          }
+        },
+        {
+          "mark": "3:49.53",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "3:49.02",
+            "sb": "3:49.02",
+            "nat": "NED",
+            "id": "14910032",
+            "hasAvy": true,
+            "firstName": "Stefan",
+            "lastName": "Nillessen"
+          }
+        },
+        {
+          "mark": "3:50.93",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "3:50.87",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14909437",
+            "hasAvy": true,
+            "firstName": "Abel",
+            "lastName": "Kipsang"
+          }
+        },
+        {
+          "mark": "3:51.60",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.48",
+            "sb": "3:50.92",
+            "nat": "AUS",
+            "id": "14667553",
+            "hasAvy": true,
+            "firstName": "Oliver",
+            "lastName": "Hoare"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:55.70",
+            "sb": "",
+            "nat": "USA",
+            "id": "14608602",
+            "hasAvy": true,
+            "firstName": "Abraham",
+            "lastName": "Alvarado"
+          }
+        }
+      ]
     }
   }
 }
