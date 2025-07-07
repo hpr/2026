@@ -113,7 +113,10 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   eugene25: {
     'Bowerman Mile Men': '3:46.00',
-  }
+  },
+  monaco25: {
+    '110m Hurdles Men': '12.90',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -143,6 +146,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   stockholm25: '11:14am ET',
   paris25: '1:50pm ET',
   eugene25: '3:27pm ET',
+  monaco25: '12:55pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -193,6 +197,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   stockholm25: ['https://stockholm.diamondleague.com/en/programme-results/'],
   paris25: ['https://paris.diamondleague.com/en/programme-results/'],
   eugene25: ['https://eugene.diamondleague.com/programme-results/'],
+  monaco25: ['https://monaco.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
