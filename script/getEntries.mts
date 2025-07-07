@@ -849,3 +849,18 @@ const filterEntries = async (meet: DLMeet, isReview: boolean = false) => {
 getEntries();
 // filterEntries('ncaai23', false);
 // getMediaGuidePhotos('boston23');
+
+/*
+meet = 'monaco25';
+window.entries??=await (await fetch('/2025/entries.json')).json();
+Object.entries(window.entries[meet]).map(([k, v]) => {
+  const gen = k.split(' ').at(-1);
+  const disc = k.split(' ').slice(0, -1).join(' ').toLowerCase();
+  const dt = new Date(v.date);
+  dt.setMinutes(dt.getMinutes() - 60 * 4);
+  const time = dt.toLocaleString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }).replace(' PM', 'pm ET').replace(' AM', 'am ET');
+  const evt = `${gen}'s ${disc}`;
+  const aths = v.entrants.map(e => `${e.firstName} ${e.lastName}`).join(', ');
+  return `<h3><strong><a target="_blank" href="https://hpr.github.io/2025/#/${meet}/evt/${k.replaceAll(' ', '%20')}">${evt} (${time}): </a></strong></h3>\n\n<p>${aths}</p>\n\n`;
+}).join('');
+*/
