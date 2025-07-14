@@ -100,6 +100,7 @@ export type AthleticsEvent =
   | "Men's 800 Meters"
   | "Men's Mile"
   | "Men's 1 Mile"
+  | "1 Mile Women"
   | "Women's 1 Mile"
   | "Men's 3000 Meters"
   | "Men's 5000 Meters"

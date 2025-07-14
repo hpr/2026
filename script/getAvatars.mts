@@ -246,7 +246,6 @@ let i = 0;
 for (const entrant of entrants) {
   const { id, firstName, lastName, pb } = entrant;
   let team = entrant.team;
-  console.log(id, firstName, lastName, team, i++, entrants.length);
   const file128 = `./public/img/${tfrrsMode ? 'tfrrsAvatars' : 'avatars'}/${id}_128x128.png`;
   if (fs.existsSync(file128)) {
     if (fs.lstatSync(file128).isSymbolicLink()) {
@@ -258,6 +257,7 @@ for (const entrant of entrants) {
       continue;
     }
   }
+  console.log(id, firstName, lastName, team, i++, entrants.length);
   let imageUrl = `https://media.aws.iaaf.org/athletes/${id}.jpg`;
   let avatarResp = tfrrsMode ? new Response(null, { status: 403 }) : await fetch(imageUrl);
   if (avatarResp.status !== 403) console.log(imageUrl);

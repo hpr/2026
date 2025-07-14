@@ -117,6 +117,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   monaco25: {
     '110m Hurdles Men': '12.90',
   },
+  london25: {
+    '1 Mile Women': '4:15.00',
+  }
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -147,6 +150,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   paris25: '1:50pm ET',
   eugene25: '3:27pm ET',
   monaco25: '12:55pm ET',
+  london25: '7:53am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -198,6 +202,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   paris25: ['https://paris.diamondleague.com/en/programme-results/'],
   eugene25: ['https://eugene.diamondleague.com/programme-results/'],
   monaco25: ['https://monaco.diamondleague.com/en/programme-results/'],
+  london25: ['https://london.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
@@ -784,6 +789,8 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
               if (!id) id = {
                 'Cierra Jackson': '14839155',
                 'Mya Lesnar': '14847391',
+                'Samuel Khogali': '14660262',
+                'Jana van Lent': '14704113',
               }[`${firstName} ${lastName}`];
               return {
                 pb, sb, nat, id,
