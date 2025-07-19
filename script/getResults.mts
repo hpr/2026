@@ -155,6 +155,7 @@ for (const key in resultsLinks) {
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
           .replace('m SC', 'm Steeple')
+          .replace('Men 100m', '100m Men')
         ) && unit.Stats.DiamondId
       )?.Rsc.ValueUnit;
       const evtResultUrl = `https://${domain}/node/db/ATH_PROD/${meetId}_TIMING_${evtId}_JSON.json`;
