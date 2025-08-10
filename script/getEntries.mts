@@ -119,6 +119,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   london25: {
     '1 Mile Women': '4:15.00',
+  },
+  silesia25: {
+    '100m Men': '9.80',
   }
 };
 
@@ -151,6 +154,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   eugene25: '3:27pm ET',
   monaco25: '12:55pm ET',
   london25: '7:53am ET',
+  silesia25: '8:05am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -203,6 +207,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   eugene25: ['https://eugene.diamondleague.com/programme-results/'],
   monaco25: ['https://monaco.diamondleague.com/en/programme-results/'],
   london25: ['https://london.diamondleague.com/programme-results/'],
+  silesia25: ['https://silesia.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
