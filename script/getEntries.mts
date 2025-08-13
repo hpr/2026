@@ -122,6 +122,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   silesia25: {
     '100m Men': '9.80',
+  },
+  lausanne25: {
+    '800m Men': '1:41.50',
   }
 };
 
@@ -155,6 +158,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   monaco25: '12:55pm ET',
   london25: '7:53am ET',
   silesia25: '8:05am ET',
+  lausanne25: '1:30pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -208,6 +212,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   monaco25: ['https://monaco.diamondleague.com/en/programme-results/'],
   london25: ['https://london.diamondleague.com/programme-results/'],
   silesia25: ['https://silesia.diamondleague.com/programme-results/'],
+  lausanne25: ['https://lausanne.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
@@ -776,6 +781,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
           const firstSvg = eDiv.querySelector('svg');
           if (firstSvg?.getAttribute('width') !== '20') continue; // filter out non-DL events
           const evt = eDiv.querySelectorAll('div')[2].textContent?.replace(' Final', '').replace(/ Heat [AB]/, '');
+          if (meet === 'lausanne25' && evt === 'Pole Vault Men – City Event') continue;
           if (['U23', 'National'].some(k => evt?.includes(k))) continue;
           const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);
           const time = inTz(`${pv('--date-venue')} 2025 ${pv('--time-venue')}`, tz);
