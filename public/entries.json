@@ -42673,7 +42673,140 @@
           "lastName": "Honsel"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1.91",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1.97",
+            "sb": "1.97",
+            "nat": "POL",
+            "id": "14620985",
+            "hasAvy": true,
+            "firstName": "Maria",
+            "lastName": "Żodzik"
+          }
+        },
+        {
+          "mark": "1.91",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1.95",
+            "sb": "1.93",
+            "nat": "GER",
+            "id": "14497298",
+            "hasAvy": true,
+            "firstName": "Christina",
+            "lastName": "Honsel"
+          }
+        },
+        {
+          "mark": "1.91",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "2.03",
+            "sb": "2.01",
+            "nat": "AUS",
+            "id": "14455361",
+            "hasAvy": true,
+            "firstName": "Nicola",
+            "lastName": "Olyslagers"
+          }
+        },
+        {
+          "mark": "1.91",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "2.02",
+            "sb": "1.97",
+            "nat": "AUS",
+            "id": "14411267",
+            "hasAvy": true,
+            "firstName": "Eleanor",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "1.86",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1.97",
+            "sb": "1.96",
+            "nat": "GBR",
+            "id": "14409457",
+            "hasAvy": true,
+            "firstName": "Morgan",
+            "lastName": "Lake"
+          }
+        },
+        {
+          "mark": "1.86",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1.98",
+            "sb": "1.95",
+            "nat": "SRB",
+            "id": "14841858",
+            "hasAvy": true,
+            "firstName": "Angelina",
+            "lastName": "Topić"
+          }
+        },
+        {
+          "mark": "1.86",
+          "place": 6,
+          "notes": ""
+        },
+        {
+          "mark": "1.86",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "2.02",
+            "sb": "1.98",
+            "nat": "UKR",
+            "id": "14594836",
+            "hasAvy": true,
+            "firstName": "Yuliia",
+            "lastName": "Levchenko"
+          }
+        },
+        {
+          "mark": "1.81",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "2.02",
+            "sb": "",
+            "nat": "BEL",
+            "id": "14428253",
+            "hasAvy": true,
+            "firstName": "Nafissatou",
+            "lastName": "Thiam"
+          }
+        },
+        {
+          "mark": "NM",
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "2.10",
+            "sb": "2.02",
+            "nat": "UKR",
+            "id": "14739628",
+            "hasAvy": true,
+            "firstName": "Yaroslava",
+            "lastName": "Mahuchikh"
+          }
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2025-08-20T22:29:00.000Z",
@@ -43229,7 +43362,135 @@
           "lastName": "Baldé"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "7.84",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8.25",
+            "sb": "8.25",
+            "nat": "UZB",
+            "id": "14934300",
+            "hasAvy": true,
+            "firstName": "Anvar",
+            "lastName": "Anvarov"
+          }
+        },
+        {
+          "mark": "7.72",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8.45",
+            "sb": "8.34",
+            "nat": "SUI",
+            "id": "14730721",
+            "hasAvy": true,
+            "firstName": "Simon",
+            "lastName": "Ehammer"
+          }
+        },
+        {
+          "mark": "7.71",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8.69",
+            "sb": "8.34",
+            "nat": "JAM",
+            "id": "14631861",
+            "hasAvy": true,
+            "firstName": "Tajay",
+            "lastName": "Gayle"
+          }
+        },
+        {
+          "mark": "7.67",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8.38",
+            "sb": "8.33",
+            "nat": "JAM",
+            "id": "14693824",
+            "hasAvy": true,
+            "firstName": "Carey",
+            "lastName": "McLeod"
+          }
+        },
+        {
+          "mark": "7.61",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "8.54",
+            "sb": "8.20",
+            "nat": "JAM",
+            "id": "14693852",
+            "hasAvy": true,
+            "firstName": "Wayne",
+            "lastName": "Pinnock"
+          }
+        },
+        {
+          "mark": "7.60",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "8.38",
+            "sb": "8.31",
+            "nat": "ITA",
+            "id": "14905216",
+            "hasAvy": true,
+            "firstName": "Mattia",
+            "lastName": "Furlani"
+          }
+        },
+        {
+          "mark": "7.52",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "8.65",
+            "sb": "8.46",
+            "nat": "GRE",
+            "id": "14669734",
+            "hasAvy": true,
+            "firstName": "Miltiadis",
+            "lastName": "Tentoglou"
+          }
+        },
+        {
+          "mark": "7.50",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "8.34",
+            "sb": "8.34",
+            "nat": "AUS",
+            "id": "14572123",
+            "hasAvy": true,
+            "firstName": "Liam",
+            "lastName": "Adcock"
+          }
+        },
+        {
+          "mark": "7.37",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "8.20",
+            "sb": "8.20",
+            "nat": "POR",
+            "id": "14849980",
+            "hasAvy": true,
+            "firstName": "Gerson",
+            "lastName": "Baldé"
+          }
+        }
+      ]
     },
     "5000m Men": {
       "date": "2025-08-20T22:55:00.000Z",
@@ -43445,7 +43706,291 @@
           "lastName": "Akbache"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "13:07.67",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12:56.53",
+            "sb": "13:01.39",
+            "nat": "BEL",
+            "id": "14482919",
+            "hasAvy": true,
+            "firstName": "Isaac",
+            "lastName": "Kimeli"
+          }
+        },
+        {
+          "mark": "13:08.51",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12:46.96",
+            "sb": "13:26.75",
+            "nat": "USA",
+            "id": "14591210",
+            "hasAvy": true,
+            "firstName": "Grant",
+            "lastName": "Fisher"
+          }
+        },
+        {
+          "mark": "13:09.50",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12:58.57",
+            "sb": "12:58.57",
+            "nat": "MEX",
+            "id": "14668389",
+            "hasAvy": true,
+            "firstName": "Eduardo",
+            "lastName": "Herrera"
+          }
+        },
+        {
+          "mark": "13:09.80",
+          "place": 4,
+          "notes": ""
+        },
+        {
+          "mark": "13:09.82",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "13:05.47",
+            "sb": "13:09.24",
+            "nat": "KEN",
+            "id": "14935332",
+            "hasAvy": true,
+            "firstName": "Ishmael Rokitto",
+            "lastName": "Kipkurui"
+          }
+        },
+        {
+          "mark": "13:09.91",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13:08.46",
+            "sb": "13:19.32",
+            "nat": "KEN",
+            "id": "14401023",
+            "hasAvy": true,
+            "firstName": "Edwin",
+            "lastName": "Kurgat"
+          }
+        },
+        {
+          "mark": "13:10.08",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12:36.73",
+            "sb": "12:46.82",
+            "nat": "ETH",
+            "id": "14477352",
+            "hasAvy": true,
+            "firstName": "Hagos",
+            "lastName": "Gebrhiwet"
+          }
+        },
+        {
+          "mark": "13:12.94",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12:48.20",
+            "sb": "12:48.20",
+            "nat": "USA",
+            "id": "14884807",
+            "hasAvy": true,
+            "firstName": "Graham",
+            "lastName": "Blanks"
+          }
+        },
+        {
+          "mark": "13:13.16",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13:34.77",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15042281",
+            "hasAvy": true,
+            "firstName": "Abdisa",
+            "lastName": "Fayisa"
+          }
+        },
+        {
+          "mark": "13:13.97",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "13:03.17",
+            "sb": "13:03.17",
+            "nat": "KEN",
+            "id": "15126595",
+            "hasAvy": true,
+            "firstName": "Denis",
+            "lastName": "Kipkoech"
+          }
+        },
+        {
+          "mark": "13:14.92",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "12:49.80",
+            "sb": "12:49.80",
+            "nat": "ETH",
+            "id": "15024068",
+            "hasAvy": true,
+            "firstName": "Mezgebu",
+            "lastName": "Sime"
+          }
+        },
+        {
+          "mark": "13:16.78",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "12:47.67",
+            "sb": "12:47.67",
+            "nat": "ESP",
+            "id": "14661449",
+            "hasAvy": true,
+            "firstName": "Thierry",
+            "lastName": "Ndikumwenayo"
+          }
+        },
+        {
+          "mark": "13:17.75",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "12:48.67",
+            "sb": "12:48.67",
+            "nat": "BRN",
+            "id": "14695983",
+            "hasAvy": true,
+            "firstName": "Birhanu",
+            "lastName": "Balew"
+          }
+        },
+        {
+          "mark": "13:18.65",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "12:45.71",
+            "sb": "12:51.16",
+            "nat": "KEN",
+            "id": "14808798",
+            "hasAvy": true,
+            "firstName": "Jacob",
+            "lastName": "Krop"
+          }
+        },
+        {
+          "mark": "13:28.89",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "13:12.52",
+            "sb": "13:12.52",
+            "nat": "SUI",
+            "id": "14427180",
+            "hasAvy": true,
+            "firstName": "Jonas",
+            "lastName": "Raess"
+          }
+        },
+        {
+          "mark": "13:31.22",
+          "place": 16,
+          "notes": "",
+          "entrant": {
+            "pb": "13:06.00",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14517160",
+            "hasAvy": true,
+            "firstName": "Jack",
+            "lastName": "Rayner"
+          }
+        },
+        {
+          "mark": "13:34.15",
+          "place": 17,
+          "notes": "",
+          "entrant": {
+            "pb": "12:50.58",
+            "sb": "12:58.58",
+            "nat": "GUA",
+            "id": "14749285",
+            "hasAvy": true,
+            "firstName": "Luis",
+            "lastName": "Grijalva"
+          }
+        },
+        {
+          "mark": "13:36.61",
+          "place": 18,
+          "notes": "",
+          "entrant": {
+            "pb": "13:01.40",
+            "sb": "13:08.25",
+            "nat": "IRL",
+            "id": "14781522",
+            "hasAvy": true,
+            "firstName": "Brian",
+            "lastName": "Fay"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "12:42.70",
+            "sb": "12:59.59",
+            "nat": "ETH",
+            "id": "14797485",
+            "hasAvy": true,
+            "firstName": "Telahun Haile",
+            "lastName": "Bekele"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "13:28.02",
+            "sb": "13:28.02",
+            "nat": "AUS",
+            "id": "14861525",
+            "hasAvy": true,
+            "firstName": "Jude",
+            "lastName": "Thomas"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14182819",
+            "hasAvy": true,
+            "firstName": "Mounir",
+            "lastName": "Akbache"
+          }
+        }
+      ]
     },
     "100m Hurdles Women": {
       "date": "2025-08-20T23:14:00.000Z",
@@ -43526,7 +44071,121 @@
           "lastName": "Kambundji"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.45",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.36",
+            "sb": "12.43",
+            "nat": "NED",
+            "id": "14451249",
+            "hasAvy": true,
+            "firstName": "Nadine",
+            "lastName": "Visser"
+          }
+        },
+        {
+          "mark": "12.53",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.17",
+            "sb": "12.17",
+            "nat": "USA",
+            "id": "14659011",
+            "hasAvy": true,
+            "firstName": "Masai",
+            "lastName": "Russell"
+          }
+        },
+        {
+          "mark": "12.54",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.40",
+            "sb": "12.43",
+            "nat": "SUI",
+            "id": "14739461",
+            "hasAvy": true,
+            "firstName": "Ditaji",
+            "lastName": "Kambundji"
+          }
+        },
+        {
+          "mark": "12.57",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "12.30",
+            "nat": "JAM",
+            "id": "14685249",
+            "hasAvy": true,
+            "firstName": "Ackera",
+            "lastName": "Nugent"
+          }
+        },
+        {
+          "mark": "12.82",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.12",
+            "sb": "12.24",
+            "nat": "NGR",
+            "id": "14579526",
+            "hasAvy": true,
+            "firstName": "Tobi",
+            "lastName": "Amusan"
+          }
+        },
+        {
+          "mark": "12.94",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "12.32",
+            "nat": "USA",
+            "id": "14486620",
+            "hasAvy": true,
+            "firstName": "Alaysha",
+            "lastName": "Johnson"
+          }
+        },
+        {
+          "mark": "13.06",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.34",
+            "sb": "12.34",
+            "nat": "JAM",
+            "id": "14413569",
+            "hasAvy": true,
+            "firstName": "Megan",
+            "lastName": "Tapper"
+          }
+        },
+        {
+          "mark": "13.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.20",
+            "sb": "12.37",
+            "nat": "USA",
+            "id": "14425415",
+            "hasAvy": true,
+            "firstName": "Kendra",
+            "lastName": "Harrison"
+          }
+        }
+      ]
     },
     "800m Men": {
       "tiebreaker": "1:41.50",
@@ -43626,7 +44285,130 @@
           "lastName": "Pelizza"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:42.82",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.01",
+            "sb": "1:42.01",
+            "nat": "USA",
+            "id": "14695060",
+            "hasAvy": true,
+            "firstName": "Josh",
+            "lastName": "Hoey"
+          }
+        },
+        {
+          "mark": "1:43.29",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.11",
+            "sb": "1:41.44",
+            "nat": "KEN",
+            "id": "14974928",
+            "hasAvy": true,
+            "firstName": "Emmanuel",
+            "lastName": "Wanyonyi"
+          }
+        },
+        {
+          "mark": "1:43.38",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.04",
+            "sb": "1:42.73",
+            "nat": "ESP",
+            "id": "14929058",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Attaoui"
+          }
+        },
+        {
+          "mark": "1:43.44",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.36",
+            "sb": "1:42.36",
+            "nat": "GBR",
+            "id": "14755557",
+            "hasAvy": true,
+            "firstName": "Max",
+            "lastName": "Burgin"
+          }
+        },
+        {
+          "mark": "1:43.91",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.20",
+            "sb": "1:42.22",
+            "nat": "CAN",
+            "id": "14755875",
+            "hasAvy": true,
+            "firstName": "Marco",
+            "lastName": "Arop"
+          }
+        },
+        {
+          "mark": "1:44.51",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.70",
+            "sb": "1:42.70",
+            "nat": "BOT",
+            "id": "14754326",
+            "hasAvy": true,
+            "firstName": "Tshepiso",
+            "lastName": "Masalela"
+          }
+        },
+        {
+          "mark": "1:44.77",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "1:45.52",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:44.53",
+            "sb": "1:44.53",
+            "nat": "SUI",
+            "id": "14930093",
+            "hasAvy": true,
+            "firstName": "Ivan",
+            "lastName": "Pelizza"
+          }
+        },
+        {
+          "mark": "1:48.18",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.67",
+            "sb": "1:42.49",
+            "nat": "USA",
+            "id": "14656699",
+            "hasAvy": true,
+            "firstName": "Bryce",
+            "lastName": "Hoppel"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "100m Men": {
       "date": "2025-08-20T23:40:00.000Z",
@@ -43707,7 +44489,103 @@
           "lastName": "Mumenthaler"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "9.87",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "9.81",
+            "sb": "9.83",
+            "nat": "JAM",
+            "id": "14737998",
+            "hasAvy": true,
+            "firstName": "Oblique",
+            "lastName": "Seville"
+          }
+        },
+        {
+          "mark": "10.02",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "9.79",
+            "sb": "10.00",
+            "nat": "USA",
+            "id": "14536762",
+            "hasAvy": true,
+            "firstName": "Noah",
+            "lastName": "Lyles"
+          }
+        },
+        {
+          "mark": "10.02",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "9.88",
+            "sb": "9.88",
+            "nat": "JAM",
+            "id": "14638971",
+            "hasAvy": true,
+            "firstName": "Ackeem",
+            "lastName": "Blake"
+          }
+        },
+        {
+          "mark": "10.05",
+          "place": 4,
+          "notes": ""
+        },
+        {
+          "mark": "10.09",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9.83",
+            "sb": "9.91",
+            "nat": "GBR",
+            "id": "14414524",
+            "hasAvy": true,
+            "firstName": "Zharnel",
+            "lastName": "Hughes"
+          }
+        },
+        {
+          "mark": "10.20",
+          "place": 6,
+          "notes": ""
+        },
+        {
+          "mark": "10.27",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9.82",
+            "sb": "9.82",
+            "nat": "USA",
+            "id": "14845926",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Lindsey"
+          }
+        },
+        {
+          "mark": "10.41",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "10.13",
+            "sb": "10.13",
+            "nat": "SUI",
+            "id": "14778502",
+            "hasAvy": true,
+            "firstName": "Timothé",
+            "lastName": "Mumenthaler"
+          }
+        }
+      ]
     }
   },
   "brussels25": {
