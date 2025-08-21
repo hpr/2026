@@ -189,6 +189,7 @@ export const disciplineCodes: { [k: string]: WAEventCode } = {
   'Long Jump': 'LJ',
   'Triple Jump': 'TJ',
   'Shot Put': 'SP',
+  'Shot put': 'SP',
   'Shot Put (6kg)': 'SPJ',
   'Shot Put (5kg)': 'SPY',
   'Shot Put (3kg)': 'SPYG',
