@@ -42680,20 +42680,6 @@
           "place": 1,
           "notes": "",
           "entrant": {
-            "pb": "1.97",
-            "sb": "1.97",
-            "nat": "POL",
-            "id": "14620985",
-            "hasAvy": true,
-            "firstName": "Maria",
-            "lastName": "Żodzik"
-          }
-        },
-        {
-          "mark": "1.91",
-          "place": 1,
-          "notes": "",
-          "entrant": {
             "pb": "1.95",
             "sb": "1.93",
             "nat": "GER",
@@ -42715,6 +42701,20 @@
             "hasAvy": true,
             "firstName": "Nicola",
             "lastName": "Olyslagers"
+          }
+        },
+        {
+          "mark": "1.91",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1.97",
+            "sb": "1.97",
+            "nat": "POL",
+            "id": "14620985",
+            "hasAvy": true,
+            "firstName": "Maria",
+            "lastName": "Żodzik"
           }
         },
         {
@@ -42750,13 +42750,13 @@
           "place": 6,
           "notes": "",
           "entrant": {
-            "pb": "1.98",
-            "sb": "1.95",
-            "nat": "SRB",
-            "id": "14841858",
+            "pb": "2.02",
+            "sb": "1.98",
+            "nat": "UKR",
+            "id": "14594836",
             "hasAvy": true,
-            "firstName": "Angelina",
-            "lastName": "Topić"
+            "firstName": "Yuliia",
+            "lastName": "Levchenko"
           }
         },
         {
@@ -42769,13 +42769,13 @@
           "place": 6,
           "notes": "",
           "entrant": {
-            "pb": "2.02",
-            "sb": "1.98",
-            "nat": "UKR",
-            "id": "14594836",
+            "pb": "1.98",
+            "sb": "1.95",
+            "nat": "SRB",
+            "id": "14841858",
             "hasAvy": true,
-            "firstName": "Yuliia",
-            "lastName": "Levchenko"
+            "firstName": "Angelina",
+            "lastName": "Topić"
           }
         },
         {
@@ -43067,7 +43067,16 @@
         },
         {
           "place": null,
-          "notes": "DNS"
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:03.22",
+            "sb": "9:16.57",
+            "nat": "USA",
+            "id": "14587271",
+            "hasAvy": true,
+            "firstName": "Valerie",
+            "lastName": "Constien"
+          }
         },
         {
           "place": null,
@@ -43084,16 +43093,7 @@
         },
         {
           "place": null,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "9:03.22",
-            "sb": "9:16.57",
-            "nat": "USA",
-            "id": "14587271",
-            "hasAvy": true,
-            "firstName": "Valerie",
-            "lastName": "Constien"
-          }
+          "notes": "DNS"
         }
       ]
     },
@@ -43955,6 +43955,19 @@
           "place": null,
           "notes": "DNF",
           "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14182819",
+            "hasAvy": true,
+            "firstName": "Mounir",
+            "lastName": "Akbache"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
             "pb": "12:42.70",
             "sb": "12:59.59",
             "nat": "ETH",
@@ -43975,19 +43988,6 @@
             "hasAvy": true,
             "firstName": "Jude",
             "lastName": "Thomas"
-          }
-        },
-        {
-          "place": null,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "",
-            "sb": "",
-            "nat": "FRA",
-            "id": "14182819",
-            "hasAvy": true,
-            "firstName": "Mounir",
-            "lastName": "Akbache"
           }
         }
       ]
