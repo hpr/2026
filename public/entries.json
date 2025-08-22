@@ -44685,7 +44685,8 @@
           "firstName": "Jef",
           "lastName": "Vermeiren"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Shot Put Women": {
       "date": "2025-08-22T20:36:00.000Z",
@@ -44774,7 +44775,8 @@
           "firstName": "Abby",
           "lastName": "Moore"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Discus Throw Men": {
       "date": "2025-08-22T20:50:00.000Z",
@@ -44854,7 +44856,8 @@
           "firstName": "Henrik",
           "lastName": "Janssen"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Pole Vault Women": {
       "date": "2025-08-22T21:34:00.000Z",
@@ -44970,7 +44973,8 @@
           "firstName": "Gabriela",
           "lastName": "Leon"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Hurdles Women": {
       "date": "2025-08-22T22:04:00.000Z",
@@ -45050,7 +45054,8 @@
           "firstName": "Paulien",
           "lastName": "Couckuyt"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "1500m Women": {
       "date": "2025-08-22T22:11:00.000Z",
@@ -45211,7 +45216,8 @@
           "firstName": "Lorea",
           "lastName": "Ibarzabal"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Javelin Throw Men": {
       "date": "2025-08-22T22:19:00.000Z",
@@ -45300,7 +45306,8 @@
           "firstName": "Leandro",
           "lastName": "Ramos"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "200m Men": {
       "date": "2025-08-22T22:22:00.000Z",
@@ -45380,7 +45387,8 @@
           "firstName": "Kobe",
           "lastName": "Vleminckx"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "3000m Steeplechase Men": {
       "date": "2025-08-22T22:29:00.000Z",
@@ -45532,7 +45540,8 @@
           "firstName": "Wesley",
           "lastName": "Langat"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Triple Jump Women": {
       "date": "2025-08-22T22:42:00.000Z",
@@ -45621,7 +45630,8 @@
           "firstName": "Ilona",
           "lastName": "Masson"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100m Women": {
       "tiebreaker": "10.65",
@@ -45711,7 +45721,8 @@
           "firstName": "Delphine",
           "lastName": "Nkansa"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "5000m Women": {
       "date": "2025-08-22T22:51:00.000Z",
@@ -45917,7 +45928,8 @@
           "firstName": "Purity",
           "lastName": "Chepkirui"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "1500m Men": {
       "date": "2025-08-22T23:13:00.000Z",
@@ -46087,7 +46099,8 @@
           "firstName": "Mounir",
           "lastName": "Akbache"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Men": {
       "date": "2025-08-22T23:41:00.000Z",
@@ -46167,7 +46180,8 @@
           "firstName": "Daniel",
           "lastName": "Segers"
         }
-      ]
+      ],
+      "isClosed": true
     }
   }
 }
