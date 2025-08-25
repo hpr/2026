@@ -128,6 +128,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   brussels25: {
     '100m Women': '10.65',
+  },
+  zurich25: {
+    '200m Men': '19.60',
   }
 };
 
@@ -163,6 +166,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   silesia25: '8:05am ET',
   lausanne25: '1:30pm ET',
   brussels25: '12:29pm ET',
+  zurich25: '11:05am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -218,6 +222,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   silesia25: ['https://silesia.diamondleague.com/programme-results/'],
   lausanne25: ['https://lausanne.diamondleague.com/en/programme-results/'],
   brussels25: ['https://brussels.diamondleague.com/en/programme-results/'],
+  zurich25: ['https://zurich.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {

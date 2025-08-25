@@ -138,8 +138,8 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
 }
 
 const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
-  // const b64 = Buffer.from(avatarBuffer).toString('base64');
-  const b64 = await sharp(Buffer.from(avatarBuffer)).modulate({ brightness: 1.0 }).toBuffer().then(b => b.toString('base64'));
+  const b64 = Buffer.from(avatarBuffer).toString('base64');
+  // const b64 = await sharp(Buffer.from(avatarBuffer)).modulate({ brightness: 1.0 }).toBuffer().then(b => b.toString('base64'));
   // const b64 = await sharp(Buffer.from(avatarBuffer)).sharpen({ sigma: 5 }).toBuffer().then(b => b.toString('base64'));
 
   const { data: detectData, ...rest } = await (
