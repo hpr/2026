@@ -92,6 +92,7 @@ for (const meet of [MEET] as DLMeet[]) {
     let eventsScored = 0;
     for (const key in picks) {
       const evt = key as AthleticsEvent;
+      if (meet === 'zurich25' && evt === 'Pole Vault Women') continue; // exclude
       if (!entries[meet]?.[evt]) console.log('Event not found: Something is wrong', name);
       if (!entries[meet]?.[evt]?.results) continue;
       const { score: evtScore, scorers } = getScore(meet, picks, evt);
