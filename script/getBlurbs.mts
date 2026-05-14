@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { BLURBCACHE_PATH, ENTRIES_PATH, MEET, SERVER_URL } from './const.mjs';
+import { BLURBCACHE_PATH, ENTRIES_PATH, MEET, SERVER_URL, standingsMeets } from './const.mjs';
 import { AthleticsEvent, Entries, BlurbCache } from './types.mjs';
 import dotenv from 'dotenv';
 dotenv.config();
@@ -30,7 +30,9 @@ async function getBlurbs() {
   // });
 
   blurbCache[MEET] ??= { blurbs: {}, athletes: {} };
-  const meetName = MEET[0].toUpperCase() + MEET.slice(1, -2);
+  const meetInfo = standingsMeets.find(m => m.meet === MEET);
+  const meetDate = meetInfo?.date ?? '';
+  const meetName = MEET[0].toUpperCase() + MEET.slice(1, -2) + ' Diamond League';
   for (const key in entries[MEET]) {
     const evt = key as AthleticsEvent;
     const gender = evt.toLowerCase().includes('women') ? 'Women' : 'Men';
@@ -69,6 +71,8 @@ async function getBlurbs() {
         body: JSON.stringify({
           discipline: ungenderedEvt,
           gender,
+          meetName,
+          meetDate,
           athletes: entries[MEET][evt]?.entrants.map(e => ({ id: e.id, year: String(new Date().getFullYear()) })),
         }),
       })).json());
