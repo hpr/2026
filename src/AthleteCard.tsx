@@ -18,6 +18,7 @@ import {
   Grid,
   Timeline,
   Tooltip,
+  Paper,
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { useContext } from 'react';
@@ -133,7 +134,7 @@ export function AthleteCard({
       <Modal
         size={500}
         title={
-          <Text variant="gradient" gradient={colorScheme === 'dark' ? { from: 'gray', to: 'white' } : { from: 'gray', to: 'black' }} size="xl" sx={{ fontWeight: 'bold', fontSize: 30 }}>
+          <Text variant="gradient" gradient={colorScheme === 'dark' ? { from: 'blue.3', to: 'cyan.2', deg: 90 } : { from: 'blue.7', to: 'cyan.7', deg: 90 }} size="xl" sx={{ fontWeight: 'bold', fontSize: 30 }}>
             {entrant.firstName} {entrant.lastName.toUpperCase()}
           </Text>
         }
@@ -214,35 +215,71 @@ export function AthleteCard({
               </Button>}
             </Button.Group>
             {blurb && (
-              <Accordion variant="contained" sx={{ width: '100%' }}>
+            <Accordion variant="contained" sx={{ width: '100%' }} multiple defaultValue={['personalBests']}>
                 <Accordion.Item value="blurb">
                   <Accordion.Control>AI-Generated Bio (may contain incorrect information)</Accordion.Control>
                   <Accordion.Panel>{blurb}</Accordion.Panel>
                 </Accordion.Item>
               </Accordion>
             )}
-            <Title order={3}>Personal Bests</Title>
-            <Box pos="relative" w="100%">
-              <Stack align="center">
-                <LoadingOverlay visible={!competitor} />
-                <Table sx={{ textAlign: 'left' }} striped highlightOnHover withTableBorder withColumnBorders>
-                  <Table.Tbody>
-                    {competitor?.personalBests.results.map(({ indoor, discipline, mark, notLegal, venue, date, resultScore }, i) => {
-                      return (
-                        <Table.Tr key={i}>
-                          <Table.Td>
-                            {indoor ? 'Indoor' : ''} {discipline}
-                          </Table.Td>
-                          <Table.Td>
-                            {mark}
-                            {notLegal ? '*' : ''} ({date})
-                          </Table.Td>
-                        </Table.Tr>
-                      );
-                    })}
-                  </Table.Tbody>
-                </Table>
-                <Title order={3}>{competitor?.resultsByYear?.activeYears[0]} Results</Title>
+            <Accordion variant="contained" multiple defaultValue={['personalBests']} sx={{ width: '100%' }}>
+              <Accordion.Item value="personalBests">
+                <Accordion.Control><Title order={3}>Personal Bests</Title></Accordion.Control>
+                <Accordion.Panel>
+                  <Box pos="relative" w="100%">
+                    <Stack align="center" gap="xs">
+                      <LoadingOverlay visible={!competitor} />
+                      {[...(competitor?.personalBests.results ?? [])]
+                        .filter((pb) => {
+                          const hasShortTrackVersion = competitor?.personalBests.results.some(
+                            (other) => other !== pb && other.discipline === pb.discipline + ' Short Track' && other.mark === pb.mark && other.date === pb.date
+                          );
+                          return !hasShortTrackVersion;
+                        })
+                        .sort((a, b) => (b.resultScore ?? 0) - (a.resultScore ?? 0))
+                        .map(({ indoor, discipline, mark, notLegal, venue, date, resultScore }, i) => {
+                          const isShortTrack = discipline.includes('Short Track');
+                          const cleanDiscipline = discipline.replace(' Short Track', '').replace('Metres', 'm');
+                          return (
+                            <Paper key={i} withBorder p="xs" radius="md" w="100%">
+                              <Group justify="space-between" align="center" wrap="nowrap">
+                                <Group gap="xs" align="center" wrap="nowrap" style={{ flex: '1 1 0', minWidth: 0, overflow: 'hidden' }}>
+                                  {isShortTrack && (
+                                    <>
+                                      <Badge size="sm" variant="light" color="orange" visibleFrom="sm" style={{ flexShrink: 0 }}>Short Track</Badge>
+                                      <Badge size="sm" variant="light" color="orange" hiddenFrom="sm" style={{ flexShrink: 0 }}>sh</Badge>
+                                    </>
+                                  )}
+                                  <Tooltip label={discipline} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
+                                    <Text size="sm" fw={600} truncate="end">{cleanDiscipline}</Text>
+                                  </Tooltip>
+                                </Group>
+                                <Group gap="xs" align="center">
+                                  <Tooltip label={`Result score: ${resultScore}`} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
+                                    <Text size="lg" fw={700}>{mark}{notLegal ? '*' : ''}</Text>
+                                  </Tooltip>
+                                  <Tooltip label={venue} openDelay={200} floatingStrategy="fixed">
+                                    <Text
+                                      size="xs"
+                                      c="dimmed"
+                                      ta="right"
+                                      lh={1.1}
+                                      sx={{ '@media (max-width: 48em)': { whiteSpace: 'pre-line' } }}
+                                    >
+                                      {date ? date.replace(/ (\d{4})$/, '\n$1') : date}
+                                    </Text>
+                                  </Tooltip>
+                                </Group>
+                              </Group>
+                            </Paper>
+                          );
+                        })}
+                    </Stack>
+                  </Box>
+                </Accordion.Panel>
+              </Accordion.Item>
+            </Accordion>
+            <Title order={3}>{competitor?.resultsByYear?.activeYears[0]} Results</Title>
                 <Accordion multiple variant="contained" sx={{ width: '100%' }}>
                   {competitor &&
                     Object.entries(
@@ -274,7 +311,7 @@ export function AthleteCard({
                                   <Timeline.Item
                                     key={i}
                                     bullet={
-                                      <Tooltip label={ordinal} openDelay={200} events={{ hover: true, focus: true, touch: true }}>
+                                      <Tooltip label={ordinal} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
                                         <Text size="lg">{medal}</Text>
                                       </Tooltip>
                                     }
@@ -282,7 +319,7 @@ export function AthleteCard({
                                       <Group gap="xs" align="center">
                                         <Text size="sm" fw={600}>{date.split(' ').slice(0, -1).join(' ')}</Text>
                                         {competitionName && (
-                                          <Tooltip label={cleanCompetition} openDelay={200}>
+                                          <Tooltip label={cleanCompetition} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
                                             <Text size="sm" fw={500}>{competitionName}</Text>
                                           </Tooltip>
                                         )}
@@ -294,7 +331,7 @@ export function AthleteCard({
                                       {wind && <Badge size="xs" variant="light">{wind}</Badge>}
                                       {race && <Badge size="xs" variant="light" color="gray">{race}</Badge>}
                                     </Group>
-                                    <Tooltip label={cleanVenue} openDelay={200} events={{ hover: true, focus: true, touch: true }}>
+                                    <Tooltip label={cleanVenue} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
                                       <Text size="xs" c="dimmed" mt={2}>{cleanVenue?.split(',')[0]}</Text>
                                     </Tooltip>
                                   </Timeline.Item>
@@ -306,9 +343,7 @@ export function AthleteCard({
                     ))}
                 </Accordion>
               </Stack>
-            </Box>
-          </Stack>
-        </div>
+            </div>
       </Modal>
       {tableView ? (
         <Table.Tr
