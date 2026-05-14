@@ -50,7 +50,23 @@ export type DLMeet =
   | 'silesia25'
   | 'lausanne25'
   | 'brussels25'
-  | 'zurich25';
+  | 'zurich25'
+
+  | 'shanghai26'
+  | 'xiamen26'
+  | 'rabat26'
+  | 'rome26'
+  | 'stockholm26'
+  | 'oslo26'
+  | 'doha26'
+  | 'paris26'
+  | 'eugene26'
+  | 'monaco26'
+  | 'london26'
+  | 'lausanne26'
+  | 'silesia26'
+  | 'zurich26'
+  | 'brussels26';
 
 export type AuthPage = 'register' | 'addPicks';
 

@@ -131,6 +131,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   zurich25: {
     '200m Men': '19.60',
+  },
+  shanghai26: {
+    '1500m Women': '3:55.00',
   }
 };
 
@@ -167,6 +170,8 @@ const deadlines: { [k in DLMeet]?: string } = {
   lausanne25: '1:30pm ET',
   brussels25: '12:29pm ET',
   zurich25: '11:05am ET',
+
+  shanghai26: '6:15am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -223,6 +228,8 @@ const schedules: { [k in DLMeet]?: string[] } = {
   lausanne25: ['https://lausanne.diamondleague.com/en/programme-results/'],
   brussels25: ['https://brussels.diamondleague.com/en/programme-results/'],
   zurich25: ['https://zurich.diamondleague.com/en/programme-results/'],
+
+  shanghai26: ['https://shanghai.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
@@ -774,7 +781,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
           cache[meet].schedule = { combined: await (await fetch(meetScheduleUrl)).text() };
           fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
         }
-        const originalHtml = cache[meet].schedule.combined!;
+        const originalHtml = cache[meet].schedule.combined!.replace(/<style[\s\S]*?<\/style>/gi, '');
         const { document, window } = new JSDOM(originalHtml, {
           // resources: 'usable',
           // runScripts: 'dangerously',
@@ -794,7 +801,8 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
           if (meet === 'lausanne25' && evt === 'Pole Vault Men – City Event') continue;
           if (['U23', 'National'].some(k => evt?.includes(k))) continue;
           const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);
-          const time = inTz(`${pv('--date-venue')} 2025 ${pv('--time-venue')}`, tz);
+          const year = '20' + (meet.match(/\d+$/)?.[0] ?? '26');
+          const time = inTz(`${pv('--date-venue')} ${year} ${pv('--time-venue')}`, tz);
           const entrants: Entrant[] = [...eDiv.nextElementSibling?.querySelectorAll('.grid') ?? []]
             .filter(x => !x.classList.contains('font-medium'))
             .map(entDiv => {

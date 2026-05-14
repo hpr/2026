@@ -23,7 +23,7 @@ import { AlertCircle, ArrowLeft, ArrowRight, Book, Diamond, Globe, Link, Minus, 
 import { mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entrant, ResultsByYearResult } from './types';
-import { isTouchDevice } from './util';
+import { isFlo, isTouchDevice } from './util';
 
 interface AthleteCardProps {
   avatar: string;
@@ -189,7 +189,7 @@ export function AthleteCard({
               <Button size="xl" variant="outline" radius="xl" leftIcon={<Diamond />} onClick={() => window.open(`https://www.diamondleague.com/athlete/${entrant.id}`, '_blank')}>
                 {isSmall ? '' : 'Diamond League'}
               </Button>
-              <Button size="xl" variant="outline" radius="xl" leftIcon={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>
+              {isFlo && <Button size="xl" variant="outline" radius="xl" leftIcon={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>
                 {isSmall ? (
                   ''
                 ) : (
@@ -200,7 +200,7 @@ export function AthleteCard({
                     </Badge>
                   </>
                 )}
-              </Button>
+              </Button>}
             </Button.Group>
             {blurb && (
               <Accordion variant="contained" sx={{ width: '100%' }}>

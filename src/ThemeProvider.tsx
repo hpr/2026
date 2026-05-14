@@ -11,10 +11,15 @@ interface ThemeProviderProps {
 }
 
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [colorScheme, setColorScheme] = useState<ColorScheme>('light');
-  
-  const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
+  const [colorScheme, setColorScheme] = useState<ColorScheme>(
+    (localStorage.getItem('colorScheme') as ColorScheme) || 'light'
+  );
+
+  const toggleColorScheme = (value?: ColorScheme) => {
+    const next = value || (colorScheme === 'dark' ? 'light' : 'dark');
+    localStorage.setItem('colorScheme', next);
+    setColorScheme(next);
+  };
 
   return (
     <ColorSchemeProvider 

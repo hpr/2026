@@ -138,7 +138,12 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
 }
 
 const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
-  const b64 = Buffer.from(avatarBuffer).toString('base64');
+  let buf = Buffer.from(avatarBuffer);
+  const metadata = await sharp(buf).metadata();
+  if (metadata.width && metadata.width > 1024) {
+    buf = await sharp(buf).resize(1024, 1024, { fit: 'inside', withoutEnlargement: true }).toBuffer();
+  }
+  const b64 = buf.toString('base64');
   // const b64 = await sharp(Buffer.from(avatarBuffer)).modulate({ brightness: 1.0 }).toBuffer().then(b => b.toString('base64'));
   // const b64 = await sharp(Buffer.from(avatarBuffer)).sharpen({ sigma: 5 }).toBuffer().then(b => b.toString('base64'));
 
@@ -154,7 +159,7 @@ const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
   if (Object.keys(rest).length) {
     console.log(rest);
   }
-  if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.') {
+  if (rest.detail === 'No face detected.' || rest.detail === 'Invalid input image.' || !detectData) {
     if (attempts > 100) return [];
     return await getPixelIcons(avatarBuffer, attempts + 1);
   }
@@ -404,7 +409,7 @@ for (const entrant of entrants) {
   avatarBuffer ??= await avatarResp.arrayBuffer();
   // if (avatarBuffer) avatarBuffer = (await sharp(Buffer.from(avatarBuffer)).png().toBuffer()).buffer as ArrayBuffer;
   const size: gm.Dimensions = await new Promise((res) => gm(Buffer.from(avatarBuffer!), 'image.jpg').size((_, size) => res(size)));
-  if (size.width > 1024 || (size.height > 1024 && size.width > 800))
+  if (size && (size.width > 1024 || (size.height > 1024 && size.width > 800)))
     avatarBuffer = await new Promise((res) =>
       gm(Buffer.from(avatarBuffer!), 'image.jpg')
         .resize(512)
@@ -418,7 +423,7 @@ for (const entrant of entrants) {
     for (const { label, image } of images) {
       fs.writeFileSync(`./public/img/${tfrrsMode ? 'tfrrsAvatars' : 'avatars'}/${id}_${label}.png`, Buffer.from(image, 'base64'));
     }
-    console.log(`http://localhost:5173/2025/img/avatars/${id}_128x128.png`);
+    console.log(`http://localhost:5173/2026/img/avatars/${id}_128x128.png`);
     console.log(`rm public/img/avatars/${id}_*`);
   }
   avatarCache[avatarCacheKey][id] ??= imageUrl;

@@ -48,7 +48,7 @@ export default function App() {
   const { pathname } = useLocation();
   const hash = decodeURIComponent(pathname.slice(1));
   const [entries, setEntries] = useState<Entries | null>(null);
-  const [meet, setMeet] = useState<DLMeet>('zurich25');
+  const [meet, setMeet] = useState<DLMeet>('shanghai26');
   const [evt, setEvt] = useState<AthleticsEvent | null>(null);
   const [myTeam, setMyTeam] = useState<Team>({});
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -499,7 +499,7 @@ export default function App() {
                       <Button variant="default" size="xs" leftIcon={<Mail />} onClick={() => window.open('mailto:habs@sdf.org')?.close()}>
                         habs@sdf.org
                       </Button>
-                      <Button variant="default" size="xs" leftIcon={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2025`, '_blank')}>
+                      <Button variant="default" size="xs" leftIcon={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2026`, '_blank')}>
                         Source code
                       </Button>
                     </Group>
@@ -535,10 +535,10 @@ export default function App() {
                 textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
               }}>
                 {isFlo && <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />}
-                <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2025 Fantasy Diamond League'}</Title>
+                <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2026 Fantasy Diamond League'}</Title>
                 {/* {isFlo && <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>} */}
-                {true && <React.Fragment>
-                  <Title order={4}>Watch all Diamond League meetings live on FloTrack, the exclusive U.S. provider of the 2025 Wanda Diamond League</Title>
+                {isFlo && <React.Fragment>
+                  <Title order={4}>Watch all Diamond League meetings live on FloTrack, the exclusive U.S. provider of the 2026 Wanda Diamond League</Title>
                   <Button color="red" mt="md" onClick={() => window.open('?affiliate', '_blank')}><Badge mr="md">New!</Badge> Save US$22.50 (15%) on FloTrack</Button>
                   <Text italic>Save on an annual FloTrack subscription using this link! (Click "Sign Up" then enter an email and password to receive the discount cookie)</Text>
                 </React.Fragment>}

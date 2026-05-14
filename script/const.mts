@@ -1,6 +1,6 @@
 import { AthleticsEvent, DLMeet, WAEventCode } from './types.mjs';
 
-export const MEET: DLMeet = 'zurich25';
+export const MEET: DLMeet = 'shanghai26';
 
 export const NUM_SCORING: number = 2;
 
@@ -307,19 +307,19 @@ query GetCompetitorBasicInfo($id: Int, $urlSlug: String) {
 `;
 
 export const standingsMeets: { meet: DLMeet; date: string, color: string }[] = [
-  { meet: 'xiamen25', date: '26 April 2025', color: '#512a8a' },
-  { meet: 'shanghai25', date: '3 May 2025', color: '#3a9b20' },
-  { meet: 'doha25', date: '16 May 2025', color: '#6c193f' },
-  { meet: 'rabat25', date: '25 May 2025', color: '#add8e6' },
-  { meet: 'rome25', date: '6 June 2025', color: '#e5b122' },
-  { meet: 'oslo25', date: '12 June 2025', color: '#3f48cc' },
-  { meet: 'stockholm25', date: '15 June 2025', color: '#009fe3' },
-  { meet: 'paris25', date: '20 June 2025', color: '#d0ab4c' },
-  { meet: 'eugene25', date: '5 July 2025', color: '#000000' },
-  { meet: 'monaco25', date: '11 July 2025', color: '#dd291e' },
-  { meet: 'london25', date: '19 July 2025', color: '#c6362d' },
-  { meet: 'silesia25', date: '16 August 2025', color: '#09234e' },
-  { meet: 'lausanne25', date: '20 August 2025', color: '#dc0b28' },
-  { meet: 'brussels25', date: '22 August 2025', color: '#003781' },
-  { meet: 'zurich25', date: '27 August 2025', color: '#009fe3' },
+  { meet: 'shanghai26', date: '16 May 2026', color: '#3a9b20' },
+  { meet: 'xiamen26', date: '23 May 2026', color: '#512a8a' },
+  { meet: 'rabat26', date: '31 May 2026', color: '#add8e6' },
+  { meet: 'rome26', date: '4 June 2026', color: '#e5b122' },
+  { meet: 'stockholm26', date: '7 June 2026', color: '#009fe3' },
+  { meet: 'oslo26', date: '10 June 2026', color: '#3f48cc' },
+  { meet: 'doha26', date: '19 June 2026', color: '#6c193f' },
+  { meet: 'paris26', date: '28 June 2026', color: '#d0ab4c' },
+  { meet: 'eugene26', date: '4 July 2026', color: '#000000' },
+  { meet: 'monaco26', date: '10 July 2026', color: '#dd291e' },
+  { meet: 'london26', date: '18 July 2026', color: '#c6362d' },
+  { meet: 'lausanne26', date: '21 August 2026', color: '#dc0b28' },
+  { meet: 'silesia26', date: '23 August 2026', color: '#09234e' },
+  { meet: 'zurich26', date: '27 August 2026', color: '#009fe3' },
+  { meet: 'brussels26', date: '4 September 2026', color: '#003781' },
 ];
