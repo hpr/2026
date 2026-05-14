@@ -274,7 +274,7 @@ export function AthleteCard({
                                   <Timeline.Item
                                     key={i}
                                     bullet={
-                                      <Tooltip label={ordinal} openDelay={200}>
+                                      <Tooltip label={ordinal} openDelay={200} events={{ hover: true, focus: true, touch: true }}>
                                         <Text size="lg">{medal}</Text>
                                       </Tooltip>
                                     }
@@ -294,7 +294,7 @@ export function AthleteCard({
                                       {wind && <Badge size="xs" variant="light">{wind}</Badge>}
                                       {race && <Badge size="xs" variant="light" color="gray">{race}</Badge>}
                                     </Group>
-                                    <Tooltip label={cleanVenue} openDelay={200}>
+                                    <Tooltip label={cleanVenue} openDelay={200} events={{ hover: true, focus: true, touch: true }}>
                                       <Text size="xs" c="dimmed" mt={2}>{cleanVenue?.split(',')[0]}</Text>
                                     </Tooltip>
                                   </Timeline.Item>
