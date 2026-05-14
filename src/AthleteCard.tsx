@@ -247,14 +247,14 @@ export function AthleteCard({
                           <List>
                             {results
                               .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-                              .map(({ date, venue, place, mark, wind, notLegal }, i) => (
+                              .map(({ date, venue, place, mark, wind, notLegal, competition, race }, i) => (
                                 <List.Item key={i}>
                                   {date.split(' ').slice(0, -1).join(' ')}:{' '}
                                   <span style={{ fontWeight: 'bold' }}>
                                     {Number.parseInt(place) ? `${Number.parseInt(place)}${nth(place)} place, ` : ''}
                                     {mark}
                                   </span>
-                                  {notLegal ? '*' : ''} {wind ? `(${wind})` : ''} @ {venue}
+                                  {notLegal ? '*' : ''} {wind ? `(${wind})` : ''}{race ? ` ${race}` : ''} @ {venue}{competition ? ` (${competition})` : ''}
                                 </List.Item>
                               ))}
                           </List>

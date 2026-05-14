@@ -31,7 +31,7 @@ query GetCompetitorBasicInfo($id: Int, $urlSlug: String) {
       activeYears
       resultsByEvent {
         indoor discipline
-        results { date venue place mark wind notLegal }
+        results { date venue place mark wind notLegal competition race }
       }
     }
   }

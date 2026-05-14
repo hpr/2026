@@ -140,6 +140,8 @@ export type ResultsByYearResult = {
   mark: string;
   wind: string;
   notLegal: boolean;
+  competition?: string;
+  race?: string;
 };
 
 export type Competitor = {
