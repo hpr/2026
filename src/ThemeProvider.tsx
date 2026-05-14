@@ -1,40 +1,24 @@
-import { 
-  MantineProvider, 
-  ColorSchemeProvider, 
-  ColorScheme 
-} from '@mantine/core';
+import { MantineProvider, createTheme } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';
-import { useState } from 'react';
+import { emotionTransform, MantineEmotionProvider } from '@mantine/emotion';
+import '@mantine/core/styles.css';
 
 interface ThemeProviderProps {
   children: React.ReactNode;
 }
 
+const theme = createTheme({
+  defaultRadius: 'sm',
+});
+
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [colorScheme, setColorScheme] = useState<ColorScheme>(
-    (localStorage.getItem('colorScheme') as ColorScheme) || 'light'
-  );
-
-  const toggleColorScheme = (value?: ColorScheme) => {
-    const next = value || (colorScheme === 'dark' ? 'light' : 'dark');
-    localStorage.setItem('colorScheme', next);
-    setColorScheme(next);
-  };
-
   return (
-    <ColorSchemeProvider 
-      colorScheme={colorScheme} 
-      toggleColorScheme={toggleColorScheme}
-    >
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{ colorScheme }}
-      >
+    <MantineProvider defaultColorScheme="light" theme={theme} stylesTransform={emotionTransform}>
+      <MantineEmotionProvider>
         <ModalsProvider>
           {children}
         </ModalsProvider>
-      </MantineProvider>
-    </ColorSchemeProvider>
+      </MantineEmotionProvider>
+    </MantineProvider>
   );
 }

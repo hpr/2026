@@ -17,43 +17,48 @@ export function User({
 
   return (
     <Box
-      sx={{
+      sx={(theme, u) => ({
         paddingTop: theme.spacing.sm,
-        borderTop: `1px solid ${
-          theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[2]
-        }`,
-      }}
+        borderTop: `1px solid ${theme.colors.gray[2]}`,
+        [u.dark]: {
+          borderTopColor: theme.colors.dark[4],
+        },
+      })}
     >
       <UnstyledButton
-        sx={{
+        sx={(theme, u) => ({
           display: 'block',
           width: '100%',
           padding: theme.spacing.xs,
           borderRadius: theme.radius.sm,
-          color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
-
+          color: theme.black,
           '&:hover': {
-            backgroundColor:
-              theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
+            backgroundColor: theme.colors.gray[0],
           },
-        }}
+          [u.dark]: {
+            color: theme.colors.dark[0],
+            '&:hover': {
+              backgroundColor: theme.colors.dark[6],
+            },
+          },
+        })}
       >
         <Group>
           <Avatar radius="xl">
             <DeviceFloppy />
           </Avatar>
           <Box sx={{ flex: 1 }} onClick={onClick}>
-            <Text size="sm" weight={500}>
+            <Text size="sm" fw={500}>
               {isClosed ? 'Event Closed' : 'Save Picks'}
             </Text>
-            <Text color="dimmed" size="xs">
+            <Text c="dimmed" size="xs">
               {isClosed
                 ? `Picks submission is closed for ${meet}`
                 : 'Save and submit your picks'}
             </Text>
           </Box>
 
-          {theme.dir === 'ltr' ? <ChevronRight size={18} /> : <ChevronLeft size={18} />}
+          <ChevronRight size={18} />
         </Group>
       </UnstyledButton>
     </Box>

@@ -35,7 +35,7 @@ const LeagueStandings = () => {
               </Text>
             }
           >
-            <Text color="dimmed" size="sm">
+            <Text c="dimmed" size="sm">
               <ol>
                 {leaders.map((leader) => (
                   <li key={leader.userid}>
@@ -45,7 +45,7 @@ const LeagueStandings = () => {
                 {!!leaders.length && (
                   <li>
                     <Text
-                      underline
+                      td="underline"
                       sx={{ cursor: 'pointer' }}
                       onClick={() =>
                         modals.open({

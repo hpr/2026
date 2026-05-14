@@ -5,7 +5,6 @@ import {
   Button,
   Modal,
   Accordion,
-  List,
   Stack,
   Title,
   Table,
@@ -13,13 +12,16 @@ import {
   Popover,
   Indicator,
   useMantineTheme,
+  useMantineColorScheme,
   Badge,
   Box,
   Grid,
+  Timeline,
+  Tooltip,
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { useContext } from 'react';
-import { AlertCircle, ArrowLeft, ArrowRight, Book, Diamond, Globe, Link, Minus, Plus, SquareRoundedLetterF, World } from 'tabler-icons-react';
+import { AlertCircle, ArrowLeft, ArrowRight, Book, Diamond, Globe, Link, Minus, Plus, SquareRoundedLetterF, World, Trophy } from 'tabler-icons-react';
 import { mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entrant, ResultsByYearResult } from './types';
@@ -76,6 +78,7 @@ export function AthleteCard({
 }: AthleteCardProps) {
   const { myTeam, setMyTeam } = useContext(Store);
   const theme = useMantineTheme();
+  const { colorScheme } = useMantineColorScheme();
   const [popOpened, { close: popClose, open: popOpen }] = useDisclosure(false);
   const isSmall = useMediaQuery(`(max-width: ${theme.breakpoints.md}px)`);
 
@@ -86,10 +89,10 @@ export function AthleteCard({
 
   const items = stats.map((stat) => (
     <div key={stat.label}>
-      <Text align="center" size="lg" weight={500}>
+      <Text ta="center" size="lg" fw={500}>
         {stat.value}
       </Text>
-      <Text align="center" size="sm" color="dimmed">
+      <Text ta="center" size="sm" c="dimmed">
         {stat.label}
       </Text>
     </div>
@@ -112,10 +115,16 @@ export function AthleteCard({
   const avatarOverlay = (
     <Avatar
       src={`https://files.opentrack.run/live/countryflags/ioc/${entrant.nat}.svg`}
-      radius={128}
-      size={128}
+      radius="50%"
+      w="100%"
+      h="100%"
       pos="absolute"
-      sx={{ filter: `brightness(${theme.colorScheme === 'dark' ? '20' : '90'}%)` }}
+      top={0}
+      left={0}
+      sx={(theme, u) => ({
+        [u.light]: { filter: 'brightness(90%)' },
+        [u.dark]: { filter: 'brightness(20%)' },
+      })}
     />
   );
 
@@ -124,30 +133,32 @@ export function AthleteCard({
       <Modal
         size={500}
         title={
-          <Text variant="gradient" gradient={theme.colorScheme === 'dark' ? { from: 'gray', to: 'white' } : { from: 'gray', to: 'black' }} size={30} sx={{ fontWeight: 'bold' }}>
+          <Text variant="gradient" gradient={colorScheme === 'dark' ? { from: 'gray', to: 'white' } : { from: 'gray', to: 'black' }} size="xl" sx={{ fontWeight: 'bold', fontSize: 30 }}>
             {entrant.firstName} {entrant.lastName.toUpperCase()}
           </Text>
         }
-        closeButtonProps={{ mr: 10, variant: 'outline' }}
+        closeButtonProps={{ mr: 10 }}
         withCloseButton={true}
         opened={showDetails}
         onClose={() => setShowDetails(false)}
       >
         <div style={{ position: 'relative' }}>
           <Stack align="center">
-            <Group align="center" position="center">
-              <Button disabled={idx === 0} variant="outline" onClick={() => showPrev()}>
-                <ArrowLeft />
+            <Group align="center" justify="center" wrap="nowrap">
+              <Button disabled={idx === 0} variant="outline" onClick={() => showPrev()} size="xs">
+                <ArrowLeft size={16} />
               </Button>
-              {avatarOverlay}
-              <Avatar variant="outline" size={128} radius={128} src={entrant.hasAvy ? avatar : undefined}>
-                {!entrant.hasAvy && entrant.firstName[0] + entrant.lastName[0]}
-              </Avatar>
-              <Button disabled={idx === numEntrants - 1} variant="outline" onClick={() => showNext()}>
-                <ArrowRight />
+              <Box sx={{ position: 'relative', width: isSmall ? 96 : 128, height: isSmall ? 96 : 128 }}>
+                {avatarOverlay}
+                <Avatar variant="outline" size={isSmall ? 96 : 128} radius={128} src={entrant.hasAvy ? avatar : undefined}>
+                  {!entrant.hasAvy && entrant.firstName[0] + entrant.lastName[0]}
+                </Avatar>
+              </Box>
+              <Button disabled={idx === numEntrants - 1} variant="outline" onClick={() => showNext()} size="xs">
+                <ArrowRight size={16} />
               </Button>
             </Group>
-            <Group align="center" position="center">
+            <Group align="center" justify="center">
               {entrant.pb && (
                 <Badge size="xl" rightSection="PB">
                   {entrant.pb}
@@ -158,12 +169,12 @@ export function AthleteCard({
                   {entrant.sb}
                 </Badge>
               )}
-              <Badge size="xl" leftSection={<World style={{ marginTop: 10 }} />}>
+              <Badge size="xl" leftSection={<World size={18} />}>
                 {entrant.nat}
               </Badge>
             </Group>
             <Button.Group orientation="vertical">
-              <Button variant="outline" leftIcon={<AddToTeamButtonIcon />} radius="xl" size="xl" color={isOnTeam ? 'red' : undefined} onClick={addToTeam}>
+              <Button variant="outline" leftSection={<AddToTeamButtonIcon />} radius="xl" size="xl" color={isOnTeam ? 'red' : undefined} onClick={addToTeam}>
                 {(() => {
                   if (isSmall) return '';
                   if (isOnTeam) return 'Remove from Team';
@@ -176,20 +187,20 @@ export function AthleteCard({
                 size="xl"
                 variant="outline"
                 radius="xl"
-                leftIcon={<Link />}
+                leftSection={<Link />}
                 onClick={() => window.open(`https://worldathletics.org/athletes/_/${entrant.id}`, '_blank')}
               >
                 {isSmall ? '' : 'World Athletics'}
               </Button>
               {wiki && (
-                <Button size="xl" variant="outline" radius="xl" leftIcon={<Book />} onClick={() => window.open(wiki, '_blank')}>
+                <Button size="xl" variant="outline" radius="xl" leftSection={<Book />} onClick={() => window.open(wiki, '_blank')}>
                   {isSmall ? '' : 'Wikipedia'}
                 </Button>
               )}
-              <Button size="xl" variant="outline" radius="xl" leftIcon={<Diamond />} onClick={() => window.open(`https://www.diamondleague.com/athlete/${entrant.id}`, '_blank')}>
+              <Button size="xl" variant="outline" radius="xl" leftSection={<Diamond />} onClick={() => window.open(`https://www.diamondleague.com/athlete/${entrant.id}`, '_blank')}>
                 {isSmall ? '' : 'Diamond League'}
               </Button>
-              {isFlo && <Button size="xl" variant="outline" radius="xl" leftIcon={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>
+              {isFlo && <Button size="xl" variant="outline" radius="xl" leftSection={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>
                 {isSmall ? (
                   ''
                 ) : (
@@ -213,23 +224,23 @@ export function AthleteCard({
             <Title order={3}>Personal Bests</Title>
             <Box pos="relative" w="100%">
               <Stack align="center">
-                <LoadingOverlay visible={!competitor} overlayBlur={2} />
-                <Table sx={{ textAlign: 'left' }} fontSize="md" striped highlightOnHover withBorder withColumnBorders>
-                  <tbody>
+                <LoadingOverlay visible={!competitor} />
+                <Table sx={{ textAlign: 'left' }} striped highlightOnHover withTableBorder withColumnBorders>
+                  <Table.Tbody>
                     {competitor?.personalBests.results.map(({ indoor, discipline, mark, notLegal, venue, date, resultScore }, i) => {
                       return (
-                        <tr key={i}>
-                          <td>
+                        <Table.Tr key={i}>
+                          <Table.Td>
                             {indoor ? 'Indoor' : ''} {discipline}
-                          </td>
-                          <td>
+                          </Table.Td>
+                          <Table.Td>
                             {mark}
                             {notLegal ? '*' : ''} ({date})
-                          </td>
-                        </tr>
+                          </Table.Td>
+                        </Table.Tr>
                       );
                     })}
-                  </tbody>
+                  </Table.Tbody>
                 </Table>
                 <Title order={3}>{competitor?.resultsByYear?.activeYears[0]} Results</Title>
                 <Accordion multiple variant="contained" sx={{ width: '100%' }}>
@@ -244,20 +255,52 @@ export function AthleteCard({
                       <Accordion.Item key={discipline} value={discipline}>
                         <Accordion.Control>{discipline}</Accordion.Control>
                         <Accordion.Panel>
-                          <List>
+                          <Timeline
+                            bulletSize={30}
+                            lineWidth={2}
+                            active={results.length - 1}
+                            sx={{ marginTop: 10 }}
+                          >
                             {results
                               .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-                              .map(({ date, venue, place, mark, wind, notLegal, competition, race }, i) => (
-                                <List.Item key={i}>
-                                  {date.split(' ').slice(0, -1).join(' ')}:{' '}
-                                  <span style={{ fontWeight: 'bold' }}>
-                                    {Number.parseInt(place) ? `${Number.parseInt(place)}${nth(place)} place, ` : ''}
-                                    {mark}
-                                  </span>
-                                  {notLegal ? '*' : ''} {wind ? `(${wind})` : ''}{race ? ` ${race}` : ''} @ {venue}{competition ? ` (${competition})` : ''}
-                                </List.Item>
-                              ))}
-                          </List>
+                              .map(({ date, venue, place, mark, wind, notLegal, competition, race }, i) => {
+                                const placeNum = Number.parseInt(place);
+                                const ordinal = placeNum ? `${placeNum}${nth(place)}` : '';
+                                const medal = placeNum === 1 ? '🥇' : placeNum === 2 ? '🥈' : placeNum === 3 ? '🥉' : placeNum ? `${placeNum}` : '–';
+                                const cleanVenue = venue?.replace(/ \(i\)/g, '');
+                                const cleanCompetition = competition?.replace(/, .+ \(i\) - Indoor Meeting/g, '').replace(/ \(i\)/g, '');
+                                const competitionName = cleanCompetition?.split(',')[0];
+                                return (
+                                  <Timeline.Item
+                                    key={i}
+                                    bullet={
+                                      <Tooltip label={ordinal} openDelay={200}>
+                                        <Text size="lg">{medal}</Text>
+                                      </Tooltip>
+                                    }
+                                    title={
+                                      <Group gap="xs" align="center">
+                                        <Text size="sm" fw={600}>{date.split(' ').slice(0, -1).join(' ')}</Text>
+                                        {competitionName && (
+                                          <Tooltip label={cleanCompetition} openDelay={200}>
+                                            <Text size="sm" fw={500}>{competitionName}</Text>
+                                          </Tooltip>
+                                        )}
+                                      </Group>
+                                    }
+                                  >
+                                    <Group gap="xs" align="center">
+                                      <Text size="md" fw={700}>{mark}{notLegal ? '*' : ''}</Text>
+                                      {wind && <Badge size="xs" variant="light">{wind}</Badge>}
+                                      {race && <Badge size="xs" variant="light" color="gray">{race}</Badge>}
+                                    </Group>
+                                    <Tooltip label={cleanVenue} openDelay={200}>
+                                      <Text size="xs" c="dimmed" mt={2}>{cleanVenue?.split(',')[0]}</Text>
+                                    </Tooltip>
+                                  </Timeline.Item>
+                                );
+                              })}
+                          </Timeline>
                         </Accordion.Panel>
                       </Accordion.Item>
                     ))}
@@ -268,29 +311,26 @@ export function AthleteCard({
         </div>
       </Modal>
       {tableView ? (
-        <tr
+        <Table.Tr
           onClick={() => {
             setShowDetails(true);
             cacheDetails();
           }}
           style={{ cursor: 'pointer' }}
         >
-          <td>
+          <Table.Td>
             {name}
             {isOnTeam && <Badge ml={5}>{isBackup ? 'Backup' : `#${teamPosition + 1}`}</Badge>}
-          </td>
-          {/* <td>{entrant.team}</td>
-          <td>{job}</td> */}
-          <td>{entrant.pb}</td>
-          <td onClick={addToTeam}>
+          </Table.Td>
+          <Table.Td>{entrant.pb}</Table.Td>
+          <Table.Td onClick={addToTeam}>
             <Button
               size="xs"
-              compact
               fullWidth
               sx={{ minWidth: 114 }}
               color={isOnTeam ? 'red' : undefined}
               disabled={!isOnTeam && team.length >= PICKS_PER_EVT}
-              leftIcon={<AddToTeamButtonIcon size={20} />}
+              leftSection={<AddToTeamButtonIcon size={20} />}
             >
               {(() => {
                 if (isOnTeam) return 'Remove';
@@ -299,8 +339,8 @@ export function AthleteCard({
                 return 'Full';
               })()}
             </Button>
-          </td>
-        </tr>
+          </Table.Td>
+        </Table.Tr>
       ) : (
         <Grid.Col span="content">
           <Popover width={200} position="bottom" withArrow shadow="md" opened={popOpened}>
@@ -323,9 +363,9 @@ export function AthleteCard({
                   label={isBackup ? 'Backup' : `#${teamPosition + 1}`}
                   offset={15}
                   position="top-start"
-                  sx={{ zIndex: 1 }}
+                  sx={{ zIndex: 1, '& .mantine-Indicator-indicator': { width: 30 } }}
                 >
-                  <Indicator withBorder color={mantineGray} size={20} label={entrant.lastName.toUpperCase()} position="bottom-center">
+                  <Box sx={{ position: 'relative', display: 'inline-block' }}>
                     {avatarOverlay}
                     <Avatar
                       onMouseEnter={popOpen}
@@ -337,23 +377,49 @@ export function AthleteCard({
                       src={entrant.hasAvy ? avatar : undefined}
                       size={128}
                       radius={128}
-                      mx="auto"
                       sx={{ border: `1px solid ${mantineGray}`, cursor: 'pointer' }}
                     >
                       {!entrant.hasAvy && entrant.firstName[0] + entrant.lastName[0]}
                     </Avatar>
-                  </Indicator>
+                    <Text
+                      size="xs"
+                      fw={700}
+                      ta="center"
+                      style={{
+                        position: 'absolute',
+                        bottom: -12,
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        backgroundColor: mantineGray,
+                        color: 'white',
+                        borderRadius: 10,
+                        border: '1px solid rgba(255, 255, 255, 0.3)',
+                        paddingLeft: 8,
+                        paddingRight: 8,
+                        paddingTop: 3,
+                        paddingBottom: 3,
+                        whiteSpace: 'nowrap',
+                        cursor: 'pointer',
+                      }}
+                      onClick={() => {
+                        setShowDetails(true);
+                        cacheDetails();
+                      }}
+                    >
+                      {entrant.lastName.toUpperCase()}
+                    </Text>
+                  </Box>
                 </Indicator>
               </Indicator>
             </Popover.Target>
             <Popover.Dropdown sx={{ display: isTouchDevice() ? 'none' : undefined }}>
-              <Text align="center" size="lg" weight={500} mt="sm">
+              <Text ta="center" size="lg" fw={500} mt="sm">
                 {name}
               </Text>
-              <Text align="center" size="sm" color="dimmed">
+              <Text ta="center" size="sm" c="dimmed">
                 {entrant.team ? `${entrant.team} (${job})` : job}
               </Text>
-              <Group mt="md" position="center" spacing={30}>
+              <Group mt="md" justify="center" gap={30}>
                 {items}
               </Group>
             </Popover.Dropdown>

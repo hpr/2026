@@ -43,8 +43,6 @@ export const Leaderboard = ({ meet, entries, setPage }: { meet: DLMeet; entries:
           onChange={(v: SortBy) => setSortBy(v)}
           data={[
             { label: `${meet[0].toUpperCase()}${meet.slice(1, -2)} Leaderboard`, value: 'score' },
-            // { label: 'King of the Distance', value: 'distanceScore' },
-            // { label: 'King of the Sprints', value: 'sprintScore' },
           ]}
           mb={10}
         />
@@ -60,10 +58,9 @@ export const Leaderboard = ({ meet, entries, setPage }: { meet: DLMeet; entries:
                     </Avatar>
                   }
                 >
-                  <Group position="apart">
+                  <Group justify="apart">
                     <Text>
                       {filter.clean(name)}
-                      {/* <Badge size="sm">#{userid}</Badge>*/}
                     </Text>
                     <Text>
                       <Badge size="md" rightSection="pts" color="green">
@@ -74,7 +71,7 @@ export const Leaderboard = ({ meet, entries, setPage }: { meet: DLMeet; entries:
                 </Accordion.Control>
                 <Accordion.Panel>
                   <Stack align="center">
-                    <Text italic>{eventsScored} events scored</Text>
+                    <Text fs="italic">{eventsScored} events scored</Text>
                     <Button
                       fullWidth
                       onClick={() => {

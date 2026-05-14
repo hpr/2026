@@ -31,7 +31,7 @@ export const Submissions = ({ meet }: { meet: DLMeet }) => {
   return (
     <Paper withBorder p="xl">
       <Stack align="center">
-        <Button color={mantineGray} variant="outline" onClick={refreshSubmissions}>
+        <Button color="gray" variant="outline" onClick={refreshSubmissions}>
           <Refresh />
         </Button>
         {!submissionsLoaded ? (

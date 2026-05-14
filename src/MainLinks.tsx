@@ -7,7 +7,7 @@ interface MainLinkProps {
   icon: React.ReactNode;
   path: string;
   color: string;
-  label: string | JSX.Element;
+  label: string | React.ReactNode;
   onClick?: MouseEventHandler;
 }
 
@@ -17,16 +17,22 @@ function MainLink({ icon, color, path, label, onClick = () => {} }: MainLinkProp
   return (
     <UnstyledButton
       onClick={onClick}
-      sx={(theme) => ({
+      sx={(theme, u) => ({
         display: 'block',
         width: '100%',
         padding: theme.spacing.xs,
         borderRadius: theme.radius.sm,
-        color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
-        backgroundColor: path === hash ? (theme.colorScheme === 'dark' ? theme.colors.dark[6] : '#d1d2d7') : undefined,
+        color: theme.black,
+        backgroundColor: path === hash ? '#d1d2d7' : undefined,
         '&:hover': {
-          backgroundColor:
-            theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
+          backgroundColor: theme.colors.gray[0],
+        },
+        [u.dark]: {
+          color: theme.colors.dark[0],
+          backgroundColor: path === hash ? theme.colors.dark[6] : undefined,
+          '&:hover': {
+            backgroundColor: theme.colors.dark[6],
+          },
         },
       })}
     >
@@ -44,10 +50,10 @@ function MainLink({ icon, color, path, label, onClick = () => {} }: MainLinkProp
 type MainLinksProps = {
   links?: (
     | {
-        icon: JSX.Element;
+        icon: React.ReactNode;
         color: string;
         path: string;
-        label: string | JSX.Element;
+        label: string | React.ReactNode;
         onClick?: MouseEventHandler;
       }
     | 'divider'

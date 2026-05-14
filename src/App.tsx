@@ -1,36 +1,35 @@
 import {
   AppShell,
   Group,
-  Header,
   Modal,
-  Navbar,
   Stack,
   Text,
   Code,
   useMantineTheme,
+  useMantineColorScheme,
   Burger,
-  MediaQuery,
   Button,
   List,
   CopyButton,
   SegmentedControl,
   TextInput,
   PasswordInput,
-  ScrollArea,
   Progress,
+  ScrollArea,
   Popover,
   Box,
   Badge,
   Grid,
   Title,
   Paper,
+  BoxProps,
 } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToScore, WaApi } from './types';
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
-import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book, SquareRoundedLetterF } from 'tabler-icons-react';
+import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book, SquareRoundedLetterF, Help } from 'tabler-icons-react';
 import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_URL, standingsMeets } from './const';
 import { isEmail, useForm } from '@mantine/form';
 import { Submissions } from './Submissions';
@@ -42,6 +41,7 @@ import { EventTeamPicker } from './EventTeamPicker';
 import LeagueStandings from './LeagueStandings';
 import { modals } from '@mantine/modals';
 import { ColorSchemeToggle } from './ColorSchemeToggle';
+import type { EmotionSx } from '@mantine/emotion';
 
 export default function App() {
   const navigate = useNavigate();
@@ -73,6 +73,7 @@ export default function App() {
   });
 
   const theme = useMantineTheme();
+  const { colorScheme } = useMantineColorScheme();
 
   useEffect(() => {
     (async () => {
@@ -141,10 +142,10 @@ export default function App() {
     const buttonify = (enabled: boolean) => ({ meet: selectedMeet, color }: { meet: DLMeet, color: string }) => (
       <Button
         variant="default"
-        style={{ 
+        style={{
           borderLeft: `10px solid ${color}`,
           width: 140,
-          color: theme.colorScheme === 'dark' ? 'white' : 'black',
+          color: colorScheme === 'dark' ? 'white' : 'black',
         }}
         disabled={!enabled}
         m="sm"
@@ -204,16 +205,6 @@ export default function App() {
       <Text mb={10} size="sm">
         <strong>Submissions Deadline:</strong> {earliestDate?.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })},
         before the first event starts, by {deadline} (for {meet}).
-        {/* <br />
-        <strong>Prizes:</strong> First Place: Free Supporters Club Membership ($100 value!) + T-Shirt. Second Place: Free T-Shirt. Third Place:
-        Free T-Shirt.
-        <br /> */}
-        {/* <strong>
-          <a href="#/standings">Overall League Champion</a> Prize
-        </strong>
-        : Free Supporters Club Membership + T-Shirt.
-        <br /> */}
-        {/* Thanks to sponsor <strong>LetsRun.com</strong> for providing the prizes! */}
       </Text>
     </React.Fragment>
   );
@@ -223,7 +214,7 @@ export default function App() {
       <Modal opened={modalOpen} onClose={() => setModalOpen(false)} title="Register / Login & Submit Picks">
         {arePicksComplete ? (
           <Stack>
-            <Text italic>
+            <Text fs="italic">
               If you want to use an existing account from a previous contest or are updating your picks, click "Submit / Update Picks" -- otherwise, click
               "Register"
             </Text>
@@ -307,8 +298,8 @@ export default function App() {
                 placeholder={`e.g. ${tiebreakerMark}`}
                 {...registerForm.getInputProps('tiebreaker')}
               />
-              <Group position="right" mt="md">
-                <Button leftIcon={isSuccess ? <Check /> : undefined} type="submit" loading={isLoading}>
+              <Group justify="right" mt="md">
+                <Button leftSection={isSuccess ? <Check /> : undefined} type="submit" loading={isLoading}>
                   {authPage === 'register'
                     ? isSuccess
                       ? 'Registered and submitted picks!'
@@ -347,236 +338,238 @@ export default function App() {
       </Modal>
       <AppShell
         padding="md"
-        navbarOffsetBreakpoint="sm"
-        navbar={
-          <Navbar sx={{ zIndex: 99 }} width={{ base: 300 }} hiddenBreakpoint="sm" hidden={!navbarOpen} height="calc(100% - 60px)" p="md">
-            <ScrollArea type="always" offsetScrollbars scrollbarSize={15}>
-              <Box w={266}>
-                <Navbar.Section grow mt="xs">
-                  <MainLinks
-                    links={[
-                      {
-                        icon: <Home />,
-                        color: theme.colorScheme === 'dark' ? 'black' : '',
-                        label: 'Home',
-                        path: 'home',
-                        onClick: () => {
-                          navigate(`/home`);
-                          setPage('home');
-                          setNavbarOpen(false);
-                        },
-                      },
-                      ...(isFlo ? [{
-                        icon: <SquareRoundedLetterF />,
-                        color: theme.colorScheme === 'dark' ? 'black' : '',
-                        label: 'Back to FloTrack',
-                        path: 'flotrack',
-                        onClick: () => {
-                          window.location.href = 'https://www.flotrack.org/collections/12408809-wanda-diamond-league';
-                        },
-                      }] : []),
-                      {
-                        icon: <Switch2 />,
-                        color: theme.colorScheme === 'dark' ? 'black' : '',
-                        label: 'Switch Meet',
-                        path: 'switch',
-                        onClick: () => {
-                          modals.open({
-                            title: 'Switch Meet',
-                            size: 'xl',
-                            children: getMeetButtons(),
-                          });
-                        },
-                      },
-                      ...(hasEventClosed
-                        ? [
-                            {
-                              icon: <Trophy />,
-                              color: theme.colorScheme === 'dark' ? 'gold': '',
-                              label: 'Leaderboard',
-                              path: `${meet}/leaderboard`,
-                              onClick: () => {
-                                navigate(`/${meet}/leaderboard`);
-                                setPage('leaderboard');
-                                setNavbarOpen(false);
-                              },
-                            },
-                            {
-                              icon: <Calculator />,
-                              color: theme.colorScheme === 'dark' ? 'black': '',
-                              label: 'Results',
-                              path: `${meet}/scoring`,
-                              onClick: () => {
-                                navigate(`/${meet}/scoring`);
-                                setPage('scoring');
-                                setNavbarOpen(false);
-                              },
-                            },
-                          ]
-                        : []),
-                      {
-                        icon: <Diamond />,
-                        color: theme.colorScheme === 'dark' ? 'black' : '',
-                        label: 'League Standings',
-                        path: 'standings',
-                        onClick: () => {
-                          navigate('/standings');
-                          setPage('standings');
-                          setNavbarOpen(false);
-                        },
-                      },
-                      {
-                        icon: <Users />,
-                        color: theme.colorScheme === 'dark' ? 'black' : '',
-                        label: 'Submissions',
-                        path: `${meet}/submissions`,
-                        onClick: () => {
-                          navigate(`/${meet}/submissions`);
-                          setPage('submissions');
-                          setNavbarOpen(false);
-                        },
-                      },
-                      DIVIDER,
-                      ...Object.keys(entries?.[meet] ?? {})
-                        // .sort(evtSort)
-                        .map((label) => {
-                          const linkEvt = label as AthleticsEvent;
-                          const filled = myTeam[meet]?.[linkEvt]?.length === PICKS_PER_EVT;
-                          const date = entries?.[meet]?.[label as AthleticsEvent]?.date;
-                          return {
-                            icon: filled ? <Check /> : <Run />,
-                            color: filled ? 'green' : 'blue',
-                            path: `${meet}/evt/${linkEvt}`,
-                            onClick: () => {
-                              navigate(`${meet}/evt/${linkEvt}`);
-                              setEvt(linkEvt);
-                              setPage('events');
-                              setNavbarOpen(false);
-                            },
-                            label: (
-                              <>
-                                {label.replace('Steeplechase', 'SC')}
-                                {/* <Badge color={date === 'Sat' ? 'green' : 'yellow'}>{date}</Badge> */}
-                              </>
-                            ),
-                          };
-                        }),
-                    ]}
-                  />
-                </Navbar.Section>
-              </Box>
-            </ScrollArea>
-
-            <Navbar.Section
-              onClick={() => {
-                if (!hasEventClosed) setModalOpen(true);
-              }}
-            >
-              <User isClosed={hasEventClosed} meet={meet} />
-            </Navbar.Section>
-          </Navbar>
-        }
-        header={
-          <Header height={60} p="xs">
-            <Group sx={{ height: '100%' }} px={20} position="apart">
-              <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
-                <Burger opened={navbarOpen} onClick={() => setNavbarOpen((o) => !o)} size="sm" color={theme.colors.gray[6]} mr="xl" />
-              </MediaQuery>
-              <Text size="md">
-                {isFlo && <img src="Hawk-ignite.png" height="20px" style={{ marginRight: 5 }} />} Fantasy {meet[0].toUpperCase()}
-                {meet.slice(1, -2)}
-                <ColorSchemeToggle />
-                <Popover width="100%" position="bottom" withArrow shadow="md">
-                  <Popover.Target>
-                    <Button size="xs" ml={20} bg={color}>
-                      Rules
-                    </Button>
-                  </Popover.Target>
-                  <Popover.Dropdown>
-                    {rules}
-                    <Group align="center">
-                      <Text>Contact for suggestions, improvements or issues:</Text>
-                      <Button variant="default" size="xs" leftIcon={<Mail />} onClick={() => window.open('mailto:habs@sdf.org')?.close()}>
-                        habs@sdf.org
-                      </Button>
-                      <Button variant="default" size="xs" leftIcon={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2026`, '_blank')}>
-                        Source code
-                      </Button>
-                    </Group>
-                  </Popover.Dropdown>
-                </Popover>
-              </Text>
-              <MediaQuery smallerThan="md" styles={{ display: 'none ' }}>
-                <Progress
-                  value={percentComplete}
-                  label={percentComplete >= 10 ? `${percentComplete}% Complete` : ''}
-                  size="xl"
-                  radius="xl"
-                  sx={{ width: '50%' }}
-                />
-              </MediaQuery>
-            </Group>
-          </Header>
-        }
-        styles={(theme) => ({
+        header={{ height: 60 }}
+        navbar={{
+          width: 300,
+          breakpoint: 'sm',
+          collapsed: { mobile: !navbarOpen },
+        }}
+        styles={(theme, _, u) => ({
           main: {
-            backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.gray[0],
+            [u.light]: {
+              backgroundColor: theme.colors.gray[0],
+            },
+            [u.dark]: {
+              backgroundColor: theme.colors.dark[8],
+            },
           },
         })}
       >
-        <Stack align="center" mt={0}>
-          {page === 'home' ? (
-            <div style={{ textAlign: 'center' }}>
-              <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{ 
-                backgroundColor: 'white',
-                color: 'white',
-                backgroundImage: "linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(diamondtrophy.png)",
-                backgroundPosition: 'center top',
-                textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
-              }}>
-                {isFlo && <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />}
-                <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2026 Fantasy Diamond League'}</Title>
-                {/* {isFlo && <Button color="red" mt="md" onClick={() => window.open('https://www.flotrack.org/collections/12408809-wanda-diamond-league?view=live-and-upcoming', '_blank')}>Watch the Diamond League live on FloTrack</Button>} */}
-                {isFlo && <React.Fragment>
-                  <Title order={4}>Watch all Diamond League meetings live on FloTrack, the exclusive U.S. provider of the 2026 Wanda Diamond League</Title>
-                  <Button color="red" mt="md" onClick={() => window.open('?affiliate', '_blank')}><Badge mr="md">New!</Badge> Save US$22.50 (15%) on FloTrack</Button>
-                  <Text italic>Save on an annual FloTrack subscription using this link! (Click "Sign Up" then enter an email and password to receive the discount cookie)</Text>
-                </React.Fragment>}
-              </Paper>
-              {getMeetButtons()}
-              <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>{isFlo ? '🏆 Build Your Squad. Compete Globally.' : 'Rules'}</Title></Paper>
-                {isFlo ? (
-                  <React.Fragment>
-                    <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard and claim bragging rights.</Title>
-                    <Text mt={10} style={{ textAlign: 'left' }}>
-                      How to Play:
-                      <ol style={{ marginTop: 10 }}>
-                        <li>Pick 3 Athletes Per Event Discipline<br />
-                        Choose from sprinters, distance stars, jumpers, and throwers.</li>
-                        <li>Score Points<br />
-                        Your team earns based on finishes of your top two athletes per discipline.</li>
-                        <li>Win Bragging Rights<br />
-                          Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
-                      </ol>
-                    </Text>
-                  </React.Fragment>
-                ) : rules}
-                <Button onClick={() => { setEvt(Object.keys(entries?.[meet] ?? {})[0] as AthleticsEvent); setPage('events'); }}>👉 Start Picking Your Team</Button>
-              </Paper>
-            </div>
-          ) : page === 'submissions' ? (
-            <Submissions meet={meet} />
-          ) : page === 'leaderboard' ? (
-            <Leaderboard meet={meet} entries={entries!} setPage={setPage} />
-          ) : page === 'scoring' ? (
-            <Results entries={entries} meet={meet} />
-          ) : page === 'standings' ? (
-            <LeagueStandings />
-          ) : (
-            <EventTeamPicker entries={entries} meet={meet} evt={evt!} />
-          )}
-        </Stack>
+        <AppShell.Header p={4}>
+          <Group sx={{ height: '100%' }} px={8} justify="apart">
+            <Burger opened={navbarOpen} onClick={() => setNavbarOpen((o) => !o)} size="sm" color={theme.colors.gray[6]} mr={4} hiddenFrom="sm" />
+            <Text size="md" truncate>
+              {isFlo && <img src="Hawk-ignite.png" height="20px" style={{ marginRight: 5 }} />} Fantasy {meet[0].toUpperCase()}
+              {meet.slice(1, -2)}
+            </Text>
+            <ColorSchemeToggle />
+            <Popover width="100%" position="bottom" withArrow shadow="md">
+              <Popover.Target>
+                <Button size="xs" bg={color}>
+                  <Help size={16} />
+                </Button>
+              </Popover.Target>
+                <Popover.Dropdown>
+                  {rules}
+                  <Group align="center">
+                    <Text>Contact for suggestions, improvements or issues:</Text>
+                    <Button variant="default" size="xs" leftSection={<Mail />} onClick={() => window.open('mailto:habs@sdf.org')?.close()}>
+                      habs@sdf.org
+                    </Button>
+                    <Button variant="default" size="xs" leftSection={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2026`, '_blank')}>
+                      Source code
+                    </Button>
+                  </Group>
+                </Popover.Dropdown>
+              </Popover>
+            <Box visibleFrom="md" sx={{ width: '50%' }}>
+              <Progress
+                value={percentComplete}
+                size="xl"
+                radius="xl"
+              />
+              {percentComplete >= 10 && <Text ta="center" size="sm">{percentComplete}% Complete</Text>}
+            </Box>
+          </Group>
+        </AppShell.Header>
+
+        <AppShell.Navbar p="md">
+          <AppShell.Section grow mt="xs" component={ScrollArea}>
+              <Box w={266}>
+                <MainLinks
+                  links={[
+                    {
+                      icon: <Home />,
+                      color: colorScheme === 'dark' ? 'gray' : '',
+                      label: 'Home',
+                      path: 'home',
+                      onClick: () => {
+                        navigate(`/home`);
+                        setPage('home');
+                        setNavbarOpen(false);
+                      },
+                    },
+                    ...(isFlo ? [{
+                      icon: <SquareRoundedLetterF />,
+                      color: colorScheme === 'dark' ? 'gray' : '',
+                      label: 'Back to FloTrack',
+                      path: 'flotrack',
+                      onClick: () => {
+                        window.location.href = 'https://www.flotrack.org/collections/12408809-wanda-diamond-league';
+                      },
+                    }] : []),
+                    {
+                      icon: <Switch2 />,
+                      color: colorScheme === 'dark' ? 'gray' : '',
+                      label: 'Switch Meet',
+                      path: 'switch',
+                      onClick: () => {
+                        modals.open({
+                          title: 'Switch Meet',
+                          size: 'xl',
+                          children: getMeetButtons(),
+                        });
+                      },
+                    },
+                    ...(hasEventClosed
+                      ? [
+                          {
+                            icon: <Trophy />,
+                            color: colorScheme === 'dark' ? 'gold': '',
+                            label: 'Leaderboard',
+                            path: `${meet}/leaderboard`,
+                            onClick: () => {
+                              navigate(`/${meet}/leaderboard`);
+                              setPage('leaderboard');
+                              setNavbarOpen(false);
+                            },
+                          },
+                          {
+                            icon: <Calculator />,
+                            color: colorScheme === 'dark' ? 'gray': '',
+                            label: 'Results',
+                            path: `${meet}/scoring`,
+                            onClick: () => {
+                              navigate(`/${meet}/scoring`);
+                              setPage('scoring');
+                              setNavbarOpen(false);
+                            },
+                          },
+                        ]
+                      : []),
+                    {
+                      icon: <Diamond />,
+                      color: colorScheme === 'dark' ? 'gray' : '',
+                      label: 'League Standings',
+                      path: 'standings',
+                      onClick: () => {
+                        navigate('/standings');
+                        setPage('standings');
+                        setNavbarOpen(false);
+                      },
+                    },
+                    {
+                      icon: <Users />,
+                      color: colorScheme === 'dark' ? 'gray' : '',
+                      label: 'Submissions',
+                      path: `${meet}/submissions`,
+                      onClick: () => {
+                        navigate(`/${meet}/submissions`);
+                        setPage('submissions');
+                        setNavbarOpen(false);
+                      },
+                    },
+                    DIVIDER,
+                    ...Object.keys(entries?.[meet] ?? {})
+                      .map((label) => {
+                        const linkEvt = label as AthleticsEvent;
+                        const filled = myTeam[meet]?.[linkEvt]?.length === PICKS_PER_EVT;
+                        const date = entries?.[meet]?.[label as AthleticsEvent]?.date;
+                        return {
+                          icon: filled ? <Check /> : <Run />,
+                          color: filled ? 'green' : 'blue',
+                          path: `${meet}/evt/${linkEvt}`,
+                          onClick: () => {
+                            navigate(`${meet}/evt/${linkEvt}`);
+                            setEvt(linkEvt);
+                            setPage('events');
+                            setNavbarOpen(false);
+                          },
+                          label: (
+                            <>
+                              {label.replace('Steeplechase', 'SC')}
+                            </>
+                          ),
+                        };
+                      }),
+                  ]}
+                />
+              </Box>
+          </AppShell.Section>
+
+          <AppShell.Section
+            onClick={() => {
+              if (!hasEventClosed) setModalOpen(true);
+            }}
+          >
+            <User isClosed={hasEventClosed} meet={meet} />
+          </AppShell.Section>
+        </AppShell.Navbar>
+
+        <AppShell.Main>
+          <Stack align="center" mt={0}>
+            {page === 'home' ? (
+              <div style={{ textAlign: 'center' }}>
+                <Paper shadow="xl" radius="xl" p="xl" withBorder sx={{
+                  backgroundColor: 'white',
+                  color: 'white',
+                  backgroundImage: "linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(diamondtrophy.png)",
+                  backgroundPosition: 'center top',
+                  textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
+                }}>
+                  {isFlo && <img src={`FloTrack-ignitewhite.svg`} height={30} style={{ marginBottom: 10 }} />}
+                  <Title><Diamond /> {isFlo ? 'FloTrack Fantasy Game: Wanda Diamond League' : '2026 Fantasy Diamond League'}</Title>
+                  {isFlo && <React.Fragment>
+                    <Title order={4}>Watch all Diamond League meetings live on FloTrack, the exclusive U.S. provider of the 2026 Wanda Diamond League</Title>
+                    <Button color="red" mt="md" onClick={() => window.open('?affiliate', '_blank')}><Badge mr="md">New!</Badge> Save US$22.50 (15%) on FloTrack</Button>
+                    <Text fs="italic">Save on an annual FloTrack subscription using this link! (Click "Sign Up" then enter an email and password to receive the discount cookie)</Text>
+                  </React.Fragment>}
+                </Paper>
+                {getMeetButtons()}
+                <Paper shadow="xl" radius="xl" p="xl" withBorder mt="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                  <Paper shadow="sm" radius="sm" p="sm" mb="xl" withBorder><Title>{isFlo ? '🏆 Build Your Squad. Compete Globally.' : 'Rules'}</Title></Paper>
+                  {isFlo ? (
+                    <React.Fragment>
+                      <Title order={4}>Pick your dream team of Diamond League athletes and earn points every meet based on their real-world performances. Climb the leaderboard and claim bragging rights.</Title>
+                      <Text mt={10} style={{ textAlign: 'left' }}>
+                        How to Play:
+                        <ol style={{ marginTop: 10 }}>
+                          <li>Pick 3 Athletes Per Event Discipline<br />
+                          Choose from sprinters, distance stars, jumpers, and throwers.</li>
+                          <li>Score Points<br />
+                          Your team earns based on finishes of your top two athletes per discipline.</li>
+                          <li>Win Bragging Rights<br />
+                            Weekly shoutouts. Full-season glory. Bragging rights forever.</li>
+                        </ol>
+                      </Text>
+                    </React.Fragment>
+                  ) : rules}
+                  <Button onClick={() => { setEvt(Object.keys(entries?.[meet] ?? {})[0] as AthleticsEvent); setPage('events'); }}>👉 Start Picking Your Team</Button>
+                </Paper>
+              </div>
+            ) : page === 'submissions' ? (
+              <Submissions meet={meet} />
+            ) : page === 'leaderboard' ? (
+              <Leaderboard meet={meet} entries={entries!} setPage={setPage} />
+            ) : page === 'scoring' ? (
+              <Results entries={entries} meet={meet} />
+            ) : page === 'standings' ? (
+              <LeagueStandings />
+            ) : (
+              <EventTeamPicker entries={entries} meet={meet} evt={evt!} />
+            )}
+          </Stack>
+        </AppShell.Main>
       </AppShell>
     </Store.Provider>
   );

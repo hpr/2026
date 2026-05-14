@@ -5,7 +5,7 @@ export function ColorSchemeToggle() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
 
   return (
-    <Button 
+    <Button
       size="xs"
       onClick={() => toggleColorScheme()}
       style={{ marginLeft: '10px', marginRight: '-10px', padding: '5px' }}

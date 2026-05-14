@@ -1,4 +1,4 @@
-import { Avatar, Button, Code, Grid, GridProps, Group, Paper, Stack, Switch, Table, TableProps, Text, Title, Tooltip } from '@mantine/core';
+import { Avatar, Button, Code, Grid, Group, Paper, Stack, Switch, Table, Text, Title, Tooltip } from '@mantine/core';
 import { useContext, useEffect, useState } from 'react';
 import { Check, Clock, ClockPause, Dots, ExternalLink, HandClick, HandFinger, Robot, Tex } from 'tabler-icons-react';
 import { AthleteCard } from './AthleteCard';
@@ -6,25 +6,23 @@ import { GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entries } from './types';
 import { modals } from '@mantine/modals';
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import Markdown from 'react-markdown';
 import { getSitelink, getWaApi, normalize } from './util';
 
 export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | null; meet: DLMeet; evt: AthleticsEvent }) => {
   const { myTeam, setMyTeam, waApi, setWaApi } = useContext(Store);
   const [tableView, setTableView] = useState<boolean>(false);
 
-  const TableAndTbody = ({ children, ...props }: TableProps) => (
+  const TableAndTbody = ({ children, ...props }: any) => (
     <Table {...props}>
-      <thead>
-        <tr>
-          <th>Name</th>
-          {/* <th>Team</th>
-          <th>Nat.</th> */}
-          <th>PB</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>{children}</tbody>
+      <Table.Thead>
+        <Table.Tr>
+          <Table.Th>Name</Table.Th>
+          <Table.Th>PB</Table.Th>
+          <Table.Th>Action</Table.Th>
+        </Table.Tr>
+      </Table.Thead>
+      <Table.Tbody>{children}</Table.Tbody>
     </Table>
   );
 
@@ -133,7 +131,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
             <>
               {myTeamPicks.length ? (
                 <Tooltip.Group openDelay={0} closeDelay={100}>
-                  <Avatar.Group spacing="xs">
+                  <Avatar.Group>
                     {myTeamPicks.map(({ id, lastName }, i) => (
                       <Tooltip
                         key={i}
@@ -172,7 +170,6 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
         </Stack>
       </Paper>
 
-      {/* Event time: {new Date(entries?.[meet]?.[evt!]?.date!).toLocaleTimeString().replace(':00 ', ' ')} */}
       <Paper withBorder radius="xl" p="lg">
         <Stack align="center">
           <Paper withBorder radius="xl" p="lg" py="md" shadow="xl">
@@ -182,7 +179,6 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
               </Title>
               <Group>
                 <Switch checked={tableView} onChange={(e) => setTableView(e.currentTarget.checked)} label="Table view?" />
-                {/* <Switch checked={pixelMode} onChange={(e) => setPixelMode(e.currentTarget.checked)} label="Pixel mode?" /> */}
                 <Button size="xs" variant="default" color={mantineGray} onClick={() => setMyTeam({ ...myTeam, [meet]: { ...myTeam[meet], [evt]: [] } })}>
                   Reset team
                 </Button>
@@ -256,10 +252,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                       </>
                     ),
                     children: (
-                      <ReactMarkdown>{entries?.[meet]?.[evt]?.blurb ?? ''}</ReactMarkdown>
-                      // <Code block sx={{ whiteSpace: 'pre-wrap' }}>
-                      //   {entries?.[meet]?.[evt]?.blurb}
-                      // </Code>
+                      <Markdown>{entries?.[meet]?.[evt]?.blurb ?? ''}</Markdown>
                     ),
                     size: 'xl',
                   })
@@ -271,7 +264,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
           </Paper>
 
           {tableView ? (
-            <TableAndTbody fontSize="lg" striped highlightOnHover withBorder withColumnBorders>
+            <TableAndTbody fontSize="lg" striped highlightOnHover withTableBorder withColumnBorders>
               {gridChildren}
             </TableAndTbody>
           ) : (

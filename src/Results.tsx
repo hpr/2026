@@ -46,7 +46,7 @@ export const Results = ({ entries, meet }: { entries: Entries | null; meet: DLMe
             return (
               <Accordion.Item value={evt} key={evt}>
                 <Accordion.Control>
-                  <Group position="apart">
+                  <Group justify="apart">
                     <Text>{evt}</Text>
                     {evtPoints && (
                       <Badge size="lg" color="green">
@@ -71,7 +71,7 @@ export const Results = ({ entries, meet }: { entries: Entries | null; meet: DLMe
                             />
                           }
                         >
-                          <Group position="apart">
+                          <Group justify="apart">
                             <Text
                               sx={{
                                 fontWeight: wasChosen ? 'bold' : undefined,
