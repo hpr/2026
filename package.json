@@ -12,6 +12,7 @@
     "getStandings": "tsc --module nodenext --outDir build script/getStandings.mts && node build/getStandings.mjs",
     "getStats": "node --loader ts-node/esm script/getStats.mts",
     "getLeaderboard": "tsc --module nodenext --outDir build script/getLeaderboard.mts && node build/getLeaderboard.mjs",
+    "getMontage": "tsc --module nodenext --outDir build script/getMontage.mts && node build/getMontage.mjs",
     "closeEntries": "tsc --module nodenext --outDir build script/closeEntries.mts && node build/closeEntries.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview",
