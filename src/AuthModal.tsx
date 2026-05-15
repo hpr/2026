@@ -121,7 +121,7 @@ export function AuthModal({ arePicksComplete, meet, myTeam, entries, tiebreakerE
   if (authPage === 'resetConfirm') {
     return (
       <Stack>
-        <Text>Enter the 6-digit code sent to <strong>{resetEmail}</strong> and your new password.</Text>
+        <Text>Enter the 6-digit code sent to <strong>{resetEmail}</strong> and your new password. <Text fs="italic" component="span">(check your spam folder if you don't see the email)</Text></Text>
         <form onSubmit={handleResetConfirm}>
           <Group justify="center">
             <PinInput length={6} type="number" size="md" gap="sm" value={resetCode} onChange={setResetCode} oneTimeCode />

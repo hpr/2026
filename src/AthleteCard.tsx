@@ -92,6 +92,7 @@ export function AthleteCard({
     : 0;
   const isHot = popPct >= 40;
   const isSuperHot = popPct >= 60;
+  const popEmoji = popPct >= 80 ? '👑' : popPct >= 60 ? '🔥' : popPct >= 40 ? '📈' : popPct >= 25 ? '⚡' : popPct >= 10 ? '👀' : popPct > 0 ? '🕵️' : '💤';
 
   const team = myTeam?.[meet]?.[event] ?? [];
   const teamPosition = team.findIndex((member) => member.id === entrant.id);
@@ -239,25 +240,16 @@ export function AthleteCard({
                 <Group gap="xs" align="center" justify="center">
                   <Text size="sm" c="dimmed">Popularity:</Text>
                   <Badge size="sm" variant="light" color={isSuperHot ? 'red' : isHot ? 'orange' : 'blue'}>
-                    {popPct}% picked
+                    {popEmoji} {popPct}% picked
                   </Badge>
                 </Group>
                 <Text size="xs" c="dimmed" ta="center">
                   ({popularity[0] ?? 0} captain, {popularity[1] ?? 0} runner-up, {popularity[2] ?? 0} 3rd pick)
                 </Text>
-                <Text size="xs" c="dimmed" fs="italic" ta="center">
-                  {popPct >= 80 ? '👑 Everybody wants a piece — the consensus pick!' :
-                   popPct >= 60 ? '🔥 This athlete is on fire — a near-lock for most managers!' :
-                   popPct >= 40 ? '📈 Trending up — plenty of managers are betting on this one.' :
-                   popPct >= 25 ? '⚡ Gaining traction — a popular dark horse pick.' :
-                   popPct >= 10 ? '👀 A quiet contender — on a few savvy radars.' :
-                   popPct > 0 ? '🕵️ Off the beaten path — a true differential pick.' :
-                   '💤 Nobody has picked this athlete yet — first mover advantage?'}
-                </Text>
               </Stack>
             )}
             {blurb && (
-            <Accordion variant="contained" sx={{ width: '100%' }} multiple defaultValue={['personalBests']}>
+              <Accordion variant="contained" sx={{ width: '100%' }} multiple defaultValue={['personalBests']}>
                 <Accordion.Item value="blurb">
                   <Accordion.Control>AI-Generated Bio (may contain incorrect information)</Accordion.Control>
                   <Accordion.Panel>{blurb}</Accordion.Panel>
@@ -322,70 +314,70 @@ export function AthleteCard({
               </Accordion.Item>
             </Accordion>
             <Title order={3}>{competitor?.resultsByYear?.activeYears[0]} Results</Title>
-                <Accordion multiple variant="contained" sx={{ width: '100%' }}>
-                  {competitor &&
-                    Object.entries(
-                      competitor.resultsByYear.resultsByEvent.reduce((acc, { indoor, discipline, results }) => {
-                        acc[discipline] ??= [];
-                        acc[discipline].push(...results);
-                        return acc;
-                      }, {} as { [k: string]: ResultsByYearResult[] })
-                    ).map(([discipline, results]) => (
-                      <Accordion.Item key={discipline} value={discipline}>
-                        <Accordion.Control>{discipline}</Accordion.Control>
-                        <Accordion.Panel>
-                          <Timeline
-                            bulletSize={30}
-                            lineWidth={2}
-                            active={results.length - 1}
-                            sx={{ marginTop: 10 }}
-                          >
-                            {results
-                              .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-                              .map(({ date, venue, place, mark, wind, notLegal, competition, race }, i) => {
-                                const placeNum = Number.parseInt(place);
-                                const ordinal = placeNum ? `${placeNum}${nth(place)}` : '';
-                                const medal = placeNum === 1 ? '🥇' : placeNum === 2 ? '🥈' : placeNum === 3 ? '🥉' : placeNum ? `${placeNum}` : '–';
-                                const cleanVenue = venue?.replace(/ \(i\)/g, '');
-                                const cleanCompetition = competition?.replace(/, .+ \(i\) - Indoor Meeting/g, '').replace(/ \(i\)/g, '');
-                                const competitionName = cleanCompetition?.split(',')[0];
-                                return (
-                                  <Timeline.Item
-                                    key={i}
-                                    bullet={
-                                      <Tooltip label={ordinal} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
-                                        <Text size="lg">{medal}</Text>
+            <Accordion multiple variant="contained" sx={{ width: '100%' }}>
+              {competitor &&
+                Object.entries(
+                  competitor.resultsByYear.resultsByEvent.reduce((acc, { indoor, discipline, results }) => {
+                    acc[discipline] ??= [];
+                    acc[discipline].push(...results);
+                    return acc;
+                  }, {} as { [k: string]: ResultsByYearResult[] })
+                ).map(([discipline, results]) => (
+                  <Accordion.Item key={discipline} value={discipline}>
+                    <Accordion.Control>{discipline}</Accordion.Control>
+                    <Accordion.Panel>
+                      <Timeline
+                        bulletSize={30}
+                        lineWidth={2}
+                        active={results.length - 1}
+                        sx={{ marginTop: 10 }}
+                      >
+                        {results
+                          .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+                          .map(({ date, venue, place, mark, wind, notLegal, competition, race }, i) => {
+                            const placeNum = Number.parseInt(place);
+                            const ordinal = placeNum ? `${placeNum}${nth(place)}` : '';
+                            const medal = placeNum === 1 ? '🥇' : placeNum === 2 ? '🥈' : placeNum === 3 ? '🥉' : placeNum ? `${placeNum}` : '–';
+                            const cleanVenue = venue?.replace(/ \(i\)/g, '');
+                            const cleanCompetition = competition?.replace(/, .+ \(i\) - Indoor Meeting/g, '').replace(/ \(i\)/g, '');
+                            const competitionName = cleanCompetition?.split(',')[0];
+                            return (
+                              <Timeline.Item
+                                key={i}
+                                bullet={
+                                  <Tooltip label={ordinal} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
+                                    <Text size="lg">{medal}</Text>
+                                  </Tooltip>
+                                }
+                                title={
+                                  <Group gap="xs" align="center">
+                                    <Text size="sm" fw={600}>{date.split(' ').slice(0, -1).join(' ')}</Text>
+                                    {competitionName && (
+                                      <Tooltip label={cleanCompetition} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
+                                        <Text size="sm" fw={500}>{competitionName}</Text>
                                       </Tooltip>
-                                    }
-                                    title={
-              <Group gap="xs" align="center" justify="center">
-                                        <Text size="sm" fw={600}>{date.split(' ').slice(0, -1).join(' ')}</Text>
-                                        {competitionName && (
-                                          <Tooltip label={cleanCompetition} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
-                                            <Text size="sm" fw={500}>{competitionName}</Text>
-                                          </Tooltip>
-                                        )}
-                                      </Group>
-                                    }
-                                  >
-                                    <Group gap="xs" align="center">
-                                      <Text size="md" fw={700}>{mark}{notLegal ? '*' : ''}</Text>
-                                      {wind && <Badge size="xs" variant="light">{wind}</Badge>}
-                                      {race && <Badge size="xs" variant="light" color="gray">{race}</Badge>}
-                                    </Group>
-                                    <Tooltip label={cleanVenue} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
-                                      <Text size="xs" c="dimmed" mt={2}>{cleanVenue?.split(',')[0]}</Text>
-                                    </Tooltip>
-                                  </Timeline.Item>
-                                );
-                              })}
-                          </Timeline>
-                        </Accordion.Panel>
-                      </Accordion.Item>
-                    ))}
-                </Accordion>
-              </Stack>
-            </div>
+                                    )}
+                                  </Group>
+                                }
+                              >
+                                <Group gap="xs" align="center">
+                                  <Text size="md" fw={700}>{mark}{notLegal ? '*' : ''}</Text>
+                                  {wind && <Badge size="xs" variant="light">{wind}</Badge>}
+                                  {race && <Badge size="xs" variant="light" color="gray">{race}</Badge>}
+                                </Group>
+                                <Tooltip label={cleanVenue} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
+                                  <Text size="xs" c="dimmed" mt={2}>{cleanVenue?.split(',')[0]}</Text>
+                                </Tooltip>
+                              </Timeline.Item>
+                            );
+                          })}
+                      </Timeline>
+                    </Accordion.Panel>
+                  </Accordion.Item>
+                ))}
+            </Accordion>
+          </Stack>
+        </div>
       </Modal>
       {tableView ? (
         <Table.Tr
