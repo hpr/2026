@@ -98,7 +98,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
           { label: 'PB', value: pb! },
           { label: 'SB', value: sb! },
         ].filter((x) => x.value)}
-        popularity={evtPopularity[id] ?? null}
+        popularity={evtPopularity[id] ?? [0, 0, 0]}
         totalSubmissions={Object.keys(popularity[evt!] ?? {}).length > 0 ? Object.values(popularity[evt!]).reduce((sum, v) => sum + v[0], 0) : 0}
       />
     );
@@ -150,7 +150,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
               ) : (
                 <>
                   <Text>
-                    Select {PICKS_PER_EVT === 3 ? 'an event captain, secondary pick, and backup pick' : `your team of ${PICKS_PER_EVT} athletes`} below
+                    Select {PICKS_PER_EVT === 3 ? 'an event captain, secondary pick, and 3rd pick' : `your team of ${PICKS_PER_EVT} athletes`} below
                   </Text>
                   <Text>
                     (<strong>Hint:</strong> You can click / tap <HandClick /> on the athlete's pictures to see detailed reports of PBs and recent results)

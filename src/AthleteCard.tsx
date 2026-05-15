@@ -233,7 +233,7 @@ export function AthleteCard({
                   </Badge>
                 </Group>
                 <Text size="xs" c="dimmed" ta="center">
-                  ({popularity[0] ?? 0} captain, {popularity[1] ?? 0} runner-up, {popularity[2] ?? 0} backup)
+                  ({popularity[0] ?? 0} captain, {popularity[1] ?? 0} runner-up, {popularity[2] ?? 0} 3rd pick)
                 </Text>
                 <Text size="xs" c="dimmed" fs="italic" ta="center">
                   {popPct >= 80 ? '👑 Everybody wants a piece — the consensus pick!' :
