@@ -11,9 +11,6 @@ import {
   Button,
   List,
   CopyButton,
-  SegmentedControl,
-  TextInput,
-  PasswordInput,
   Progress,
   ScrollArea,
   Popover,
@@ -25,19 +22,19 @@ import {
   BoxProps,
 } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
-import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Popularity, Team, TeamToScore, WaApi } from './types';
+import { AthleticsEvent, DLMeet, Entrant, Entries, Page, Popularity, Team, TeamToScore, WaApi } from './types';
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
 import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book, SquareRoundedLetterF, Help } from 'tabler-icons-react';
-import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_BASE, SERVER_URL, standingsMeets } from './const';
-import { isEmail, useForm } from '@mantine/form';
+import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_BASE, standingsMeets } from './const';
 import { Submissions } from './Submissions';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Leaderboard } from './Leaderboard';
 import { evtSort, isFlo } from './util';
 import { Results } from './Results';
 import { EventTeamPicker } from './EventTeamPicker';
+import { AuthModal } from './AuthModal';
 import LeagueStandings from './LeagueStandings';
 import { modals } from '@mantine/modals';
 import { ColorSchemeToggle } from './ColorSchemeToggle';
@@ -54,24 +51,10 @@ export default function App() {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [navbarOpen, setNavbarOpen] = useState<boolean>(false);
   const [page, setPage] = useState<Page>('home');
-  const [authPage, setAuthPage] = useState<AuthPage>('register');
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isSuccess, setIsSuccess] = useState<boolean>(false);
   const [teamToScore, setTeamToScore] = useState<TeamToScore | null>(null);
   const [athletesById, setAthletesById] = useState<{ [id: string]: Entrant }>({});
   const [waApi, setWaApi] = useState<WaApi | null>(null);
   const [popularity, setPopularity] = useState<Popularity>({});
-  const registerForm = useForm({
-    initialValues: {
-      name: '',
-      email: '',
-      password: '',
-      tiebreaker: '',
-    },
-    validate: {
-      email: isEmail('Invalid email'),
-    },
-  });
 
   const theme = useMantineTheme();
   const { colorScheme } = useMantineColorScheme();
@@ -224,130 +207,17 @@ export default function App() {
 
   return (
     <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById, popularity, setPopularity, waApi, setWaApi }}>
-      <Modal opened={modalOpen} onClose={() => setModalOpen(false)} title="Register / Login & Submit Picks">
-        {arePicksComplete ? (
-          <Stack>
-            <Text fs="italic">
-              If you want to use an existing account from a previous contest or are updating your picks, click "Submit / Update Picks" -- otherwise, click
-              "Register"
-            </Text>
-            <SegmentedControl
-              value={authPage}
-              onChange={(v: AuthPage) => {
-                setAuthPage(v);
-                registerForm.setErrors({});
-                setIsSuccess(false);
-              }}
-              data={[
-                { label: 'Submit / Update Picks', value: 'addPicks' },
-                { label: 'Register', value: 'register' },
-              ]}
-              mb={10}
-            />
-            <form
-              onChange={() => {
-                setIsSuccess(false);
-                registerForm.setErrors({});
-              }}
-              onSubmit={registerForm.onSubmit(async (vals) => {
-                setIsLoading(true);
-                let { status } = await (
-                  await fetch(SERVER_URL, {
-                    method: 'POST',
-                    body: JSON.stringify({
-                      action: authPage,
-                      ...vals,
-                      ...(authPage === 'addPicks'
-                        ? {
-                            meet,
-                            picksJson: {
-                              ...myTeam[meet],
-                              tiebreaker: registerForm.values.tiebreaker,
-                            },
-                          }
-                        : {}),
-                    }),
-                  })
-                ).json();
-                if (authPage === 'register' && status === 'success') {
-                  ({ status } = await (
-                    await fetch(SERVER_URL, {
-                      method: 'POST',
-                      body: JSON.stringify({
-                        action: 'addPicks',
-                        ...vals,
-                        ...{
-                          meet,
-                          picksJson: {
-                            ...myTeam[meet],
-                            tiebreaker: registerForm.values.tiebreaker,
-                          },
-                        },
-                      }),
-                    })
-                  ).json());
-                }
-                setIsLoading(false);
-                if (status === 'success') setIsSuccess(true);
-                else {
-                  setIsSuccess(false);
-                  let msg = `Error in ${authPage === 'register' ? 'registration' : 'login'}, try again?`;
-                  if (authPage === 'register') msg += ' If you already have an account, click "Submit / Update Picks" to log in';
-                  registerForm.setErrors({
-                    email: msg,
-                    password: msg,
-                  });
-                }
-              })}
-            >
-              <TextInput withAsterisk label="Email" placeholder="usain@bolt.com" {...registerForm.getInputProps('email')} />
-              {authPage === 'register' && (
-                <TextInput withAsterisk label="Name" placeholder="Usain (will be displayed on leaderboards)" {...registerForm.getInputProps('name')} />
-              )}
-              <PasswordInput withAsterisk label="Password" placeholder="Password" {...registerForm.getInputProps('password')} />
-              <TextInput
-                withAsterisk
-                label={`Tiebreaker: ${tiebreakerEvt} winning time?`}
-                placeholder={`e.g. ${tiebreakerMark}`}
-                {...registerForm.getInputProps('tiebreaker')}
-              />
-              <Group justify="right" mt="md">
-                <Button leftSection={isSuccess ? <Check /> : undefined} type="submit" loading={isLoading}>
-                  {authPage === 'register'
-                    ? isSuccess
-                      ? 'Registered and submitted picks!'
-                      : 'Register'
-                    : isSuccess
-                    ? 'Updated Picks!'
-                    : 'Submit / Update Picks'}
-                </Button>
-              </Group>
-            </form>
-
-            <Code mt={20} block>
-              {picksText}
-            </Code>
-            <CopyButton value={picksText}>
-              {({ copied, copy }) => (
-                <Button color={copied ? 'teal' : 'blue'} onClick={copy}>
-                  {copied ? 'Copied picks' : 'Copy picks to clipboard'}
-                </Button>
-              )}
-            </CopyButton>
-          </Stack>
-        ) : (
-          <>
-            <Text mb={20}>Please complete your picks before submission. You still need to select for these events:</Text>
-            <List>
-              {Object.keys(entries?.[meet] ?? {})
-                .sort(evtSort)
-                .filter((evt) => (myTeam[meet]?.[evt as AthleticsEvent]?.length ?? 0) < PICKS_PER_EVT)
-                .map((evt) => (
-                  <List.Item key={evt}>{evt}</List.Item>
-                ))}
-            </List>
-          </>
-        )}
+      <Modal opened={modalOpen} onClose={() => setModalOpen(false)} title="Register / Login & Submit Picks" size="lg">
+        <AuthModal
+          arePicksComplete={arePicksComplete}
+          meet={meet}
+          myTeam={myTeam}
+          entries={entries}
+          tiebreakerEvt={tiebreakerEvt}
+          tiebreakerMark={tiebreakerMark}
+          picksText={picksText}
+          onClose={() => setModalOpen(false)}
+        />
       </Modal>
       <AppShell
         padding="md"

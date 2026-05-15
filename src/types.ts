@@ -68,7 +68,7 @@ export type DLMeet =
   | 'zurich26'
   | 'brussels26';
 
-export type AuthPage = 'register' | 'addPicks';
+export type AuthPage = 'register' | 'addPicks' | 'resetRequest' | 'resetConfirm';
 
 export type AthleticsEvent =
   | '100m Women'
