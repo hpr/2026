@@ -1,5 +1,5 @@
 import { Avatar, Button, Code, Grid, Group, Paper, Stack, Switch, Table, Text, Title, Tooltip } from '@mantine/core';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useMemo, useState } from 'react';
 import { Check, Clock, ClockPause, Dots, ExternalLink, HandClick, HandFinger, Robot, Tex } from 'tabler-icons-react';
 import { AthleteCard } from './AthleteCard';
 import { GRAPHQL_QUERY, mantineGray, PICKS_PER_EVT } from './const';
@@ -64,6 +64,55 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
 
   const isClosed = !!entries?.[meet]?.[evt as AthleticsEvent]?.isClosed;
   const evtPopularity = popularity[evt!] ?? {};
+
+  const matchUrl = useMemo(() => {
+    const ungenderedEvt = evt!
+      .split(' ')
+      .filter((w) => !w.toLowerCase().includes('men'))
+      .join(' ')
+      .replace('m', ' Metres')
+      .replace(/Steeple$/, 'Steeplechase');
+    const gender = evt!.toLowerCase().includes('Women') ? 'Women' : 'Men';
+    const entrants = entries?.[meet]?.[evt!]?.entrants ?? [];
+    const athleteIds = entrants.map((e) => e.id);
+    const currentYear = String(new Date().getFullYear());
+    const matchQuery = {
+      athleteIds: JSON.stringify(athleteIds),
+      athleteYears: JSON.stringify(Object.fromEntries(athleteIds.map((id) => [id, currentYear]))),
+      athleteInfo: JSON.stringify(
+        Object.fromEntries(
+          entrants.map((ent) => [
+            ent.id,
+            {
+              gender,
+              givenName: ent.firstName,
+              familyName: ent.lastName,
+              aaAthleteId: ent.id,
+              disciplines: ungenderedEvt,
+            },
+          ])
+        )
+      ),
+      athleteBasicInfo: JSON.stringify(
+        Object.fromEntries(
+          entrants.map((ent) => [
+            ent.id,
+            {
+              resultsByYear: {
+                activeYears: [currentYear],
+              },
+            },
+          ])
+        )
+      ),
+      discipline: ungenderedEvt,
+      response: window.btoa(normalize(entries?.[meet]?.[evt!]?.blurb ?? '')),
+    };
+    return normalize(
+      `https://hpr.github.io/match/#` +
+        new URLSearchParams(matchQuery)
+    );
+  }, [entries, meet, evt]);
   const gridChildren = entries?.[meet]?.[evt!]?.entrants.map((entrant, i) => {
     const { id, firstName, lastName, pb, sb, nat, blurb } = entrant;
     if (!id) console.log(firstName, lastName);
@@ -197,58 +246,9 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                         <Button
                           mt="sm"
                           fullWidth
-                          onClick={() => {
-                            const ungenderedEvt = evt
-                              .split(' ')
-                              .filter((w) => !w.toLowerCase().includes('men'))
-                              .join(' ')
-                              .replace('m', ' Metres')
-                              .replace(/Steeple$/, 'Steeplechase');
-                            const gender = evt.toLowerCase().includes('Women') ? 'Women' : 'Men';
-                            const entrants = entries?.[meet]?.[evt]?.entrants ?? [];
-                            const athleteIds = entrants.map((e) => e.id);
-                            const currentYear = String(new Date().getFullYear());
-                            const matchQuery = {
-                              athleteIds: JSON.stringify(athleteIds),
-                              athleteYears: JSON.stringify(Object.fromEntries(athleteIds.map((id) => [id, currentYear]))),
-                              athleteInfo: JSON.stringify(
-                                Object.fromEntries(
-                                  entrants.map((ent) => [
-                                    ent.id,
-                                    {
-                                      gender,
-                                      givenName: ent.firstName,
-                                      familyName: ent.lastName,
-                                      aaAthleteId: ent.id,
-                                      disciplines: ungenderedEvt,
-                                    },
-                                  ])
-                                )
-                              ),
-                              athleteBasicInfo: JSON.stringify(
-                                Object.fromEntries(
-                                  entrants.map((ent) => [
-                                    ent.id,
-                                    {
-                                      resultsByYear: {
-                                        activeYears: [currentYear],
-                                      },
-                                    },
-                                  ])
-                                )
-                              ),
-                              discipline: ungenderedEvt,
-                              response: window.btoa(normalize(entries?.[meet]?.[evt]?.blurb ?? '')),
-                            };
-                            const matchUrl = normalize(
-                              `https://hpr.github.io/match/#` +
-                                new URLSearchParams(matchQuery)
-                            );
-                            window.open(
-                              matchUrl,
-                              '_blank'
-                            );
-                          }}
+                          component="a"
+                          href={matchUrl}
+                          target="_blank"
                         >
                           Open in TrackBot Match <ExternalLink />
                         </Button>

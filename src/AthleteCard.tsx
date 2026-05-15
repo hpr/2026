@@ -199,16 +199,26 @@ export function AthleteCard({
                 variant="outline"
                 radius="xl"
                 leftSection={<Link />}
-                onClick={() => window.open(`https://worldathletics.org/athletes/_/${entrant.id}`, '_blank')}
+                component="a"
+                href={`https://worldathletics.org/athletes/_/${entrant.id}`}
+                target="_blank"
               >
                 {isSmall ? '' : 'World Athletics'}
               </Button>
               {wiki && (
-                <Button size="xl" variant="outline" radius="xl" leftSection={<Book />} onClick={() => window.open(wiki, '_blank')}>
+                <Button size="xl" variant="outline" radius="xl" leftSection={<Book />} component="a" href={wiki} target="_blank">
                   {isSmall ? '' : 'Wikipedia'}
                 </Button>
               )}
-              <Button size="xl" variant="outline" radius="xl" leftSection={<Diamond />} onClick={() => window.open(`https://www.diamondleague.com/athlete/${entrant.id}`, '_blank')}>
+              <Button
+                size="xl"
+                variant="outline"
+                radius="xl"
+                leftSection={<Diamond />}
+                component="a"
+                href={`https://www.diamondleague.com/athlete/${entrant.id}`}
+                target="_blank"
+              >
                 {isSmall ? '' : 'Diamond League'}
               </Button>
               {isFlo && <Button size="xl" variant="outline" radius="xl" leftSection={<SquareRoundedLetterF />} onClick={() => window.open('https://www.flotrack.org/search?' + new URLSearchParams({ q: `"${entrant.firstName} ${entrant.lastName}"` }), '_blank')}>

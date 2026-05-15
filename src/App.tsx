@@ -386,10 +386,10 @@ export default function App() {
                   {rules}
                   <Group align="center">
                     <Text>Contact for suggestions, improvements or issues:</Text>
-                    <Button variant="default" size="xs" leftSection={<Mail />} onClick={() => window.open('mailto:habs@sdf.org')?.close()}>
+                    <Button variant="default" size="xs" leftSection={<Mail />} component="a" href="mailto:habs@sdf.org">
                       habs@sdf.org
                     </Button>
-                    <Button variant="default" size="xs" leftSection={<BrandGit />} onClick={() => window.open(`https://github.com/hpr/2026`, '_blank')}>
+                    <Button variant="default" size="xs" leftSection={<BrandGit />} component="a" href="https://github.com/hpr/2026" target="_blank">
                       Source code
                     </Button>
                   </Group>
