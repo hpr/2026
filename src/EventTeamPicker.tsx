@@ -10,7 +10,7 @@ import Markdown from 'react-markdown';
 import { getSitelink, getWaApi, normalize } from './util';
 
 export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | null; meet: DLMeet; evt: AthleticsEvent }) => {
-  const { myTeam, setMyTeam, waApi, setWaApi } = useContext(Store);
+  const { myTeam, setMyTeam, waApi, setWaApi, popularity } = useContext(Store);
   const [tableView, setTableView] = useState<boolean>(false);
 
   const TableAndTbody = ({ children, ...props }: any) => (
@@ -63,6 +63,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
   };
 
   const isClosed = !!entries?.[meet]?.[evt as AthleticsEvent]?.isClosed;
+  const evtPopularity = popularity[evt!] ?? {};
   const gridChildren = entries?.[meet]?.[evt!]?.entrants.map((entrant, i) => {
     const { id, firstName, lastName, pb, sb, nat, blurb } = entrant;
     if (!id) console.log(firstName, lastName);
@@ -97,6 +98,8 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
           { label: 'PB', value: pb! },
           { label: 'SB', value: sb! },
         ].filter((x) => x.value)}
+        popularity={evtPopularity[id] ?? null}
+        totalSubmissions={Object.keys(popularity[evt!] ?? {}).length > 0 ? Object.values(popularity[evt!]).reduce((sum, v) => sum + v[0], 0) : 0}
       />
     );
   });

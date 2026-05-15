@@ -25,12 +25,12 @@ import {
   BoxProps,
 } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
-import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Team, TeamToScore, WaApi } from './types';
+import { AthleticsEvent, AuthPage, DLMeet, Entrant, Entries, Page, Popularity, Team, TeamToScore, WaApi } from './types';
 import { Store } from './Store';
 import { MainLinks } from './MainLinks';
 import { User } from './User';
 import { BrandGit, Calculator, Check, Diamond, Dots, Mail, Run, Trophy, Users, Switch2, Home, Book, SquareRoundedLetterF, Help } from 'tabler-icons-react';
-import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_URL, standingsMeets } from './const';
+import { DIVIDER, PAGES, PICKS_PER_EVT, SERVER_BASE, SERVER_URL, standingsMeets } from './const';
 import { isEmail, useForm } from '@mantine/form';
 import { Submissions } from './Submissions';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -60,6 +60,7 @@ export default function App() {
   const [teamToScore, setTeamToScore] = useState<TeamToScore | null>(null);
   const [athletesById, setAthletesById] = useState<{ [id: string]: Entrant }>({});
   const [waApi, setWaApi] = useState<WaApi | null>(null);
+  const [popularity, setPopularity] = useState<Popularity>({});
   const registerForm = useForm({
     initialValues: {
       name: '',
@@ -113,6 +114,18 @@ export default function App() {
   useEffect(() => {
     setMyTeam(JSON.parse(localStorage.getItem('myTeam') ?? '{}'));
   }, []);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const resp = await fetch(`${SERVER_BASE}/popularity?meet=${meet}`);
+        if (resp.ok) {
+          const data = await resp.json();
+          setPopularity(data);
+        }
+      } catch {}
+    })();
+  }, [meet]);
 
   useEffect(() => {
     if (Object.keys(myTeam).length) localStorage.setItem('myTeam', JSON.stringify(myTeam));
@@ -210,7 +223,7 @@ export default function App() {
   );
 
   return (
-    <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById, waApi, setWaApi }}>
+    <Store.Provider value={{ myTeam, setMyTeam, teamToScore, setTeamToScore, athletesById, setAthletesById, popularity, setPopularity, waApi, setWaApi }}>
       <Modal opened={modalOpen} onClose={() => setModalOpen(false)} title="Register / Login & Submit Picks">
         {arePicksComplete ? (
           <Stack>

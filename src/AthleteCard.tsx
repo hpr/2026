@@ -22,7 +22,7 @@ import {
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { useContext } from 'react';
-import { AlertCircle, ArrowLeft, ArrowRight, Book, Diamond, Globe, Link, Minus, Plus, SquareRoundedLetterF, World, Trophy } from 'tabler-icons-react';
+import { AlertCircle, ArrowLeft, ArrowRight, Book, Diamond, Flame, Globe, Link, Minus, Plus, SquareRoundedLetterF, World, Trophy } from 'tabler-icons-react';
 import { mantineGray, PICKS_PER_EVT } from './const';
 import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entrant, ResultsByYearResult } from './types';
@@ -49,6 +49,8 @@ interface AthleteCardProps {
   cacheDetails: () => void;
   competitor: Competitor | null;
   wiki: string | null;
+  popularity: number[] | null;
+  totalSubmissions: number;
 }
 
 function nth(n: string) {
@@ -76,12 +78,20 @@ export function AthleteCard({
   cacheDetails,
   competitor,
   wiki,
+  popularity,
+  totalSubmissions,
 }: AthleteCardProps) {
   const { myTeam, setMyTeam } = useContext(Store);
   const theme = useMantineTheme();
   const { colorScheme } = useMantineColorScheme();
   const [popOpened, { close: popClose, open: popOpen }] = useDisclosure(false);
   const isSmall = useMediaQuery(`(max-width: ${theme.breakpoints.md}px)`);
+
+  const popPct = popularity && totalSubmissions > 0
+    ? Math.round(((popularity[0] ?? 0) + (popularity[1] ?? 0)) / totalSubmissions * 100)
+    : 0;
+  const isHot = popPct >= 40;
+  const isSuperHot = popPct >= 60;
 
   const team = myTeam?.[meet]?.[event] ?? [];
   const teamPosition = team.findIndex((member) => member.id === entrant.id);
@@ -214,6 +224,28 @@ export function AthleteCard({
                 )}
               </Button>}
             </Button.Group>
+            {popularity && totalSubmissions > 0 && (
+              <Stack gap={4} align="center" w="100%">
+                <Group gap="xs" align="center" justify="center">
+                  <Text size="sm" c="dimmed">Popularity:</Text>
+                  <Badge size="sm" variant="light" color={isSuperHot ? 'red' : isHot ? 'orange' : 'blue'}>
+                    {popPct}% picked
+                  </Badge>
+                </Group>
+                <Text size="xs" c="dimmed" ta="center">
+                  ({popularity[0] ?? 0} captain, {popularity[1] ?? 0} runner-up, {popularity[2] ?? 0} backup)
+                </Text>
+                <Text size="xs" c="dimmed" fs="italic" ta="center">
+                  {popPct >= 80 ? '👑 Everybody wants a piece — the consensus pick!' :
+                   popPct >= 60 ? '🔥 This athlete is on fire — a near-lock for most managers!' :
+                   popPct >= 40 ? '📈 Trending up — plenty of managers are betting on this one.' :
+                   popPct >= 25 ? '⚡ Gaining traction — a popular dark horse pick.' :
+                   popPct >= 10 ? '👀 A quiet contender — on a few savvy radars.' :
+                   popPct > 0 ? '🕵️ Off the beaten path — a true differential pick.' :
+                   '💤 Nobody has picked this athlete yet — first mover advantage?'}
+                </Text>
+              </Stack>
+            )}
             {blurb && (
             <Accordion variant="contained" sx={{ width: '100%' }} multiple defaultValue={['personalBests']}>
                 <Accordion.Item value="blurb">
@@ -316,7 +348,7 @@ export function AthleteCard({
                                       </Tooltip>
                                     }
                                     title={
-                                      <Group gap="xs" align="center">
+              <Group gap="xs" align="center" justify="center">
                                         <Text size="sm" fw={600}>{date.split(' ').slice(0, -1).join(' ')}</Text>
                                         {competitionName && (
                                           <Tooltip label={cleanCompetition} openDelay={200} events={{ hover: true, focus: true, touch: true }} floatingStrategy="fixed">
@@ -356,6 +388,8 @@ export function AthleteCard({
           <Table.Td>
             {name}
             {isOnTeam && <Badge ml={5}>{isBackup ? 'Backup' : `#${teamPosition + 1}`}</Badge>}
+            {isSuperHot && <Badge ml={5} color="red" variant="filled" size="sm"><Flame size={12} /> Hot</Badge>}
+            {!isSuperHot && isHot && <Badge ml={5} color="orange" variant="light" size="sm"><Flame size={12} /></Badge>}
           </Table.Td>
           <Table.Td>{entrant.pb}</Table.Td>
           <Table.Td onClick={addToTeam}>
@@ -402,6 +436,33 @@ export function AthleteCard({
                 >
                   <Box sx={{ position: 'relative', display: 'inline-block' }}>
                     {avatarOverlay}
+                    {isHot && (
+                      <Tooltip
+                        label={`Picked by ${popPct}% of players!`}
+                        events={{ hover: true, focus: true, touch: true }}
+                        floatingStrategy="fixed"
+                      >
+                        <Box
+                          sx={{
+                            position: 'absolute',
+                            bottom: 10,
+                            right: -5,
+                            zIndex: 10,
+                            backgroundColor: isSuperHot ? 'var(--mantine-color-red-6)' : 'var(--mantine-color-orange-5)',
+                            borderRadius: '50%',
+                            width: 24,
+                            height: 24,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            border: '2px solid white',
+                            boxShadow: isSuperHot ? '0 0 8px var(--mantine-color-red-6)' : '0 0 6px var(--mantine-color-orange-5)',
+                          }}
+                        >
+                          <Flame size={14} color="white" />
+                        </Box>
+                      </Tooltip>
+                    )}
                     <Avatar
                       onMouseEnter={popOpen}
                       onMouseLeave={popClose}

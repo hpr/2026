@@ -238,3 +238,5 @@ export type SparqlResponse = {
 };
 
 export type WaApi = { endpoint: string, apiKey: string };
+
+export type Popularity = Record<string, Record<string, number[]>>;
