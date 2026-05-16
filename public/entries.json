@@ -58317,7 +58317,133 @@
           "lastName": "Wu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.25",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.17",
+            "sb": "12.40",
+            "nat": "USA",
+            "id": "14659011",
+            "hasAvy": true,
+            "firstName": "Masai",
+            "lastName": "Russell"
+          }
+        },
+        {
+          "mark": "12.38",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.44",
+            "sb": "",
+            "nat": "BAH",
+            "id": "14414505",
+            "hasAvy": true,
+            "firstName": "Devynne",
+            "lastName": "Charlton"
+          }
+        },
+        {
+          "mark": "12.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.12",
+            "sb": "",
+            "nat": "NGR",
+            "id": "14579526",
+            "hasAvy": true,
+            "firstName": "Tobi",
+            "lastName": "Amusan"
+          }
+        },
+        {
+          "mark": "12.73",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.34",
+            "sb": "12.67",
+            "nat": "JAM",
+            "id": "14413569",
+            "hasAvy": true,
+            "firstName": "Megan",
+            "lastName": "Simmonds"
+          }
+        },
+        {
+          "mark": "12.82",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "",
+            "nat": "SUI",
+            "id": "14739461",
+            "hasAvy": true,
+            "firstName": "Ditaji",
+            "lastName": "Kambundji"
+          }
+        },
+        {
+          "mark": "12.98",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14685249",
+            "hasAvy": true,
+            "firstName": "Ackera",
+            "lastName": "Nugent"
+          }
+        },
+        {
+          "mark": "13.16",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.74",
+            "sb": "",
+            "nat": "CHN",
+            "id": "14585472",
+            "hasAvy": true,
+            "firstName": "Yanni",
+            "lastName": "Wu"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14450995",
+            "hasAvy": true,
+            "firstName": "Danielle",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "12.76",
+            "nat": "USA",
+            "id": "14564128",
+            "hasAvy": true,
+            "firstName": "Tonea",
+            "lastName": "Marshall"
+          }
+        }
+      ]
     }
   }
 }
