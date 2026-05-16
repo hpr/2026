@@ -56537,7 +56537,163 @@
           "lastName": "Alekna"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "70.58",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "72.61",
+            "sb": "72.61",
+            "nat": "SLO",
+            "id": "14666860",
+            "hasAvy": true,
+            "firstName": "Kristjan",
+            "lastName": "Čeh"
+          }
+        },
+        {
+          "mark": "67.54",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "74.78",
+            "sb": "73.58",
+            "nat": "AUS",
+            "id": "14436890",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Denny"
+          }
+        },
+        {
+          "mark": "66.71",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "71.86",
+            "sb": "64.20",
+            "nat": "SWE",
+            "id": "14375325",
+            "hasAvy": true,
+            "firstName": "Daniel",
+            "lastName": "Ståhl"
+          }
+        },
+        {
+          "mark": "66.03",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "71.88",
+            "sb": "71.88",
+            "nat": "GBR",
+            "id": "14425340",
+            "hasAvy": true,
+            "firstName": "Lawrence",
+            "lastName": "Okoye"
+          }
+        },
+        {
+          "mark": "65.49",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "74.00",
+            "sb": "74.00",
+            "nat": "GER",
+            "id": "14828356",
+            "hasAvy": true,
+            "firstName": "Steven",
+            "lastName": "Richter"
+          }
+        },
+        {
+          "mark": "64.92",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "70.66",
+            "sb": "68.47",
+            "nat": "JAM",
+            "id": "14744385",
+            "hasAvy": true,
+            "firstName": "Roje",
+            "lastName": "Stona"
+          }
+        },
+        {
+          "mark": "64.83",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "72.45",
+            "sb": "69.75",
+            "nat": "USA",
+            "id": "14416979",
+            "hasAvy": true,
+            "firstName": "Sam",
+            "lastName": "Mattis"
+          }
+        },
+        {
+          "mark": "63.95",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "70.68",
+            "sb": "67.00",
+            "nat": "AUT",
+            "id": "14363774",
+            "hasAvy": true,
+            "firstName": "WEIßHAIDINGER Lukas",
+            "lastName": ""
+          }
+        },
+        {
+          "mark": "59.89",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "67.23",
+            "sb": "62.00",
+            "nat": "LTU",
+            "id": "14751795",
+            "hasAvy": true,
+            "firstName": "Martynas",
+            "lastName": "Alekna"
+          }
+        },
+        {
+          "mark": "59.13",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "71.48",
+            "sb": "68.17",
+            "nat": "SAM",
+            "id": "14389747",
+            "hasAvy": true,
+            "firstName": "Alex",
+            "lastName": "Rose"
+          }
+        },
+        {
+          "mark": "58.73",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "67.44",
+            "sb": "63.02",
+            "nat": "CUB",
+            "id": "14663422",
+            "hasAvy": true,
+            "firstName": "Mario Alberto",
+            "lastName": "Díaz"
+          }
+        }
+      ]
     },
     "200m Women": {
       "date": "2026-05-16T15:52:00.000Z",

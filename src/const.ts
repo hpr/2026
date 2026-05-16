@@ -46,7 +46,9 @@ export const PAGES = ['home', 'events', 'scoring', 'submissions', 'leaderboard',
 
 export const disciplineCodes: { [k: string]: string } = {
   '3000mSC': '3KSC',
+  '3000m Steeple': '3KSC',
   '300mH': '300H',
+  '300m Hurdles': '300H',
   '1000m': '1000',
   '100mH': '100H',
   '110mH': '110H',
