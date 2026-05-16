@@ -55076,7 +55076,134 @@
           "lastName": "Diessl"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "13.07",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "13.07",
+            "nat": "USA",
+            "id": "14769264",
+            "hasAvy": true,
+            "firstName": "Jamal",
+            "lastName": "Britt"
+          }
+        },
+        {
+          "mark": "13.10",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.87",
+            "sb": "13.59",
+            "nat": "USA",
+            "id": "14719972",
+            "hasAvy": true,
+            "firstName": "Cordell",
+            "lastName": "Tinch"
+          }
+        },
+        {
+          "mark": "13.18",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.92",
+            "sb": "13.05",
+            "nat": "JPN",
+            "id": "14854913",
+            "hasAvy": true,
+            "firstName": "Rachid",
+            "lastName": "Muratake"
+          }
+        },
+        {
+          "mark": "13.20",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "13.08",
+            "sb": "13.33",
+            "nat": "JAM",
+            "id": "14739873",
+            "hasAvy": true,
+            "firstName": "Orlando",
+            "lastName": "Bennett"
+          }
+        },
+        {
+          "mark": "13.22",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "13.14",
+            "sb": "13.51",
+            "nat": "CHN",
+            "id": "14977766",
+            "hasAvy": true,
+            "firstName": "Junxi",
+            "lastName": "Liu"
+          }
+        },
+        {
+          "mark": "13.39",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13.12",
+            "sb": "14.07",
+            "nat": "CHN",
+            "id": "14885102",
+            "hasAvy": true,
+            "firstName": "Zhuoyi",
+            "lastName": "Xu"
+          }
+        },
+        {
+          "mark": "13.43",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "13.09",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14711683",
+            "hasAvy": true,
+            "firstName": "Enrique",
+            "lastName": "Llopis"
+          }
+        },
+        {
+          "mark": "13.51",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "",
+            "nat": "SUI",
+            "id": "14680682",
+            "hasAvy": true,
+            "firstName": "Jason",
+            "lastName": "Joseph"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13.17",
+            "sb": "",
+            "nat": "AUT",
+            "id": "14915048",
+            "hasAvy": true,
+            "firstName": "Enzo",
+            "lastName": "Diessl"
+          }
+        }
+      ]
     },
     "Long Jump Women": {
       "date": "2026-05-16T15:19:00.000Z",
