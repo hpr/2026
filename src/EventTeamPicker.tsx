@@ -7,6 +7,7 @@ import { Store } from './Store';
 import { AthleticsEvent, Competitor, DLMeet, Entries } from './types';
 import { modals } from '@mantine/modals';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { getSitelink, getWaApi, normalize } from './util';
 
 export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | null; meet: DLMeet; evt: AthleticsEvent }) => {
@@ -255,7 +256,7 @@ export const EventTeamPicker = ({ entries, meet, evt }: { entries: Entries | nul
                       </>
                     ),
                     children: (
-                      <Markdown>{entries?.[meet]?.[evt]?.blurb ?? ''}</Markdown>
+                      <Markdown remarkPlugins={[remarkGfm]}>{entries?.[meet]?.[evt]?.blurb ?? ''}</Markdown>
                     ),
                     size: 'xl',
                   })
