@@ -54777,7 +54777,149 @@
           "lastName": "Zhang"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "21.09",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "20.47",
+            "sb": "",
+            "nat": "NED",
+            "id": "14688805",
+            "hasAvy": true,
+            "firstName": "Jessica",
+            "lastName": "Schilder"
+          }
+        },
+        {
+          "mark": "20.46",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "20.95",
+            "sb": "20.13",
+            "nat": "USA",
+            "id": "14533525",
+            "hasAvy": true,
+            "firstName": "Chase",
+            "lastName": "Jackson"
+          }
+        },
+        {
+          "mark": "20.42",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "20.68",
+            "sb": "19.02",
+            "nat": "CAN",
+            "id": "14607093",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Mitton"
+          }
+        },
+        {
+          "mark": "19.26",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "19.66",
+            "sb": "",
+            "nat": "SWE",
+            "id": "14429853",
+            "hasAvy": true,
+            "firstName": "Fanny",
+            "lastName": "Roos"
+          }
+        },
+        {
+          "mark": "19.12",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "19.77",
+            "sb": "19.34",
+            "nat": "JAM",
+            "id": "14468647",
+            "hasAvy": true,
+            "firstName": "Danniel",
+            "lastName": "Thomas-Dodd"
+          }
+        },
+        {
+          "mark": "18.85",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "20.38",
+            "sb": "18.89",
+            "nat": "CHN",
+            "id": "14668306",
+            "hasAvy": true,
+            "firstName": "Jiayuan",
+            "lastName": "Song"
+          }
+        },
+        {
+          "mark": "18.79",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "20.13",
+            "sb": "19.07",
+            "nat": "USA",
+            "id": "14850442",
+            "hasAvy": true,
+            "firstName": "Jaida",
+            "lastName": "Ross"
+          }
+        },
+        {
+          "mark": "18.55",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "20.00",
+            "sb": "",
+            "nat": "GER",
+            "id": "14565871",
+            "hasAvy": true,
+            "firstName": "Yemisi",
+            "lastName": "Mabry"
+          }
+        },
+        {
+          "mark": "18.17",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "19.47",
+            "sb": "",
+            "nat": "CHN",
+            "id": "14745178",
+            "hasAvy": true,
+            "firstName": "Linru",
+            "lastName": "Zhang"
+          }
+        },
+        {
+          "mark": "17.95",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "20.45",
+            "sb": "",
+            "nat": "USA",
+            "id": "14426023",
+            "hasAvy": true,
+            "firstName": "Maggie",
+            "lastName": "Ewen"
+          }
+        }
+      ]
     },
     "400m Women": {
       "date": "2026-05-16T15:04:00.000Z",
@@ -55191,6 +55333,7 @@
           }
         },
         {
+          "mark": "13.57",
           "place": 9,
           "notes": "",
           "entrant": {
