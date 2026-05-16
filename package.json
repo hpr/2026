@@ -52,6 +52,7 @@
     "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^6.8.2",
+    "remark-gfm": "^4.0.1",
     "tabler-icons-react": "^1.56.0",
     "wikibase-sdk": "^9.1.0"
   },
