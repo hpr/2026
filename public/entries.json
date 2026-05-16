@@ -54867,7 +54867,126 @@
           "lastName": "Peoples"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "49.75",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "48.57",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14685519",
+            "hasAvy": true,
+            "firstName": "Nickisha",
+            "lastName": "Pryce"
+          }
+        },
+        {
+          "mark": "49.78",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "49.09",
+            "sb": "50.10",
+            "nat": "USA",
+            "id": "14715880",
+            "hasAvy": true,
+            "firstName": "Aaliyah",
+            "lastName": "Butler"
+          }
+        },
+        {
+          "mark": "50.24",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "49.48",
+            "sb": "50.74",
+            "nat": "CUB",
+            "id": "14637147",
+            "hasAvy": true,
+            "firstName": "Roxana",
+            "lastName": "Gómez"
+          }
+        },
+        {
+          "mark": "50.59",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "49.59",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14630564",
+            "hasAvy": true,
+            "firstName": "Stacey Ann",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "50.60",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "49.58",
+            "sb": "51.38",
+            "nat": "BAR",
+            "id": "14592846",
+            "hasAvy": true,
+            "firstName": "Sada",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "51.06",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "49.72",
+            "sb": "51.99",
+            "nat": "CHI",
+            "id": "14748703",
+            "hasAvy": true,
+            "firstName": "Martina",
+            "lastName": "Weil"
+          }
+        },
+        {
+          "mark": "51.56",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "48.14",
+            "sb": "",
+            "nat": "BRN",
+            "id": "14643442",
+            "hasAvy": true,
+            "firstName": "Salwa Eid",
+            "lastName": "Naser"
+          }
+        },
+        {
+          "mark": "52.25",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "50.60",
+            "sb": "50.79",
+            "nat": "USA",
+            "id": "14596391",
+            "hasAvy": true,
+            "firstName": "Paris",
+            "lastName": "Peoples"
+          }
+        },
+        {
+          "mark": "53.19",
+          "place": 9,
+          "notes": ""
+        }
+      ]
     },
     "110m Hurdles Men": {
       "date": "2026-05-16T15:14:00.000Z",
