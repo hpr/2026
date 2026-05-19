@@ -5,6 +5,7 @@ script/tfrrsAthletes.json
 #script/blurbCache.json
 script/reset.sh
 habserv
+.opencode/
 
 # Logs
 logs

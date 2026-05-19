@@ -45,7 +45,7 @@ export default function App() {
   const { pathname } = useLocation();
   const hash = decodeURIComponent(pathname.slice(1));
   const [entries, setEntries] = useState<Entries | null>(null);
-  const [meet, setMeet] = useState<DLMeet>('shanghai26');
+  const [meet, setMeet] = useState<DLMeet>('xiamen26');
   const [evt, setEvt] = useState<AthleticsEvent | null>(null);
   const [myTeam, setMyTeam] = useState<Team>({});
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -265,7 +265,7 @@ export default function App() {
                   </Group>
                 </Popover.Dropdown>
               </Popover>
-            <Box visibleFrom="md" sx={{ width: '50%' }}>
+            <Box visibleFrom="md" sx={{ width: '50%', marginLeft: 'auto' }}>
               <Progress
                 value={percentComplete}
                 size="xl"

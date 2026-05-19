@@ -140,7 +140,7 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
 const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
   let buf = Buffer.from(avatarBuffer);
   const metadata = await sharp(buf).metadata();
-  if (metadata.width && metadata.width > 1024) {
+  if (metadata.width && (metadata.width > 1024 || (metadata.height && metadata.height > 1024))) {
     buf = await sharp(buf).resize(1024, 1024, { fit: 'inside', withoutEnlargement: true }).toBuffer();
   }
   const b64 = buf.toString('base64');

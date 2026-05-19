@@ -134,6 +134,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   shanghai26: {
     '1500m Women': '3:55.00',
+  },
+  xiamen26: {
+    '100mH Women': '12.25',
   }
 };
 
@@ -172,6 +175,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   zurich25: '11:05am ET',
 
   shanghai26: '6:15am ET',
+  xiamen26: '6:10am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -230,6 +234,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   zurich25: ['https://zurich.diamondleague.com/en/programme-results/'],
 
   shanghai26: ['https://shanghai.diamondleague.com/programme-results/'],
+  xiamen26: ['https://xiamen.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
