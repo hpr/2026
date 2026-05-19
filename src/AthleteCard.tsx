@@ -90,8 +90,8 @@ export function AthleteCard({
   const popPct = popularity && totalSubmissions > 0
     ? Math.round(((popularity[0] ?? 0) + (popularity[1] ?? 0)) / totalSubmissions * 100)
     : 0;
-  const isHot = popPct >= 40;
-  const isSuperHot = popPct >= 60;
+  const isHot = totalSubmissions >= 5 && popPct >= 40;
+  const isSuperHot = totalSubmissions >= 5 && popPct >= 60;
   const popEmoji = popPct >= 80 ? '👑' : popPct >= 60 ? '🔥' : popPct >= 40 ? '📈' : popPct >= 25 ? '⚡' : popPct >= 10 ? '👀' : popPct > 0 ? '🕵️' : '💤';
 
   const team = myTeam?.[meet]?.[event] ?? [];
