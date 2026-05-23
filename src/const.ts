@@ -147,6 +147,7 @@ export const disciplineCodes: { [k: string]: string } = {
   'Hammer Throw (6kg)': 'HTJ',
   'Hammer Throw (5kg)': 'HTY',
   'Hammer Throw (3kg)': 'HTYG',
+    'Javelin': 'JT',
   'Javelin Throw': 'JT',
   'Javelin Throw (old)': 'JTo',
   'Javelin Throw (700g)': 'JTY',
