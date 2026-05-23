@@ -58544,7 +58544,149 @@
           "lastName": "Maślak-Glugla"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "71.74",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "65.89",
+            "sb": "",
+            "nat": "CHN",
+            "id": "15144603",
+            "hasAvy": true,
+            "firstName": "Ziyi",
+            "lastName": "Yan"
+          }
+        },
+        {
+          "mark": "65.00",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "66.50",
+            "sb": "63.16",
+            "nat": "NOR",
+            "id": "14481209",
+            "hasAvy": true,
+            "firstName": "Sigrid",
+            "lastName": "Borge"
+          }
+        },
+        {
+          "mark": "63.64",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "67.22",
+            "sb": "59.85",
+            "nat": "SRB",
+            "id": "14791117",
+            "hasAvy": true,
+            "firstName": "Adriana",
+            "lastName": "Vilagoš"
+          }
+        },
+        {
+          "mark": "62.51",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "71.40",
+            "sb": "",
+            "nat": "POL",
+            "id": "14500245",
+            "hasAvy": true,
+            "firstName": "Maria",
+            "lastName": "Andrejczyk"
+          }
+        },
+        {
+          "mark": "60.84",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "66.70",
+            "sb": "61.76",
+            "nat": "COL",
+            "id": "14369335",
+            "hasAvy": true,
+            "firstName": "Flor Denis",
+            "lastName": "Ruiz Hurtado"
+          }
+        },
+        {
+          "mark": "60.37",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "63.26",
+            "sb": "60.40",
+            "nat": "NZL",
+            "id": "14465380",
+            "hasAvy": true,
+            "firstName": "Tori",
+            "lastName": "Moorby"
+          }
+        },
+        {
+          "mark": "60.08",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "67.38",
+            "sb": "60.36",
+            "nat": "JPN",
+            "id": "14649131",
+            "hasAvy": true,
+            "firstName": "Haruka",
+            "lastName": "Kitaguchi"
+          }
+        },
+        {
+          "mark": "59.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "64.38",
+            "sb": "58.28",
+            "nat": "CHN",
+            "id": "14748837",
+            "hasAvy": true,
+            "firstName": "Qianqian",
+            "lastName": "Dai"
+          }
+        },
+        {
+          "mark": "58.59",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "61.79",
+            "sb": "",
+            "nat": "POL",
+            "id": "14810709",
+            "hasAvy": true,
+            "firstName": "Małgorzata",
+            "lastName": "Maślak-Glugla"
+          }
+        },
+        {
+          "mark": "55.96",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "65.81",
+            "sb": "58.37",
+            "nat": "GRE",
+            "id": "14756709",
+            "hasAvy": true,
+            "firstName": "Elina",
+            "lastName": "Tzengko"
+          }
+        }
+      ]
     },
     "Shot Put Men": {
       "date": "2026-05-23T14:35:00.000Z",
@@ -58832,7 +58974,135 @@
           "lastName": "Liu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "43.92",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.53",
+            "sb": "44.55",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "44.04",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.55",
+            "nat": "ZAM",
+            "id": "14930603",
+            "hasAvy": true,
+            "firstName": "Muzala",
+            "lastName": "Samukonga"
+          }
+        },
+        {
+          "mark": "44.40",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "43.76",
+            "sb": "44.44",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.70",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "44.60",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "44.88",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.62",
+            "nat": "BOT",
+            "id": "14847443",
+            "hasAvy": true,
+            "firstName": "Bayapo",
+            "lastName": "Ndori"
+          }
+        },
+        {
+          "mark": "45.24",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "44.05",
+            "sb": "44.30",
+            "nat": "CAN",
+            "id": "14876627",
+            "hasAvy": true,
+            "firstName": "Christopher",
+            "lastName": "Morales Williams"
+          }
+        },
+        {
+          "mark": "45.49",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.55",
+            "sb": "",
+            "nat": "HUN",
+            "id": "14712930",
+            "hasAvy": true,
+            "firstName": "Attila",
+            "lastName": "Molnár"
+          }
+        },
+        {
+          "mark": "45.51",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.58",
+            "nat": "USA",
+            "id": "14490237",
+            "hasAvy": true,
+            "firstName": "Vernon",
+            "lastName": "Norwood"
+          }
+        },
+        {
+          "mark": "46.60",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "45.06",
+            "sb": "46.10",
+            "nat": "CHN",
+            "id": "15054835",
+            "hasAvy": true,
+            "firstName": "Kai",
+            "lastName": "Liu"
+          }
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2026-05-23T15:15:00.000Z",
