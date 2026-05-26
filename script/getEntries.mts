@@ -137,7 +137,10 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   },
   xiamen26: {
     '100mH Women': '12.25',
-  }
+  },
+  rabat26: {
+    '3000m St Men': '8:00',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -176,6 +179,7 @@ const deadlines: { [k in DLMeet]?: string } = {
 
   shanghai26: '6:15am ET',
   xiamen26: '6:10am ET',
+  rabat26: '1:10pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -235,6 +239,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
 
   shanghai26: ['https://shanghai.diamondleague.com/programme-results/'],
   xiamen26: ['https://xiamen.diamondleague.com/programme-results/'],
+  rabat26: ['https://rabat.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {

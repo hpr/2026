@@ -1,6 +1,6 @@
 import { AthleticsEvent, DLMeet, WAEventCode } from './types.mjs';
 
-export const MEET: DLMeet = 'xiamen26';
+export const MEET: DLMeet = 'rabat26';
 
 export const NUM_SCORING: number = 2;
 
