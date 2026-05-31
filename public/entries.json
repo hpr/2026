@@ -63125,7 +63125,149 @@
           "lastName": "Bonnin"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "4.80",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "4.90",
+            "sb": "4.72",
+            "nat": "AUS",
+            "id": "14407592",
+            "hasAvy": true,
+            "firstName": "Nina",
+            "lastName": "Kennedy"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "4.70",
+            "sb": "4.70",
+            "nat": "NZL",
+            "id": "14668954",
+            "hasAvy": true,
+            "firstName": "Imogen",
+            "lastName": "Ayris"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "4.88",
+            "sb": "",
+            "nat": "SUI",
+            "id": "14450465",
+            "hasAvy": true,
+            "firstName": "Angelica",
+            "lastName": "Moser"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "4.95",
+            "sb": "4.75",
+            "nat": "USA",
+            "id": "14373744",
+            "hasAvy": true,
+            "firstName": "Katie",
+            "lastName": "Moon"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "4.73",
+            "sb": "",
+            "nat": "NZL",
+            "id": "14684694",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "McTaggart"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "4.75",
+            "sb": "4.55",
+            "nat": "USA",
+            "id": "14443646",
+            "hasAvy": true,
+            "firstName": "Emily",
+            "lastName": "Grove"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "4.92",
+            "sb": "4.61",
+            "nat": "GBR",
+            "id": "14688948",
+            "hasAvy": true,
+            "firstName": "Molly",
+            "lastName": "Caudery"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4.81",
+            "sb": "",
+            "nat": "SLO",
+            "id": "14300261",
+            "hasAvy": true,
+            "firstName": "Tina",
+            "lastName": "Šutej"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "5.00",
+            "sb": "4.65",
+            "nat": "USA",
+            "id": "14373498",
+            "hasAvy": true,
+            "firstName": "Sandi",
+            "lastName": "Morris"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "4.70",
+            "sb": "4.00",
+            "nat": "FRA",
+            "id": "14770113",
+            "hasAvy": true,
+            "firstName": "Marie-Julie",
+            "lastName": "Bonnin"
+          }
+        }
+      ]
     },
     "400m H Women": {
       "date": "2026-05-31T22:04:00.000Z",
