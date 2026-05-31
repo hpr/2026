@@ -62807,7 +62807,121 @@
           "lastName": "Iuel"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "52.82",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "53.00",
+            "sb": "",
+            "nat": "SVK",
+            "id": "14647721",
+            "hasAvy": true,
+            "firstName": "Emma",
+            "lastName": "Zapletalová"
+          }
+        },
+        {
+          "mark": "53.18",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "51.87",
+            "sb": "",
+            "nat": "USA",
+            "id": "14486939",
+            "hasAvy": true,
+            "firstName": "Anna",
+            "lastName": "Cockrell"
+          }
+        },
+        {
+          "mark": "53.75",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "52.51",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14425208",
+            "hasAvy": true,
+            "firstName": "Rushell",
+            "lastName": "Clayton"
+          }
+        },
+        {
+          "mark": "54.08",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "52.66",
+            "sb": "",
+            "nat": "PAN",
+            "id": "14423522",
+            "hasAvy": true,
+            "firstName": "Gianna",
+            "lastName": "Woodruff"
+          }
+        },
+        {
+          "mark": "54.35",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "54.12",
+            "sb": "54.12",
+            "nat": "NOR",
+            "id": "14481392",
+            "hasAvy": true,
+            "firstName": "Amalie",
+            "lastName": "Iuel"
+          }
+        },
+        {
+          "mark": "54.91",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "52.46",
+            "sb": "",
+            "nat": "CAN",
+            "id": "14771436",
+            "hasAvy": true,
+            "firstName": "Savannah",
+            "lastName": "Sutherland"
+          }
+        },
+        {
+          "mark": "55.25",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "53.89",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14484475",
+            "hasAvy": true,
+            "firstName": "Ayomide",
+            "lastName": "Folorunso"
+          }
+        },
+        {
+          "mark": "55.37",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "53.26",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14512625",
+            "hasAvy": true,
+            "firstName": "Andrenette",
+            "lastName": "Knight"
+          }
+        }
+      ]
     },
     "400m Men": {
       "date": "2026-05-31T22:16:00.000Z",
