@@ -65145,7 +65145,190 @@
           "lastName": "Bouchajda"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:42.98",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.29",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14755557",
+            "hasAvy": true,
+            "firstName": "Max",
+            "lastName": "Burgin"
+          }
+        },
+        {
+          "mark": "1:43.56",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.11",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14974928",
+            "hasAvy": true,
+            "firstName": "Emmanuel",
+            "lastName": "Wanyonyi"
+          }
+        },
+        {
+          "mark": "1:43.73",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.77",
+            "sb": "",
+            "nat": "ALG",
+            "id": "14747495",
+            "hasAvy": true,
+            "firstName": "Slimane",
+            "lastName": "Moula"
+          }
+        },
+        {
+          "mark": "1:44.03",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.61",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14646018",
+            "hasAvy": true,
+            "firstName": "Gabriel",
+            "lastName": "Tual"
+          }
+        },
+        {
+          "mark": "1:44.03",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.16",
+            "sb": "1:45.03",
+            "nat": "USA",
+            "id": "14603138",
+            "hasAvy": true,
+            "firstName": "Donavan",
+            "lastName": "Brazier"
+          }
+        },
+        {
+          "mark": "1:44.08",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.43",
+            "sb": "1:46.47",
+            "nat": "BEL",
+            "id": "14634371",
+            "hasAvy": true,
+            "firstName": "Eliott",
+            "lastName": "Crestan"
+          }
+        },
+        {
+          "mark": "1:44.21",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.58",
+            "sb": "1:43.89",
+            "nat": "BOT",
+            "id": "15015852",
+            "hasAvy": true,
+            "firstName": "Kethobogile",
+            "lastName": "Haingura"
+          }
+        },
+        {
+          "mark": "1:44.38",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.71",
+            "sb": "1:44.17",
+            "nat": "FRA",
+            "id": "14893694",
+            "hasAvy": true,
+            "firstName": "Yanis",
+            "lastName": "Meziane"
+          }
+        },
+        {
+          "mark": "1:44.40",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.84",
+            "sb": "1:46.77",
+            "nat": "ITA",
+            "id": "14899530",
+            "hasAvy": true,
+            "firstName": "Francesco",
+            "lastName": "Pernici"
+          }
+        },
+        {
+          "mark": "1:44.62",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:44.19",
+            "sb": "1:45.71",
+            "nat": "MAR",
+            "id": "14652586",
+            "hasAvy": true,
+            "firstName": "Abdelati",
+            "lastName": "el Guesse"
+          }
+        },
+        {
+          "mark": "1:45.00",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.37",
+            "sb": "1:43.85",
+            "nat": "IRL",
+            "id": "14377494",
+            "hasAvy": true,
+            "firstName": "Mark",
+            "lastName": "English"
+          }
+        },
+        {
+          "mark": "1:45.15",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "1:45.62",
+            "sb": "1:45.62",
+            "nat": "MAR",
+            "id": "15106705",
+            "hasAvy": true,
+            "firstName": "Imad",
+            "lastName": "Bouchajda"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:44.16",
+            "sb": "1:46.69",
+            "nat": "POL",
+            "id": "14647295",
+            "hasAvy": true,
+            "firstName": "Patryk",
+            "lastName": "Sieradzki"
+          }
+        }
+      ]
     },
     "3000m St Men": {
       "tiebreaker": "8:00",
