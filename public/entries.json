@@ -64781,7 +64781,103 @@
           "lastName": "Lewis"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.21",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.93",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14674111",
+            "hasAvy": true,
+            "firstName": "Cambrea",
+            "lastName": "Sturgis"
+          }
+        },
+        {
+          "mark": "22.28",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "22.01",
+            "sb": "22.61",
+            "nat": "USA",
+            "id": "14642681",
+            "hasAvy": true,
+            "firstName": "Kayla",
+            "lastName": "White"
+          }
+        },
+        {
+          "mark": "22.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "22.36",
+            "sb": "",
+            "nat": "CAN",
+            "id": "14579721",
+            "hasAvy": true,
+            "firstName": "Audrey",
+            "lastName": "Leduc"
+          }
+        },
+        {
+          "mark": "22.42",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "21.74",
+            "sb": "22.04",
+            "nat": "BAH",
+            "id": "14368116",
+            "hasAvy": true,
+            "firstName": "Shaunae",
+            "lastName": "Miller-Uibo"
+          }
+        },
+        {
+          "mark": "22.43",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "21.83",
+            "sb": "22.42",
+            "nat": "USA",
+            "id": "14723890",
+            "hasAvy": true,
+            "firstName": "Mckenzie",
+            "lastName": "Long"
+          }
+        },
+        {
+          "mark": "22.78",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.56",
+            "sb": "23.25",
+            "nat": "AUS",
+            "id": "14778459",
+            "hasAvy": true,
+            "firstName": "Torrie",
+            "lastName": "Lewis"
+          }
+        },
+        {
+          "mark": "22.85",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "23.99",
+          "place": 8,
+          "notes": ""
+        }
+      ]
     },
     "800m Men": {
       "date": "2026-05-31T23:35:00.000Z",
