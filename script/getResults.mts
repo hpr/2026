@@ -160,9 +160,11 @@ for (const key in resultsLinks) {
           .replace('Bowerman ', '')
           .replace('Mutola ', '')
           .replace(' Metres', 'm') // only stockholm?
+          .replace('m H ', 'm Hurdles ')
           .replace('mH', 'm Hurdles')
           .replace('mSC', 'm Steeple')
           .replace('m SC', 'm Steeple')
+          .replace('m St ', 'm Steeple ')
           .replace(' put ', ' Put ')
           .replace('Men 100m', '100m Men')
         ) && unit.Stats.DiamondId
