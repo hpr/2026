@@ -62774,7 +62774,126 @@
           "lastName": "Steen"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.58",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "23.23",
+            "sb": "",
+            "nat": "USA",
+            "id": "14243308",
+            "hasAvy": true,
+            "firstName": "Joe",
+            "lastName": "Kovacs"
+          }
+        },
+        {
+          "mark": "21.59",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "23.56",
+            "sb": "21.41",
+            "nat": "USA",
+            "id": "14369211",
+            "hasAvy": true,
+            "firstName": "Ryan",
+            "lastName": "Crouser"
+          }
+        },
+        {
+          "mark": "21.56",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "22.25",
+            "sb": "21.81",
+            "nat": "USA",
+            "id": "14713125",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Geist"
+          }
+        },
+        {
+          "mark": "21.52",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "22.11",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14515622",
+            "hasAvy": true,
+            "firstName": "Roger",
+            "lastName": "Steen"
+          }
+        },
+        {
+          "mark": "21.42",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "22.98",
+            "sb": "22.50",
+            "nat": "ITA",
+            "id": "14567432",
+            "hasAvy": true,
+            "firstName": "Leonardo",
+            "lastName": "Fabbri"
+          }
+        },
+        {
+          "mark": "21.24",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.90",
+            "sb": "21.13",
+            "nat": "NZL",
+            "id": "14413007",
+            "hasAvy": true,
+            "firstName": "Tom",
+            "lastName": "Walsh"
+          }
+        },
+        {
+          "mark": "21.04",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "22.34",
+            "sb": "22.34",
+            "nat": "JAM",
+            "id": "14687604",
+            "hasAvy": true,
+            "firstName": "Rajindra",
+            "lastName": "Campbell"
+          }
+        },
+        {
+          "mark": "20.98",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "22.29",
+            "sb": "20.57",
+            "nat": "USA",
+            "id": "14713124",
+            "hasAvy": true,
+            "firstName": "Adrian",
+            "lastName": "Piperi"
+          }
+        },
+        {
+          "mark": "20.39",
+          "place": 9,
+          "notes": ""
+        }
+      ]
     },
     "Pole Vault Women": {
       "date": "2026-05-31T21:45:00.000Z",
