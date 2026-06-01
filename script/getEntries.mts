@@ -141,6 +141,12 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   rabat26: {
     '3000m St Men': '8:00',
   },
+  rome26: {
+    '100m Men': '9.90',
+  },
+  stockholm26: {
+    '1500m Men': '3:30.00',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -180,6 +186,8 @@ const deadlines: { [k in DLMeet]?: string } = {
   shanghai26: '6:15am ET',
   xiamen26: '6:10am ET',
   rabat26: '1:10pm ET',
+  rome26: '1:10pm ET',
+  stockholm26: '10:04am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -240,6 +248,8 @@ const schedules: { [k in DLMeet]?: string[] } = {
   shanghai26: ['https://shanghai.diamondleague.com/programme-results/'],
   xiamen26: ['https://xiamen.diamondleague.com/programme-results/'],
   rabat26: ['https://rabat.diamondleague.com/en/programme-results/'],
+  rome26: ['https://rome.diamondleague.com/en/programme-results/'],
+  stockholm26: ['https://stockholm.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
@@ -830,6 +840,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
                 'Mya Lesnar': '14847391',
                 'Samuel Khogali': '14660262',
                 'Jana van Lent': '14704113',
+                'Pernille Karlsen Antonsen': '14708774',
               }[`${firstName} ${lastName}`];
               return {
                 pb, sb, nat, id,
