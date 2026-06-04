@@ -67854,7 +67854,126 @@
           "lastName": "Szymański"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.98",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "13.00",
+            "sb": "",
+            "nat": "USA",
+            "id": "14675757",
+            "hasAvy": true,
+            "firstName": "Trey",
+            "lastName": "Cunningham"
+          }
+        },
+        {
+          "mark": "13.31",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "13.08",
+            "sb": "13.20",
+            "nat": "JAM",
+            "id": "14739873",
+            "hasAvy": true,
+            "firstName": "Orlando",
+            "lastName": "Bennett"
+          }
+        },
+        {
+          "mark": "13.32",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "13.09",
+            "sb": "13.36",
+            "nat": "ESP",
+            "id": "14711683",
+            "hasAvy": true,
+            "firstName": "Enrique",
+            "lastName": "Llopis"
+          }
+        },
+        {
+          "mark": "13.40",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.92",
+            "sb": "13.05",
+            "nat": "JPN",
+            "id": "14854913",
+            "hasAvy": true,
+            "firstName": "Rachid",
+            "lastName": "Muratake"
+          }
+        },
+        {
+          "mark": "13.44",
+          "place": 5,
+          "notes": ""
+        },
+        {
+          "mark": "13.49",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "13.24",
+            "nat": "SUI",
+            "id": "14680682",
+            "hasAvy": true,
+            "firstName": "Jason",
+            "lastName": "Joseph"
+          }
+        },
+        {
+          "mark": "13.54",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "13.25",
+            "sb": "13.33",
+            "nat": "POL",
+            "id": "14799803",
+            "hasAvy": true,
+            "firstName": "Jakub",
+            "lastName": "Szymański"
+          }
+        },
+        {
+          "mark": "13.76",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.99",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14734289",
+            "hasAvy": true,
+            "firstName": "Just",
+            "lastName": "Kwaou-Mathey"
+          }
+        },
+        {
+          "mark": "26.75",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "13.07",
+            "nat": "USA",
+            "id": "14769264",
+            "hasAvy": true,
+            "firstName": "Jamal",
+            "lastName": "Britt"
+          }
+        }
+      ]
     },
     "400m Women": {
       "date": "2026-06-05T00:15:00.000Z",
