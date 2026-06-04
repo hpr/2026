@@ -27,17 +27,17 @@ log "=== Meet day starting for $MEET ==="
 git pull
 
 log "Step 1: Closing entries"
-npx tsx script/closeEntries.mts
+npm run closeEntries
 
 log "Step 2: Dumping picks and users CSVs"
-sqlite3 -header -csv "$DB_PATH" "select * from picks where meet = '$MEET';" > "$PICKS_CSV"
-sqlite3 -header -csv "$DB_PATH" "select * from users;" > "$USERS_CSV"
+echo "select * from picks where meet = '$MEET';" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$PICKS_CSV"
+echo "select * from users;" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$USERS_CSV"
 
 log "Step 3: Fetching results"
-npx tsx script/getResults.mts
+npm run getResults
 
 log "Step 4: Computing leaderboard"
-npx tsx script/getLeaderboard.mts
+npm run getLeaderboard
 
 log "Step 5: Pushing to trigger deployment"
 git add -A
@@ -68,10 +68,10 @@ while true; do
   log "Results: $COMPLETE"
 
   log "Fetching results..."
-  npx tsx script/getResults.mts
+  npm run getResults
 
   log "Computing leaderboard..."
-  npx tsx script/getLeaderboard.mts
+  npm run getLeaderboard
 
   log "Pushing updates..."
   git add -A
