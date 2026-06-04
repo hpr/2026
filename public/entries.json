@@ -68409,7 +68409,126 @@
           "lastName": "Valensin"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "21.93",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.71",
+            "sb": "21.86",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "22.17",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "21.68",
+            "sb": "",
+            "nat": "USA",
+            "id": "14756997",
+            "hasAvy": true,
+            "firstName": "Melissa",
+            "lastName": "Jefferson-Wooden"
+          }
+        },
+        {
+          "mark": "22.39",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "21.95",
+            "sb": "22.29",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "22.52",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "22.08",
+            "sb": "22.48",
+            "nat": "GBR",
+            "id": "14685108",
+            "hasAvy": true,
+            "firstName": "Amy",
+            "lastName": "Hunt"
+          }
+        },
+        {
+          "mark": "22.76",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "21.88",
+            "sb": "22.78",
+            "nat": "GBR",
+            "id": "14378282",
+            "hasAvy": true,
+            "firstName": "Dina",
+            "lastName": "Asher-Smith"
+          }
+        },
+        {
+          "mark": "22.98",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.19",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14648428",
+            "hasAvy": true,
+            "firstName": "Jaël",
+            "lastName": "Bestué"
+          }
+        },
+        {
+          "mark": "23.22",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "23.27",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "23.09",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14974280",
+            "hasAvy": true,
+            "firstName": "Elisa",
+            "lastName": "Valensin"
+          }
+        },
+        {
+          "mark": "23.89",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "22.42",
+            "sb": "23.24",
+            "nat": "FRA",
+            "id": "14389358",
+            "hasAvy": true,
+            "firstName": "Helene",
+            "lastName": "Parisot"
+          }
+        }
+      ]
     },
     "1500m Women": {
       "date": "2026-06-05T00:37:00.000Z",
