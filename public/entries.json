@@ -67033,7 +67033,126 @@
           "lastName": "Carmassi"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.50",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.34",
+            "sb": "12.52",
+            "nat": "JAM",
+            "id": "14413569",
+            "hasAvy": true,
+            "firstName": "Megan",
+            "lastName": "Simmonds"
+          }
+        },
+        {
+          "mark": "12.54",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.20",
+            "sb": "12.53",
+            "nat": "USA",
+            "id": "14425415",
+            "hasAvy": true,
+            "firstName": "Kendra",
+            "lastName": "Harrison"
+          }
+        },
+        {
+          "mark": "12.58",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.28",
+            "sb": "12.47",
+            "nat": "NED",
+            "id": "14451249",
+            "hasAvy": true,
+            "firstName": "Nadine",
+            "lastName": "Visser"
+          }
+        },
+        {
+          "mark": "12.59",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.49",
+            "sb": "12.62",
+            "nat": "RSA",
+            "id": "14838617",
+            "hasAvy": true,
+            "firstName": "Marione",
+            "lastName": "Fourie"
+          }
+        },
+        {
+          "mark": "12.69",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "12.90",
+            "nat": "JAM",
+            "id": "14450995",
+            "hasAvy": true,
+            "firstName": "Danielle",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "12.69",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.37",
+            "sb": "12.86",
+            "nat": "POL",
+            "id": "14736349",
+            "hasAvy": true,
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska"
+          }
+        },
+        {
+          "mark": "12.76",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "12.76",
+            "nat": "USA",
+            "id": "14564128",
+            "hasAvy": true,
+            "firstName": "Tonea",
+            "lastName": "Marshall"
+          }
+        },
+        {
+          "mark": "12.90",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.69",
+            "sb": "12.93",
+            "nat": "ITA",
+            "id": "14435687",
+            "hasAvy": true,
+            "firstName": "Giada",
+            "lastName": "Carmassi"
+          }
+        },
+        {
+          "mark": "13.19",
+          "place": 9,
+          "notes": ""
+        }
+      ]
     },
     "Long Jump Men": {
       "date": "2026-06-04T23:35:00.000Z",
