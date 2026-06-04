@@ -22,29 +22,37 @@ fi
 
 log() { echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $*" | tee -a "$LOG"; }
 
+SKIP_SETUP=false
+if [[ "${1:-}" == "--live" ]]; then
+  SKIP_SETUP=true
+  shift
+fi
+
 log "=== Meet day starting for $MEET ==="
 
 git pull
 
-log "Step 1: Closing entries"
-npm run closeEntries
+if ! $SKIP_SETUP; then
+  log "Step 1: Closing entries"
+  npm run closeEntries
 
-log "Step 2: Dumping picks and users CSVs"
-echo "select * from picks where meet = '$MEET';" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$PICKS_CSV"
-echo "select * from users;" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$USERS_CSV"
+  log "Step 2: Dumping picks and users CSVs"
+  echo "select * from picks where meet = '$MEET';" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$PICKS_CSV"
+  echo "select * from users;" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$USERS_CSV"
 
-log "Step 3: Fetching results"
-npm run getResults
+  log "Step 3: Fetching results"
+  npm run getResults
 
-log "Step 4: Computing leaderboard"
-npm run getLeaderboard
+  log "Step 4: Computing leaderboard"
+  npm run getLeaderboard
 
-log "Step 5: Pushing to trigger deployment"
-git add -A
-git commit -m "meet day: $MEET $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
-git push
+  log "Step 5: Pushing to trigger deployment"
+  git add -A
+  git commit -m "meet day: $MEET $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
+  git push
+fi
 
-log "Step 6: Starting live results loop (every ${INTERVAL}s, until complete)"
+log "Starting live results loop (every ${INTERVAL}s, until complete)"
 
 while true; do
   sleep "$INTERVAL"
