@@ -66644,7 +66644,117 @@
           "lastName": "Iuel"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "52.58",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "52.82",
+            "sb": "52.82",
+            "nat": "SVK",
+            "id": "14647721",
+            "hasAvy": true,
+            "firstName": "Emma",
+            "lastName": "Zapletalová"
+          }
+        },
+        {
+          "mark": "52.77",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "51.87",
+            "sb": "53.18",
+            "nat": "USA",
+            "id": "14486939",
+            "hasAvy": true,
+            "firstName": "Anna",
+            "lastName": "Cockrell"
+          }
+        },
+        {
+          "mark": "53.14",
+          "place": 3,
+          "notes": ""
+        },
+        {
+          "mark": "53.39",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "51.58",
+            "sb": "",
+            "nat": "USA",
+            "id": "14317560",
+            "hasAvy": true,
+            "firstName": "Dalilah",
+            "lastName": "Muhammad"
+          }
+        },
+        {
+          "mark": "53.58",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "52.66",
+            "sb": "54.08",
+            "nat": "PAN",
+            "id": "14423522",
+            "hasAvy": true,
+            "firstName": "Gianna",
+            "lastName": "Woodruff"
+          }
+        },
+        {
+          "mark": "53.92",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "52.08",
+            "sb": "",
+            "nat": "USA",
+            "id": "14715835",
+            "hasAvy": true,
+            "firstName": "Jasmine",
+            "lastName": "Jones"
+          }
+        },
+        {
+          "mark": "54.05",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "54.12",
+            "sb": "54.12",
+            "nat": "NOR",
+            "id": "14481392",
+            "hasAvy": true,
+            "firstName": "Amalie",
+            "lastName": "Iuel"
+          }
+        },
+        {
+          "mark": "55.50",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "56.01",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "53.89",
+            "sb": "55.25",
+            "nat": "ITA",
+            "id": "14484475",
+            "hasAvy": true,
+            "firstName": "Ayomide",
+            "lastName": "Folorunso"
+          }
+        }
+      ]
     },
     "High Jump Men": {
       "date": "2026-06-04T23:07:00.000Z",
