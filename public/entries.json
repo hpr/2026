@@ -66208,7 +66208,135 @@
           "lastName": "Molinarolo"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "4.80",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "4.92",
+            "sb": "4.61",
+            "nat": "GBR",
+            "id": "14688948",
+            "hasAvy": true,
+            "firstName": "Molly",
+            "lastName": "Caudery"
+          }
+        },
+        {
+          "mark": "4.80",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "4.90",
+            "sb": "4.80",
+            "nat": "AUS",
+            "id": "14407592",
+            "hasAvy": true,
+            "firstName": "Nina",
+            "lastName": "Kennedy"
+          }
+        },
+        {
+          "mark": "4.80",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "4.88",
+            "sb": "4.70",
+            "nat": "SUI",
+            "id": "14450465",
+            "hasAvy": true,
+            "firstName": "Angelica",
+            "lastName": "Moser"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "4.81",
+            "sb": "4.45",
+            "nat": "SLO",
+            "id": "14300261",
+            "hasAvy": true,
+            "firstName": "Tina",
+            "lastName": "Šutej"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "5.00",
+            "sb": "4.65",
+            "nat": "USA",
+            "id": "14373498",
+            "hasAvy": true,
+            "firstName": "Sandi",
+            "lastName": "Morris"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "4.80",
+            "sb": "",
+            "nat": "CZE",
+            "id": "14605824",
+            "hasAvy": true,
+            "firstName": "Amálie",
+            "lastName": "ŠVábíková"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "4.70",
+            "sb": "4.30",
+            "nat": "ITA",
+            "id": "14488967",
+            "hasAvy": true,
+            "firstName": "Elisa",
+            "lastName": "Molinarolo"
+          }
+        },
+        {
+          "mark": "4.30",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4.94",
+            "sb": "4.81",
+            "nat": "NZL",
+            "id": "14464500",
+            "hasAvy": true,
+            "firstName": "Eliza",
+            "lastName": "McCartney"
+          }
+        },
+        {
+          "mark": "4.30",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4.73",
+            "sb": "4.61",
+            "nat": "NZL",
+            "id": "14684694",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "McTaggart"
+          }
+        }
+      ]
     },
     "Triple Jump Men": {
       "date": "2026-06-04T21:48:00.000Z",
