@@ -69197,71 +69197,6 @@
       "isClosed": true,
       "results": [
         {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "9.96",
-            "sb": "10.01",
-            "nat": "CMR",
-            "id": "14852717",
-            "hasAvy": true,
-            "firstName": "Emmanuel",
-            "lastName": "Eseme"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "9.88",
-            "sb": "9.99",
-            "nat": "JAM",
-            "id": "14638971",
-            "hasAvy": true,
-            "firstName": "Ackeem",
-            "lastName": "Blake"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "9.86",
-            "sb": "10.10",
-            "nat": "BOT",
-            "id": "14883897",
-            "hasAvy": true,
-            "firstName": "Letsile",
-            "lastName": "Tebogo"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "9.91",
-            "sb": "9.91",
-            "nat": "USA",
-            "id": "14961803",
-            "hasAvy": true,
-            "firstName": "Jordan",
-            "lastName": "Anthony"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "9.80",
-            "sb": "",
-            "nat": "ITA",
-            "id": "14453864",
-            "hasAvy": true,
-            "firstName": "Lamont Marcell",
-            "lastName": "Jacobs"
-          }
-        },
-        {
           "mark": "9.88",
           "place": 1,
           "notes": "",
@@ -69276,7 +69211,64 @@
           }
         },
         {
-          "place": null,
+          "mark": "9.94",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "9.96",
+            "sb": "10.01",
+            "nat": "CMR",
+            "id": "14852717",
+            "hasAvy": true,
+            "firstName": "Emmanuel",
+            "lastName": "Eseme"
+          }
+        },
+        {
+          "mark": "9.95",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "9.86",
+            "sb": "10.10",
+            "nat": "BOT",
+            "id": "14883897",
+            "hasAvy": true,
+            "firstName": "Letsile",
+            "lastName": "Tebogo"
+          }
+        },
+        {
+          "mark": "9.96",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "9.91",
+            "sb": "9.91",
+            "nat": "USA",
+            "id": "14961803",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Anthony"
+          }
+        },
+        {
+          "mark": "9.99",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9.80",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14453864",
+            "hasAvy": true,
+            "firstName": "Lamont Marcell",
+            "lastName": "Jacobs"
+          }
+        },
+        {
+          "mark": "10.03",
+          "place": 6,
           "notes": "",
           "entrant": {
             "pb": "9.82",
@@ -69289,7 +69281,22 @@
           }
         },
         {
-          "place": null,
+          "mark": "10.06",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9.88",
+            "sb": "9.99",
+            "nat": "JAM",
+            "id": "14638971",
+            "hasAvy": true,
+            "firstName": "Ackeem",
+            "lastName": "Blake"
+          }
+        },
+        {
+          "mark": "10.11",
+          "place": 8,
           "notes": "",
           "entrant": {
             "pb": "9.77",
@@ -69302,7 +69309,8 @@
           }
         },
         {
-          "place": null,
+          "mark": "10.12",
+          "place": 9,
           "notes": "",
           "entrant": {
             "pb": "9.97",
