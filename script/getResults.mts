@@ -61,6 +61,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   xiamen26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/XIAMEN_2026_SCHEDULE_JSON.json',
   rabat26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/RABAT_2026_SCHEDULE_JSON.json',
   rome26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/ROME_2026_SCHEDULE_JSON.json',
+  stockholm26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/STOCKHOLM_2026_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -150,6 +151,7 @@ for (const key in resultsLinks) {
         (unit) =>
           [evt, '1 ' + evt, evt].some((s) => unit.EventName.replace('Steeplechase', 'Steeple') === s
           .replace('Steeplechase', 'Steeple')
+          .replace('steeplechase', 'Steeple')
           .replace('Discus Women', 'Discus Throw Women')
           .replace('Discus Men', 'Discus Throw Men')
           .replace('Javelin Men', 'Javelin Throw Men')
@@ -167,6 +169,10 @@ for (const key in resultsLinks) {
           .replace('m SC', 'm Steeple')
           .replace('m St ', 'm Steeple ')
           .replace(' put ', ' Put ')
+          .replace('throw', 'Throw')
+          .replace('vault', 'Vault')
+          .replace('jump', 'Jump')
+          .replace(' men Men', ' Men')
           .replace('Men 100m', '100m Men')
         ) && unit.Stats.DiamondId
       )?.Rsc.ValueUnit;
