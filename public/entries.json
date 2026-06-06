@@ -67414,7 +67414,7 @@
           "lastName": "Kamga"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "Pole vault, Men": {
       "date": "2026-06-07T18:14:00.000Z",
@@ -67504,7 +67504,7 @@
           "lastName": "Thiery"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "Shot put, Women": {
       "date": "2026-06-07T18:20:00.000Z",
@@ -67603,7 +67603,7 @@
           "lastName": "Smith"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "400 meters, Men": {
       "date": "2026-06-07T19:04:00.000Z",
@@ -67684,7 +67684,7 @@
           "lastName": "Bengtström"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "3000 meters steeplechase, Women": {
       "date": "2026-06-07T19:17:00.000Z",
@@ -67846,7 +67846,7 @@
           "lastName": "Chorzępa"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "Long jump, Women": {
       "date": "2026-06-07T19:23:00.000Z",
@@ -67945,7 +67945,7 @@
           "lastName": "Åskag"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "800 meters, Men": {
       "date": "2026-06-07T19:36:00.000Z",
@@ -68062,7 +68062,7 @@
           "lastName": "Sieradzki"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "100 meters, Women": {
       "date": "2026-06-07T19:45:00.000Z",
@@ -68143,7 +68143,7 @@
           "lastName": "Henriksson"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "Discus throw, Men": {
       "date": "2026-06-07T19:52:00.000Z",
@@ -68233,7 +68233,7 @@
           "lastName": "Díaz"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "3000 meters steeplechase, Men": {
       "date": "2026-06-07T19:59:00.000Z",
@@ -68440,7 +68440,7 @@
           "lastName": "Wilkinson"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "200 meters, men Men": {
       "date": "2026-06-07T20:30:00.000Z",
@@ -68512,7 +68512,7 @@
           "lastName": "Azu"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "800 meters, Women": {
       "date": "2026-06-07T20:41:00.000Z",
@@ -68638,7 +68638,7 @@
           "lastName": "Antonsen"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     },
     "1500 meters, Men": {
       "tiebreaker": "3:30.00",
@@ -68810,7 +68810,7 @@
           "lastName": "Claridge"
         }
       ],
-      "isClosed": true
+      "isClosed": false
     }
   }
 }
