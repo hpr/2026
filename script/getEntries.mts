@@ -145,7 +145,7 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
     '100m Men': '9.90',
   },
   stockholm26: {
-    '1500m Men': '3:30.00',
+    '1500 meters, Men': '3:30.00',
   },
 };
 
