@@ -68657,7 +68657,162 @@
           "lastName": "Sieradzki"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:42.70",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.27",
+            "sb": "",
+            "nat": "USA",
+            "id": "15152457",
+            "hasAvy": true,
+            "firstName": "Cooper",
+            "lastName": "Lutkenhaus"
+          }
+        },
+        {
+          "mark": "1:43.11",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.20",
+            "sb": "",
+            "nat": "CAN",
+            "id": "14755875",
+            "hasAvy": true,
+            "firstName": "Marco",
+            "lastName": "Arop"
+          }
+        },
+        {
+          "mark": "1:43.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.77",
+            "sb": "1:43.73",
+            "nat": "ALG",
+            "id": "14747495",
+            "hasAvy": true,
+            "firstName": "Slimane",
+            "lastName": "Moula"
+          }
+        },
+        {
+          "mark": "1:43.70",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.27",
+            "sb": "1:44.19",
+            "nat": "GBR",
+            "id": "14706169",
+            "hasAvy": true,
+            "firstName": "Ben",
+            "lastName": "Pattison"
+          }
+        },
+        {
+          "mark": "1:43.70",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.55",
+            "sb": "1:43.89",
+            "nat": "AUS",
+            "id": "14456885",
+            "hasAvy": true,
+            "firstName": "Peter",
+            "lastName": "Bol"
+          }
+        },
+        {
+          "mark": "1:43.72",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.61",
+            "sb": "1:44.03",
+            "nat": "FRA",
+            "id": "14646018",
+            "hasAvy": true,
+            "firstName": "Gabriel",
+            "lastName": "Tual"
+          }
+        },
+        {
+          "mark": "1:44.39",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.65",
+            "sb": "1:44.74",
+            "nat": "GBR",
+            "id": "14522654",
+            "hasAvy": true,
+            "firstName": "Jake",
+            "lastName": "Wightman"
+          }
+        },
+        {
+          "mark": "1:44.66",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.67",
+            "sb": "1:45.01",
+            "nat": "USA",
+            "id": "14656699",
+            "hasAvy": true,
+            "firstName": "Bryce",
+            "lastName": "Hoppel"
+          }
+        },
+        {
+          "mark": "1:45.58",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.58",
+            "sb": "1:43.89",
+            "nat": "BOT",
+            "id": "15015852",
+            "hasAvy": true,
+            "firstName": "Kethobogile",
+            "lastName": "Haingura"
+          }
+        },
+        {
+          "mark": "1:46.92",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.04",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14929058",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Attaoui"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:44.16",
+            "sb": "1:46.69",
+            "nat": "POL",
+            "id": "14647295",
+            "hasAvy": true,
+            "firstName": "Patryk",
+            "lastName": "Sieradzki"
+          }
+        }
+      ]
     },
     "100 meters, Women": {
       "date": "2026-06-07T19:45:00.000Z",
