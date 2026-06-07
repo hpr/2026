@@ -69890,7 +69890,90 @@
           "lastName": "Azu"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "20.73",
+            "sb": "20.73",
+            "nat": "GBR",
+            "id": "14771648",
+            "hasAvy": true,
+            "firstName": "Jeremiah",
+            "lastName": "Azu"
+          }
+        },
+        {
+          "place": null,
+          "notes": ""
+        },
+        {
+          "mark": "19.87",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.57",
+            "sb": "19.69",
+            "nat": "USA",
+            "id": "14715244",
+            "hasAvy": true,
+            "firstName": "Kenneth",
+            "lastName": "Bednarek"
+          }
+        },
+        {
+          "mark": "20.10",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.77",
+            "sb": "19.77",
+            "nat": "RSA",
+            "id": "14789650",
+            "hasAvy": true,
+            "firstName": "Sinesipho",
+            "lastName": "Dambile"
+          }
+        },
+        {
+          "mark": "20.24",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.71",
+            "sb": "20.21",
+            "nat": "USA",
+            "id": "14845926",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Lindsey"
+          }
+        },
+        {
+          "mark": "20.53",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "19.63",
+            "sb": "20.35",
+            "nat": "CUB",
+            "id": "14518308",
+            "hasAvy": true,
+            "firstName": "Reynier",
+            "lastName": "Mena"
+          }
+        },
+        {
+          "place": 5,
+          "notes": ""
+        },
+        {
+          "place": 6,
+          "notes": ""
+        }
+      ]
     },
     "800 meters, Women": {
       "date": "2026-06-07T20:41:00.000Z",
