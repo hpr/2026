@@ -69331,7 +69331,135 @@
           "lastName": "Díaz"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "69.60",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "71.86",
+            "sb": "69.01",
+            "nat": "SWE",
+            "id": "14375325",
+            "hasAvy": true,
+            "firstName": "Daniel",
+            "lastName": "Ståhl"
+          }
+        },
+        {
+          "mark": "69.02",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "74.78",
+            "sb": "73.58",
+            "nat": "AUS",
+            "id": "14436890",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Denny"
+          }
+        },
+        {
+          "mark": "67.67",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "72.61",
+            "sb": "72.61",
+            "nat": "SLO",
+            "id": "14666860",
+            "hasAvy": true,
+            "firstName": "Kristjan",
+            "lastName": "Čeh"
+          }
+        },
+        {
+          "mark": "66.42",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "70.66",
+            "sb": "68.47",
+            "nat": "JAM",
+            "id": "14744385",
+            "hasAvy": true,
+            "firstName": "Roje",
+            "lastName": "Stona"
+          }
+        },
+        {
+          "mark": "66.03",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "72.45",
+            "sb": "69.75",
+            "nat": "USA",
+            "id": "14416979",
+            "hasAvy": true,
+            "firstName": "Sam",
+            "lastName": "Mattis"
+          }
+        },
+        {
+          "mark": "65.53",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "69.94",
+            "sb": "68.54",
+            "nat": "GER",
+            "id": "14626440",
+            "hasAvy": true,
+            "firstName": "Henrik",
+            "lastName": "Janssen"
+          }
+        },
+        {
+          "mark": "64.82",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "71.48",
+            "sb": "68.17",
+            "nat": "SAM",
+            "id": "14389747",
+            "hasAvy": true,
+            "firstName": "Alex",
+            "lastName": "Rose"
+          }
+        },
+        {
+          "mark": "64.02",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "71.88",
+            "sb": "71.88",
+            "nat": "GBR",
+            "id": "14425340",
+            "hasAvy": true,
+            "firstName": "Lawrence",
+            "lastName": "Okoye"
+          }
+        },
+        {
+          "mark": "61.45",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "67.44",
+            "sb": "63.65",
+            "nat": "CUB",
+            "id": "14663422",
+            "hasAvy": true,
+            "firstName": "Mario Alberto",
+            "lastName": "Díaz"
+          }
+        }
+      ]
     },
     "3000 meters steeplechase, Men": {
       "date": "2026-06-07T19:59:00.000Z",
