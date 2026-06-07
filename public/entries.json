@@ -69893,23 +69893,6 @@
       "isClosed": true,
       "results": [
         {
-          "place": 6,
-          "notes": "",
-          "entrant": {
-            "pb": "20.73",
-            "sb": "20.73",
-            "nat": "GBR",
-            "id": "14771648",
-            "hasAvy": true,
-            "firstName": "Jeremiah",
-            "lastName": "Azu"
-          }
-        },
-        {
-          "place": null,
-          "notes": ""
-        },
-        {
           "mark": "19.87",
           "place": 1,
           "notes": "",
@@ -69966,11 +69949,30 @@
           }
         },
         {
+          "mark": "20.78",
           "place": 5,
           "notes": ""
         },
         {
+          "mark": "20.90",
           "place": 6,
+          "notes": ""
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "20.73",
+            "sb": "20.73",
+            "nat": "GBR",
+            "id": "14771648",
+            "hasAvy": true,
+            "firstName": "Jeremiah",
+            "lastName": "Azu"
+          }
+        },
+        {
+          "place": null,
           "notes": ""
         }
       ]
