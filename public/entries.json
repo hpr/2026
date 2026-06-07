@@ -68668,7 +68668,131 @@
           "lastName": "Åskag"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "6.85",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "7.02",
+            "sb": "6.56",
+            "nat": "FRA",
+            "id": "14576455",
+            "hasAvy": true,
+            "firstName": "Hilary",
+            "lastName": "Kpatcha"
+          }
+        },
+        {
+          "mark": "6.84",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "7.06",
+            "sb": "6.69",
+            "nat": "ITA",
+            "id": "14827877",
+            "hasAvy": true,
+            "firstName": "Larissa",
+            "lastName": "Iapichino"
+          }
+        },
+        {
+          "mark": "6.80",
+          "place": 3,
+          "notes": ""
+        },
+        {
+          "mark": "6.74",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "6.97",
+            "sb": "6.95",
+            "nat": "USA",
+            "id": "14662524",
+            "hasAvy": true,
+            "firstName": "Monae'",
+            "lastName": "Nichols"
+          }
+        },
+        {
+          "mark": "6.70",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "7.03",
+            "sb": "",
+            "nat": "POR",
+            "id": "14816707",
+            "hasAvy": true,
+            "firstName": "Agate",
+            "lastName": "de Sousa"
+          }
+        },
+        {
+          "mark": "6.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "7.30",
+            "sb": "6.87",
+            "nat": "GER",
+            "id": "14377384",
+            "hasAvy": true,
+            "firstName": "Malaika",
+            "lastName": "Mihambo"
+          }
+        },
+        {
+          "mark": "6.69",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "6.93",
+            "sb": "6.70",
+            "nat": "USA",
+            "id": "14716940",
+            "hasAvy": true,
+            "firstName": "Claire",
+            "lastName": "Bryant"
+          }
+        },
+        {
+          "mark": "6.63",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "6.62",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "7.07",
+            "sb": "7.07",
+            "nat": "USA",
+            "id": "14747974",
+            "hasAvy": true,
+            "firstName": "Alexis",
+            "lastName": "Brown"
+          }
+        },
+        {
+          "mark": "6.56",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "6.75",
+            "sb": "6.45",
+            "nat": "SWE",
+            "id": "14774822",
+            "hasAvy": true,
+            "firstName": "Maja",
+            "lastName": "Åskag"
+          }
+        }
+      ]
     },
     "800 meters, Men": {
       "date": "2026-06-07T19:36:00.000Z",
