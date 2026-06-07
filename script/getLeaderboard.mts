@@ -65,9 +65,9 @@ const fixIds = (picks: MeetTeam) => {
 
 const evtToGenderedCode = (evt: string): AthleticsEvent => {
   const words = evt.replace(',', '').replace('meters', 'Meters').split(' ');
-  const genderWordIdx = words.findIndex((word) => word.toLowerCase().includes('men'));
-  const [genderWord] = words.splice(genderWordIdx, 1);
-  const result = (genderWord[0].toUpperCase() + disciplineCodes[words.join(' ')]);
+  const genderWord = words.find((word) => word.toLowerCase().includes('men'))!;
+  const remaining = words.filter((word) => !word.toLowerCase().includes('men'));
+  const result = (genderWord[0].toUpperCase() + disciplineCodes[remaining.join(' ')]);
   return result as AthleticsEvent;
 };
 

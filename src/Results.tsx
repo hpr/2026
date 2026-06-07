@@ -39,7 +39,7 @@ export const Results = ({ entries, meet }: { entries: Entries | null; meet: DLMe
           .map((evt) => {
             const results = entries![meet]![evt as AthleticsEvent]?.results!;
             const shortCode = ((evt.includes("Women") ? 'W' : 'M') +
-              disciplineCodes[evt.split(' ').slice(0, -1).join(' ')]) as AthleticsEvent;
+              disciplineCodes[evt.split(' ').slice(0, -1).join(' ').replace(',', '')]) as AthleticsEvent;
             const evtPoints = Object.values(
               teamToScore?.lbpicks?.[shortCode]?.scorers ?? {}
             ).reduce((acc, x) => acc + x, 0);
