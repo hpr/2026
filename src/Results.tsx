@@ -38,8 +38,9 @@ export const Results = ({ entries, meet }: { entries: Entries | null; meet: DLMe
           .sort(evtSort)
           .map((evt) => {
             const results = entries![meet]![evt as AthleticsEvent]?.results!;
-            const shortCode = ((evt.includes("Women") ? 'W' : 'M') +
-              disciplineCodes[evt.split(' ').slice(0, -1).join(' ').replace(',', '')]) as AthleticsEvent;
+            const normalized = evt.replace(',', '').replace('meters', 'Meters').replace(' men Men', ' Men');
+            const shortCode = ((normalized.includes("Women") ? 'W' : 'M') +
+              disciplineCodes[normalized.split(' ').slice(0, -1).join(' ')]) as AthleticsEvent;
             const evtPoints = Object.values(
               teamToScore?.lbpicks?.[shortCode]?.scorers ?? {}
             ).reduce((acc, x) => acc + x, 0);
