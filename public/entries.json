@@ -67632,7 +67632,135 @@
           "lastName": "Thiery"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "5.90",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "5.95",
+            "sb": "5.83",
+            "nat": "AUS",
+            "id": "14565327",
+            "hasAvy": true,
+            "firstName": "Kurtis",
+            "lastName": "Marschall"
+          }
+        },
+        {
+          "mark": "5.80",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "6.30",
+            "sb": "6.12",
+            "nat": "SWE",
+            "id": "14679502",
+            "hasAvy": true,
+            "firstName": "Armand",
+            "lastName": "Duplantis"
+          }
+        },
+        {
+          "mark": "5.80",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "5.76",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14780520",
+            "hasAvy": true,
+            "firstName": "Baptiste",
+            "lastName": "Thiery"
+          }
+        },
+        {
+          "mark": "5.80",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "5.92",
+            "sb": "5.72",
+            "nat": "NED",
+            "id": "14482223",
+            "hasAvy": true,
+            "firstName": "Menno",
+            "lastName": "Vloon"
+          }
+        },
+        {
+          "mark": "5.80",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "5.87",
+            "sb": "5.83",
+            "nat": "USA",
+            "id": "14717685",
+            "hasAvy": true,
+            "firstName": "Zachery",
+            "lastName": "Bradford"
+          }
+        },
+        {
+          "mark": "5.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "6.05",
+            "sb": "5.50",
+            "nat": "FRA",
+            "id": "14185853",
+            "hasAvy": true,
+            "firstName": "Renaud",
+            "lastName": "Lavillenie"
+          }
+        },
+        {
+          "mark": "5.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "5.90",
+            "sb": "5.81",
+            "nat": "NOR",
+            "id": "14681630",
+            "hasAvy": true,
+            "firstName": "Sondre",
+            "lastName": "Guttormsen"
+          }
+        },
+        {
+          "mark": "5.60",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "5.95",
+            "sb": "5.70",
+            "nat": "FRA",
+            "id": "14733137",
+            "hasAvy": true,
+            "firstName": "Thibaut",
+            "lastName": "Collet"
+          }
+        },
+        {
+          "mark": "5.60",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "6.06",
+            "sb": "5.70",
+            "nat": "USA",
+            "id": "14440868",
+            "hasAvy": true,
+            "firstName": "Sam",
+            "lastName": "Kendricks"
+          }
+        }
+      ]
     },
     "Shot put, Women": {
       "date": "2026-06-07T18:20:00.000Z",
@@ -69331,8 +69459,22 @@
           }
         },
         {
-          "mark": "8:13.11",
+          "mark": "8:13.02",
           "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:06.44",
+            "sb": "8:10.64",
+            "nat": "MAR",
+            "id": "14977838",
+            "hasAvy": true,
+            "firstName": "Salah Eddine",
+            "lastName": "ben Yazide"
+          }
+        },
+        {
+          "mark": "8:13.11",
+          "place": 5,
           "notes": "",
           "entrant": {
             "pb": "8:09.64",
@@ -69345,7 +69487,8 @@
           }
         },
         {
-          "place": 5,
+          "mark": "8:13.40",
+          "place": 6,
           "notes": "",
           "entrant": {
             "pb": "7:59.44",
@@ -69358,7 +69501,8 @@
           }
         },
         {
-          "place": 6,
+          "mark": "8:14.13",
+          "place": 7,
           "notes": "",
           "entrant": {
             "pb": "8:08.21",
@@ -69371,15 +69515,18 @@
           }
         },
         {
-          "place": 7,
-          "notes": ""
-        },
-        {
+          "mark": "8:14.27",
           "place": 8,
           "notes": ""
         },
         {
+          "mark": "8:18.70",
           "place": 9,
+          "notes": ""
+        },
+        {
+          "mark": "8:20.02",
+          "place": 10,
           "notes": "",
           "entrant": {
             "pb": "8:08.45",
@@ -69392,7 +69539,8 @@
           }
         },
         {
-          "place": 10,
+          "mark": "8:22.94",
+          "place": 11,
           "notes": "",
           "entrant": {
             "pb": "8:02.36",
@@ -69405,7 +69553,8 @@
           }
         },
         {
-          "place": 11,
+          "mark": "8:23.65",
+          "place": 12,
           "notes": "",
           "entrant": {
             "pb": "8:15.00",
@@ -69418,7 +69567,8 @@
           }
         },
         {
-          "place": 12,
+          "mark": "8:23.97",
+          "place": 13,
           "notes": "",
           "entrant": {
             "pb": "8:03.43",
@@ -69431,7 +69581,8 @@
           }
         },
         {
-          "place": 13,
+          "mark": "8:24.69",
+          "place": 14,
           "notes": "",
           "entrant": {
             "pb": "8:13.08",
@@ -69444,7 +69595,8 @@
           }
         },
         {
-          "place": 14,
+          "mark": "8:25.55",
+          "place": 15,
           "notes": "",
           "entrant": {
             "pb": "8:19.71",
@@ -69457,7 +69609,8 @@
           }
         },
         {
-          "place": 15,
+          "mark": "8:25.99",
+          "place": 16,
           "notes": "",
           "entrant": {
             "pb": "8:17.01",
@@ -69470,7 +69623,8 @@
           }
         },
         {
-          "place": 16,
+          "mark": "8:26.33",
+          "place": 17,
           "notes": "",
           "entrant": {
             "pb": "8:17.06",
@@ -69483,7 +69637,8 @@
           }
         },
         {
-          "place": 17,
+          "mark": "8:29.00",
+          "place": 18,
           "notes": "",
           "entrant": {
             "pb": "8:06.41",
@@ -69496,11 +69651,13 @@
           }
         },
         {
-          "place": 18,
+          "mark": "8:37.96",
+          "place": 19,
           "notes": ""
         },
         {
-          "place": 19,
+          "mark": "8:44.20",
+          "place": 20,
           "notes": "",
           "entrant": {
             "pb": "8:20.17",
@@ -69510,19 +69667,6 @@
             "hasAvy": true,
             "firstName": "Maciej",
             "lastName": "Megier"
-          }
-        },
-        {
-          "place": 20,
-          "notes": "",
-          "entrant": {
-            "pb": "8:06.44",
-            "sb": "8:10.64",
-            "nat": "MAR",
-            "id": "14977838",
-            "hasAvy": true,
-            "firstName": "Salah Eddine",
-            "lastName": "ben Yazide"
           }
         },
         {
