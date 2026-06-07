@@ -147,6 +147,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   stockholm26: {
     '1500 meters, Men': '3:30.00',
   },
+  oslo26: {
+    '400m Hurdles Men': '47.00',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -188,6 +191,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   rabat26: '1:10pm ET',
   rome26: '1:10pm ET',
   stockholm26: '10:04am ET',
+  oslo26: '12:42pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -250,6 +254,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   rabat26: ['https://rabat.diamondleague.com/en/programme-results/'],
   rome26: ['https://rome.diamondleague.com/en/programme-results/'],
   stockholm26: ['https://stockholm.diamondleague.com/en/programme-results/'],
+  oslo26: ['https://oslo.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {

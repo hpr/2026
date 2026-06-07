@@ -48,9 +48,16 @@ echo "✓ Added $NEW deadline (after $PREV)"
 sed -i "/^  $PREV: \[/a\\  $NEW: ['$URL']," "$ENTRIES"
 echo "✓ Added $NEW schedule (after $PREV)"
 
+# 6. Add results link after $PREV's results link in getResults.mts
+RESULTS_FILE="$REPO_DIR/script/getResults.mts"
+CITY_UPPER=$(echo "$NEW" | sed 's/[0-9]//g' | tr '[:lower:]' '[:upper:]')
+YR=$(echo "$NEW" | sed 's/[^0-9]//g')
+sed -i "/^  $PREV: 'https:\/\/.*SCHEDULE_JSON\.json'/a\\  $NEW: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/${CITY_UPPER}_20${YR}_SCHEDULE_JSON.json'," "$RESULTS_FILE"
+echo "✓ Added $NEW results link (after $PREV)"
+
 echo ""
 echo "Done. Next steps:"
 echo "  npm run getEntries"
 echo "  npm run getAvatars"
-echo "  npm run getBlurbs"
-echo "  npm run getEntries   (final, to pick up avatars/blurbs)"
+echo "  npm run getBlurbs        (~20 mins, uses LLM to generate event previews)"
+echo "  npm run getEntries       (final, to pick up avatars/blurbs)"
