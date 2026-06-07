@@ -68893,7 +68893,103 @@
           "lastName": "Henriksson"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "10.84",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "10.61",
+            "sb": "",
+            "nat": "USA",
+            "id": "14756997",
+            "hasAvy": true,
+            "firstName": "Melissa",
+            "lastName": "Jefferson-Wooden"
+          }
+        },
+        {
+          "mark": "10.97",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "11.02",
+            "sb": "11.12",
+            "nat": "GBR",
+            "id": "14685108",
+            "hasAvy": true,
+            "firstName": "Amy",
+            "lastName": "Hunt"
+          }
+        },
+        {
+          "mark": "11.05",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "11.00",
+            "sb": "11.08",
+            "nat": "LUX",
+            "id": "14621598",
+            "hasAvy": true,
+            "firstName": "Patrizia",
+            "lastName": "van der Weken"
+          }
+        },
+        {
+          "mark": "11.08",
+          "place": 4,
+          "notes": ""
+        },
+        {
+          "mark": "11.22",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "11.01",
+            "sb": "11.07",
+            "nat": "ITA",
+            "id": "14622202",
+            "hasAvy": true,
+            "firstName": "Zaynab",
+            "lastName": "Dosso"
+          }
+        },
+        {
+          "mark": "11.24",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "10.83",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14378282",
+            "hasAvy": true,
+            "firstName": "Dina",
+            "lastName": "Asher-Smith"
+          }
+        },
+        {
+          "mark": "11.29",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "11.48",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "11.19",
+            "sb": "",
+            "nat": "SWE",
+            "id": "14654845",
+            "hasAvy": true,
+            "firstName": "Julia",
+            "lastName": "Henriksson"
+          }
+        }
+      ]
     },
     "Discus throw, Men": {
       "date": "2026-06-07T19:52:00.000Z",
