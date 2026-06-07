@@ -67414,7 +67414,135 @@
           "lastName": "Kamga"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "68.60",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "73.52",
+            "sb": "73.10",
+            "nat": "USA",
+            "id": "14479216",
+            "hasAvy": true,
+            "firstName": "Valarie",
+            "lastName": "Sion"
+          }
+        },
+        {
+          "mark": "66.57",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "70.99",
+            "sb": "70.99",
+            "nat": "NED",
+            "id": "14676577",
+            "hasAvy": true,
+            "firstName": "Jorinde",
+            "lastName": "van Klinken"
+          }
+        },
+        {
+          "mark": "65.89",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "70.72",
+            "sb": "65.94",
+            "nat": "USA",
+            "id": "14647494",
+            "hasAvy": true,
+            "firstName": "Laulauga",
+            "lastName": "Tausaga"
+          }
+        },
+        {
+          "mark": "64.15",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "69.12",
+            "sb": "65.03",
+            "nat": "CHN",
+            "id": "14430151",
+            "hasAvy": true,
+            "firstName": "Bin",
+            "lastName": "Feng"
+          }
+        },
+        {
+          "mark": "62.13",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "67.31",
+            "sb": "66.55",
+            "nat": "GER",
+            "id": "14373479",
+            "hasAvy": true,
+            "firstName": "Marike",
+            "lastName": "Steinacker"
+          }
+        },
+        {
+          "mark": "61.93",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "66.61",
+            "sb": "64.02",
+            "nat": "SWE",
+            "id": "14718533",
+            "hasAvy": true,
+            "firstName": "Vanessa",
+            "lastName": "Kamga"
+          }
+        },
+        {
+          "mark": "61.88",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "68.10",
+            "sb": "66.03",
+            "nat": "GER",
+            "id": "14361931",
+            "hasAvy": true,
+            "firstName": "Shanice",
+            "lastName": "Craft"
+          }
+        },
+        {
+          "mark": "58.81",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "67.25",
+            "sb": "63.86",
+            "nat": "CUB",
+            "id": "14709137",
+            "hasAvy": true,
+            "firstName": "Silinda",
+            "lastName": "Moráles"
+          }
+        },
+        {
+          "mark": "52.90",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "67.82",
+            "sb": "67.25",
+            "nat": "USA",
+            "id": "14839155",
+            "hasAvy": true,
+            "firstName": "Cierra",
+            "lastName": "Jackson"
+          }
+        }
+      ]
     },
     "Pole vault, Men": {
       "date": "2026-06-07T18:14:00.000Z",
