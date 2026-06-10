@@ -73054,7 +73054,107 @@
           "lastName": "Španović"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "14.85",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "14.85",
+            "sb": "14.85",
+            "nat": "CUB",
+            "id": "14663467",
+            "hasAvy": true,
+            "firstName": "Davisleydi",
+            "lastName": "Velazco"
+          }
+        },
+        {
+          "mark": "14.75",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "14.57",
+            "sb": "14.57",
+            "nat": "SEN",
+            "id": "14894836",
+            "hasAvy": true,
+            "firstName": "Saly",
+            "lastName": "Sarr"
+          }
+        },
+        {
+          "mark": "14.60",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "14.98",
+            "sb": "14.59",
+            "nat": "CUB",
+            "id": "14828679",
+            "hasAvy": true,
+            "firstName": "Leyanis",
+            "lastName": "Pérez Hernández"
+          }
+        },
+        {
+          "mark": "14.50",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14.54",
+            "sb": "",
+            "nat": "JAM",
+            "id": "14693884",
+            "hasAvy": true,
+            "firstName": "Ackelia",
+            "lastName": "Smith"
+          }
+        },
+        {
+          "mark": "14.49",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "15.02",
+            "sb": "14.84",
+            "nat": "DMA",
+            "id": "14416826",
+            "hasAvy": true,
+            "firstName": "Thea",
+            "lastName": "Lafond"
+          }
+        },
+        {
+          "mark": "14.21",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14.93",
+            "sb": "14.31",
+            "nat": "CUB",
+            "id": "14574170",
+            "hasAvy": true,
+            "firstName": "Liadagmis",
+            "lastName": "Povea"
+          }
+        },
+        {
+          "mark": "13.90",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14.27",
+            "sb": "14.24",
+            "nat": "SWE",
+            "id": "14774822",
+            "hasAvy": true,
+            "firstName": "Maja",
+            "lastName": "Åskag"
+          }
+        }
+      ]
     },
     "Pole Vault Men": {
       "date": "2026-06-10T21:30:00.000Z",
