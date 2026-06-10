@@ -72858,7 +72858,8 @@
           "firstName": "Fanny",
           "lastName": "Roos"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Triple Jump Women": {
       "date": "2026-06-10T21:16:00.000Z",
@@ -72938,7 +72939,8 @@
           "firstName": "Ivana",
           "lastName": "Španović"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Pole Vault Men": {
       "date": "2026-06-10T21:30:00.000Z",
@@ -73036,7 +73038,8 @@
           "firstName": "Simen",
           "lastName": "Guttormsen"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Women": {
       "date": "2026-06-10T22:04:00.000Z",
@@ -73116,7 +73119,8 @@
           "firstName": "Astri",
           "lastName": "Ertzgaard"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "800m Men": {
       "date": "2026-06-10T22:20:00.000Z",
@@ -73223,7 +73227,8 @@
           "firstName": "Tobias",
           "lastName": "Grønstad"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "3000m Women": {
       "date": "2026-06-10T22:29:00.000Z",
@@ -73402,7 +73407,8 @@
           "firstName": "Aleksandra",
           "lastName": "Bereśniewicz"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Javelin Throw Women": {
       "date": "2026-06-10T22:35:00.000Z",
@@ -73491,7 +73497,8 @@
           "firstName": "Marie-Therese",
           "lastName": "Obst"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "200m Men": {
       "date": "2026-06-10T22:44:00.000Z",
@@ -73571,7 +73578,8 @@
           "firstName": "Andreas Ofstad",
           "lastName": "Kulseng"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Triple Jump Men": {
       "date": "2026-06-10T22:45:00.000Z",
@@ -73651,7 +73659,8 @@
           "firstName": "Yasser Mohammed",
           "lastName": "Triki"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "5000m Men": {
       "date": "2026-06-10T22:52:00.000Z",
@@ -73839,7 +73848,8 @@
           "firstName": "Tshepo",
           "lastName": "Tshite"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100m Women": {
       "date": "2026-06-10T23:12:00.000Z",
@@ -73919,7 +73929,8 @@
           "firstName": "Minke",
           "lastName": "Bisschops"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Dream Mile Men": {
       "date": "2026-06-10T23:19:00.000Z",
@@ -74071,7 +74082,8 @@
           "firstName": "Žan",
           "lastName": "Rudolf"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Hurdles Women": {
       "date": "2026-06-10T23:39:00.000Z",
@@ -74151,7 +74163,8 @@
           "firstName": "Andrea",
           "lastName": "Rooth"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Hurdles Men": {
       "tiebreaker": "47.00",
@@ -74232,7 +74245,8 @@
           "firstName": "Carl",
           "lastName": "Bengtström"
         }
-      ]
+      ],
+      "isClosed": true
     }
   }
 }
