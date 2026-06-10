@@ -75425,6 +75425,7 @@
           }
         },
         {
+          "mark": "3:48.35",
           "place": 3,
           "notes": "",
           "entrant": {
@@ -75438,6 +75439,7 @@
           }
         },
         {
+          "mark": "3:49.13",
           "place": 4,
           "notes": "",
           "entrant": {
@@ -75451,6 +75453,7 @@
           }
         },
         {
+          "mark": "3:49.36",
           "place": 5,
           "notes": "",
           "entrant": {
@@ -75464,6 +75467,7 @@
           }
         },
         {
+          "mark": "3:49.46",
           "place": 6,
           "notes": "",
           "entrant": {
@@ -75477,6 +75481,7 @@
           }
         },
         {
+          "mark": "3:49.63",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -75490,6 +75495,35 @@
           }
         },
         {
+          "mark": "3:49.68",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:50.49",
+            "sb": "",
+            "nat": "IRL",
+            "id": "14595170",
+            "hasAvy": true,
+            "firstName": "Andrew",
+            "lastName": "Coscoran"
+          }
+        },
+        {
+          "mark": "3:49.72",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.46",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14997479",
+            "hasAvy": true,
+            "firstName": "Reynold",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "mark": "3:49.74",
           "place": 10,
           "notes": "",
           "entrant": {
@@ -75503,6 +75537,7 @@
           }
         },
         {
+          "mark": "3:50.27",
           "place": 11,
           "notes": "",
           "entrant": {
@@ -75516,32 +75551,7 @@
           }
         },
         {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:47.46",
-            "sb": "",
-            "nat": "KEN",
-            "id": "14997479",
-            "hasAvy": true,
-            "firstName": "Reynold",
-            "lastName": "Cheruiyot"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:50.49",
-            "sb": "",
-            "nat": "IRL",
-            "id": "14595170",
-            "hasAvy": true,
-            "firstName": "Andrew",
-            "lastName": "Coscoran"
-          }
-        },
-        {
+          "mark": "3:50.71",
           "place": 12,
           "notes": "",
           "entrant": {
@@ -75555,6 +75565,7 @@
           }
         },
         {
+          "mark": "3:53.87",
           "place": 13,
           "notes": "",
           "entrant": {
