@@ -73643,6 +73643,7 @@
           }
         },
         {
+          "mark": "1:44.79",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -73656,6 +73657,7 @@
           }
         },
         {
+          "mark": "1:45.66",
           "place": 8,
           "notes": "",
           "entrant": {
@@ -73669,8 +73671,8 @@
           }
         },
         {
-          "place": 9,
-          "notes": "",
+          "place": null,
+          "notes": "DNF",
           "entrant": {
             "pb": "1:43.37",
             "sb": "1:43.80",
