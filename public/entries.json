@@ -73556,7 +73556,145 @@
           "lastName": "Grønstad"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:42.08",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.27",
+            "sb": "1:42.70",
+            "nat": "USA",
+            "id": "15152457",
+            "hasAvy": true,
+            "firstName": "Cooper",
+            "lastName": "Lutkenhaus"
+          }
+        },
+        {
+          "mark": "1:42.09",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.11",
+            "sb": "1:43.56",
+            "nat": "KEN",
+            "id": "14974928",
+            "hasAvy": true,
+            "firstName": "Emmanuel",
+            "lastName": "Wanyonyi"
+          }
+        },
+        {
+          "mark": "1:43.33",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.20",
+            "sb": "1:43.11",
+            "nat": "CAN",
+            "id": "14755875",
+            "hasAvy": true,
+            "firstName": "Marco",
+            "lastName": "Arop"
+          }
+        },
+        {
+          "mark": "1:43.61",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:44.41",
+            "sb": "1:45.11",
+            "nat": "NOR",
+            "id": "14855967",
+            "hasAvy": true,
+            "firstName": "Tobias",
+            "lastName": "Grønstad"
+          }
+        },
+        {
+          "mark": "1:43.64",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.55",
+            "sb": "1:43.70",
+            "nat": "AUS",
+            "id": "14456885",
+            "hasAvy": true,
+            "firstName": "Peter",
+            "lastName": "Bol"
+          }
+        },
+        {
+          "mark": "1:43.85",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.43",
+            "sb": "1:44.08",
+            "nat": "BEL",
+            "id": "14634371",
+            "hasAvy": true,
+            "firstName": "Eliott",
+            "lastName": "Crestan"
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:41.61",
+            "sb": "1:43.66",
+            "nat": "FRA",
+            "id": "14646018",
+            "hasAvy": true,
+            "firstName": "Gabriel",
+            "lastName": "Tual"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:42.04",
+            "sb": "1:46.92",
+            "nat": "ESP",
+            "id": "14929058",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Attaoui"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:43.37",
+            "sb": "1:43.80",
+            "nat": "IRL",
+            "id": "14377494",
+            "hasAvy": true,
+            "firstName": "Mark",
+            "lastName": "English"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:44.16",
+            "sb": "1:46.69",
+            "nat": "POL",
+            "id": "14647295",
+            "hasAvy": true,
+            "firstName": "Patryk",
+            "lastName": "Sieradzki"
+          }
+        }
+      ]
     },
     "3000m Women": {
       "date": "2026-06-10T22:29:00.000Z",
