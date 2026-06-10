@@ -137,8 +137,8 @@ for (const key in resultsLinks) {
       });
     }
   } else if (resultsLinks[meet]?.includes('livecache.sportresult.com') || resultsLinks[meet]?.includes('swisstiming.com')) {
-    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : 'ps-cache.web.swisstiming.com';
-    const meetId = resultsLinks[meet]?.match(/^https:\/\/(livecache.sportresult.com|ps-cache.web.swisstiming.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[2];
+    const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : resultsLinks[meet]?.includes('ps-cache-next') ? 'ps-cache-next.ath.swisstiming.com' : 'ps-cache.web.swisstiming.com';
+    const meetId = resultsLinks[meet]?.match(/^https:\/\/(?:livecache\.sportresult\.com|ps-cache[^/]*\.swisstiming\.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[1];
     console.log('fetching', resultsLinks[meet]);
     const schedule: SportResultSchedule = await (await fetch(resultsLinks[meet]!)).json();
     console.log(schedule);
@@ -150,32 +150,34 @@ for (const key in resultsLinks) {
       // }
       const evtId = Object.values(schedule.content.full.Units).find(
         (unit) =>
-          [evt, '1 ' + evt, evt].some((s) => unit.EventName.replace('Steeplechase', 'Steeple') === s
-          .replace('Steeplechase', 'Steeple')
-          .replace('steeplechase', 'Steeple')
-          .replace('Discus Women', 'Discus Throw Women')
-          .replace('Discus Men', 'Discus Throw Men')
-          .replace('Javelin Men', 'Javelin Throw Men')
-          .replace('Javelin Women', 'Javelin Throw Women')
-          .replace(',', '')
-          .replace('meters', 'Metres')
-          .replace('Meters', 'Metres')
-          .replace('Dream ', '')
-          .replace('Bowerman ', '')
-          .replace('Mutola ', '')
-          .replace(' Metres', 'm') // only stockholm?
-          .replace('m H ', 'm Hurdles ')
-          .replace('mH', 'm Hurdles')
-          .replace('mSC', 'm Steeple')
-          .replace('m SC', 'm Steeple')
-          .replace('m St ', 'm Steeple ')
-          .replace(' put ', ' Put ')
-          .replace('throw', 'Throw')
-          .replace('vault', 'Vault')
-          .replace('jump', 'Jump')
-          .replace(' men Men', ' Men')
-          .replace('Men 100m', '100m Men')
-        ) && unit.Stats.DiamondId
+          [evt, '1 ' + evt, evt].some((s) => {
+            const normalize = (x: string) => x
+              .replace('Steeplechase', 'Steeple')
+              .replace('steeplechase', 'Steeple')
+              .replace('Discus Women', 'Discus Throw Women')
+              .replace('Discus Men', 'Discus Throw Men')
+              .replace('Javelin Men', 'Javelin Throw Men')
+              .replace('Javelin Women', 'Javelin Throw Women')
+              .replace(',', '')
+              .replace('meters', 'Metres')
+              .replace('Meters', 'Metres')
+              .replace('Dream ', '')
+              .replace('Bowerman ', '')
+              .replace('Mutola ', '')
+              .replace(' Metres', 'm')
+              .replace('m H ', 'm Hurdles ')
+              .replace('mH', 'm Hurdles')
+              .replace('mSC', 'm Steeple')
+              .replace('m SC', 'm Steeple')
+              .replace('m St ', 'm Steeple ')
+              .replace(' put ', ' Put ')
+              .replace('throw', 'Throw')
+              .replace('vault', 'Vault')
+              .replace('jump', 'Jump')
+              .replace(' men Men', ' Men')
+              .replace('Men 100m', '100m Men');
+            return normalize(unit.EventName) === normalize(s);
+          }) && unit.Stats.DiamondId
       )?.Rsc.ValueUnit;
       const evtResultUrl = `https://${domain}/node/db/ATH_PROD/${meetId}_TIMING_${evtId}_JSON.json`;
       console.log(evt, evtResultUrl);
