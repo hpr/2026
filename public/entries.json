@@ -74304,7 +74304,112 @@
           "lastName": "Kulseng"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "19.84",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.46",
+            "sb": "19.96",
+            "nat": "BOT",
+            "id": "14883897",
+            "hasAvy": true,
+            "firstName": "Letsile",
+            "lastName": "Tebogo"
+          }
+        },
+        {
+          "mark": "20.12",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.77",
+            "sb": "19.77",
+            "nat": "RSA",
+            "id": "14789650",
+            "hasAvy": true,
+            "firstName": "Sinesipho",
+            "lastName": "Dambile"
+          }
+        },
+        {
+          "mark": "20.50",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.80",
+            "sb": "20.13",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "20.53",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "19.63",
+            "sb": "20.35",
+            "nat": "CUB",
+            "id": "14518308",
+            "hasAvy": true,
+            "firstName": "Reynier",
+            "lastName": "Mena"
+          }
+        },
+        {
+          "mark": "20.58",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "20.27",
+            "sb": "20.67",
+            "nat": "SUI",
+            "id": "14778502",
+            "hasAvy": true,
+            "firstName": "Timothé",
+            "lastName": "Mumenthaler"
+          }
+        },
+        {
+          "mark": "20.60",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "19.67",
+            "sb": "19.67",
+            "nat": "AUS",
+            "id": "15006779",
+            "hasAvy": true,
+            "firstName": "Gout",
+            "lastName": "Gout"
+          }
+        },
+        {
+          "mark": "20.71",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "20.53",
+            "sb": "20.53",
+            "nat": "NOR",
+            "id": "14907658",
+            "hasAvy": true,
+            "firstName": "Andreas Ofstad",
+            "lastName": "Kulseng"
+          }
+        },
+        {
+          "mark": "20.89",
+          "place": 8,
+          "notes": ""
+        }
+      ]
     },
     "Triple Jump Men": {
       "date": "2026-06-10T22:45:00.000Z",
