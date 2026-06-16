@@ -106,6 +106,23 @@ const wbk = WBK({
   sparqlEndpoint: 'https://query.wikidata.org/sparql',
 });
 
+const WIKI_UA = 'fantasy-dl/1.0 (https://github.com/hpr/2026; habs@sdf.org) wikibase-sdk';
+
+const wikiJson = async (url: string): Promise<any> => {
+  const resp = await fetch(url, { headers: { 'User-Agent': WIKI_UA } });
+  const text = await resp.text();
+  if (!resp.ok) {
+    console.error(`Wikimedia API error ${resp.status} for ${url}:\n${text.slice(0, 500)}`);
+    throw new Error(`Wikimedia API returned ${resp.status}`);
+  }
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    console.error(`Wikimedia JSON parse error for ${url}:\n${text.slice(0, 500)}`);
+    throw e;
+  }
+};
+
 const avatarCache: { tfrrsUrls: { [k: string]: string }, urls: { [k: string]: string } } = JSON.parse(fs.readFileSync(AVATAR_CACHE, 'utf-8'));
 const avatarCacheKey = tfrrsMode ? 'tfrrsUrls' : 'urls';
 
@@ -271,17 +288,22 @@ for (const entrant of entrants) {
   let avatarBuffer: ArrayBuffer | undefined;
   let images: LabeledImage[] = [];
   if (avatarResp.status === 403) {
-    const qid: EntityId = wbk.parse.pagesTitles(
-      await (await fetch(wbk.cirrusSearchPages({ haswbstatement: `${tfrrsMode ? P_TFRRS_ATHLETE_ID : P_WA_ATHLETE_ID}=${id}` }))).json()
-    )[0] as `Q${number}`;
+    let qid: EntityId | undefined;
     let athObj: SimplifiedItem | undefined = undefined;
-    if (qid) {
-      athObj = wbk.simplify.entity((await (await fetch(wbk.getEntities({ ids: qid }))).json()).entities[qid]) as SimplifiedItem;
-      const qSportsTeam = athObj.claims?.[P_MEMBER_OF_SPORTS_TEAM]?.[0] as `Q${number}`;
-      if (qSportsTeam) {
-        const sportsTeamObj = wbk.simplify.entity((await (await fetch(wbk.getEntities({ ids: qSportsTeam }))).json()).entities[qSportsTeam]) as SimplifiedItem;
-        if (sportsTeamObj.claims?.[P_INSTANCE_OF]?.some((claim) => claim === Q_UNIVERSITY_SPORTS_CLUB)) team = sportsTeamObj.labels?.en;
+    try {
+      qid = wbk.parse.pagesTitles(
+        await wikiJson(wbk.cirrusSearchPages({ haswbstatement: `${tfrrsMode ? P_TFRRS_ATHLETE_ID : P_WA_ATHLETE_ID}=${id}` }))
+      )[0] as `Q${number}`;
+      if (qid) {
+        athObj = wbk.simplify.entity((await wikiJson(wbk.getEntities({ ids: qid }))).entities[qid]) as SimplifiedItem;
+        const qSportsTeam = athObj.claims?.[P_MEMBER_OF_SPORTS_TEAM]?.[0] as `Q${number}`;
+        if (qSportsTeam) {
+          const sportsTeamObj = wbk.simplify.entity((await wikiJson(wbk.getEntities({ ids: qSportsTeam }))).entities[qSportsTeam]) as SimplifiedItem;
+          if (sportsTeamObj.claims?.[P_INSTANCE_OF]?.some((claim) => claim === Q_UNIVERSITY_SPORTS_CLUB)) team = sportsTeamObj.labels?.en;
+        }
       }
+    } catch (e) {
+      console.error(`  Wikimedia lookup failed for ${firstName} ${lastName} (${id}), skipping enrichment`);
     }
     if (avatarCache[avatarCacheKey][id]) {
       if (avatarCache[avatarCacheKey][id] === 'skip') {  (entrant as any).skipped = true; continue; }
@@ -314,11 +336,19 @@ for (const entrant of entrants) {
           //     if (url.endsWith('/roster/')) return false;
           //     return true;
           //   })! ?? {};
-          const results = await (await fetch(`https://content-customsearch.googleapis.com/customsearch/v1?${new URLSearchParams({
+          const googleResp = await fetch(`https://content-customsearch.googleapis.com/customsearch/v1?${new URLSearchParams({
             q: searchQuery,
             cx: process.env.GOOGLE_CX!,
             key: process.env.GOOGLE_KEY!,
-          })}`)).json();
+          })}`);
+          const googleText = await googleResp.text();
+          let results: any;
+          try {
+            results = JSON.parse(googleText);
+          } catch (e) {
+            console.error(`Google Custom Search JSON parse error:\n${googleText.slice(0, 500)}`);
+            results = { items: [] };
+          }
           results.items ??= [];
           console.log(results.items[0]?.link);
           const { link } = results.items.find(({ link }) => {
