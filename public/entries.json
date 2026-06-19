@@ -78157,8 +78157,22 @@
           }
         },
         {
-          "mark": "15:06.48",
+          "mark": "15:02.13",
           "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14:36.65",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14923882",
+            "hasAvy": true,
+            "firstName": "Melknat",
+            "lastName": "Wudu"
+          }
+        },
+        {
+          "mark": "15:06.48",
+          "place": 8,
           "notes": "",
           "entrant": {
             "pb": "15:24.30",
@@ -78171,12 +78185,8 @@
           }
         },
         {
-          "place": 7,
-          "notes": ""
-        },
-        {
           "mark": "15:10.60",
-          "place": 8,
+          "place": 9,
           "notes": "",
           "entrant": {
             "pb": "14:22.76",
@@ -78190,7 +78200,7 @@
         },
         {
           "mark": "15:18.35",
-          "place": 9,
+          "place": 10,
           "notes": "",
           "entrant": {
             "pb": "14:39.13",
@@ -78204,7 +78214,7 @@
         },
         {
           "mark": "15:19.69",
-          "place": 10,
+          "place": 11,
           "notes": "",
           "entrant": {
             "pb": "15:03.88",
@@ -78218,7 +78228,7 @@
         },
         {
           "mark": "15:25.31",
-          "place": 11,
+          "place": 12,
           "notes": "",
           "entrant": {
             "pb": "14:23.44",
@@ -78232,7 +78242,7 @@
         },
         {
           "mark": "15:26.21",
-          "place": 12,
+          "place": 13,
           "notes": "",
           "entrant": {
             "pb": "14:37.28",
@@ -78246,7 +78256,7 @@
         },
         {
           "mark": "15:30.00",
-          "place": 13,
+          "place": 14,
           "notes": "",
           "entrant": {
             "pb": "",
@@ -78260,7 +78270,7 @@
         },
         {
           "mark": "15:46.15",
-          "place": 14,
+          "place": 15,
           "notes": "",
           "entrant": {
             "pb": "16:15.65",
@@ -78274,7 +78284,7 @@
         },
         {
           "mark": "15:46.15",
-          "place": 15,
+          "place": 16,
           "notes": "",
           "entrant": {
             "pb": "14:38.66",
@@ -78287,8 +78297,8 @@
           }
         },
         {
-          "place": 16,
-          "notes": "",
+          "place": null,
+          "notes": "DNF",
           "entrant": {
             "pb": "14:26.41",
             "sb": "14:26.41",
@@ -78300,17 +78310,8 @@
           }
         },
         {
-          "place": 17,
-          "notes": "",
-          "entrant": {
-            "pb": "14:36.65",
-            "sb": "",
-            "nat": "ETH",
-            "id": "14923882",
-            "hasAvy": true,
-            "firstName": "Melknat",
-            "lastName": "Wudu"
-          }
+          "place": null,
+          "notes": "DNF"
         }
       ]
     },
@@ -78393,7 +78394,121 @@
           "lastName": "Ganter"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "19.74",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.77",
+            "sb": "19.77",
+            "nat": "RSA",
+            "id": "14789650",
+            "hasAvy": true,
+            "firstName": "Sinesipho",
+            "lastName": "Dambile"
+          }
+        },
+        {
+          "mark": "19.88",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.88",
+            "sb": "19.88",
+            "nat": "ZIM",
+            "id": "14977636",
+            "hasAvy": true,
+            "firstName": "Makanakaishe",
+            "lastName": "Charamba"
+          }
+        },
+        {
+          "mark": "19.96",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.86",
+            "sb": "20.16",
+            "nat": "DOM",
+            "id": "14912251",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Ogando"
+          }
+        },
+        {
+          "mark": "20.01",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "20.08",
+            "sb": "20.08",
+            "nat": "BOT",
+            "id": "15207110",
+            "hasAvy": true,
+            "firstName": "Selepe Prince",
+            "lastName": "Phaezel"
+          }
+        },
+        {
+          "mark": "20.04",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "19.63",
+            "sb": "20.35",
+            "nat": "CUB",
+            "id": "14518308",
+            "hasAvy": true,
+            "firstName": "Reynier",
+            "lastName": "Mena"
+          }
+        },
+        {
+          "mark": "20.38",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "19.90",
+            "sb": "20.24",
+            "nat": "USA",
+            "id": "14476000",
+            "hasAvy": true,
+            "firstName": "Kyree",
+            "lastName": "King"
+          }
+        },
+        {
+          "mark": "20.52",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "19.93",
+            "sb": "20.14",
+            "nat": "CIV",
+            "id": "14924160",
+            "hasAvy": true,
+            "firstName": "Cheickna",
+            "lastName": "Traore"
+          }
+        },
+        {
+          "mark": "20.65",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "20.60",
+            "sb": "20.69",
+            "nat": "GER",
+            "id": "14774667",
+            "hasAvy": true,
+            "firstName": "Robin",
+            "lastName": "Ganter"
+          }
+        }
+      ]
     },
     "1500m Women": {
       "date": "2026-06-19T22:20:00.000Z",
