@@ -78027,7 +78027,135 @@
           "lastName": "Mohamed Hussein"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "88.68",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "92.62",
+            "sb": "92.62",
+            "nat": "SRI",
+            "id": "14886862",
+            "hasAvy": true,
+            "firstName": "Rumesh Tharanga",
+            "lastName": "Pathirage"
+          }
+        },
+        {
+          "mark": "86.38",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "93.07",
+            "sb": "86.08",
+            "nat": "GRN",
+            "id": "14520432",
+            "hasAvy": true,
+            "firstName": "Anderson",
+            "lastName": "Peters"
+          }
+        },
+        {
+          "mark": "85.99",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "87.76",
+            "sb": "85.33",
+            "nat": "USA",
+            "id": "14583106",
+            "hasAvy": true,
+            "firstName": "Curtis",
+            "lastName": "Thompson"
+          }
+        },
+        {
+          "mark": "85.69",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "90.23",
+            "sb": "",
+            "nat": "IND",
+            "id": "14549089",
+            "hasAvy": true,
+            "firstName": "Neeraj",
+            "lastName": "Chopra"
+          }
+        },
+        {
+          "mark": "83.62",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "84.32",
+            "sb": "83.11",
+            "nat": "UKR",
+            "id": "14830537",
+            "hasAvy": true,
+            "firstName": "Artur",
+            "lastName": "Felfner"
+          }
+        },
+        {
+          "mark": "82.22",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "92.72",
+            "sb": "80.59",
+            "nat": "KEN",
+            "id": "14376567",
+            "hasAvy": true,
+            "firstName": "Julius",
+            "lastName": "Yego"
+          }
+        },
+        {
+          "mark": "81.47",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "90.16",
+            "sb": "83.45",
+            "nat": "TTO",
+            "id": "14376122",
+            "hasAvy": true,
+            "firstName": "Keshorn",
+            "lastName": "Walcott"
+          }
+        },
+        {
+          "mark": "80.38",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "90.88",
+            "sb": "85.24",
+            "nat": "CZE",
+            "id": "14168152",
+            "hasAvy": true,
+            "firstName": "Jakub",
+            "lastName": "Vadlejch"
+          }
+        },
+        {
+          "mark": "79.21",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "83.10",
+            "sb": "83.10",
+            "nat": "EGY",
+            "id": "15023970",
+            "hasAvy": true,
+            "firstName": "Ahmed Sameh",
+            "lastName": "Mohamed Hussein"
+          }
+        }
+      ]
     },
     "5000m Women": {
       "date": "2026-06-19T21:47:00.000Z",
