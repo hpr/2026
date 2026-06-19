@@ -79012,7 +79012,121 @@
           "lastName": "Schier"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "48.91",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "47.98",
+            "sb": "49.89",
+            "nat": "DOM",
+            "id": "14749613",
+            "hasAvy": true,
+            "firstName": "Marileidy",
+            "lastName": "Paulino"
+          }
+        },
+        {
+          "mark": "50.10",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "48.90",
+            "sb": "50.12",
+            "nat": "POL",
+            "id": "14642563",
+            "hasAvy": true,
+            "firstName": "Natalia",
+            "lastName": "Bukowiecka"
+          }
+        },
+        {
+          "mark": "50.23",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "49.48",
+            "sb": "50.24",
+            "nat": "CUB",
+            "id": "14637147",
+            "hasAvy": true,
+            "firstName": "Roxana",
+            "lastName": "Gómez"
+          }
+        },
+        {
+          "mark": "50.50",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "50.27",
+            "sb": "50.27",
+            "nat": "EGY",
+            "id": "14755412",
+            "hasAvy": true,
+            "firstName": "Bassant",
+            "lastName": "Hemida"
+          }
+        },
+        {
+          "mark": "51.05",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "49.72",
+            "sb": "51.06",
+            "nat": "CHI",
+            "id": "14748703",
+            "hasAvy": true,
+            "firstName": "Martina",
+            "lastName": "Weil"
+          }
+        },
+        {
+          "mark": "51.27",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "50.60",
+            "sb": "50.79",
+            "nat": "USA",
+            "id": "14596391",
+            "hasAvy": true,
+            "firstName": "Paris",
+            "lastName": "Peoples"
+          }
+        },
+        {
+          "mark": "51.53",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "51.63",
+            "sb": "51.63",
+            "nat": "GER",
+            "id": "14705532",
+            "hasAvy": true,
+            "firstName": "Skadi",
+            "lastName": "Schier"
+          }
+        },
+        {
+          "mark": "51.79",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "50.97",
+            "sb": "50.97",
+            "nat": "BOT",
+            "id": "14936354",
+            "hasAvy": true,
+            "firstName": "Obakeng",
+            "lastName": "Kamberuka"
+          }
+        }
+      ]
     },
     "3000m Steeplechase Men": {
       "tiebreaker": "8:00.00",
