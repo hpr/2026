@@ -78634,7 +78634,170 @@
           "lastName": "Rodríguez"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:59.89",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:53.22",
+            "sb": "3:55.56",
+            "nat": "ETH",
+            "id": "15009582",
+            "hasAvy": true,
+            "firstName": "Birke",
+            "lastName": "Haylom"
+          }
+        },
+        {
+          "mark": "4:02.61",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.72",
+            "sb": "4:00.32",
+            "nat": "ETH",
+            "id": "15009577",
+            "hasAvy": true,
+            "firstName": "Saron",
+            "lastName": "Berhe"
+          }
+        },
+        {
+          "mark": "4:03.56",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.28",
+            "sb": "3:59.28",
+            "nat": "ETH",
+            "id": "15285064",
+            "hasAvy": true,
+            "firstName": "Haregeweyni",
+            "lastName": "Kalayu"
+          }
+        },
+        {
+          "mark": "4:04.28",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "4:04.74",
+            "sb": "4:04.74",
+            "nat": "GER",
+            "id": "14329341",
+            "hasAvy": true,
+            "firstName": "Gesa Felicitas",
+            "lastName": "Krause"
+          }
+        },
+        {
+          "mark": "4:04.61",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "4:00.31",
+            "sb": "4:03.62",
+            "nat": "ESP",
+            "id": "14691558",
+            "hasAvy": true,
+            "firstName": "Águeda",
+            "lastName": "Marqués"
+          }
+        },
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.49",
+            "sb": "4:05.55",
+            "nat": "ITA",
+            "id": "14682711",
+            "hasAvy": true,
+            "firstName": "Gaia",
+            "lastName": "Sabbatini"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4:07.54",
+            "sb": "4:08.81",
+            "nat": "ETH",
+            "id": "15090443",
+            "hasAvy": true,
+            "firstName": "Samrawit",
+            "lastName": "Mulugeta"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.00",
+            "sb": "3:57.56",
+            "nat": "ETH",
+            "id": "14852703",
+            "hasAvy": true,
+            "firstName": "Worknesh",
+            "lastName": "Mesele"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "4:10.37",
+            "sb": "4:10.37",
+            "nat": "ESP",
+            "id": "14516195",
+            "hasAvy": true,
+            "firstName": "Lorena",
+            "lastName": "Martín"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "4:01.70",
+            "sb": "4:01.70",
+            "nat": "ETH",
+            "id": "15090797",
+            "hasAvy": true,
+            "firstName": "Aster",
+            "lastName": "Areri"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "3:59.16",
+            "sb": "",
+            "nat": "ITA",
+            "id": "14680524",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "Zenoni"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "4:34.89",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14932639",
+            "hasAvy": true,
+            "firstName": "Andrea",
+            "lastName": "Rodríguez"
+          }
+        }
+      ]
     },
     "400m Women": {
       "date": "2026-06-19T22:35:00.000Z",
