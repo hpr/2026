@@ -77507,7 +77507,175 @@
           "lastName": "de Witte"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:57.98",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "2:00.19",
+            "nat": "USA",
+            "id": "14907337",
+            "hasAvy": true,
+            "firstName": "Addison",
+            "lastName": "Wiley"
+          }
+        },
+        {
+          "mark": "1:58.08",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.64",
+            "sb": "1:57.24",
+            "nat": "ETH",
+            "id": "14774192",
+            "hasAvy": true,
+            "firstName": "Tsige",
+            "lastName": "Duguma"
+          }
+        },
+        {
+          "mark": "1:58.41",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.26",
+            "sb": "2:07.08",
+            "nat": "UGA",
+            "id": "14431159",
+            "hasAvy": true,
+            "firstName": "Halimah",
+            "lastName": "Nakaayi"
+          }
+        },
+        {
+          "mark": "1:58.61",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.16",
+            "sb": "1:57.41",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "mark": "1:58.66",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.76",
+            "sb": "1:57.32",
+            "nat": "BOT",
+            "id": "14754344",
+            "hasAvy": true,
+            "firstName": "Oratile",
+            "lastName": "Nowe"
+          }
+        },
+        {
+          "mark": "1:59.12",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.01",
+            "sb": "1:58.58",
+            "nat": "ETH",
+            "id": "14774194",
+            "hasAvy": true,
+            "firstName": "Nigist",
+            "lastName": "Getachew"
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.06",
+            "sb": "2:01.13",
+            "nat": "FRA",
+            "id": "14424718",
+            "hasAvy": true,
+            "firstName": "Rénelle",
+            "lastName": "Lamote"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.29",
+            "sb": "1:57.34",
+            "nat": "VIN",
+            "id": "14574729",
+            "hasAvy": true,
+            "firstName": "Shafiqua",
+            "lastName": "Maloney"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:59.60",
+            "sb": "2:04.42",
+            "nat": "ESP",
+            "id": "14427311",
+            "hasAvy": true,
+            "firstName": "Lorea",
+            "lastName": "Ibarzabal"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:59.02",
+            "sb": "1:59.02",
+            "nat": "ETH",
+            "id": "14916206",
+            "hasAvy": true,
+            "firstName": "Msgana",
+            "lastName": "Hailu"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.29",
+            "sb": "2:02.06",
+            "nat": "SUI",
+            "id": "14457538",
+            "hasAvy": true,
+            "firstName": "Lore",
+            "lastName": "Hoffmann"
+          }
+        },
+        {
+          "place": 12,
+          "notes": ""
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "2:05.39",
+            "sb": "",
+            "nat": "NED",
+            "id": "14361462",
+            "hasAvy": true,
+            "firstName": "Lisanne",
+            "lastName": "de Witte"
+          }
+        }
+      ]
     },
     "Javelin Men": {
       "date": "2026-06-19T21:44:00.000Z",
