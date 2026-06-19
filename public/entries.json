@@ -76985,7 +76985,121 @@
           "lastName": "Wilkes"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "13.23",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.87",
+            "sb": "13.10",
+            "nat": "USA",
+            "id": "14719972",
+            "hasAvy": true,
+            "firstName": "Cordell",
+            "lastName": "Tinch"
+          }
+        },
+        {
+          "mark": "13.27",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "13.14",
+            "sb": "13.32",
+            "nat": "ESP",
+            "id": "14734118",
+            "hasAvy": true,
+            "firstName": "Asier",
+            "lastName": "Martínez"
+          }
+        },
+        {
+          "mark": "13.28",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "13.38",
+            "sb": "13.38",
+            "nat": "FRA",
+            "id": "14922463",
+            "hasAvy": true,
+            "firstName": "Thomas",
+            "lastName": "Wilkes"
+          }
+        },
+        {
+          "mark": "13.31",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "13.09",
+            "sb": "13.32",
+            "nat": "ESP",
+            "id": "14711683",
+            "hasAvy": true,
+            "firstName": "Enrique",
+            "lastName": "Llopis"
+          }
+        },
+        {
+          "mark": "13.41",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "13.07",
+            "nat": "CUB",
+            "id": "15070256",
+            "hasAvy": true,
+            "firstName": "Kendry L.",
+            "lastName": "Menéndez"
+          }
+        },
+        {
+          "mark": "13.46",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13.31",
+            "sb": "13.38",
+            "nat": "FRA",
+            "id": "14656532",
+            "hasAvy": true,
+            "firstName": "Romain",
+            "lastName": "Lecoeur"
+          }
+        },
+        {
+          "mark": "13.57",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.99",
+            "sb": "13.76",
+            "nat": "FRA",
+            "id": "14734289",
+            "hasAvy": true,
+            "firstName": "Just",
+            "lastName": "Kwaou-Mathey"
+          }
+        },
+        {
+          "mark": "13.85",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.99",
+            "sb": "12.99",
+            "nat": "USA",
+            "id": "14769264",
+            "hasAvy": true,
+            "firstName": "Jamal",
+            "lastName": "Britt"
+          }
+        }
+      ]
     },
     "100m Women": {
       "date": "2026-06-19T21:24:00.000Z",
