@@ -5,6 +5,22 @@ import { JSDOM } from 'jsdom';
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
+async function fetchRetry(url: string, retries = 5, backoff = 2000): Promise<Response> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const resp = await fetch(url);
+      if (resp.ok || resp.status === 404) return resp;
+      throw new Error(`HTTP ${resp.status}`);
+    } catch (err) {
+      if (i === retries - 1) throw err;
+      console.log(`fetch failed (${err instanceof Error ? err.message : err}), retrying in ${backoff}ms... (${i + 1}/${retries})`);
+      await new Promise(res => setTimeout(res, backoff));
+      backoff *= 2;
+    }
+  }
+  throw new Error('unreachable');
+}
+
 const resultsLinks: { [k in DLMeet]?: string } = {
   doha: 'https://web.archive.org/web/20201001215002/https://doha.diamondleague.com/programme-results-doha/?tx_diamondrace_diamondleaguestatistics%5BeventId%5D=&tx_diamondrace_diamondleaguestatistics%5Baction%5D=list&tx_diamondrace_diamondleaguestatistics%5Bcontroller%5D=DiamondLeagueStatistics&cHash=ff3931bd5e5bc713438d0056bc3eb290',
   birminghamIndoor: 'https://results-json.microplustimingservices.com/export/WAITF2023/ScheduleByDate_1.JSON',
@@ -141,7 +157,7 @@ for (const key in resultsLinks) {
     const domain = resultsLinks[meet]?.includes('livecache.sportresult.com') ? 'livecache.sportresult.com' : resultsLinks[meet]?.includes('ps-cache-next') ? 'ps-cache-next.ath.swisstiming.com' : 'ps-cache.web.swisstiming.com';
     const meetId = resultsLinks[meet]?.match(/^https:\/\/(?:livecache\.sportresult\.com|ps-cache[^/]*\.swisstiming\.com)\/node\/db\/ATH_PROD\/(.+)_SCHEDULE/)?.[1];
     console.log('fetching', resultsLinks[meet]);
-    const schedule: SportResultSchedule = await (await fetch(resultsLinks[meet]!)).json();
+    const schedule: SportResultSchedule = await (await fetchRetry(resultsLinks[meet]!)).json();
     console.log(schedule);
     for (const key in entries[meet]) {
       const evt = key as AthleticsEvent;
@@ -182,7 +198,7 @@ for (const key in resultsLinks) {
       )?.Rsc.ValueUnit;
       const evtResultUrl = `https://${domain}/node/db/ATH_PROD/${meetId}_TIMING_${evtId}_JSON.json`;
       console.log(evt, evtResultUrl);
-      const evtResultResp = await fetch(evtResultUrl);
+      const evtResultResp = await fetchRetry(evtResultUrl);
       if (evtResultResp.status === 404) {
         console.log('skipping', evt, evtId);
       }

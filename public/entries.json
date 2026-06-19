@@ -76477,7 +76477,149 @@
           "lastName": "Joyeux"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "15.13",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "14.85",
+            "sb": "14.85",
+            "nat": "CUB",
+            "id": "14663467",
+            "hasAvy": true,
+            "firstName": "Davisleydi",
+            "lastName": "Velazco"
+          }
+        },
+        {
+          "mark": "14.97",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "14.98",
+            "sb": "14.59",
+            "nat": "CUB",
+            "id": "14828679",
+            "hasAvy": true,
+            "firstName": "Leyanis",
+            "lastName": "Pérez Hernández"
+          }
+        },
+        {
+          "mark": "14.86",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "14.75",
+            "sb": "14.75",
+            "nat": "SEN",
+            "id": "14894836",
+            "hasAvy": true,
+            "firstName": "Saly",
+            "lastName": "Sarr"
+          }
+        },
+        {
+          "mark": "14.58",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14.93",
+            "sb": "14.31",
+            "nat": "CUB",
+            "id": "14574170",
+            "hasAvy": true,
+            "firstName": "Liadagmis",
+            "lastName": "Povea"
+          }
+        },
+        {
+          "mark": "14.52",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "15.02",
+            "sb": "14.84",
+            "nat": "DMA",
+            "id": "14416826",
+            "hasAvy": true,
+            "firstName": "Thea",
+            "lastName": "Lafond"
+          }
+        },
+        {
+          "mark": "13.99",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14.59",
+            "sb": "14.09",
+            "nat": "FRA",
+            "id": "14516275",
+            "hasAvy": true,
+            "firstName": "Ilionis",
+            "lastName": "Guillaume"
+          }
+        },
+        {
+          "mark": "13.99",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14.47",
+            "sb": "13.83",
+            "nat": "ROU",
+            "id": "14408349",
+            "hasAvy": true,
+            "firstName": "Elena Andreea",
+            "lastName": "Taloș"
+          }
+        },
+        {
+          "mark": "13.98",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "14.57",
+            "sb": "14.03",
+            "nat": "TUR",
+            "id": "14589446",
+            "hasAvy": true,
+            "firstName": "Tuğba",
+            "lastName": "Danişmaz"
+          }
+        },
+        {
+          "mark": "13.94",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "14.50",
+            "sb": "14.50",
+            "nat": "SLO",
+            "id": "14474496",
+            "hasAvy": true,
+            "firstName": "Neja",
+            "lastName": "Filipič"
+          }
+        },
+        {
+          "mark": "13.94",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "14.45",
+            "sb": "13.73",
+            "nat": "GER",
+            "id": "14736473",
+            "hasAvy": true,
+            "firstName": "Caroline",
+            "lastName": "Joyeux"
+          }
+        }
+      ]
     },
     "400m Hurdles Women": {
       "date": "2026-06-19T21:04:00.000Z",
