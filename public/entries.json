@@ -77285,7 +77285,112 @@
           "lastName": "Bestué"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "10.88",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "10.88",
+            "sb": "11.08",
+            "nat": "JAM",
+            "id": "14576790",
+            "hasAvy": true,
+            "firstName": "Kemba",
+            "lastName": "Nelson"
+          }
+        },
+        {
+          "mark": "11.01",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "11.01",
+            "sb": "11.07",
+            "nat": "ITA",
+            "id": "14622202",
+            "hasAvy": true,
+            "firstName": "Zaynab",
+            "lastName": "Dosso"
+          }
+        },
+        {
+          "mark": "11.05",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "11.00",
+            "sb": "11.05",
+            "nat": "LUX",
+            "id": "14621598",
+            "hasAvy": true,
+            "firstName": "Patrizia",
+            "lastName": "van der Weken"
+          }
+        },
+        {
+          "mark": "11.07",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "11.10",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14648428",
+            "hasAvy": true,
+            "firstName": "Jaël",
+            "lastName": "Bestué"
+          }
+        },
+        {
+          "mark": "11.13",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "10.98",
+            "sb": "11.07",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "11.23",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "11.07",
+            "sb": "11.18",
+            "nat": "ESP",
+            "id": "14260762",
+            "hasAvy": true,
+            "firstName": "Maria Isabel",
+            "lastName": "Pérez"
+          }
+        },
+        {
+          "mark": "11.46",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "10.99",
+            "sb": "11.27",
+            "nat": "LBR",
+            "id": "14475801",
+            "hasAvy": true,
+            "firstName": "Destiny",
+            "lastName": "Smith-Barnett"
+          }
+        },
+        {
+          "mark": "11.49",
+          "place": 8,
+          "notes": ""
+        }
+      ]
     },
     "800m Women": {
       "date": "2026-06-19T21:36:00.000Z",
