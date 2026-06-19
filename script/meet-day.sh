@@ -90,7 +90,15 @@ while true; do
   DONE=${PARTS[0]}
   TOTAL=${PARTS[1]}
   if [ "$DONE" -ge "$TOTAL" ] 2>/dev/null; then
-    log "All $TOTAL events have results. Done!"
+    log "All $TOTAL events have results. Updating final standings..."
+
+    npm run getStandings
+
+    git add -A
+    git commit -m "final standings: $MEET $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
+    git push
+
+    log "Done!"
     break
   fi
 done
