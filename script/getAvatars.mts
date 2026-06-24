@@ -155,6 +155,7 @@ const getIcons = async (avatarBuffer: ArrayBuffer): Promise<LabeledImage[]> => {
 }
 
 const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
+  try {
   let buf = Buffer.from(avatarBuffer);
   const metadata = await sharp(buf).metadata();
   if (metadata.width && (metadata.width > 1024 || (metadata.height && metadata.height > 1024))) {
@@ -194,6 +195,10 @@ const getPixelIcons = async (avatarBuffer: ArrayBuffer, attempts = 0) => {
   }
   const { images }: { images: LabeledImage[] } = faceData;
   return images;
+  } catch (e) {
+    console.log('getPixelIcons error:', e instanceof Error ? e.message : e);
+    return [];
+  }
 };
 
 const getProfilePic = async (

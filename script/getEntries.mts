@@ -153,6 +153,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   doha26: {
     '3000m Steeplechase Men': '8:00.00',
   },
+  paris26: {
+    '5000m Men': '12:50.00',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -196,6 +199,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   stockholm26: '10:04am ET',
   oslo26: '12:42pm ET',
   doha26: '10:40am ET',
+  paris26: '11am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -260,6 +264,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   stockholm26: ['https://stockholm.diamondleague.com/en/programme-results/'],
   oslo26: ['https://oslo.diamondleague.com/en/programme-results/'],
   doha26: ['https://doha.diamondleague.com/programme-results/'],
+  paris26: ['https://paris.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
