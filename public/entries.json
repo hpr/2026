@@ -81345,7 +81345,121 @@
           "lastName": "Black"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "48.48",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "47.98",
+            "sb": "48.91",
+            "nat": "DOM",
+            "id": "14749613",
+            "hasAvy": true,
+            "firstName": "Marileidy",
+            "lastName": "Paulino"
+          }
+        },
+        {
+          "mark": "49.37",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "49.74",
+            "sb": "49.74",
+            "nat": "CZE",
+            "id": "14905336",
+            "hasAvy": true,
+            "firstName": "Lurdes Gloria",
+            "lastName": "Manuel"
+          }
+        },
+        {
+          "mark": "49.51",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "49.59",
+            "sb": "49.80",
+            "nat": "JAM",
+            "id": "14630564",
+            "hasAvy": true,
+            "firstName": "Stacey Ann",
+            "lastName": "Williams"
+          }
+        },
+        {
+          "mark": "49.97",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "49.58",
+            "sb": "50.60",
+            "nat": "NED",
+            "id": "14560483",
+            "hasAvy": true,
+            "firstName": "Lieke",
+            "lastName": "Klaver"
+          }
+        },
+        {
+          "mark": "50.06",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "50.14",
+            "sb": "50.14",
+            "nat": "IRL",
+            "id": "14589082",
+            "hasAvy": true,
+            "firstName": "Sharlene",
+            "lastName": "Mawdsley"
+          }
+        },
+        {
+          "mark": "50.07",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "49.48",
+            "sb": "50.20",
+            "nat": "CUB",
+            "id": "14637147",
+            "hasAvy": true,
+            "firstName": "Roxana",
+            "lastName": "Gómez"
+          }
+        },
+        {
+          "mark": "50.81",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "48.90",
+            "sb": "50.10",
+            "nat": "POL",
+            "id": "14642563",
+            "hasAvy": true,
+            "firstName": "Natalia",
+            "lastName": "Bukowiecka"
+          }
+        },
+        {
+          "mark": "51.15",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "51.34",
+            "sb": "51.34",
+            "nat": "FRA",
+            "id": "14900662",
+            "hasAvy": true,
+            "firstName": "Isabelle",
+            "lastName": "Black"
+          }
+        }
+      ]
     },
     "800m Men": {
       "date": "2026-06-28T20:45:00.000Z",
