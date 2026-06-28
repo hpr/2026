@@ -80338,7 +80338,107 @@
           "lastName": "Kounta"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "43.54",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.53",
+            "sb": "43.92",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "43.89",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "43.76",
+            "sb": "44.40",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.06",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "44.35",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "44.09",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "44.25",
+            "nat": "GBR",
+            "id": "14407278",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Hudson-Smith"
+          }
+        },
+        {
+          "mark": "44.29",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "43.74",
+            "sb": "44.04",
+            "nat": "ZAM",
+            "id": "14930603",
+            "hasAvy": true,
+            "firstName": "Muzala",
+            "lastName": "Samukonga"
+          }
+        },
+        {
+          "mark": "44.53",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.72",
+            "sb": "44.87",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "44.88",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.86",
+            "sb": "44.86",
+            "nat": "FRA",
+            "id": "14679916",
+            "hasAvy": true,
+            "firstName": "Muhammad Abdallah",
+            "lastName": "Kounta"
+          }
+        }
+      ]
     },
     "800m Women": {
       "date": "2026-06-28T20:13:00.000Z",
