@@ -199,7 +199,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   stockholm26: '10:04am ET',
   oslo26: '12:42pm ET',
   doha26: '10:40am ET',
-  paris26: '11am ET',
+  paris26: '10:55am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
