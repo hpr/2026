@@ -79861,7 +79861,177 @@
           "lastName": "Petit"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "4.77",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "4.88",
+            "sb": "4.80",
+            "nat": "SUI",
+            "id": "14450465",
+            "hasAvy": true,
+            "firstName": "Angelica",
+            "lastName": "Moser"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "4.94",
+            "sb": "4.81",
+            "nat": "NZL",
+            "id": "14464500",
+            "hasAvy": true,
+            "firstName": "Eliza",
+            "lastName": "McCartney"
+          }
+        },
+        {
+          "mark": "4.70",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "4.90",
+            "sb": "4.80",
+            "nat": "AUS",
+            "id": "14407592",
+            "hasAvy": true,
+            "firstName": "Nina",
+            "lastName": "Kennedy"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "4.75",
+            "sb": "4.60",
+            "nat": "USA",
+            "id": "14443646",
+            "hasAvy": true,
+            "firstName": "Emily",
+            "lastName": "Grove"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "4.81",
+            "sb": "4.75",
+            "nat": "SLO",
+            "id": "14300261",
+            "hasAvy": true,
+            "firstName": "Tina",
+            "lastName": "Šutej"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "4.75",
+            "sb": "4.75",
+            "nat": "USA",
+            "id": "14721860",
+            "hasAvy": true,
+            "firstName": "Gabriela",
+            "lastName": "Leon"
+          }
+        },
+        {
+          "mark": "4.60",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "4.81",
+            "sb": "4.81",
+            "nat": "NZL",
+            "id": "14668954",
+            "hasAvy": true,
+            "firstName": "Imogen",
+            "lastName": "Ayris"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4.60",
+            "sb": "4.60",
+            "nat": "FRA",
+            "id": "14708590",
+            "hasAvy": true,
+            "firstName": "Berenice",
+            "lastName": "Petit"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4.73",
+            "sb": "4.71",
+            "nat": "NZL",
+            "id": "14684694",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "McTaggart"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "4.75",
+            "sb": "4.64",
+            "nat": "USA",
+            "id": "14823502",
+            "hasAvy": true,
+            "firstName": "Brynn",
+            "lastName": "King"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "4.85",
+            "sb": "4.56",
+            "nat": "FIN",
+            "id": "14486887",
+            "hasAvy": true,
+            "firstName": "Wilma",
+            "lastName": "Heltelä"
+          }
+        },
+        {
+          "mark": "4.45",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "4.70",
+            "sb": "4.50",
+            "nat": "FRA",
+            "id": "14770113",
+            "hasAvy": true,
+            "firstName": "Marie-Julie",
+            "lastName": "Bonnin"
+          }
+        }
+      ]
     },
     "Shot Put Women": {
       "date": "2026-06-28T19:11:00.000Z",
@@ -80499,7 +80669,121 @@
           "lastName": "Bapté"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.28",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.12",
+            "sb": "12.28",
+            "nat": "NGR",
+            "id": "14579526",
+            "hasAvy": true,
+            "firstName": "Tobi",
+            "lastName": "Amusan"
+          }
+        },
+        {
+          "mark": "12.38",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.21",
+            "sb": "12.48",
+            "nat": "USA",
+            "id": "14716925",
+            "hasAvy": true,
+            "firstName": "Grace",
+            "lastName": "Stark"
+          }
+        },
+        {
+          "mark": "12.39",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "12.55",
+            "nat": "USA",
+            "id": "14486620",
+            "hasAvy": true,
+            "firstName": "Alaysha",
+            "lastName": "Johnson"
+          }
+        },
+        {
+          "mark": "12.41",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.28",
+            "sb": "12.47",
+            "nat": "NED",
+            "id": "14451249",
+            "hasAvy": true,
+            "firstName": "Nadine",
+            "lastName": "Visser"
+          }
+        },
+        {
+          "mark": "12.46",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.37",
+            "sb": "12.61",
+            "nat": "POL",
+            "id": "14736349",
+            "hasAvy": true,
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska"
+          }
+        },
+        {
+          "mark": "12.60",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.49",
+            "sb": "12.49",
+            "nat": "USA",
+            "id": "14794344",
+            "hasAvy": true,
+            "firstName": "Rayniah",
+            "lastName": "Jones"
+          }
+        },
+        {
+          "mark": "12.78",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.40",
+            "sb": "12.40",
+            "nat": "JAM",
+            "id": "14631833",
+            "hasAvy": true,
+            "firstName": "Demisha",
+            "lastName": "Roswell"
+          }
+        },
+        {
+          "mark": "12.92",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "12.34",
+            "sb": "12.47",
+            "nat": "JAM",
+            "id": "14413569",
+            "hasAvy": true,
+            "firstName": "Megan",
+            "lastName": "Simmonds"
+          }
+        }
+      ]
     },
     "400m Men": {
       "date": "2026-06-28T20:03:00.000Z",
