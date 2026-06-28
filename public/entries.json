@@ -80674,7 +80674,162 @@
           "lastName": "van der Schoot"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:53.80",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:53.98",
+            "sb": "1:53.98",
+            "nat": "SUI",
+            "id": "14856078",
+            "hasAvy": true,
+            "firstName": "Audrey",
+            "lastName": "Werro"
+          }
+        },
+        {
+          "mark": "1:55.60",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.13",
+            "sb": "1:57.13",
+            "nat": "NED",
+            "id": "14707010",
+            "hasAvy": true,
+            "firstName": "Femke",
+            "lastName": "Broeders-Bol"
+          }
+        },
+        {
+          "mark": "1:55.65",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.97",
+            "sb": "1:57.39",
+            "nat": "FRA",
+            "id": "14523787",
+            "hasAvy": true,
+            "firstName": "Anaïs",
+            "lastName": "Bourgoin"
+          }
+        },
+        {
+          "mark": "1:56.83",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.16",
+            "sb": "1:57.41",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "mark": "1:56.93",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.06",
+            "sb": "1:59.21",
+            "nat": "FRA",
+            "id": "14424718",
+            "hasAvy": true,
+            "firstName": "Rénelle",
+            "lastName": "Lamote"
+          }
+        },
+        {
+          "mark": "1:57.01",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.61",
+            "sb": "1:57.61",
+            "nat": "AUS",
+            "id": "14464575",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Billings"
+          }
+        },
+        {
+          "mark": "1:57.46",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.76",
+            "sb": "1:57.32",
+            "nat": "BOT",
+            "id": "14754344",
+            "hasAvy": true,
+            "firstName": "Oratile",
+            "lastName": "Nowe"
+          }
+        },
+        {
+          "mark": "1:58.34",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.69",
+            "sb": "1:58.69",
+            "nat": "FRA",
+            "id": "14737263",
+            "hasAvy": true,
+            "firstName": "Clara",
+            "lastName": "Liberman"
+          }
+        },
+        {
+          "mark": "1:58.66",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.56",
+            "sb": "1:57.56",
+            "nat": "USA",
+            "id": "14761309",
+            "hasAvy": true,
+            "firstName": "Roisin",
+            "lastName": "Willis"
+          }
+        },
+        {
+          "mark": "1:58.90",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.51",
+            "sb": "1:58.51",
+            "nat": "MAR",
+            "id": "15018745",
+            "hasAvy": true,
+            "firstName": "Souad",
+            "lastName": "Elhaddad"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "2:16.98",
+            "sb": "",
+            "nat": "NED",
+            "id": "14865892",
+            "hasAvy": true,
+            "firstName": "Myrte",
+            "lastName": "van der Schoot"
+          }
+        }
+      ]
     },
     "100m Men": {
       "date": "2026-06-28T20:20:00.000Z",
