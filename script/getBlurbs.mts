@@ -57,6 +57,7 @@ async function getBlurbs() {
       .replace(/m$/, ' Metres')
       .replace(/Steeple$/, 'Steeplechase')
       .replace(/Javelin$/, 'Javelin Throw')
+      .replace('2 Miles', 'Two Miles')
       .replace('Dream', 'One')
       .replace(' put', ' Put')
       .replace(/^1 Mile/, 'One Mile')

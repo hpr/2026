@@ -143,7 +143,9 @@ export type AthleticsEvent =
   | 'Triple Jump Men'
   | 'Triple Jump Women'
   | 'Javelin Men'
-  | 'Javelin Women';
+  | 'Javelin Women'
+  | '2 Miles Women'
+  | '2 Miles Men';
 
 export type WAEventCode =
   | '50'
