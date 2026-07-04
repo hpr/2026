@@ -84075,7 +84075,129 @@
           "lastName": "Nathaniel"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "46.19",
+            "nat": "USA",
+            "id": "14969871",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Robinson"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.75",
+            "sb": "45.47",
+            "nat": "NGR",
+            "id": "14960533",
+            "hasAvy": true,
+            "firstName": "Ezekiel",
+            "lastName": "Nathaniel"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "43.45",
+            "sb": "44.94",
+            "nat": "USA",
+            "id": "14588244",
+            "hasAvy": true,
+            "firstName": "Michael",
+            "lastName": "Norman"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "43.91",
+            "sb": "44.40",
+            "nat": "USA",
+            "id": "14797010",
+            "hasAvy": true,
+            "firstName": "Khaleb",
+            "lastName": "McRae"
+          }
+        },
+        {
+          "mark": "44.00",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.53",
+            "sb": "43.54",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "44.58",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "44.06",
+            "sb": "44.06",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "43.85",
+            "sb": "44.11",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.58",
+            "nat": "USA",
+            "id": "14490237",
+            "hasAvy": true,
+            "firstName": "Vernon",
+            "lastName": "Norwood"
+          }
+        },
+        {
+          "mark": "44.11",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.21",
+            "sb": "44.69",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
+          }
+        }
+      ]
     },
     "110m Hurdles Men": {
       "date": "2026-07-05T00:12:00.000Z",
