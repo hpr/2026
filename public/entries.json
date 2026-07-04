@@ -85222,7 +85222,135 @@
           "lastName": "Åskag"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "7.13",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "7.20",
+            "sb": "7.20",
+            "nat": "USA",
+            "id": "14596561",
+            "hasAvy": true,
+            "firstName": "Tara",
+            "lastName": "Davis-Woodhall"
+          }
+        },
+        {
+          "mark": "7.12",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "7.06",
+            "sb": "6.78",
+            "nat": "ITA",
+            "id": "14827877",
+            "hasAvy": true,
+            "firstName": "Larissa",
+            "lastName": "Iapichino"
+          }
+        },
+        {
+          "mark": "7.05",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "6.97",
+            "sb": "6.95",
+            "nat": "USA",
+            "id": "14662524",
+            "hasAvy": true,
+            "firstName": "Monae'",
+            "lastName": "Nichols"
+          }
+        },
+        {
+          "mark": "6.99",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "7.09",
+            "sb": "7.09",
+            "nat": "USA",
+            "id": "14812264",
+            "hasAvy": true,
+            "firstName": "Alyssa",
+            "lastName": "Jones"
+          }
+        },
+        {
+          "mark": "6.92",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "7.30",
+            "sb": "6.87",
+            "nat": "GER",
+            "id": "14377384",
+            "hasAvy": true,
+            "firstName": "Malaika",
+            "lastName": "Mihambo"
+          }
+        },
+        {
+          "mark": "6.80",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "6.75",
+            "sb": "6.54",
+            "nat": "SWE",
+            "id": "14774822",
+            "hasAvy": true,
+            "firstName": "Maja",
+            "lastName": "Åskag"
+          }
+        },
+        {
+          "mark": "6.74",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "7.02",
+            "sb": "6.63",
+            "nat": "FRA",
+            "id": "14576455",
+            "hasAvy": true,
+            "firstName": "Hilary",
+            "lastName": "Kpatcha"
+          }
+        },
+        {
+          "mark": "6.61",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "7.07",
+            "sb": "7.07",
+            "nat": "USA",
+            "id": "14747974",
+            "hasAvy": true,
+            "firstName": "Alexis",
+            "lastName": "Brown"
+          }
+        },
+        {
+          "mark": "6.58",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "6.93",
+            "sb": "6.70",
+            "nat": "USA",
+            "id": "14716940",
+            "hasAvy": true,
+            "firstName": "Claire",
+            "lastName": "Bryant"
+          }
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2026-07-05T00:45:00.000Z",
