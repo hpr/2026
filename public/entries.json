@@ -86704,6 +86704,7 @@
           }
         },
         {
+          "mark": "4:17.62",
           "place": 2,
           "notes": "",
           "entrant": {
@@ -86717,6 +86718,7 @@
           }
         },
         {
+          "mark": "4:17.80",
           "place": 3,
           "notes": "",
           "entrant": {
@@ -86730,6 +86732,7 @@
           }
         },
         {
+          "mark": "4:17.90",
           "place": 4,
           "notes": "",
           "entrant": {
@@ -86743,6 +86746,7 @@
           }
         },
         {
+          "mark": "4:18.03",
           "place": 5,
           "notes": "",
           "entrant": {
@@ -86756,6 +86760,7 @@
           }
         },
         {
+          "mark": "4:18.18",
           "place": 6,
           "notes": "",
           "entrant": {
@@ -86769,6 +86774,35 @@
           }
         },
         {
+          "mark": "4:18.49",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "4:16.26",
+            "sb": "",
+            "nat": "IRL",
+            "id": "14705242",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Healy"
+          }
+        },
+        {
+          "mark": "4:18.52",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "4:33.66",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14329797",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Hunter Bell"
+          }
+        },
+        {
+          "mark": "4:21.43",
           "place": 9,
           "notes": "",
           "entrant": {
@@ -86782,6 +86816,7 @@
           }
         },
         {
+          "mark": "4:22.31",
           "place": 10,
           "notes": "",
           "entrant": {
@@ -86795,6 +86830,7 @@
           }
         },
         {
+          "mark": "4:22.50",
           "place": 11,
           "notes": "",
           "entrant": {
@@ -86808,6 +86844,7 @@
           }
         },
         {
+          "mark": "4:26.13",
           "place": 12,
           "notes": "",
           "entrant": {
@@ -86821,32 +86858,7 @@
           }
         },
         {
-          "place": null,
-          "notes": "DNF",
-          "entrant": {
-            "pb": "4:29.36",
-            "sb": "4:29.36",
-            "nat": "USA",
-            "id": "14783168",
-            "hasAvy": true,
-            "firstName": "Taryn",
-            "lastName": "Parks"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "4:16.26",
-            "sb": "",
-            "nat": "IRL",
-            "id": "14705242",
-            "hasAvy": true,
-            "firstName": "Sarah",
-            "lastName": "Healy"
-          }
-        },
-        {
+          "mark": "4:36.80",
           "place": 13,
           "notes": "",
           "entrant": {
@@ -86861,15 +86873,15 @@
         },
         {
           "place": null,
-          "notes": "",
+          "notes": "DNF",
           "entrant": {
-            "pb": "4:33.66",
-            "sb": "",
-            "nat": "GBR",
-            "id": "14329797",
+            "pb": "4:29.36",
+            "sb": "4:29.36",
+            "nat": "USA",
+            "id": "14783168",
             "hasAvy": true,
-            "firstName": "Georgia",
-            "lastName": "Hunter Bell"
+            "firstName": "Taryn",
+            "lastName": "Parks"
           }
         }
       ]
