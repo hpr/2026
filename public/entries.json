@@ -86687,7 +86687,192 @@
           "lastName": "Duguma"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "4:17.49",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "4:16.35",
+            "sb": "",
+            "nat": "USA",
+            "id": "14465104",
+            "hasAvy": true,
+            "firstName": "Nikki",
+            "lastName": "Hiltz"
+          }
+        },
+        {
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "4:19.71",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14878719",
+            "hasAvy": true,
+            "firstName": "Dorcus",
+            "lastName": "Ewoi"
+          }
+        },
+        {
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "4:07.64",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14413305",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Kipyegon"
+          }
+        },
+        {
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "4:31.87",
+            "sb": "",
+            "nat": "POL",
+            "id": "14704467",
+            "hasAvy": true,
+            "firstName": "Klaudia",
+            "lastName": "Kazimierska"
+          }
+        },
+        {
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "4:13.68",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14464506",
+            "hasAvy": true,
+            "firstName": "Jessica",
+            "lastName": "Hull"
+          }
+        },
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "4:23.79",
+            "sb": "",
+            "nat": "USA",
+            "id": "14667572",
+            "hasAvy": true,
+            "firstName": "Emily",
+            "lastName": "MacKay"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "4:27.96",
+            "sb": "",
+            "nat": "LTU",
+            "id": "14675493",
+            "hasAvy": true,
+            "firstName": "Gabija",
+            "lastName": "Galvydytė"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "4:15.24",
+            "sb": "4:34.05",
+            "nat": "GBR",
+            "id": "14422111",
+            "hasAvy": true,
+            "firstName": "Laura",
+            "lastName": "Muir"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15009577",
+            "hasAvy": true,
+            "firstName": "Saron",
+            "lastName": "Berhe"
+          }
+        },
+        {
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "4:20.41",
+            "sb": "",
+            "nat": "USA",
+            "id": "14535001",
+            "hasAvy": true,
+            "firstName": "Heather",
+            "lastName": "MacLean"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "4:29.36",
+            "sb": "4:29.36",
+            "nat": "USA",
+            "id": "14783168",
+            "hasAvy": true,
+            "firstName": "Taryn",
+            "lastName": "Parks"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "4:16.26",
+            "sb": "",
+            "nat": "IRL",
+            "id": "14705242",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Healy"
+          }
+        },
+        {
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "4:19.09",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14852703",
+            "hasAvy": true,
+            "firstName": "Worknesh",
+            "lastName": "Mesele"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "4:33.66",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14329797",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Hunter Bell"
+          }
+        }
+      ]
     },
     "Bowerman Mile Men": {
       "tiebreaker": "3:45.00",
