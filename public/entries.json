@@ -84293,7 +84293,126 @@
           "lastName": "Prince"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.86",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.89",
+            "sb": "12.89",
+            "nat": "USA",
+            "id": "14769264",
+            "hasAvy": true,
+            "firstName": "Jamal",
+            "lastName": "Britt"
+          }
+        },
+        {
+          "mark": "12.91",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.75",
+            "sb": "12.75",
+            "nat": "USA",
+            "id": "15129238",
+            "hasAvy": true,
+            "firstName": "Ja'Kobe",
+            "lastName": "Tharp"
+          }
+        },
+        {
+          "mark": "13.01",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "13.12",
+            "sb": "13.13",
+            "nat": "JAM",
+            "id": "14876581",
+            "hasAvy": true,
+            "firstName": "Demario",
+            "lastName": "Prince"
+          }
+        },
+        {
+          "mark": "13.07",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.87",
+            "sb": "13.10",
+            "nat": "USA",
+            "id": "14719972",
+            "hasAvy": true,
+            "firstName": "Cordell",
+            "lastName": "Tinch"
+          }
+        },
+        {
+          "mark": "13.15",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "13.08",
+            "sb": "13.20",
+            "nat": "JAM",
+            "id": "14739873",
+            "hasAvy": true,
+            "firstName": "Orlando",
+            "lastName": "Bennett"
+          }
+        },
+        {
+          "mark": "13.24",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13.04",
+            "sb": "13.04",
+            "nat": "USA",
+            "id": "14761562",
+            "hasAvy": true,
+            "firstName": "Jamar",
+            "lastName": "Marshall"
+          }
+        },
+        {
+          "mark": "13.34",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "13.07",
+            "sb": "13.07",
+            "nat": "USA",
+            "id": "15035297",
+            "hasAvy": true,
+            "firstName": "Braxton",
+            "lastName": "Brann"
+          }
+        },
+        {
+          "mark": "13.43",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "13.53",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13.02",
+            "sb": "13.42",
+            "nat": "USA",
+            "id": "14679485",
+            "hasAvy": true,
+            "firstName": "Dylan",
+            "lastName": "Beard"
+          }
+        }
+      ]
     },
     "2 Miles Women": {
       "date": "2026-07-05T00:20:00.000Z",
