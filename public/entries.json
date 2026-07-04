@@ -85858,7 +85858,163 @@
           "lastName": "Muñoz"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.74",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "22.98",
+            "sb": "22.50",
+            "nat": "ITA",
+            "id": "14567432",
+            "hasAvy": true,
+            "firstName": "Leonardo",
+            "lastName": "Fabbri"
+          }
+        },
+        {
+          "mark": "22.16",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "22.44",
+            "sb": "22.44",
+            "nat": "JAM",
+            "id": "14687604",
+            "hasAvy": true,
+            "firstName": "Rajindra",
+            "lastName": "Campbell"
+          }
+        },
+        {
+          "mark": "21.98",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "22.25",
+            "sb": "22.24",
+            "nat": "USA",
+            "id": "14713125",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Geist"
+          }
+        },
+        {
+          "mark": "21.70",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "22.29",
+            "sb": "20.98",
+            "nat": "USA",
+            "id": "14713124",
+            "hasAvy": true,
+            "firstName": "Adrian",
+            "lastName": "Piperi"
+          }
+        },
+        {
+          "mark": "21.58",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "22.11",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14515622",
+            "hasAvy": true,
+            "firstName": "Roger",
+            "lastName": "Steen"
+          }
+        },
+        {
+          "mark": "21.36",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.10",
+            "sb": "21.74",
+            "nat": "NGR",
+            "id": "14463876",
+            "hasAvy": true,
+            "firstName": "Chukwuebuka",
+            "lastName": "Enekwechi"
+          }
+        },
+        {
+          "mark": "21.12",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "22.90",
+            "sb": "21.49",
+            "nat": "NZL",
+            "id": "14413007",
+            "hasAvy": true,
+            "firstName": "Tom",
+            "lastName": "Walsh"
+          }
+        },
+        {
+          "mark": "21.05",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "23.23",
+            "sb": "22.58",
+            "nat": "USA",
+            "id": "14243308",
+            "hasAvy": true,
+            "firstName": "Joe",
+            "lastName": "Kovacs"
+          }
+        },
+        {
+          "mark": "20.55",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "22.46",
+            "sb": "",
+            "nat": "USA",
+            "id": "14674710",
+            "hasAvy": true,
+            "firstName": "Payton",
+            "lastName": "Otterdahl"
+          }
+        },
+        {
+          "mark": "20.31",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "21.97",
+            "sb": "21.13",
+            "nat": "MEX",
+            "id": "14593049",
+            "hasAvy": true,
+            "firstName": "Uziel",
+            "lastName": "Muñoz"
+          }
+        },
+        {
+          "mark": "20.13",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "22.25",
+            "sb": "21.34",
+            "nat": "POL",
+            "id": "14500229",
+            "hasAvy": true,
+            "firstName": "Konrad",
+            "lastName": "Bukowiecki"
+          }
+        }
+      ]
     },
     "100m Hurdles Women": {
       "date": "2026-07-05T01:04:00.000Z",
@@ -87020,7 +87176,181 @@
           "lastName": "Sahlman"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:46.06",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.50",
+            "sb": "3:48.35",
+            "nat": "AUS",
+            "id": "14962470",
+            "hasAvy": true,
+            "firstName": "Cameron",
+            "lastName": "Myers"
+          }
+        },
+        {
+          "mark": "3:46.61",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:43.97",
+            "sb": "3:48.21",
+            "nat": "USA",
+            "id": "14798735",
+            "hasAvy": true,
+            "firstName": "Yared",
+            "lastName": "Nuguse"
+          }
+        },
+        {
+          "mark": "3:46.97",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.86",
+            "sb": "",
+            "nat": "USA",
+            "id": "14969299",
+            "hasAvy": true,
+            "firstName": "Ethan",
+            "lastName": "Strand"
+          }
+        },
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.43",
+            "sb": "",
+            "nat": "USA",
+            "id": "14905834",
+            "hasAvy": true,
+            "firstName": "Cole",
+            "lastName": "Hocker"
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.83",
+            "sb": "3:49.74",
+            "nat": "GER",
+            "id": "14597052",
+            "hasAvy": true,
+            "firstName": "Robert",
+            "lastName": "Farken"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:49.37",
+            "sb": "3:49.51",
+            "nat": "USA",
+            "id": "14531160",
+            "hasAvy": true,
+            "firstName": "Vincent",
+            "lastName": "Ciattei"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "3:46.65",
+            "sb": "3:49.63",
+            "nat": "FRA",
+            "id": "14640588",
+            "hasAvy": true,
+            "firstName": "Azeddine",
+            "lastName": "Habz"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "3:49.73",
+            "sb": "",
+            "nat": "USA",
+            "id": "14970735",
+            "hasAvy": true,
+            "firstName": "Gary",
+            "lastName": "Martin"
+          }
+        },
+        {
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.24",
+            "sb": "",
+            "nat": "USA",
+            "id": "14891049",
+            "hasAvy": true,
+            "firstName": "Colin",
+            "lastName": "Sahlman"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.71",
+            "sb": "3:48.21",
+            "nat": "KEN",
+            "id": "14643526",
+            "hasAvy": true,
+            "firstName": "Timothy",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.32",
+            "sb": "3:49.13",
+            "nat": "USA",
+            "id": "14970747",
+            "hasAvy": true,
+            "firstName": "Hobbs",
+            "lastName": "Kessler"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.46",
+            "sb": "3:49.72",
+            "nat": "KEN",
+            "id": "14997479",
+            "hasAvy": true,
+            "firstName": "Reynold",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:53.17",
+            "sb": "",
+            "nat": "MEX",
+            "id": "14608602",
+            "hasAvy": true,
+            "firstName": "Abraham",
+            "lastName": "Alvarado"
+          }
+        }
+      ]
     }
   }
 }
