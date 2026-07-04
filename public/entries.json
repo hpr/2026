@@ -85919,7 +85919,148 @@
           "lastName": "Peoples"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:56.19",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:54.62",
+            "sb": "1:57.27",
+            "nat": "KEN",
+            "id": "14758184",
+            "hasAvy": true,
+            "firstName": "Lilian",
+            "lastName": "Odira"
+          }
+        },
+        {
+          "mark": "1:56.73",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:54.33",
+            "sb": "1:54.33",
+            "nat": "GBR",
+            "id": "14642894",
+            "hasAvy": true,
+            "firstName": "Keely",
+            "lastName": "Hodgkinson"
+          }
+        },
+        {
+          "mark": "1:57.70",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:57.98",
+            "nat": "USA",
+            "id": "14907337",
+            "hasAvy": true,
+            "firstName": "Addison",
+            "lastName": "Wiley"
+          }
+        },
+        {
+          "mark": "1:58.12",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.85",
+            "sb": "1:56.85",
+            "nat": "GAM",
+            "id": "14880079",
+            "hasAvy": true,
+            "firstName": "Sanu",
+            "lastName": "Jallow"
+          }
+        },
+        {
+          "mark": "1:58.21",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.81",
+            "sb": "1:57.94",
+            "nat": "USA",
+            "id": "14378260",
+            "hasAvy": true,
+            "firstName": "Raevyn",
+            "lastName": "Rogers"
+          }
+        },
+        {
+          "mark": "1:58.66",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:55.65",
+            "sb": "1:55.65",
+            "nat": "FRA",
+            "id": "14523787",
+            "hasAvy": true,
+            "firstName": "Anaïs",
+            "lastName": "Bourgoin"
+          }
+        },
+        {
+          "mark": "1:58.79",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:56.83",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "mark": "1:59.37",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.26",
+            "sb": "1:58.41",
+            "nat": "UGA",
+            "id": "14431159",
+            "hasAvy": true,
+            "firstName": "Halimah",
+            "lastName": "Nakaayi"
+          }
+        },
+        {
+          "mark": "1:59.56",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.65",
+            "sb": "1:57.65",
+            "nat": "AUS",
+            "id": "14814102",
+            "hasAvy": true,
+            "firstName": "Hayley",
+            "lastName": "Kitching"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "2:06.85",
+            "sb": "",
+            "nat": "USA",
+            "id": "14596391",
+            "hasAvy": true,
+            "firstName": "Paris",
+            "lastName": "Peoples"
+          }
+        }
+      ]
     },
     "200m Men": {
       "date": "2026-07-05T01:21:00.000Z",
