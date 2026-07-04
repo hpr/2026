@@ -84078,58 +84078,6 @@
       "isClosed": true,
       "results": [
         {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "44.15",
-            "sb": "46.19",
-            "nat": "USA",
-            "id": "14969871",
-            "hasAvy": true,
-            "firstName": "Chris",
-            "lastName": "Robinson"
-          }
-        },
-        {
-          "place": 8,
-          "notes": "",
-          "entrant": {
-            "pb": "44.75",
-            "sb": "45.47",
-            "nat": "NGR",
-            "id": "14960533",
-            "hasAvy": true,
-            "firstName": "Ezekiel",
-            "lastName": "Nathaniel"
-          }
-        },
-        {
-          "place": 9,
-          "notes": "",
-          "entrant": {
-            "pb": "43.45",
-            "sb": "44.94",
-            "nat": "USA",
-            "id": "14588244",
-            "hasAvy": true,
-            "firstName": "Michael",
-            "lastName": "Norman"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "43.91",
-            "sb": "44.40",
-            "nat": "USA",
-            "id": "14797010",
-            "hasAvy": true,
-            "firstName": "Khaleb",
-            "lastName": "McRae"
-          }
-        },
-        {
           "mark": "44.00",
           "place": 1,
           "notes": "",
@@ -84141,6 +84089,20 @@
             "hasAvy": true,
             "firstName": "Busang Collen",
             "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "44.11",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.21",
+            "sb": "44.69",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
           }
         },
         {
@@ -84158,7 +84120,8 @@
           }
         },
         {
-          "place": null,
+          "mark": "44.88",
+          "place": 4,
           "notes": "",
           "entrant": {
             "pb": "43.85",
@@ -84171,7 +84134,36 @@
           }
         },
         {
-          "place": null,
+          "mark": "44.88",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "44.15",
+            "sb": "46.19",
+            "nat": "USA",
+            "id": "14969871",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Robinson"
+          }
+        },
+        {
+          "mark": "44.91",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.91",
+            "sb": "44.40",
+            "nat": "USA",
+            "id": "14797010",
+            "hasAvy": true,
+            "firstName": "Khaleb",
+            "lastName": "McRae"
+          }
+        },
+        {
+          "mark": "44.92",
+          "place": 7,
           "notes": "",
           "entrant": {
             "pb": "44.10",
@@ -84184,17 +84176,31 @@
           }
         },
         {
-          "mark": "44.11",
-          "place": 2,
+          "mark": "45.32",
+          "place": 8,
           "notes": "",
           "entrant": {
-            "pb": "44.21",
-            "sb": "44.69",
-            "nat": "USA",
-            "id": "14574865",
+            "pb": "44.75",
+            "sb": "45.47",
+            "nat": "NGR",
+            "id": "14960533",
             "hasAvy": true,
-            "firstName": "Rai",
-            "lastName": "Benjamin"
+            "firstName": "Ezekiel",
+            "lastName": "Nathaniel"
+          }
+        },
+        {
+          "mark": "45.47",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "43.45",
+            "sb": "44.94",
+            "nat": "USA",
+            "id": "14588244",
+            "hasAvy": true,
+            "firstName": "Michael",
+            "lastName": "Norman"
           }
         }
       ]
