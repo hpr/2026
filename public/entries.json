@@ -87221,6 +87221,35 @@
           }
         },
         {
+          "mark": "3:47.38",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:48.32",
+            "sb": "3:49.13",
+            "nat": "USA",
+            "id": "14970747",
+            "hasAvy": true,
+            "firstName": "Hobbs",
+            "lastName": "Kessler"
+          }
+        },
+        {
+          "mark": "3:47.39",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "3:47.71",
+            "sb": "3:48.21",
+            "nat": "KEN",
+            "id": "14643526",
+            "hasAvy": true,
+            "firstName": "Timothy",
+            "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "mark": "3:47.57",
           "place": 6,
           "notes": "",
           "entrant": {
@@ -87234,6 +87263,7 @@
           }
         },
         {
+          "mark": "3:47.76",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -87247,6 +87277,7 @@
           }
         },
         {
+          "mark": "3:48.34",
           "place": 8,
           "notes": "",
           "entrant": {
@@ -87260,6 +87291,7 @@
           }
         },
         {
+          "mark": "3:48.43",
           "place": 9,
           "notes": "",
           "entrant": {
@@ -87273,6 +87305,7 @@
           }
         },
         {
+          "mark": "3:48.76",
           "place": 10,
           "notes": "",
           "entrant": {
@@ -87286,45 +87319,7 @@
           }
         },
         {
-          "place": 12,
-          "notes": "",
-          "entrant": {
-            "pb": "3:56.24",
-            "sb": "",
-            "nat": "USA",
-            "id": "14891049",
-            "hasAvy": true,
-            "firstName": "Colin",
-            "lastName": "Sahlman"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:47.71",
-            "sb": "3:48.21",
-            "nat": "KEN",
-            "id": "14643526",
-            "hasAvy": true,
-            "firstName": "Timothy",
-            "lastName": "Cheruiyot"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:48.32",
-            "sb": "3:49.13",
-            "nat": "USA",
-            "id": "14970747",
-            "hasAvy": true,
-            "firstName": "Hobbs",
-            "lastName": "Kessler"
-          }
-        },
-        {
+          "mark": "3:51.31",
           "place": 11,
           "notes": "",
           "entrant": {
@@ -87335,6 +87330,20 @@
             "hasAvy": true,
             "firstName": "Reynold",
             "lastName": "Cheruiyot"
+          }
+        },
+        {
+          "mark": "3:57.13",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "3:56.24",
+            "sb": "",
+            "nat": "USA",
+            "id": "14891049",
+            "hasAvy": true,
+            "firstName": "Colin",
+            "lastName": "Sahlman"
           }
         },
         {
