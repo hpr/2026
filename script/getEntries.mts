@@ -159,6 +159,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   eugene26: {
     'Bowerman Mile Men': '3:45.00',
   },
+  monaco26: {
+    '100m Men': '9.85',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -204,6 +207,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   doha26: '10:40am ET',
   paris26: '10:55am ET',
   eugene26: '3:30pm ET',
+  monaco26: '12:15pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -270,6 +274,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   doha26: ['https://doha.diamondleague.com/programme-results/'],
   paris26: ['https://paris.diamondleague.com/en/programme-results/'],
   eugene26: ['https://eugene.diamondleague.com/programme-results/'],
+  monaco26: ['https://monaco.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
