@@ -88653,7 +88653,121 @@
           "lastName": "Kounta"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "43.44",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.53",
+            "sb": "43.54",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "43.96",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "43.85",
+            "sb": "44.11",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "44.13",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "44.11",
+            "sb": "44.11",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
+          }
+        },
+        {
+          "mark": "44.22",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "44.09",
+            "nat": "GBR",
+            "id": "14407278",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Hudson-Smith"
+          }
+        },
+        {
+          "mark": "44.24",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "43.76",
+            "sb": "43.89",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.44",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.72",
+            "sb": "44.53",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "44.47",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.55",
+            "sb": "44.56",
+            "nat": "HUN",
+            "id": "14712930",
+            "hasAvy": true,
+            "firstName": "Attila",
+            "lastName": "Molnár"
+          }
+        },
+        {
+          "mark": "44.57",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.86",
+            "sb": "44.86",
+            "nat": "FRA",
+            "id": "14679916",
+            "hasAvy": true,
+            "firstName": "Muhammad Abdallah",
+            "lastName": "Kounta"
+          }
+        }
+      ]
     },
     "3000m Women": {
       "date": "2026-07-10T22:32:00.000Z",
