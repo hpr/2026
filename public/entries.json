@@ -88893,7 +88893,201 @@
           "lastName": "Dessie"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "8:08.95",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:23.14",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14758189",
+            "hasAvy": true,
+            "firstName": "Agnes Jebet",
+            "lastName": "Ngetich"
+          }
+        },
+        {
+          "mark": "8:23.81",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:32.88",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15172866",
+            "hasAvy": true,
+            "firstName": "Aleshign",
+            "lastName": "Baweke"
+          }
+        },
+        {
+          "mark": "8:24.02",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8:25.85",
+            "sb": "8:25.85",
+            "nat": "ETH",
+            "id": "15046190",
+            "hasAvy": true,
+            "firstName": "Senayet",
+            "lastName": "Getachew"
+          }
+        },
+        {
+          "mark": "8:24.21",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:07.04",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14413305",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Kipyegon"
+          }
+        },
+        {
+          "mark": "8:25.77",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "8:24.22",
+            "sb": "8:24.22",
+            "nat": "ETH",
+            "id": "14836656",
+            "hasAvy": true,
+            "firstName": "Freweyni",
+            "lastName": "Hailu"
+          }
+        },
+        {
+          "mark": "8:27.15",
+          "place": 6,
+          "notes": ""
+        },
+        {
+          "mark": "8:27.99",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "8:32.86",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "9:08.54",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14586381",
+            "hasAvy": true,
+            "firstName": "Cassandre",
+            "lastName": "Beaugrand"
+          }
+        },
+        {
+          "mark": "8:33.27",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "8:44.18",
+            "sb": "",
+            "nat": "BDI",
+            "id": "14786755",
+            "hasAvy": true,
+            "firstName": "Francine",
+            "lastName": "Niyomukunzi"
+          }
+        },
+        {
+          "mark": "8:34.25",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "8:32.01",
+            "sb": "8:34.48",
+            "nat": "ETH",
+            "id": "15043002",
+            "hasAvy": true,
+            "firstName": "Yenenesh",
+            "lastName": "Shimket"
+          }
+        },
+        {
+          "mark": "8:36.14",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "8:45.49",
+            "sb": "8:45.49",
+            "nat": "BEL",
+            "id": "14704113",
+            "hasAvy": true,
+            "firstName": "Jana",
+            "lastName": "van Lent"
+          }
+        },
+        {
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15309271",
+            "hasAvy": true,
+            "firstName": "Bernesh",
+            "lastName": "Dessie"
+          }
+        },
+        {
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "8:34.09",
+            "sb": "8:49.77",
+            "nat": "JPN",
+            "id": "14632538",
+            "hasAvy": true,
+            "firstName": "Nozomi",
+            "lastName": "Tanaka"
+          }
+        },
+        {
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "9:09.9h",
+            "sb": "",
+            "nat": "ETH",
+            "id": "15009582",
+            "hasAvy": true,
+            "firstName": "Birke",
+            "lastName": "Haylom"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "8:25.82",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14464506",
+            "hasAvy": true,
+            "firstName": "Jessica",
+            "lastName": "Hull"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "Long Jump Men": {
       "date": "2026-07-10T22:35:00.000Z",
