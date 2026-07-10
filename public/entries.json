@@ -89815,7 +89815,98 @@
           "lastName": "Joseph"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "21.51",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.71",
+            "sb": "21.86",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "21.76",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "21.68",
+            "sb": "21.68",
+            "nat": "IVB",
+            "id": "14845422",
+            "hasAvy": true,
+            "firstName": "Adaejah",
+            "lastName": "Hodge"
+          }
+        },
+        {
+          "mark": "21.84",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "21.60",
+            "sb": "21.70",
+            "nat": "USA",
+            "id": "14733520",
+            "hasAvy": true,
+            "firstName": "Gabrielle",
+            "lastName": "Thomas"
+          }
+        },
+        {
+          "mark": "22.04",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "22.01",
+            "sb": "22.07",
+            "nat": "USA",
+            "id": "14642681",
+            "hasAvy": true,
+            "firstName": "Kayla",
+            "lastName": "White"
+          }
+        },
+        {
+          "mark": "22.40",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "21.93",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14674111",
+            "hasAvy": true,
+            "firstName": "Cambrea",
+            "lastName": "Sturgis"
+          }
+        },
+        {
+          "mark": "22.42",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "21.95",
+            "sb": "22.29",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "22.50",
+          "place": 7,
+          "notes": ""
+        }
+      ]
     },
     "5000m Men": {
       "date": "2026-07-10T23:28:00.000Z",
