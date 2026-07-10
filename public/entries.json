@@ -88101,7 +88101,154 @@
           "lastName": "Portillo"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "2.32",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "2.33",
+            "sb": "2.33",
+            "nat": "UKR",
+            "id": "14803002",
+            "hasAvy": true,
+            "firstName": "Oleh",
+            "lastName": "Doroshchuk"
+          }
+        },
+        {
+          "mark": "2.30",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "2.31",
+            "sb": "2.31",
+            "nat": "GBR",
+            "id": "14984793",
+            "hasAvy": true,
+            "firstName": "Kimani",
+            "lastName": "Jack"
+          }
+        },
+        {
+          "mark": "2.26",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "2.31",
+            "sb": "2.31",
+            "nat": "IND",
+            "id": "14675319",
+            "hasAvy": true,
+            "firstName": "Sarvesh Anil",
+            "lastName": "Kushare"
+          }
+        },
+        {
+          "mark": "2.23",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "2.36",
+            "sb": "2.16",
+            "nat": "USA",
+            "id": "14785286",
+            "hasAvy": true,
+            "firstName": "JuVaughn",
+            "lastName": "Harrison"
+          }
+        },
+        {
+          "mark": "2.23",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.30",
+            "nat": "JAM",
+            "id": "14832929",
+            "hasAvy": true,
+            "firstName": "Romaine",
+            "lastName": "Beckford"
+          }
+        },
+        {
+          "mark": "2.23",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.29",
+            "nat": "ITA",
+            "id": "15010318",
+            "hasAvy": true,
+            "firstName": "Matteo",
+            "lastName": "Sioli"
+          }
+        },
+        {
+          "mark": "2.23",
+          "place": 6,
+          "notes": ""
+        },
+        {
+          "mark": "2.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "2.27",
+            "sb": "2.27",
+            "nat": "MEX",
+            "id": "14782952",
+            "hasAvy": true,
+            "firstName": "Erick",
+            "lastName": "Portillo"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "2.33",
+            "sb": "2.27",
+            "nat": "CZE",
+            "id": "14761148",
+            "hasAvy": true,
+            "firstName": "Jan",
+            "lastName": "Štefela"
+          }
+        },
+        {
+          "mark": "2.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "2.43",
+            "sb": "2.27",
+            "nat": "QAT",
+            "id": "14377312",
+            "hasAvy": true,
+            "firstName": "Mutaz Essa",
+            "lastName": "Barshim"
+          }
+        },
+        {
+          "mark": "2.16",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "2.34",
+            "sb": "2.30",
+            "nat": "GER",
+            "id": "14481078",
+            "hasAvy": true,
+            "firstName": "Tobias",
+            "lastName": "Potye"
+          }
+        }
+      ]
     },
     "400m Women": {
       "date": "2026-07-10T22:04:00.000Z",
@@ -89171,7 +89318,121 @@
           "lastName": "Baldé"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "8.61",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8.65",
+            "sb": "8.49",
+            "nat": "GRE",
+            "id": "14669734",
+            "hasAvy": true,
+            "firstName": "Miltiadis",
+            "lastName": "Tentoglou"
+          }
+        },
+        {
+          "mark": "8.39",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8.54",
+            "sb": "7.93",
+            "nat": "JAM",
+            "id": "14693852",
+            "hasAvy": true,
+            "firstName": "Wayne",
+            "lastName": "Pinnock"
+          }
+        },
+        {
+          "mark": "8.38",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8.46",
+            "sb": "8.46",
+            "nat": "CUB",
+            "id": "15111238",
+            "hasAvy": true,
+            "firstName": "Jorge A.",
+            "lastName": "Hodelín"
+          }
+        },
+        {
+          "mark": "8.36",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8.29",
+            "sb": "8.29",
+            "nat": "BUL",
+            "id": "14927349",
+            "hasAvy": true,
+            "firstName": "Bozhidar",
+            "lastName": "Sarâboyukov"
+          }
+        },
+        {
+          "mark": "8.32",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "8.51",
+            "sb": "8.51",
+            "nat": "SUI",
+            "id": "14730721",
+            "hasAvy": true,
+            "firstName": "Simon",
+            "lastName": "Ehammer"
+          }
+        },
+        {
+          "mark": "8.20",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "8.20",
+            "sb": "8.15",
+            "nat": "POR",
+            "id": "14849980",
+            "hasAvy": true,
+            "firstName": "Gerson",
+            "lastName": "Baldé"
+          }
+        },
+        {
+          "mark": "8.04",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "8.69",
+            "sb": "8.37",
+            "nat": "JAM",
+            "id": "14631861",
+            "hasAvy": true,
+            "firstName": "Tajay",
+            "lastName": "Gayle"
+          }
+        },
+        {
+          "mark": "8.01",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "8.43",
+            "sb": "8.43",
+            "nat": "ITA",
+            "id": "14905216",
+            "hasAvy": true,
+            "firstName": "Mattia",
+            "lastName": "Furlani"
+          }
+        }
+      ]
     },
     "100m Hurdles Women": {
       "date": "2026-07-10T22:49:00.000Z",
