@@ -90041,7 +90041,196 @@
           "lastName": "Gervais"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12:52.54",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12:50.87",
+            "sb": "13:08.78",
+            "nat": "SUI",
+            "id": "14792211",
+            "hasAvy": true,
+            "firstName": "Dominic Lokinyomo",
+            "lastName": "Lobalu"
+          }
+        },
+        {
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12:48.20",
+            "sb": "12:49.99",
+            "nat": "USA",
+            "id": "14884807",
+            "hasAvy": true,
+            "firstName": "Graham",
+            "lastName": "Blanks"
+          }
+        },
+        {
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12:47.73",
+            "sb": "12:47.73",
+            "nat": "BRN",
+            "id": "14695983",
+            "hasAvy": true,
+            "firstName": "Birhanu",
+            "lastName": "Balew"
+          }
+        },
+        {
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12:45.71",
+            "sb": "12:55.22",
+            "nat": "KEN",
+            "id": "14808798",
+            "hasAvy": true,
+            "firstName": "Jacob",
+            "lastName": "Krop"
+          }
+        },
+        {
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12:56.02",
+            "sb": "12:56.02",
+            "nat": "KEN",
+            "id": "14894347",
+            "hasAvy": true,
+            "firstName": "Cornelius",
+            "lastName": "Kemboi"
+          }
+        },
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12:45.93",
+            "sb": "12:54.35",
+            "nat": "ETH",
+            "id": "15118094",
+            "hasAvy": true,
+            "firstName": "Biniam",
+            "lastName": "Mehary"
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12:55.76",
+            "sb": "",
+            "nat": "FRA",
+            "id": "14756540",
+            "hasAvy": true,
+            "firstName": "Etienne",
+            "lastName": "Daguinos"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "13:06.45",
+            "sb": "13:06.45",
+            "nat": "ETH",
+            "id": "15156595",
+            "hasAvy": true,
+            "firstName": "Khairi",
+            "lastName": "Bejiga"
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "13:04.40",
+            "sb": "13:07.46",
+            "nat": "USA",
+            "id": "14840626",
+            "hasAvy": true,
+            "firstName": "Abdihamid",
+            "lastName": "Nur"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "12:56.53",
+            "sb": "13:13.17",
+            "nat": "BEL",
+            "id": "14482919",
+            "hasAvy": true,
+            "firstName": "Isaac",
+            "lastName": "Kimeli"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "12:50.82",
+            "sb": "12:50.82",
+            "nat": "AUS",
+            "id": "14865727",
+            "hasAvy": true,
+            "firstName": "Ky",
+            "lastName": "Robinson"
+          }
+        },
+        {
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "13:13.89",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14644036",
+            "hasAvy": true,
+            "firstName": "Alexander",
+            "lastName": "Yee"
+          }
+        },
+        {
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "12:47.67",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14661449",
+            "hasAvy": true,
+            "firstName": "Thierry",
+            "lastName": "Ndikumwenayo"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "13:27.25",
+            "sb": "13:29.92",
+            "nat": "FRA",
+            "id": "14798932",
+            "hasAvy": false,
+            "firstName": "Arthur",
+            "lastName": "Gervais"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "100m Men": {
       "tiebreaker": "9.85",
