@@ -37,8 +37,8 @@ if ! $SKIP_SETUP; then
   npm run closeEntries
 
   log "Step 2: Dumping picks and users CSVs"
-  echo "select * from picks where meet = '$MEET';" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$PICKS_CSV"
-  echo "select * from users;" | ssh ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$USERS_CSV"
+  echo "select * from picks where meet = '$MEET';" | ssh habs@ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$PICKS_CSV"
+  echo "select * from users;" | ssh habs@ma.sdf.org sqlite3 -header -csv "$DB_PATH" > "$USERS_CSV"
 
   log "Step 3: Fetching results"
   npm run getResults
