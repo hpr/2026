@@ -43,6 +43,7 @@ async function getBlurbs() {
       .replace('meters', 'Metres')
       .replace('Meters', 'Metres')
       .replace(',', '')
+      .replace('m/hurdles', ' Metres Hurdles')
       .replace('m Hurdles', ' Metres Hurdles')
       .replace(/m H$/, ' Metres Hurdles')
       .replace(/m H /, ' Metres Hurdles ')

@@ -83,6 +83,7 @@ const resultsLinks: { [k in DLMeet]?: string } = {
   paris26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/PARIS_2026_SCHEDULE_JSON.json',
   eugene26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/EUGENE_2026_SCHEDULE_JSON.json',
   monaco26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/MONACO_2026_SCHEDULE_JSON.json',
+  london26: 'https://ps-cache.web.swisstiming.com/node/db/ATH_PROD/LONDON_2026_SCHEDULE_JSON.json',
 };
 
 const cache: MeetCache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
@@ -186,6 +187,7 @@ for (const key in resultsLinks) {
               .replace('Mutola ', '')
               .replace(' Metres', 'm')
               .replace(/^(\d+) H /, '$1m Hurdles ')
+              .replace('m/hurdles', 'm Hurdles')
               .replace('m H ', 'm Hurdles ')
               .replace('mH', 'm Hurdles')
               .replace('mSC', 'm Steeple')

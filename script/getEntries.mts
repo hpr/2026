@@ -162,6 +162,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   monaco26: {
     '100m Men': '9.85',
   },
+  london26: {
+    '800m Women': '1:55.00',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -208,6 +211,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   paris26: '10:55am ET',
   eugene26: '3:30pm ET',
   monaco26: '12:15pm ET',
+  london26: '8:04am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -275,6 +279,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   paris26: ['https://paris.diamondleague.com/en/programme-results/'],
   eugene26: ['https://eugene.diamondleague.com/programme-results/'],
   monaco26: ['https://monaco.diamondleague.com/en/programme-results/'],
+  london26: ['https://london.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
