@@ -92305,7 +92305,112 @@
           "lastName": "Bennett"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.89",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.75",
+            "sb": "12.75",
+            "nat": "USA",
+            "id": "15129238",
+            "hasAvy": true,
+            "firstName": "Ja'Kobe",
+            "lastName": "Tharp"
+          }
+        },
+        {
+          "mark": "13.01",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "13.02",
+            "sb": "13.02",
+            "nat": "CUB",
+            "id": "15070256",
+            "hasAvy": true,
+            "firstName": "Kendry L.",
+            "lastName": "Menéndez"
+          }
+        },
+        {
+          "mark": "13.12",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.98",
+            "sb": "12.98",
+            "nat": "USA",
+            "id": "14675757",
+            "hasAvy": true,
+            "firstName": "Trey",
+            "lastName": "Cunningham"
+          }
+        },
+        {
+          "mark": "13.16",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.86",
+            "sb": "12.86",
+            "nat": "USA",
+            "id": "14769264",
+            "hasAvy": true,
+            "firstName": "Jamal",
+            "lastName": "Britt"
+          }
+        },
+        {
+          "mark": "13.17",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.87",
+            "sb": "13.07",
+            "nat": "USA",
+            "id": "14719972",
+            "hasAvy": true,
+            "firstName": "Cordell",
+            "lastName": "Tinch"
+          }
+        },
+        {
+          "mark": "13.21",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "13.08",
+            "sb": "13.15",
+            "nat": "JAM",
+            "id": "14739873",
+            "hasAvy": true,
+            "firstName": "Orlando",
+            "lastName": "Bennett"
+          }
+        },
+        {
+          "mark": "13.27",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "13.53",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "13.41",
+            "sb": "13.41",
+            "nat": "GBR",
+            "id": "14738539",
+            "hasAvy": true,
+            "firstName": "Samuel",
+            "lastName": "Bennett"
+          }
+        }
+      ]
     },
     "100m Men": {
       "date": "2026-07-18T18:04:00.000Z",
