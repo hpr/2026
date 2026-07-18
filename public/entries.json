@@ -93000,7 +93000,103 @@
           "lastName": "Jefferies"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "44.05",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "44.11",
+            "sb": "44.11",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
+          }
+        },
+        {
+          "mark": "44.18",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "44.09",
+            "nat": "GBR",
+            "id": "14407278",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Hudson-Smith"
+          }
+        },
+        {
+          "mark": "44.25",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "43.85",
+            "sb": "43.96",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "44.63",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "43.72",
+            "sb": "44.44",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "44.71",
+          "place": 5,
+          "notes": ""
+        },
+        {
+          "mark": "44.90",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.91",
+            "sb": "44.40",
+            "nat": "USA",
+            "id": "14797010",
+            "hasAvy": true,
+            "firstName": "Khaleb",
+            "lastName": "McRae"
+          }
+        },
+        {
+          "mark": "44.97",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "45.30",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.66",
+            "sb": "44.66",
+            "nat": "GBR",
+            "id": "14932145",
+            "hasAvy": true,
+            "firstName": "Ben",
+            "lastName": "Jefferies"
+          }
+        }
+      ]
     },
     "1 Mile Men": {
       "date": "2026-07-18T18:36:00.000Z",
