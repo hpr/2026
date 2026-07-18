@@ -91871,7 +91871,270 @@
           "lastName": "Walker"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "8:24.69",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:25.82",
+            "sb": "",
+            "nat": "AUS",
+            "id": "14464506",
+            "hasAvy": true,
+            "firstName": "Jessica",
+            "lastName": "Hull"
+          }
+        },
+        {
+          "mark": "8:25.38",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:29.63",
+            "sb": "8:29.63",
+            "nat": "AUS",
+            "id": "14517594",
+            "hasAvy": true,
+            "firstName": "Rose",
+            "lastName": "Davies"
+          }
+        },
+        {
+          "mark": "8:25.63",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8:27.02",
+            "sb": "",
+            "nat": "IRL",
+            "id": "14705242",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Healy"
+          }
+        },
+        {
+          "mark": "8:26.48",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:33.82",
+            "sb": "8:35.20",
+            "nat": "GBR",
+            "id": "14523341",
+            "hasAvy": true,
+            "firstName": "Hannah",
+            "lastName": "Nuttall"
+          }
+        },
+        {
+          "mark": "8:26.98",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "8:34.30",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14977672",
+            "hasAvy": true,
+            "firstName": "Fantaye",
+            "lastName": "Belayneh"
+          }
+        },
+        {
+          "mark": "8:27.16",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "8:28.06",
+            "sb": "8:28.06",
+            "nat": "AUS",
+            "id": "14272002",
+            "hasAvy": true,
+            "firstName": "Linden",
+            "lastName": "Hall"
+          }
+        },
+        {
+          "mark": "8:27.94",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "8:24.20",
+            "sb": "8:40.71",
+            "nat": "AUS",
+            "id": "14549778",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Griffith"
+          }
+        },
+        {
+          "mark": "8:27.99",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "8:23.08",
+            "sb": "",
+            "nat": "ETH",
+            "id": "14985841",
+            "hasAvy": true,
+            "firstName": "Medina",
+            "lastName": "Eisa"
+          }
+        },
+        {
+          "mark": "8:28.00",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "8:27.18",
+            "sb": "8:27.18",
+            "nat": "ETH",
+            "id": "15058804",
+            "hasAvy": true,
+            "firstName": "Hawi",
+            "lastName": "Abera"
+          }
+        },
+        {
+          "mark": "8:29.09",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "8:32.20",
+            "sb": "8:48.88",
+            "nat": "ETH",
+            "id": "15131346",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "Alemayo"
+          }
+        },
+        {
+          "mark": "8:31.77",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "8:30.53",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14422111",
+            "hasAvy": true,
+            "firstName": "Laura",
+            "lastName": "Muir"
+          }
+        },
+        {
+          "mark": "8:32.04",
+          "place": 12,
+          "notes": ""
+        },
+        {
+          "mark": "8:32.29",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "8:34.09",
+            "sb": "8:37.85",
+            "nat": "JPN",
+            "id": "14632538",
+            "hasAvy": true,
+            "firstName": "Nozomi",
+            "lastName": "Tanaka"
+          }
+        },
+        {
+          "mark": "8:32.58",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "8:28.35",
+            "sb": "8:28.35",
+            "nat": "GBR",
+            "id": "14918707",
+            "hasAvy": true,
+            "firstName": "Megan",
+            "lastName": "Keith"
+          }
+        },
+        {
+          "mark": "8:34.80",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "8:47.47",
+            "sb": "8:47.47",
+            "nat": "GBR",
+            "id": "14655138",
+            "hasAvy": true,
+            "firstName": "Eloise",
+            "lastName": "Walker"
+          }
+        },
+        {
+          "mark": "8:34.80",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "8:29.32",
+            "sb": "",
+            "nat": "ESP",
+            "id": "14635475",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "García"
+          }
+        },
+        {
+          "mark": "8:35.42",
+          "place": 17,
+          "notes": "",
+          "entrant": {
+            "pb": "8:32.90",
+            "sb": "8:33.37",
+            "nat": "GBR",
+            "id": "15033317",
+            "hasAvy": true,
+            "firstName": "Innes",
+            "lastName": "Fitzgerald"
+          }
+        },
+        {
+          "mark": "8:37.45",
+          "place": 18,
+          "notes": "",
+          "entrant": {
+            "pb": "8:29.88",
+            "sb": "",
+            "nat": "KEN",
+            "id": "14798242",
+            "hasAvy": true,
+            "firstName": "Margaret",
+            "lastName": "Akidor"
+          }
+        },
+        {
+          "mark": "8:41.85",
+          "place": 19,
+          "notes": "",
+          "entrant": {
+            "pb": "8:33.66",
+            "sb": "8:33.66",
+            "nat": "AUS",
+            "id": "14667446",
+            "hasAvy": true,
+            "firstName": "Lauren",
+            "lastName": "Ryan"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF"
+        }
+      ]
     },
     "Long Jump Women": {
       "date": "2026-07-18T17:49:00.000Z",
