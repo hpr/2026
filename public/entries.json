@@ -92677,7 +92677,121 @@
           "lastName": "Eduan"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "21.66",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.51",
+            "sb": "21.51",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "21.81",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "21.60",
+            "sb": "21.70",
+            "nat": "USA",
+            "id": "14733520",
+            "hasAvy": true,
+            "firstName": "Gabrielle",
+            "lastName": "Thomas"
+          }
+        },
+        {
+          "mark": "22.24",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "21.74",
+            "sb": "22.04",
+            "nat": "BAH",
+            "id": "14368116",
+            "hasAvy": true,
+            "firstName": "Shaunae",
+            "lastName": "Miller-Uibo"
+          }
+        },
+        {
+          "mark": "22.28",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "21.88",
+            "sb": "22.76",
+            "nat": "GBR",
+            "id": "14378282",
+            "hasAvy": true,
+            "firstName": "Dina",
+            "lastName": "Asher-Smith"
+          }
+        },
+        {
+          "mark": "22.30",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "22.08",
+            "sb": "22.48",
+            "nat": "GBR",
+            "id": "14685108",
+            "hasAvy": true,
+            "firstName": "Amy",
+            "lastName": "Hunt"
+          }
+        },
+        {
+          "mark": "22.53",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.43",
+            "sb": "22.43",
+            "nat": "GBR",
+            "id": "14836740",
+            "hasAvy": true,
+            "firstName": "Success",
+            "lastName": "Eduan"
+          }
+        },
+        {
+          "mark": "22.55",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "21.95",
+            "sb": "22.29",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "22.57",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "21.93",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14674111",
+            "hasAvy": true,
+            "firstName": "Cambrea",
+            "lastName": "Sturgis"
+          }
+        }
+      ]
     },
     "400m Men": {
       "date": "2026-07-18T18:26:00.000Z",
