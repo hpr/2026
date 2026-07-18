@@ -93336,7 +93336,183 @@
           "lastName": "Abdilaahi"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "3:42.66",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "3:27.79",
+            "sb": "",
+            "nat": "GBR",
+            "id": "14533464",
+            "hasAvy": true,
+            "firstName": "Josh",
+            "lastName": "Kerr"
+          }
+        },
+        {
+          "mark": "3:45.69",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "3:27.80",
+            "sb": "3:30.11",
+            "nat": "USA",
+            "id": "14798735",
+            "hasAvy": true,
+            "firstName": "Yared",
+            "lastName": "Nuguse"
+          }
+        },
+        {
+          "mark": "3:46.73",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:31.08",
+            "sb": "3:32.09",
+            "nat": "GBR",
+            "id": "14597392",
+            "hasAvy": true,
+            "firstName": "Jake",
+            "lastName": "Heyward"
+          }
+        },
+        {
+          "mark": "3:46.82",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:30.80",
+            "sb": "3:32.46",
+            "nat": "GER",
+            "id": "14597052",
+            "hasAvy": true,
+            "firstName": "Robert",
+            "lastName": "Farken"
+          }
+        },
+        {
+          "mark": "3:48.05",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "3:32.20",
+            "sb": "3:32.46",
+            "nat": "USA",
+            "id": "15021942",
+            "hasAvy": true,
+            "firstName": "Nathan",
+            "lastName": "Green"
+          }
+        },
+        {
+          "mark": "3:48.17",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "3:33.07",
+            "sb": "3:33.07",
+            "nat": "GBR",
+            "id": "14960895",
+            "hasAvy": true,
+            "firstName": "Arlo",
+            "lastName": "Ludewick"
+          }
+        },
+        {
+          "mark": "3:49.13",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "3:30.25",
+            "sb": "3:32.54",
+            "nat": "USA",
+            "id": "14969299",
+            "hasAvy": true,
+            "firstName": "Ethan",
+            "lastName": "Strand"
+          }
+        },
+        {
+          "mark": "3:49.33",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "3:34.40",
+            "sb": "3:34.40",
+            "nat": "GBR",
+            "id": "14798393",
+            "hasAvy": true,
+            "firstName": "Thomas",
+            "lastName": "Keen"
+          }
+        },
+        {
+          "mark": "3:49.63",
+          "place": 9,
+          "notes": ""
+        },
+        {
+          "mark": "3:51.09",
+          "place": 10,
+          "notes": ""
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:35.36",
+            "sb": "",
+            "nat": "GER",
+            "id": "14753471",
+            "hasAvy": true,
+            "firstName": "Mohamed",
+            "lastName": "Abdilaahi"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:31.69",
+            "sb": "3:31.69",
+            "nat": "USA",
+            "id": "15027172",
+            "hasAvy": true,
+            "firstName": "Simeon",
+            "lastName": "Birnbaum"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:34.23",
+            "sb": "3:34.23",
+            "nat": "SLO",
+            "id": "14375002",
+            "hasAvy": true,
+            "firstName": "Žan",
+            "lastName": "Rudolf"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:35.27",
+            "sb": "3:35.93",
+            "nat": "USA",
+            "id": "14477011",
+            "hasAvy": true,
+            "firstName": "Brannon",
+            "lastName": "Kidder"
+          }
+        }
+      ]
     },
     "800m Women": {
       "tiebreaker": "1:55.00",
