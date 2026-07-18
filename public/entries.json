@@ -91379,7 +91379,112 @@
           "lastName": "Distin"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "2.01",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "2.04",
+            "sb": "1.99",
+            "nat": "AUS",
+            "id": "14455361",
+            "hasAvy": true,
+            "firstName": "Nicola",
+            "lastName": "Olyslagers"
+          }
+        },
+        {
+          "mark": "2.01",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "2.10",
+            "sb": "2.00",
+            "nat": "UKR",
+            "id": "14739628",
+            "hasAvy": true,
+            "firstName": "Yaroslava",
+            "lastName": "Mahuchikh"
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "2.02",
+            "sb": "2.00",
+            "nat": "AUS",
+            "id": "14411267",
+            "hasAvy": true,
+            "firstName": "Eleanor",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "2.00",
+            "sb": "1.97",
+            "nat": "POL",
+            "id": "14620985",
+            "hasAvy": true,
+            "firstName": "Maria",
+            "lastName": "Żodzik"
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1.98",
+            "sb": "1.96",
+            "nat": "SRB",
+            "id": "14841858",
+            "hasAvy": true,
+            "firstName": "Angelina",
+            "lastName": "Topić"
+          }
+        },
+        {
+          "mark": "1.93",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1.97",
+            "sb": "1.94",
+            "nat": "JAM",
+            "id": "14630614",
+            "hasAvy": true,
+            "firstName": "Lamara",
+            "lastName": "Distin"
+          }
+        },
+        {
+          "mark": "1.85",
+          "place": 7,
+          "notes": ""
+        },
+        {
+          "mark": "1.85",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "2.00",
+            "sb": "1.88",
+            "nat": "GBR",
+            "id": "14409457",
+            "hasAvy": true,
+            "firstName": "Morgan",
+            "lastName": "Lake"
+          }
+        }
+      ]
     },
     "400m Women": {
       "date": "2026-07-18T17:14:00.000Z",
