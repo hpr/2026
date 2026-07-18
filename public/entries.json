@@ -92491,7 +92491,112 @@
           "lastName": "Glave"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "9.84",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "9.84",
+            "sb": "9.84",
+            "nat": "NGR",
+            "id": "14976296",
+            "hasAvy": true,
+            "firstName": "Kayinsola",
+            "lastName": "Ajayi"
+          }
+        },
+        {
+          "mark": "9.87",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "9.77",
+            "sb": "9.82",
+            "nat": "JAM",
+            "id": "14737998",
+            "hasAvy": true,
+            "firstName": "Oblique",
+            "lastName": "Seville"
+          }
+        },
+        {
+          "mark": "9.97",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "9.98",
+            "sb": "9.98",
+            "nat": "GBR",
+            "id": "14759041",
+            "hasAvy": true,
+            "firstName": "Romell",
+            "lastName": "Glave"
+          }
+        },
+        {
+          "mark": "9.97",
+          "place": 4,
+          "notes": ""
+        },
+        {
+          "mark": "9.99",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9.87",
+            "sb": "9.97",
+            "nat": "RSA",
+            "id": "14578589",
+            "hasAvy": true,
+            "firstName": "Gift",
+            "lastName": "Leotlela"
+          }
+        },
+        {
+          "mark": "9.99",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "9.91",
+            "sb": "9.91",
+            "nat": "USA",
+            "id": "14961803",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Anthony"
+          }
+        },
+        {
+          "mark": "10.02",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9.83",
+            "sb": "10.01",
+            "nat": "GBR",
+            "id": "14414524",
+            "hasAvy": true,
+            "firstName": "Zharnel",
+            "lastName": "Hughes"
+          }
+        },
+        {
+          "mark": "10.07",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "9.97",
+            "sb": "10.03",
+            "nat": "GBR",
+            "id": "14771648",
+            "hasAvy": true,
+            "firstName": "Jeremiah",
+            "lastName": "Azu"
+          }
+        }
+      ]
     },
     "200m Women": {
       "date": "2026-07-18T18:15:00.000Z",
