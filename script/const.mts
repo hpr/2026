@@ -1,6 +1,6 @@
 import { AthleticsEvent, DLMeet, WAEventCode } from './types.mjs';
 
-export const MEET: DLMeet = 'london26';
+export const MEET: DLMeet = 'lausanne26';
 
 export const NUM_SCORING: number = 2;
 
@@ -94,6 +94,13 @@ export const getLbPath = (meet: DLMeet) => `./public/leaderboard_${meet}.json`;
 export const STANDINGS_PATH = './public/standings.json';
 export const BLURBCACHE_PATH = './script/blurbCache.json';
 export const MONTAGE_PATH = './public/montage.png';
+
+// Events to exclude from scraping (e.g. events held on a different day from the main program)
+export const excludedEvents: Partial<Record<DLMeet, string[]>> = {
+  lausanne25: ['Pole Vault Men – City Event'],
+  lausanne26: ['Pole Vault Men'],
+  silesia26: ['High Jump Men', 'Long Jump Women'],
+};
 
 export const disciplineCodes: { [k: string]: WAEventCode } = {
   '3000mSC': '3KSC',

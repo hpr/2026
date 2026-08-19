@@ -3,7 +3,7 @@ import fs from 'fs';
 import { nameFixer } from 'name-fixer';
 import { AthleticsEvent, BlurbCache, DLMeet, Entrant, Entries, EventCircuitStandings, MeetCache, WAEventCode } from './types.mjs';
 import PDFParser, { Output } from 'pdf2json';
-import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, runningEvents, getDomain, BLURBCACHE_PATH, MEET, SERVER_URL } from './const.mjs';
+import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, excludedEvents, runningEvents, getDomain, BLURBCACHE_PATH, MEET, SERVER_URL } from './const.mjs';
 //import PDFJS from 'pdfjs-dist/legacy/build/pdf.js';
 import { PNG } from 'pngjs';
 import { TextItem } from 'pdfjs-dist/types/src/display/api.js';
@@ -165,6 +165,12 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   london26: {
     '800m Women': '1:55.00',
   },
+  lausanne26: {
+    '800m Women': '1:54.00',
+  },
+  silesia26: {
+    '1500m Men': '3:27.50',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -212,6 +218,8 @@ const deadlines: { [k in DLMeet]?: string } = {
   eugene26: '3:30pm ET',
   monaco26: '12:15pm ET',
   london26: '8:04am ET',
+  lausanne26: '12:50pm ET',
+  silesia26: '9:02am ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -280,6 +288,8 @@ const schedules: { [k in DLMeet]?: string[] } = {
   eugene26: ['https://eugene.diamondleague.com/programme-results/'],
   monaco26: ['https://monaco.diamondleague.com/en/programme-results/'],
   london26: ['https://london.diamondleague.com/programme-results/'],
+  lausanne26: ['https://lausanne.diamondleague.com/en/programme-results/'],
+  silesia26: ['https://silesia.diamondleague.com/programme-results/'],
 };
 
 const cityNameTo = {
@@ -848,7 +858,7 @@ query getEventCircuitStandings($eventCircuitTypeCode: String, $season: Int, $sex
           const firstSvg = eDiv.querySelector('svg');
           if (firstSvg?.getAttribute('width') !== '20') continue; // filter out non-DL events
           const evt = eDiv.querySelectorAll('div')[2].textContent?.replace(' Final', '').replace(/ Heat [AB]/, '');
-          if (meet === 'lausanne25' && evt === 'Pole Vault Men – City Event') continue;
+          if (excludedEvents[meet]?.includes(evt!)) continue;
           if (['U23', 'National'].some(k => evt?.includes(k))) continue;
           const pv = (prop: string) => extractCssValue(eDiv.parentElement?.getAttribute('style')!, prop);
           const year = '20' + (meet.match(/\d+$/)?.[0] ?? '26');
