@@ -126,7 +126,7 @@ export function AthleteCard({
 
   const avatarOverlay = (
     <Avatar
-      src={`https://files.opentrack.run/live/countryflags/ioc/${entrant.nat}.svg`}
+      src={`img/flags/${entrant.nat}.svg`}
       radius="50%"
       w="100%"
       h="100%"
