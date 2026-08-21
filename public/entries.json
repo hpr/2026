@@ -93926,7 +93926,135 @@
           "lastName": "Hügli"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "64.90",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "67.38",
+            "sb": "63.01",
+            "nat": "JPN",
+            "id": "14649131",
+            "hasAvy": true,
+            "firstName": "Haruka",
+            "lastName": "Kitaguchi"
+          }
+        },
+        {
+          "mark": "64.29",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "67.34",
+            "sb": "67.34",
+            "nat": "COL",
+            "id": "14369335",
+            "hasAvy": true,
+            "firstName": "Flor Denis",
+            "lastName": "Ruiz Hurtado"
+          }
+        },
+        {
+          "mark": "62.28",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "67.22",
+            "sb": "63.83",
+            "nat": "SRB",
+            "id": "14791117",
+            "hasAvy": true,
+            "firstName": "Adriana",
+            "lastName": "Vilagoš"
+          }
+        },
+        {
+          "mark": "61.13",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "66.27",
+            "sb": "61.88",
+            "nat": "AUS",
+            "id": "14464527",
+            "hasAvy": true,
+            "firstName": "Mackenzie",
+            "lastName": "Little"
+          }
+        },
+        {
+          "mark": "59.77",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "68.43",
+            "sb": "62.61",
+            "nat": "CRO",
+            "id": "14380461",
+            "hasAvy": true,
+            "firstName": "Sara",
+            "lastName": "Kolak"
+          }
+        },
+        {
+          "mark": "58.81",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "63.88",
+            "sb": "63.88",
+            "nat": "USA",
+            "id": "14647649",
+            "hasAvy": true,
+            "firstName": "Madison",
+            "lastName": "Wiltrout"
+          }
+        },
+        {
+          "mark": "58.73",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "64.64",
+            "sb": "60.05",
+            "nat": "LAT",
+            "id": "14475585",
+            "hasAvy": true,
+            "firstName": "Anete",
+            "lastName": "Sietiņa"
+          }
+        },
+        {
+          "mark": "58.54",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "66.50",
+            "sb": "65.00",
+            "nat": "NOR",
+            "id": "14481209",
+            "hasAvy": true,
+            "firstName": "Sigrid",
+            "lastName": "Borge"
+          }
+        },
+        {
+          "mark": "53.83",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "62.33",
+            "sb": "62.33",
+            "nat": "SUI",
+            "id": "14945013",
+            "hasAvy": true,
+            "firstName": "Leonie",
+            "lastName": "Hügli"
+          }
+        }
+      ]
     },
     "Triple Jump Men": {
       "date": "2026-08-21T21:10:00.000Z",
