@@ -94135,7 +94135,121 @@
           "lastName": "Martínez"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "17.44",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "18.08",
+            "sb": "17.76",
+            "nat": "POR",
+            "id": "14412588",
+            "hasAvy": true,
+            "firstName": "Pedro",
+            "lastName": "Pichardo"
+          }
+        },
+        {
+          "mark": "17.43",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "17.67",
+            "sb": "17.67",
+            "nat": "ALG",
+            "id": "14597364",
+            "hasAvy": true,
+            "firstName": "Yasser Mohammed",
+            "lastName": "Triki"
+          }
+        },
+        {
+          "mark": "17.20",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "18.15",
+            "sb": "18.15",
+            "nat": "ITA",
+            "id": "14587743",
+            "hasAvy": true,
+            "firstName": "Andy",
+            "lastName": "Díaz Hernández"
+          }
+        },
+        {
+          "mark": "16.93",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "17.54",
+            "sb": "17.54",
+            "nat": "USA",
+            "id": "14823057",
+            "hasAvy": true,
+            "firstName": "Russell",
+            "lastName": "Robinson"
+          }
+        },
+        {
+          "mark": "16.86",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "17.69",
+            "sb": "17.69",
+            "nat": "JAM",
+            "id": "14569308",
+            "hasAvy": true,
+            "firstName": "Jordan",
+            "lastName": "Scott"
+          }
+        },
+        {
+          "mark": "16.69",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "17.51",
+            "sb": "17.33",
+            "nat": "CUB",
+            "id": "14571850",
+            "hasAvy": true,
+            "firstName": "Lázaro",
+            "lastName": "Martínez"
+          }
+        },
+        {
+          "mark": "16.27",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "17.64",
+            "sb": "17.42",
+            "nat": "ITA",
+            "id": "14679517",
+            "hasAvy": true,
+            "firstName": "Andrea",
+            "lastName": "Dallavalle"
+          }
+        },
+        {
+          "mark": "16.20",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "17.53",
+            "sb": "17.24",
+            "nat": "BRA",
+            "id": "14429487",
+            "hasAvy": true,
+            "firstName": "Almir",
+            "lastName": "dos Santos"
+          }
+        }
+      ]
     },
     "400m Hurdles Women": {
       "date": "2026-08-21T22:04:00.000Z",
