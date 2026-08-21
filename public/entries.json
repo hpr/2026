@@ -94633,7 +94633,119 @@
           "lastName": "Pointet"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.18",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.92",
+            "sb": "21.92",
+            "nat": "USA",
+            "id": "14642681",
+            "hasAvy": true,
+            "firstName": "Kayla",
+            "lastName": "White"
+          }
+        },
+        {
+          "mark": "22.32",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "22.08",
+            "sb": "22.19",
+            "nat": "GBR",
+            "id": "14685108",
+            "hasAvy": true,
+            "firstName": "Amy",
+            "lastName": "Hunt"
+          }
+        },
+        {
+          "mark": "22.32",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "21.96",
+            "sb": "22.15",
+            "nat": "NGR",
+            "id": "14756075",
+            "hasAvy": true,
+            "firstName": "Favour",
+            "lastName": "Ofili"
+          }
+        },
+        {
+          "mark": "22.65",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "21.95",
+            "sb": "22.21",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "22.83",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "22.46",
+            "sb": "22.46",
+            "nat": "SUI",
+            "id": "14803718",
+            "hasAvy": true,
+            "firstName": "Fabienne",
+            "lastName": "Hoenke"
+          }
+        },
+        {
+          "mark": "23.55",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.69",
+            "sb": "22.69",
+            "nat": "SUI",
+            "id": "14679006",
+            "hasAvy": true,
+            "firstName": "Léonie",
+            "lastName": "Pointet"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "21.41",
+            "sb": "21.87",
+            "nat": "JAM",
+            "id": "14325599",
+            "hasAvy": true,
+            "firstName": "Shericka",
+            "lastName": "Jackson"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNS",
+          "entrant": {
+            "pb": "21.89",
+            "sb": "",
+            "nat": "USA",
+            "id": "14437218",
+            "hasAvy": true,
+            "firstName": "Brittany",
+            "lastName": "Brown"
+          }
+        }
+      ]
     },
     "Javelin Men": {
       "date": "2026-08-21T22:22:00.000Z",
