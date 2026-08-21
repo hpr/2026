@@ -95613,7 +95613,120 @@
           "lastName": "Jones"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "12.27",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "12.14",
+            "sb": "12.14",
+            "nat": "USA",
+            "id": "14659011",
+            "hasAvy": true,
+            "firstName": "Masai",
+            "lastName": "Russell"
+          }
+        },
+        {
+          "mark": "12.42",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "12.28",
+            "sb": "12.41",
+            "nat": "NED",
+            "id": "14451249",
+            "hasAvy": true,
+            "firstName": "Nadine",
+            "lastName": "Visser"
+          }
+        },
+        {
+          "mark": "12.49",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "12.31",
+            "sb": "12.38",
+            "nat": "USA",
+            "id": "14486620",
+            "hasAvy": true,
+            "firstName": "Alaysha",
+            "lastName": "Johnson"
+          }
+        },
+        {
+          "mark": "12.57",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "12.43",
+            "sb": "12.43",
+            "nat": "USA",
+            "id": "14794344",
+            "hasAvy": true,
+            "firstName": "Rayniah",
+            "lastName": "Jones"
+          }
+        },
+        {
+          "mark": "12.61",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "12.37",
+            "sb": "12.44",
+            "nat": "POL",
+            "id": "14736349",
+            "hasAvy": true,
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska"
+          }
+        },
+        {
+          "mark": "12.71",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "12.24",
+            "sb": "12.62",
+            "nat": "SUI",
+            "id": "14739461",
+            "hasAvy": true,
+            "firstName": "Ditaji",
+            "lastName": "Kambundji"
+          }
+        },
+        {
+          "mark": "13.03",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "12.40",
+            "sb": "12.40",
+            "nat": "JAM",
+            "id": "14631833",
+            "hasAvy": true,
+            "firstName": "Demisha",
+            "lastName": "Roswell"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNS",
+          "entrant": {
+            "pb": "12.32",
+            "sb": "12.38",
+            "nat": "USA",
+            "id": "14824306",
+            "hasAvy": true,
+            "firstName": "Alia",
+            "lastName": "Armstrong"
+          }
+        }
+      ]
     },
     "5000m Men": {
       "date": "2026-08-21T23:00:00.000Z",
