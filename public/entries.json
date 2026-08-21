@@ -94988,7 +94988,244 @@
           "lastName": "Yeshaneh"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "9:00.04",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "8:44.39",
+            "sb": "8:51.54",
+            "nat": "BRN",
+            "id": "14695622",
+            "hasAvy": true,
+            "firstName": "Winfred",
+            "lastName": "Yavi"
+          }
+        },
+        {
+          "mark": "9:01.90",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "8:48.71",
+            "sb": "8:51.48",
+            "nat": "KEN",
+            "id": "14989893",
+            "hasAvy": true,
+            "firstName": "Faith",
+            "lastName": "Cherotich"
+          }
+        },
+        {
+          "mark": "9:05.55",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "8:54.32",
+            "sb": "8:54.32",
+            "nat": "TUN",
+            "id": "14595096",
+            "hasAvy": true,
+            "firstName": "Marwa",
+            "lastName": "Bouzayani"
+          }
+        },
+        {
+          "mark": "9:07.09",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "8:57.89",
+            "sb": "8:57.89",
+            "nat": "KEN",
+            "id": "15128594",
+            "hasAvy": true,
+            "firstName": "Doris",
+            "lastName": "Lemngole"
+          }
+        },
+        {
+          "mark": "9:08.35",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "9:08.68",
+            "sb": "9:12.54",
+            "nat": "USA",
+            "id": "14741102",
+            "hasAvy": true,
+            "firstName": "Lexy",
+            "lastName": "Halladay"
+          }
+        },
+        {
+          "mark": "9:12.69",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "8:59.66",
+            "sb": "8:59.66",
+            "nat": "ETH",
+            "id": "15024115",
+            "hasAvy": true,
+            "firstName": "Kena",
+            "lastName": "Tufa"
+          }
+        },
+        {
+          "mark": "9:15.29",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.61",
+            "sb": "9:11.72",
+            "nat": "USA",
+            "id": "14490787",
+            "hasAvy": true,
+            "firstName": "Gabrielle",
+            "lastName": "Jennings"
+          }
+        },
+        {
+          "mark": "9:18.29",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "9:05.45",
+            "sb": "9:05.45",
+            "nat": "GBR",
+            "id": "14648621",
+            "hasAvy": true,
+            "firstName": "Elise",
+            "lastName": "Thorner"
+          }
+        },
+        {
+          "mark": "9:22.47",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "9:15.17",
+            "sb": "9:15.33",
+            "nat": "GER",
+            "id": "14804796",
+            "hasAvy": true,
+            "firstName": "Olivia",
+            "lastName": "Gürth"
+          }
+        },
+        {
+          "mark": "9:22.48",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "9:09.13",
+            "sb": "9:09.13",
+            "nat": "GER",
+            "id": "14509240",
+            "hasAvy": true,
+            "firstName": "Lea",
+            "lastName": "Meyer"
+          }
+        },
+        {
+          "mark": "9:32.03",
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.50",
+            "sb": "9:19.90",
+            "nat": "USA",
+            "id": "14617090",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Wayment"
+          }
+        },
+        {
+          "mark": "9:32.95",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "9:06.88",
+            "sb": "9:10.05",
+            "nat": "ETH",
+            "id": "15024112",
+            "hasAvy": true,
+            "firstName": "Alemnat",
+            "lastName": "Walle"
+          }
+        },
+        {
+          "mark": "9:35.70",
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "9:20.17",
+            "sb": "9:22.33",
+            "nat": "TUN",
+            "id": "14911026",
+            "hasAvy": true,
+            "firstName": "Rihab",
+            "lastName": "Dhahri"
+          }
+        },
+        {
+          "mark": "9:36.60",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "9:18.84",
+            "sb": "9:18.84",
+            "nat": "USA",
+            "id": "14820700",
+            "hasAvy": true,
+            "firstName": "Angelina",
+            "lastName": "Ellis"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:33.34",
+            "sb": "10:12.27",
+            "nat": "ETH",
+            "id": "15024114",
+            "hasAvy": true,
+            "firstName": "Meseret",
+            "lastName": "Yeshaneh"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:03.30",
+            "sb": "9:07.50",
+            "nat": "GER",
+            "id": "14329341",
+            "hasAvy": true,
+            "firstName": "Gesa Felicitas",
+            "lastName": "Krause"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "9:33.03",
+            "sb": "9:33.03",
+            "nat": "POL",
+            "id": "14829123",
+            "hasAvy": true,
+            "firstName": "Agnieszka",
+            "lastName": "Chorzępa"
+          }
+        }
+      ]
     },
     "800m Men": {
       "date": "2026-08-21T22:40:00.000Z",
