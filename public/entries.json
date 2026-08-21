@@ -96622,7 +96622,162 @@
           "lastName": "van der Schoot"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:55.33",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:53.80",
+            "sb": "1:53.80",
+            "nat": "SUI",
+            "id": "14856078",
+            "hasAvy": true,
+            "firstName": "Audrey",
+            "lastName": "Werro"
+          }
+        },
+        {
+          "mark": "1:55.41",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:55.54",
+            "sb": "1:55.54",
+            "nat": "NED",
+            "id": "14707010",
+            "hasAvy": true,
+            "firstName": "Femke",
+            "lastName": "Broeders-Bol"
+          }
+        },
+        {
+          "mark": "1:56.92",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.96",
+            "sb": "1:57.96",
+            "nat": "ETH",
+            "id": "15238906",
+            "hasAvy": true,
+            "firstName": "Saida",
+            "lastName": "Tsehaye"
+          }
+        },
+        {
+          "mark": "1:58.68",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.20",
+            "sb": "1:58.20",
+            "nat": "SUI",
+            "id": "14584794",
+            "hasAvy": true,
+            "firstName": "Veronica",
+            "lastName": "Vancardo"
+          }
+        },
+        {
+          "mark": "1:58.93",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.16",
+            "sb": "1:58.16",
+            "nat": "SUI",
+            "id": "14763733",
+            "hasAvy": true,
+            "firstName": "Valentina",
+            "lastName": "Rosamilia"
+          }
+        },
+        {
+          "mark": "1:59.22",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:57.70",
+            "nat": "USA",
+            "id": "14907337",
+            "hasAvy": true,
+            "firstName": "Addison",
+            "lastName": "Wiley"
+          }
+        },
+        {
+          "mark": "1:59.25",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:54.62",
+            "sb": "1:56.19",
+            "nat": "KEN",
+            "id": "14758184",
+            "hasAvy": true,
+            "firstName": "Lilian",
+            "lastName": "Odira"
+          }
+        },
+        {
+          "mark": "1:59.58",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:56.83",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "mark": "2:00.89",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.76",
+            "sb": "1:57.32",
+            "nat": "BOT",
+            "id": "14754344",
+            "hasAvy": true,
+            "firstName": "Oratile",
+            "lastName": "Nowe"
+          }
+        },
+        {
+          "mark": "2:02.78",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "1:55.89",
+            "sb": "1:58.18",
+            "nat": "USA",
+            "id": "14478094",
+            "hasAvy": true,
+            "firstName": "Sage",
+            "lastName": "Hurta-Klecker"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "2:16.98",
+            "sb": "",
+            "nat": "NED",
+            "id": "14865892",
+            "hasAvy": true,
+            "firstName": "Myrte",
+            "lastName": "van der Schoot"
+          }
+        }
+      ]
     },
     "200m Men": {
       "date": "2026-08-21T23:41:00.000Z",
