@@ -99779,6 +99779,7 @@
           }
         },
         {
+          "mark": "3:55.20",
           "place": 2,
           "notes": "",
           "entrant": {
@@ -99792,6 +99793,35 @@
           }
         },
         {
+          "mark": "3:55.58",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "3:54.92",
+            "sb": "3:57.74",
+            "nat": "KEN",
+            "id": "14878719",
+            "hasAvy": true,
+            "firstName": "Dorcus",
+            "lastName": "Ewoi"
+          }
+        },
+        {
+          "mark": "3:55.59",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "3:57.95",
+            "sb": "3:59.24",
+            "nat": "POL",
+            "id": "14704467",
+            "hasAvy": true,
+            "firstName": "Klaudia",
+            "lastName": "Kazimierska"
+          }
+        },
+        {
+          "mark": "3:56.24",
           "place": 5,
           "notes": "",
           "entrant": {
@@ -99805,6 +99835,7 @@
           }
         },
         {
+          "mark": "3:56.34",
           "place": 6,
           "notes": "",
           "entrant": {
@@ -99818,6 +99849,7 @@
           }
         },
         {
+          "mark": "3:56.73",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -99831,6 +99863,7 @@
           }
         },
         {
+          "mark": "3:56.76",
           "place": 8,
           "notes": "",
           "entrant": {
@@ -99844,6 +99877,7 @@
           }
         },
         {
+          "mark": "3:57.42",
           "place": 9,
           "notes": "",
           "entrant": {
@@ -99857,6 +99891,7 @@
           }
         },
         {
+          "mark": "4:00.52",
           "place": 10,
           "notes": "",
           "entrant": {
@@ -99870,6 +99905,7 @@
           }
         },
         {
+          "mark": "4:01.15",
           "place": 11,
           "notes": "",
           "entrant": {
@@ -99883,6 +99919,7 @@
           }
         },
         {
+          "mark": "4:01.24",
           "place": 12,
           "notes": "",
           "entrant": {
@@ -99896,6 +99933,7 @@
           }
         },
         {
+          "mark": "4:01.44",
           "place": 13,
           "notes": "",
           "entrant": {
@@ -99909,6 +99947,7 @@
           }
         },
         {
+          "mark": "4:02.95",
           "place": 14,
           "notes": "",
           "entrant": {
@@ -99922,6 +99961,7 @@
           }
         },
         {
+          "mark": "4:04.93",
           "place": 15,
           "notes": "",
           "entrant": {
@@ -99932,32 +99972,6 @@
             "hasAvy": true,
             "firstName": "Sinclaire",
             "lastName": "Johnson"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:54.92",
-            "sb": "3:57.74",
-            "nat": "KEN",
-            "id": "14878719",
-            "hasAvy": true,
-            "firstName": "Dorcus",
-            "lastName": "Ewoi"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "3:57.95",
-            "sb": "3:59.24",
-            "nat": "POL",
-            "id": "14704467",
-            "hasAvy": true,
-            "firstName": "Klaudia",
-            "lastName": "Kazimierska"
           }
         },
         {
