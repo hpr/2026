@@ -97209,7 +97209,8 @@
           "firstName": "Louise",
           "lastName": "Ekman"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Triple Jump Women": {
       "date": "2026-08-23T17:30:00.000Z",
@@ -97307,7 +97308,8 @@
           "firstName": "Saliyya",
           "lastName": "Guisse"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100m Men": {
       "date": "2026-08-23T19:11:00.000Z",
@@ -97477,7 +97479,8 @@
           "firstName": "Dominik",
           "lastName": "Kopeć"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Hurdles Men": {
       "date": "2026-08-23T18:04:00.000Z",
@@ -97566,7 +97569,8 @@
           "firstName": "İsmail",
           "lastName": "Nezir"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Women": {
       "date": "2026-08-23T18:14:00.000Z",
@@ -97655,7 +97659,8 @@
           "firstName": "Lieke",
           "lastName": "Klaver"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "3000m Steeple Men": {
       "date": "2026-08-23T18:22:00.000Z",
@@ -97825,7 +97830,8 @@
           "firstName": "Abderrafia",
           "lastName": "Bouassel"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "110m Hurdles Men": {
       "date": "2026-08-23T18:40:00.000Z",
@@ -97914,7 +97920,8 @@
           "firstName": "Jakub",
           "lastName": "Szymański"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "5000m Women": {
       "date": "2026-08-23T18:47:00.000Z",
@@ -98120,7 +98127,8 @@
           "firstName": "Gracie",
           "lastName": "Morris"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "Discus Throw Men": {
       "date": "2026-08-23T18:50:00.000Z",
@@ -98218,7 +98226,8 @@
           "firstName": "Henrik",
           "lastName": "Janssen"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "1500m Women": {
       "date": "2026-08-23T19:19:00.000Z",
@@ -98388,7 +98397,8 @@
           "firstName": "Lorea",
           "lastName": "Ibarzabal"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "400m Men": {
       "date": "2026-08-23T19:31:00.000Z",
@@ -98477,7 +98487,8 @@
           "firstName": "Maksymilian",
           "lastName": "Szwed"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "1500m Men": {
       "tiebreaker": "3:27.50",
@@ -98648,7 +98659,8 @@
           "firstName": "Patryk",
           "lastName": "Sieradzki"
         }
-      ]
+      ],
+      "isClosed": true
     },
     "100m Women": {
       "date": "2026-08-23T19:53:00.000Z",
@@ -98737,7 +98749,8 @@
           "firstName": "Ewa",
           "lastName": "Swoboda"
         }
-      ]
+      ],
+      "isClosed": true
     }
   }
 }
