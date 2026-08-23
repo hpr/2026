@@ -100090,7 +100090,135 @@
           "lastName": "Szwed"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "43.59",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "43.44",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "43.83",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "44.05",
+            "sb": "44.05",
+            "nat": "USA",
+            "id": "14574865",
+            "hasAvy": true,
+            "firstName": "Rai",
+            "lastName": "Benjamin"
+          }
+        },
+        {
+          "mark": "44.37",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "43.76",
+            "sb": "43.89",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.41",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "43.85",
+            "sb": "43.96",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "44.68",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "44.47",
+            "sb": "44.47",
+            "nat": "HUN",
+            "id": "14712930",
+            "hasAvy": true,
+            "firstName": "Attila",
+            "lastName": "Molnár"
+          }
+        },
+        {
+          "mark": "44.72",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.72",
+            "sb": "44.44",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "44.77",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.06",
+            "sb": "44.06",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "45.18",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "44.10",
+            "sb": "44.62",
+            "nat": "BOT",
+            "id": "14847443",
+            "hasAvy": true,
+            "firstName": "Bayapo",
+            "lastName": "Ndori"
+          }
+        },
+        {
+          "mark": "45.35",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "44.94",
+            "sb": "44.94",
+            "nat": "POL",
+            "id": "14945080",
+            "hasAvy": true,
+            "firstName": "Maksymilian",
+            "lastName": "Szwed"
+          }
+        }
+      ]
     },
     "1500m Men": {
       "tiebreaker": "3:27.50",
