@@ -99591,7 +99591,149 @@
           "lastName": "Janssen"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "72.58",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "75.56",
+            "sb": "72.65",
+            "nat": "LTU",
+            "id": "14841124",
+            "hasAvy": true,
+            "firstName": "Mykolas",
+            "lastName": "Alekna"
+          }
+        },
+        {
+          "mark": "68.93",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "72.61",
+            "sb": "72.61",
+            "nat": "SLO",
+            "id": "14666860",
+            "hasAvy": true,
+            "firstName": "Kristjan",
+            "lastName": "Čeh"
+          }
+        },
+        {
+          "mark": "68.25",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "71.86",
+            "sb": "69.85",
+            "nat": "SWE",
+            "id": "14375325",
+            "hasAvy": true,
+            "firstName": "Daniel",
+            "lastName": "Ståhl"
+          }
+        },
+        {
+          "mark": "68.19",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "69.94",
+            "sb": "69.53",
+            "nat": "GER",
+            "id": "14626440",
+            "hasAvy": true,
+            "firstName": "Henrik",
+            "lastName": "Janssen"
+          }
+        },
+        {
+          "mark": "67.81",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "74.00",
+            "sb": "74.00",
+            "nat": "GER",
+            "id": "14828356",
+            "hasAvy": true,
+            "firstName": "Steven",
+            "lastName": "Richter"
+          }
+        },
+        {
+          "mark": "67.65",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "70.66",
+            "sb": "68.47",
+            "nat": "JAM",
+            "id": "14744385",
+            "hasAvy": true,
+            "firstName": "Roje",
+            "lastName": "Stona"
+          }
+        },
+        {
+          "mark": "66.44",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "72.01",
+            "sb": "65.97",
+            "nat": "JAM",
+            "id": "14826630",
+            "hasAvy": true,
+            "firstName": "Ralford",
+            "lastName": "Mullings"
+          }
+        },
+        {
+          "mark": "66.38",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "74.78",
+            "sb": "73.58",
+            "nat": "AUS",
+            "id": "14436890",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Denny"
+          }
+        },
+        {
+          "mark": "64.36",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "71.48",
+            "sb": "68.17",
+            "nat": "SAM",
+            "id": "14389747",
+            "hasAvy": true,
+            "firstName": "Alex",
+            "lastName": "Rose"
+          }
+        },
+        {
+          "mark": "63.36",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "71.22",
+            "sb": "71.22",
+            "nat": "NED",
+            "id": "14834539",
+            "hasAvy": true,
+            "firstName": "Ruben",
+            "lastName": "Rolvink"
+          }
+        }
+      ]
     },
     "1500m Women": {
       "date": "2026-08-23T19:19:00.000Z",
@@ -100718,7 +100860,126 @@
           "lastName": "Swoboda"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "10.78",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "10.61",
+            "sb": "10.78",
+            "nat": "USA",
+            "id": "14756997",
+            "hasAvy": true,
+            "firstName": "Melissa",
+            "lastName": "Jefferson-Wooden"
+          }
+        },
+        {
+          "mark": "10.83",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "10.72",
+            "sb": "10.87",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "10.96",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "10.65",
+            "sb": "10.77",
+            "nat": "USA",
+            "id": "14717691",
+            "hasAvy": true,
+            "firstName": "Sha'Carri",
+            "lastName": "Richardson"
+          }
+        },
+        {
+          "mark": "10.96",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "10.91",
+            "sb": "10.94",
+            "nat": "JAM",
+            "id": "14776881",
+            "hasAvy": true,
+            "firstName": "Brianna",
+            "lastName": "Lyston"
+          }
+        },
+        {
+          "mark": "11.00",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "10.94",
+            "sb": "10.98",
+            "nat": "POL",
+            "id": "14451085",
+            "hasAvy": true,
+            "firstName": "Ewa",
+            "lastName": "Swoboda"
+          }
+        },
+        {
+          "mark": "11.01",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "10.76",
+            "sb": "10.85",
+            "nat": "JAM",
+            "id": "14776879",
+            "hasAvy": true,
+            "firstName": "Tina",
+            "lastName": "Clayton"
+          }
+        },
+        {
+          "mark": "11.05",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "10.93",
+            "sb": "10.93",
+            "nat": "NZL",
+            "id": "14499691",
+            "hasAvy": true,
+            "firstName": "Zoe",
+            "lastName": "Hobbs"
+          }
+        },
+        {
+          "mark": "11.11",
+          "place": 8,
+          "notes": ""
+        },
+        {
+          "mark": "11.24",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "10.82",
+            "sb": "10.91",
+            "nat": "JAM",
+            "id": "14787678",
+            "hasAvy": true,
+            "firstName": "Tia",
+            "lastName": "Clayton"
+          }
+        }
+      ]
     }
   }
 }
