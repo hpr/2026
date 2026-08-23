@@ -99065,7 +99065,287 @@
           "lastName": "Morris"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "14:54.09",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "14:23.15",
+            "sb": "14:40.05",
+            "nat": "ITA",
+            "id": "14700830",
+            "hasAvy": true,
+            "firstName": "Nadia",
+            "lastName": "Battocletti"
+          }
+        },
+        {
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "14:18.94",
+            "sb": "14:18.94",
+            "nat": "ETH",
+            "id": "14836656",
+            "hasAvy": true,
+            "firstName": "Freweyni",
+            "lastName": "Hailu"
+          }
+        },
+        {
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "14:31.45",
+            "sb": "14:44.53",
+            "nat": "AUS",
+            "id": "14517594",
+            "hasAvy": true,
+            "firstName": "Rose",
+            "lastName": "Davies"
+          }
+        },
+        {
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14:18.54",
+            "sb": "14:18.54",
+            "nat": "ETH",
+            "id": "15172866",
+            "hasAvy": true,
+            "firstName": "Aleshign",
+            "lastName": "Baweke"
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14:23.44",
+            "sb": "14:23.44",
+            "nat": "ETH",
+            "id": "14977672",
+            "hasAvy": true,
+            "firstName": "Fantaye",
+            "lastName": "Belayneh"
+          }
+        },
+        {
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "pb": "14:41.46",
+            "sb": "14:41.46",
+            "nat": "BDI",
+            "id": "14786755",
+            "hasAvy": true,
+            "firstName": "Francine",
+            "lastName": "Niyomukunzi"
+          }
+        },
+        {
+          "place": 11,
+          "notes": "",
+          "entrant": {
+            "pb": "14:39.48",
+            "sb": "14:51.34",
+            "nat": "GBR",
+            "id": "14523341",
+            "hasAvy": true,
+            "firstName": "Hannah",
+            "lastName": "Nuttall"
+          }
+        },
+        {
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "pb": "14:33.56",
+            "sb": "14:33.56",
+            "nat": "NED",
+            "id": "14372338",
+            "hasAvy": true,
+            "firstName": "Maureen",
+            "lastName": "Koster"
+          }
+        },
+        {
+          "place": 13,
+          "notes": "",
+          "entrant": {
+            "pb": "14:26.41",
+            "sb": "14:26.41",
+            "nat": "ETH",
+            "id": "15041291",
+            "hasAvy": true,
+            "firstName": "Asayech",
+            "lastName": "Ayichew"
+          }
+        },
+        {
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "pb": "14:29.18",
+            "sb": "15:00.93",
+            "nat": "JPN",
+            "id": "14632538",
+            "hasAvy": true,
+            "firstName": "Nozomi",
+            "lastName": "Tanaka"
+          }
+        },
+        {
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "pb": "14:22.56",
+            "sb": "14:22.56",
+            "nat": "ETH",
+            "id": "14805826",
+            "hasAvy": true,
+            "firstName": "Hirut",
+            "lastName": "Meshesha"
+          }
+        },
+        {
+          "place": 16,
+          "notes": "",
+          "entrant": {
+            "pb": "14:32.82",
+            "sb": "14:44.64",
+            "nat": "AUS",
+            "id": "14549778",
+            "hasAvy": true,
+            "firstName": "Georgia",
+            "lastName": "Griffith"
+          }
+        },
+        {
+          "place": 17,
+          "notes": "",
+          "entrant": {
+            "pb": "14:40.39",
+            "sb": "14:53.77",
+            "nat": "AUS",
+            "id": "14667446",
+            "hasAvy": true,
+            "firstName": "Lauren",
+            "lastName": "Ryan"
+          }
+        },
+        {
+          "place": 18,
+          "notes": ""
+        },
+        {
+          "place": 19,
+          "notes": "",
+          "entrant": {
+            "pb": "14:39.13",
+            "sb": "14:40.77",
+            "nat": "ETH",
+            "id": "15090391",
+            "hasAvy": true,
+            "firstName": "Yenawa",
+            "lastName": "Nbret"
+          }
+        },
+        {
+          "place": 20,
+          "notes": "",
+          "entrant": {
+            "pb": "15:41.58",
+            "sb": "15:41.58",
+            "nat": "POL",
+            "id": "15080748",
+            "hasAvy": true,
+            "firstName": "Elżbieta",
+            "lastName": "Glinka"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "14:32.84",
+            "sb": "14:32.84",
+            "nat": "ETH",
+            "id": "15131346",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "Alemayo"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "14:33.40",
+            "sb": "15:39.98",
+            "nat": "ESP",
+            "id": "14635475",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "García"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "14:22.37",
+            "sb": "14:22.37",
+            "nat": "ETH",
+            "id": "15046190",
+            "hasAvy": true,
+            "firstName": "Senayet",
+            "lastName": "Getachew"
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "pb": "14:18.41",
+            "sb": "14:18.41",
+            "nat": "ETH",
+            "id": "14877871",
+            "hasAvy": true,
+            "firstName": "Likina",
+            "lastName": "Amebaw"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "15:31.15",
+            "sb": "",
+            "nat": "CZE",
+            "id": "14362176",
+            "hasAvy": true,
+            "firstName": "Kristiina",
+            "lastName": "Sasínek Mäki"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "16:49.53",
+            "sb": "",
+            "nat": "USA",
+            "id": "14715821",
+            "hasAvy": true,
+            "firstName": "Gracie",
+            "lastName": "Morris"
+          }
+        }
+      ]
     },
     "Discus Throw Men": {
       "date": "2026-08-23T18:50:00.000Z",
