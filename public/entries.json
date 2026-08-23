@@ -97685,8 +97685,8 @@
           }
         },
         {
-          "place": 9,
-          "notes": "",
+          "place": null,
+          "notes": "DNF",
           "entrant": {
             "pb": "47.23",
             "sb": "47.42",
