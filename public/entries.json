@@ -99082,6 +99082,7 @@
           }
         },
         {
+          "mark": "14:54.62",
           "place": 2,
           "notes": "",
           "entrant": {
@@ -99095,6 +99096,7 @@
           }
         },
         {
+          "mark": "14:55.39",
           "place": 3,
           "notes": "",
           "entrant": {
@@ -99108,7 +99110,22 @@
           }
         },
         {
-          "place": 6,
+          "mark": "14:55.46",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14:32.84",
+            "sb": "14:32.84",
+            "nat": "ETH",
+            "id": "15131346",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "Alemayo"
+          }
+        },
+        {
+          "mark": "14:55.49",
+          "place": 5,
           "notes": "",
           "entrant": {
             "pb": "14:18.54",
@@ -99121,6 +99138,21 @@
           }
         },
         {
+          "mark": "14:55.51",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14:22.37",
+            "sb": "14:22.37",
+            "nat": "ETH",
+            "id": "15046190",
+            "hasAvy": true,
+            "firstName": "Senayet",
+            "lastName": "Getachew"
+          }
+        },
+        {
+          "mark": "14:55.97",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -99134,6 +99166,35 @@
           }
         },
         {
+          "mark": "14:56.42",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "14:18.41",
+            "sb": "14:18.41",
+            "nat": "ETH",
+            "id": "14877871",
+            "hasAvy": true,
+            "firstName": "Likina",
+            "lastName": "Amebaw"
+          }
+        },
+        {
+          "mark": "14:56.48",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "14:33.40",
+            "sb": "15:39.98",
+            "nat": "ESP",
+            "id": "14635475",
+            "hasAvy": true,
+            "firstName": "Marta",
+            "lastName": "García"
+          }
+        },
+        {
+          "mark": "14:57.34",
           "place": 10,
           "notes": "",
           "entrant": {
@@ -99147,6 +99208,7 @@
           }
         },
         {
+          "mark": "14:57.63",
           "place": 11,
           "notes": "",
           "entrant": {
@@ -99160,6 +99222,7 @@
           }
         },
         {
+          "mark": "14:57.81",
           "place": 12,
           "notes": "",
           "entrant": {
@@ -99173,6 +99236,7 @@
           }
         },
         {
+          "mark": "14:57.92",
           "place": 13,
           "notes": "",
           "entrant": {
@@ -99186,6 +99250,7 @@
           }
         },
         {
+          "mark": "14:58.35",
           "place": 14,
           "notes": "",
           "entrant": {
@@ -99199,6 +99264,7 @@
           }
         },
         {
+          "mark": "14:58.86",
           "place": 15,
           "notes": "",
           "entrant": {
@@ -99212,6 +99278,7 @@
           }
         },
         {
+          "mark": "14:59.02",
           "place": 16,
           "notes": "",
           "entrant": {
@@ -99225,6 +99292,7 @@
           }
         },
         {
+          "mark": "15:02.73",
           "place": 17,
           "notes": "",
           "entrant": {
@@ -99238,10 +99306,12 @@
           }
         },
         {
+          "mark": "15:03.46",
           "place": 18,
           "notes": ""
         },
         {
+          "mark": "15:04.98",
           "place": 19,
           "notes": "",
           "entrant": {
@@ -99255,6 +99325,7 @@
           }
         },
         {
+          "mark": "15:08.19",
           "place": 20,
           "notes": "",
           "entrant": {
@@ -99265,58 +99336,6 @@
             "hasAvy": true,
             "firstName": "Elżbieta",
             "lastName": "Glinka"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "14:32.84",
-            "sb": "14:32.84",
-            "nat": "ETH",
-            "id": "15131346",
-            "hasAvy": true,
-            "firstName": "Marta",
-            "lastName": "Alemayo"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "14:33.40",
-            "sb": "15:39.98",
-            "nat": "ESP",
-            "id": "14635475",
-            "hasAvy": true,
-            "firstName": "Marta",
-            "lastName": "García"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "14:22.37",
-            "sb": "14:22.37",
-            "nat": "ETH",
-            "id": "15046190",
-            "hasAvy": true,
-            "firstName": "Senayet",
-            "lastName": "Getachew"
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "pb": "14:18.41",
-            "sb": "14:18.41",
-            "nat": "ETH",
-            "id": "14877871",
-            "hasAvy": true,
-            "firstName": "Likina",
-            "lastName": "Amebaw"
           }
         },
         {
