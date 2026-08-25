@@ -4,6 +4,7 @@ import { nameFixer } from 'name-fixer';
 import { AthleticsEvent, BlurbCache, DLMeet, Entrant, Entries, EventCircuitStandings, MeetCache, WAEventCode } from './types.mjs';
 import PDFParser, { Output } from 'pdf2json';
 import { CACHE_PATH, disciplineCodes, ENTRIES_PATH, excludedEvents, runningEvents, getDomain, BLURBCACHE_PATH, MEET, SERVER_URL } from './const.mjs';
+import { flotrackEventIds, getSwisstimingEntries } from './swisstiming.mjs';
 //import PDFJS from 'pdfjs-dist/legacy/build/pdf.js';
 import { PNG } from 'pngjs';
 import { TextItem } from 'pdfjs-dist/types/src/display/api.js';
@@ -171,6 +172,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   silesia26: {
     '1500m Men': '3:27.50',
   },
+  zurich26: {
+    '200m Men': '19.60',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -220,6 +224,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   london26: '8:04am ET',
   lausanne26: '12:50pm ET',
   silesia26: '9:02am ET',
+  zurich26: '12:27pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -290,6 +295,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   london26: ['https://london.diamondleague.com/programme-results/'],
   lausanne26: ['https://lausanne.diamondleague.com/en/programme-results/'],
   silesia26: ['https://silesia.diamondleague.com/programme-results/'],
+  zurich26: ['https://zurich.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
@@ -622,6 +628,12 @@ const getEntries = async () => {
     if (meet !== MEET) continue;
     cache[meet] ??= {} as { schedule: {}; events: {}; ids: {} }; // TODO fix typing
     entries[meet] = {};
+    if (flotrackEventIds[meet]) {
+      const { deadline, tiebreakerEvent } = await getSwisstimingEntries(meet, oldEntries, cache, entries, tieBreakers, targetTimes);
+      deadlines[meet] ??= deadline;
+      console.log(`\n💡 Inferred deadline: ${deadline} | tiebreaker event: ${tiebreakerEvent} (set time manually in tieBreakers)`);
+      continue;
+    }
     for (const meetScheduleUrl of schedules[meet] ?? []) {
       if (meetScheduleUrl.startsWith('https://www.baa.org')) {
         cache[meet] ??= { events: {}, ids: {}, schedule: {} };
