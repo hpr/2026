@@ -175,6 +175,7 @@ const waSearch = async (
 
   // Normalize for comparison
   const normalize = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const searchNorm = normalize(fullName);
   const nameWords = fullName.split(' ');
   const lastWord = nameWords[nameWords.length - 1];
 
@@ -183,8 +184,14 @@ const waSearch = async (
     (r: any) => r.country === nat && r.aaAthleteId
   );
 
-  // Try exact last name match first
+  // Try full name match first (handles multi-word family names like "dos Santos", "Hunter Bell")
   const match = candidates.find((r: any) => {
+    const waFirst = normalize(r.givenName);
+    const waLast = normalize(r.familyName);
+    return searchNorm === `${waFirst} ${waLast}` ||
+           searchNorm === `${waLast} ${waFirst}` ||
+           (searchNorm.includes(waFirst) && searchNorm.includes(waLast));
+  }) ?? candidates.find((r: any) => {
     const waLast = normalize(r.familyName);
     const searchLast = normalize(lastWord);
     return waLast === searchLast || waLast.startsWith(searchLast) || searchLast.startsWith(waLast);
@@ -281,6 +288,12 @@ export const getSwisstimingEntries = async (
     }
     if (!swissInfo.isDiamond) {
       console.log(`  ⏭ ${evtName} is not a Diamond event, skipping`);
+      continue;
+    }
+
+    // Skip events on earlier days (they happen before the entry deadline)
+    if (allDays.length > 1 && dayOf(swissInfo.startTime) !== lastDay) {
+      console.log(`  ⏭ ${evtName} is on ${dayOf(swissInfo.startTime)} (before deadline day ${lastDay}), skipping`);
       continue;
     }
 

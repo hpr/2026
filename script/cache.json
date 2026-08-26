@@ -265,10 +265,6 @@
         "id": "14486939",
         "country": "USA"
       },
-      "Fatoumata Binta Diallo|POR": {
-        "id": "14708730",
-        "country": "POR"
-      },
       "Amalie Iuel|NOR": {
         "id": "14481392",
         "country": "NOR"
@@ -305,17 +301,9 @@
         "id": "14668389",
         "country": "MEX"
       },
-      "Waberi Igueh Houssein|DJI": {
-        "id": "14887076",
-        "country": "DJI"
-      },
       "Boaz Kiprugut|KEN": {
         "id": "14695615",
         "country": "KEN"
-      },
-      "Dominic Lokinyomo Lobalu|SUI": {
-        "id": "14792211",
-        "country": "SUI"
       },
       "Biniam Mehary|ETH": {
         "id": "15118094",
@@ -369,14 +357,6 @@
         "id": "14631861",
         "country": "JAM"
       },
-      "Jorge A. Hodelín|CUB": {
-        "id": "15111238",
-        "country": "CUB"
-      },
-      "Francesco Ettore Inzoli|ITA": {
-        "id": "14918764",
-        "country": "ITA"
-      },
       "Lester Lescay|ESP": {
         "id": "14742125",
         "country": "ESP"
@@ -400,10 +380,6 @@
       "Tina Clayton|JAM": {
         "id": "14776879",
         "country": "JAM"
-      },
-      "Géraldine Di Tizio-Frey|SUI": {
-        "id": "14510629",
-        "country": "SUI"
       },
       "Zoe Hobbs|NZL": {
         "id": "14499691",
@@ -433,14 +409,6 @@
         "id": "14513352",
         "country": "SUI"
       },
-      "Alison dos Santos|BRA": {
-        "id": "14662618",
-        "country": "BRA"
-      },
-      "Matic Ian Guček|SLO": {
-        "id": "14874438",
-        "country": "SLO"
-      },
       "Matheus Lima|BRA": {
         "id": "14918836",
         "country": "BRA"
@@ -464,14 +432,6 @@
       "Patriks Gailums|LAT": {
         "id": "14587444",
         "country": "LAT"
-      },
-      "Marc Anthony Minichello|USA": {
-        "id": "14841596",
-        "country": "USA"
-      },
-      "Rumesh Tharanga Pathirage|SRI": {
-        "id": "14886862",
-        "country": "SRI"
       },
       "Anderson Peters|GRN": {
         "id": "14520432",
@@ -536,10 +496,6 @@
       "Gabrielle Jennings|USA": {
         "id": "14490787",
         "country": "USA"
-      },
-      "Gesa Felicitas Krause|GER": {
-        "id": "14329341",
-        "country": "GER"
       },
       "Doris Lemngole|KEN": {
         "id": "15128594",
@@ -641,14 +597,6 @@
         "id": "14970747",
         "country": "USA"
       },
-      "Phanuel Kipkosgei Koech|KEN": {
-        "id": "15090820",
-        "country": "KEN"
-      },
-      "Anas Lagtiy Chaoudar|FRA": {
-        "id": "15032059",
-        "country": "FRA"
-      },
       "Isaac Nader|POR": {
         "id": "14756630",
         "country": "POR"
@@ -689,10 +637,6 @@
         "id": "14464506",
         "country": "AUS"
       },
-      "Georgia Hunter Bell|GBR": {
-        "id": "15345514",
-        "country": "GBR"
-      },
       "Valentina Rosamilia|SUI": {
         "id": "14763733",
         "country": "SUI"
@@ -700,10 +644,6 @@
       "Saida Tsehaye|ETH": {
         "id": "15238906",
         "country": "ETH"
-      },
-      "Myrte van der Schoot|NED": {
-        "id": "14865892",
-        "country": "NED"
       },
       "Veronica Vancardo|SUI": {
         "id": "14584794",
@@ -725,10 +665,6 @@
         "id": "14789650",
         "country": "RSA"
       },
-      "Andre De Grasse|CAN": {
-        "id": "14535607",
-        "country": "CAN"
-      },
       "José Figueroa|PUR": {
         "id": "14978866",
         "country": "PUR"
@@ -744,6 +680,70 @@
       "Timothé Mumenthaler|SUI": {
         "id": "14778502",
         "country": "SUI"
+      },
+      "Fatoumata Binta Diallo|POR": {
+        "id": "14708730",
+        "country": "POR"
+      },
+      "Waberi Igueh Houssein|DJI": {
+        "id": "14786614",
+        "country": "DJI"
+      },
+      "Dominic Lokinyomo Lobalu|SUI": {
+        "id": "14792211",
+        "country": "SUI"
+      },
+      "Jorge A. Hodelín|CUB": {
+        "id": "15111238",
+        "country": "CUB"
+      },
+      "Francesco Ettore Inzoli|ITA": {
+        "id": "14918764",
+        "country": "ITA"
+      },
+      "Géraldine Di Tizio-Frey|SUI": {
+        "id": "14510629",
+        "country": "SUI"
+      },
+      "Alison dos Santos|BRA": {
+        "id": "14755064",
+        "country": "BRA"
+      },
+      "Matic Ian Guček|SLO": {
+        "id": "14874438",
+        "country": "SLO"
+      },
+      "Marc Anthony Minichello|USA": {
+        "id": "14841596",
+        "country": "USA"
+      },
+      "Rumesh Tharanga Pathirage|SRI": {
+        "id": "14886862",
+        "country": "SRI"
+      },
+      "Gesa Felicitas Krause|GER": {
+        "id": "14329341",
+        "country": "GER"
+      },
+      "Phanuel Kipkosgei Koech|KEN": {
+        "id": "15090820",
+        "country": "KEN"
+      },
+      "Anas Lagtiy Chaoudar|FRA": {
+        "id": "15032059",
+        "country": "FRA"
+      },
+      "Georgia Hunter Bell|GBR": {
+        "id": "14329797",
+        "country": "GBR"
+      },
+      "Myrte van der Schoot|NED": {
+        "id": "14865892",
+        "country": "NED"
+      },
+      "Andre De Grasse|CAN": {
+        "id": "14535607",
+        "country": "CAN"
       }
     }
   }
