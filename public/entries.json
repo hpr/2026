@@ -102429,7 +102429,121 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "45.80",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14755064",
+            "firstName": "Alison dos",
+            "lastName": "Santos",
+            "nat": "BRA",
+            "pb": "46.29",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "46.69",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14479487",
+            "firstName": "Karsten",
+            "lastName": "Warholm",
+            "nat": "NOR",
+            "pb": "45.94",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "47.50",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14960533",
+            "firstName": "Ezekiel",
+            "lastName": "Nathaniel",
+            "nat": "NGR",
+            "pb": "47.11",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "47.57",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14918836",
+            "firstName": "Matheus",
+            "lastName": "Lima",
+            "nat": "BRA",
+            "pb": "47.26",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "47.77",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14752208",
+            "firstName": "Abderrahman",
+            "lastName": "Samba",
+            "nat": "QAT",
+            "pb": "46.98",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "47.80",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14874438",
+            "firstName": "Matic Ian",
+            "lastName": "Guček",
+            "nat": "SLO",
+            "pb": "48.03",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "48.92",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14513352",
+            "firstName": "Dany",
+            "lastName": "Brand",
+            "nat": "SUI",
+            "pb": "48.96",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "51.41",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14969871",
+            "firstName": "Chris",
+            "lastName": "Robinson",
+            "nat": "USA",
+            "pb": "47.61",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "Javelin Men": {
       "date": "2026-08-27T18:42:00.000Z",
