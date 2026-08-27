@@ -104259,59 +104259,6 @@
       "isClosed": true,
       "results": [
         {
-          "mark": "20.03",
-          "place": 3,
-          "notes": "",
-          "entrant": {
-            "id": "14535607",
-            "firstName": "Andre De",
-            "lastName": "Grasse",
-            "nat": "CAN",
-            "pb": "19.62",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
-          "place": 8,
-          "notes": "",
-          "entrant": {
-            "id": "14518308",
-            "firstName": "Reynier",
-            "lastName": "Mena",
-            "nat": "CUB",
-            "pb": "19.63",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "id": "14978866",
-            "firstName": "José",
-            "lastName": "Figueroa",
-            "nat": "PUR",
-            "pb": "19.76",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "id": "14925442",
-            "firstName": "Bryan",
-            "lastName": "Levell",
-            "nat": "JAM",
-            "pb": "19.64",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
           "mark": "19.62",
           "place": 1,
           "notes": "",
@@ -104340,6 +104287,20 @@
           }
         },
         {
+          "mark": "20.03",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14535607",
+            "firstName": "Andre De",
+            "lastName": "Grasse",
+            "nat": "CAN",
+            "pb": "19.62",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
           "mark": "20.10",
           "place": 4,
           "notes": "",
@@ -104354,7 +104315,36 @@
           }
         },
         {
-          "place": null,
+          "mark": "20.32",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14978866",
+            "firstName": "José",
+            "lastName": "Figueroa",
+            "nat": "PUR",
+            "pb": "19.76",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.32",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14925442",
+            "firstName": "Bryan",
+            "lastName": "Levell",
+            "nat": "JAM",
+            "pb": "19.64",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.34",
+          "place": 7,
           "notes": "",
           "entrant": {
             "id": "14778502",
@@ -104362,6 +104352,20 @@
             "lastName": "Mumenthaler",
             "nat": "SUI",
             "pb": "20.09",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.73",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14518308",
+            "firstName": "Reynier",
+            "lastName": "Mena",
+            "nat": "CUB",
+            "pb": "19.63",
             "sb": "",
             "hasAvy": true
           }
