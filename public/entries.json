@@ -101179,7 +101179,149 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "22.53",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14713125",
+            "firstName": "Jordan",
+            "lastName": "Geist",
+            "nat": "USA",
+            "pb": "22.44",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "22.22",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14687604",
+            "firstName": "Rajindra",
+            "lastName": "Campbell",
+            "nat": "JAM",
+            "pb": "22.44",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "22.16",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14567432",
+            "firstName": "Leonardo",
+            "lastName": "Fabbri",
+            "nat": "ITA",
+            "pb": "22.98",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "21.65",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14243308",
+            "firstName": "Joe",
+            "lastName": "Kovacs",
+            "nat": "USA",
+            "pb": "23.23",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "21.53",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14515622",
+            "firstName": "Roger",
+            "lastName": "Steen",
+            "nat": "USA",
+            "pb": "22.11",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "21.48",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14413007",
+            "firstName": "Tom",
+            "lastName": "Walsh",
+            "nat": "NZL",
+            "pb": "22.90",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "21.32",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14713124",
+            "firstName": "Adrian",
+            "lastName": "Piperi",
+            "nat": "USA",
+            "pb": "22.29",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.66",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14674710",
+            "firstName": "Payton",
+            "lastName": "Otterdahl",
+            "nat": "USA",
+            "pb": "22.46",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.43",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14463876",
+            "firstName": "Chukwuebuka",
+            "lastName": "Enekwechi",
+            "nat": "NGR",
+            "pb": "22.10",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.23",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "id": "14593049",
+            "firstName": "Uziel",
+            "lastName": "Muñoz",
+            "nat": "MEX",
+            "pb": "21.97",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "400m Hurdles Women": {
       "date": "2026-08-27T18:04:00.000Z",
