@@ -103109,7 +103109,127 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "id": "14685249",
+            "firstName": "Ackera",
+            "lastName": "Nugent",
+            "nat": "JAM",
+            "pb": "12.24",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "12.09",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14659011",
+            "firstName": "Masai",
+            "lastName": "Russell",
+            "nat": "USA",
+            "pb": "12.14",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14579526",
+            "firstName": "Tobi",
+            "lastName": "Amusan",
+            "nat": "NGR",
+            "pb": "12.12",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14451249",
+            "firstName": "Nadine",
+            "lastName": "Visser",
+            "nat": "NED",
+            "pb": "12.28",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14450995",
+            "firstName": "Danielle",
+            "lastName": "Williams",
+            "nat": "JAM",
+            "pb": "12.31",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14739461",
+            "firstName": "Ditaji",
+            "lastName": "Kambundji",
+            "nat": "SUI",
+            "pb": "12.24",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14680605",
+            "firstName": "Annik",
+            "lastName": "Kälin",
+            "nat": "SUI",
+            "pb": "12.60",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14486620",
+            "firstName": "Alaysha",
+            "lastName": "Johnson",
+            "nat": "USA",
+            "pb": "12.31",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "id": "14736349",
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska",
+            "nat": "POL",
+            "pb": "12.37",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "1500m Men": {
       "date": "2026-08-27T19:26:00.000Z",
