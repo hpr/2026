@@ -101669,7 +101669,227 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "7:27.43",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14907166",
+            "firstName": "Parker",
+            "lastName": "Wolfe",
+            "nat": "USA",
+            "pb": "7:41.94",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:27.92",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14884807",
+            "firstName": "Graham",
+            "lastName": "Blanks",
+            "nat": "USA",
+            "pb": "7:38.15",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:27.97",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14962470",
+            "firstName": "Cameron",
+            "lastName": "Myers",
+            "nat": "AUS",
+            "pb": "7:41.11",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:28.13",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14987250",
+            "firstName": "Egide",
+            "lastName": "Ntakarutimana",
+            "nat": "BDI",
+            "pb": "7:35.16",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:28.18",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "15118094",
+            "firstName": "Biniam",
+            "lastName": "Mehary",
+            "nat": "ETH",
+            "pb": "7:37.33",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:29.13",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14865727",
+            "firstName": "Ky",
+            "lastName": "Robinson",
+            "nat": "AUS",
+            "pb": "7:36.69",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:29.74",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14591210",
+            "firstName": "Grant",
+            "lastName": "Fisher",
+            "nat": "USA",
+            "pb": "7:25.47",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:31.76",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14882782",
+            "firstName": "Nico",
+            "lastName": "Young",
+            "nat": "USA",
+            "pb": "7:39.53",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:33.30",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14840626",
+            "firstName": "Abdihamid",
+            "lastName": "Nur",
+            "nat": "USA",
+            "pb": "7:40.66",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:35.56",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "id": "15024068",
+            "firstName": "Mezgebu",
+            "lastName": "Sime",
+            "nat": "ETH",
+            "pb": "7:39.40",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:35.70",
+          "place": 11,
+          "notes": ""
+        },
+        {
+          "mark": "7:44.39",
+          "place": 12,
+          "notes": "",
+          "entrant": {
+            "id": "14786614",
+            "firstName": "Waberi Igueh",
+            "lastName": "Houssein",
+            "nat": "DJI",
+            "pb": "",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:46.23",
+          "place": 13,
+          "notes": ""
+        },
+        {
+          "mark": "7:49.51",
+          "place": 14,
+          "notes": "",
+          "entrant": {
+            "id": "14792211",
+            "firstName": "Dominic Lokinyomo",
+            "lastName": "Lobalu",
+            "nat": "SUI",
+            "pb": "7:27.68",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "7:50.45",
+          "place": 15,
+          "notes": "",
+          "entrant": {
+            "id": "14668389",
+            "firstName": "Eduardo",
+            "lastName": "Herrera",
+            "nat": "MEX",
+            "pb": "7:27.63",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "id": "14695615",
+            "firstName": "Boaz",
+            "lastName": "Kiprugut",
+            "nat": "KEN",
+            "pb": "7:58.18",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "id": "14739414",
+            "firstName": "Filip",
+            "lastName": "Ostrowski",
+            "nat": "POL",
+            "pb": "8:25.70",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "Long Jump Men": {
       "date": "2026-08-27T18:29:00.000Z",
