@@ -103112,19 +103112,6 @@
       "isClosed": true,
       "results": [
         {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "id": "14685249",
-            "firstName": "Ackera",
-            "lastName": "Nugent",
-            "nat": "JAM",
-            "pb": "12.24",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
           "mark": "12.09",
           "place": 1,
           "notes": "",
@@ -103139,6 +103126,7 @@
           }
         },
         {
+          "mark": "12.23",
           "place": 2,
           "notes": "",
           "entrant": {
@@ -103152,6 +103140,7 @@
           }
         },
         {
+          "mark": "12.34",
           "place": 3,
           "notes": "",
           "entrant": {
@@ -103165,6 +103154,7 @@
           }
         },
         {
+          "mark": "12.56",
           "place": 4,
           "notes": "",
           "entrant": {
@@ -103178,6 +103168,35 @@
           }
         },
         {
+          "mark": "12.69",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14685249",
+            "firstName": "Ackera",
+            "lastName": "Nugent",
+            "nat": "JAM",
+            "pb": "12.24",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "12.70",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14736349",
+            "firstName": "Pia",
+            "lastName": "Skrzyszowska",
+            "nat": "POL",
+            "pb": "12.37",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "12.82",
           "place": 7,
           "notes": "",
           "entrant": {
@@ -103191,6 +103210,7 @@
           }
         },
         {
+          "mark": "12.87",
           "place": 8,
           "notes": "",
           "entrant": {
@@ -103204,6 +103224,7 @@
           }
         },
         {
+          "mark": "15.15",
           "place": 9,
           "notes": "",
           "entrant": {
@@ -103212,19 +103233,6 @@
             "lastName": "Johnson",
             "nat": "USA",
             "pb": "12.31",
-            "sb": "",
-            "hasAvy": true
-          }
-        },
-        {
-          "place": null,
-          "notes": "",
-          "entrant": {
-            "id": "14736349",
-            "firstName": "Pia",
-            "lastName": "Skrzyszowska",
-            "nat": "POL",
-            "pb": "12.37",
             "sb": "",
             "hasAvy": true
           }
