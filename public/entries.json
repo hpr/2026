@@ -102775,7 +102775,149 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "92.07",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14886862",
+            "firstName": "Rumesh Tharanga",
+            "lastName": "Pathirage",
+            "nat": "SRI",
+            "pb": "92.62",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "86.93",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14520432",
+            "firstName": "Anderson",
+            "lastName": "Peters",
+            "nat": "GRN",
+            "pb": "93.07",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "85.16",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14753334",
+            "firstName": "Dawid",
+            "lastName": "Wegner",
+            "nat": "POL",
+            "pb": "85.67",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "83.02",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14376122",
+            "firstName": "Keshorn",
+            "lastName": "Walcott",
+            "nat": "TTO",
+            "pb": "90.16",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "81.66",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14376567",
+            "firstName": "Julius",
+            "lastName": "Yego",
+            "nat": "KEN",
+            "pb": "92.72",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "80.38",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14841596",
+            "firstName": "Marc Anthony",
+            "lastName": "Minichello",
+            "nat": "USA",
+            "pb": "84.11",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "80.31",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14583106",
+            "firstName": "Curtis",
+            "lastName": "Thompson",
+            "nat": "USA",
+            "pb": "87.76",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "79.86",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14379257",
+            "firstName": "Thomas",
+            "lastName": "Röhler",
+            "nat": "GER",
+            "pb": "93.90",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "75.35",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14720617",
+            "firstName": "Simon",
+            "lastName": "Wieland",
+            "nat": "SUI",
+            "pb": "82.26",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "74.30",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "id": "14587444",
+            "firstName": "Patriks",
+            "lastName": "Gailums",
+            "nat": "LAT",
+            "pb": "84.05",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "3000m Steeplechase Women": {
       "date": "2026-08-27T18:50:00.000Z",
@@ -104114,7 +104256,117 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "20.03",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14535607",
+            "firstName": "Andre De",
+            "lastName": "Grasse",
+            "nat": "CAN",
+            "pb": "19.62",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14518308",
+            "firstName": "Reynier",
+            "lastName": "Mena",
+            "nat": "CUB",
+            "pb": "19.63",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "id": "14978866",
+            "firstName": "José",
+            "lastName": "Figueroa",
+            "nat": "PUR",
+            "pb": "19.76",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "id": "14925442",
+            "firstName": "Bryan",
+            "lastName": "Levell",
+            "nat": "JAM",
+            "pb": "19.64",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "19.62",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14715244",
+            "firstName": "Kenneth",
+            "lastName": "Bednarek",
+            "nat": "USA",
+            "pb": "19.57",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "19.82",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14789650",
+            "firstName": "Sinesipho",
+            "lastName": "Dambile",
+            "nat": "RSA",
+            "pb": "19.74",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "20.10",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14977636",
+            "firstName": "Makanakaishe",
+            "lastName": "Charamba",
+            "nat": "ZIM",
+            "pb": "19.88",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": null,
+          "notes": "",
+          "entrant": {
+            "id": "14778502",
+            "firstName": "Timothé",
+            "lastName": "Mumenthaler",
+            "nat": "SUI",
+            "pb": "20.09",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     }
   }
 }
