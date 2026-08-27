@@ -101080,7 +101080,149 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "2.02",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14455361",
+            "firstName": "Nicola",
+            "lastName": "Olyslagers",
+            "nat": "AUS",
+            "pb": "2.04",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "2.00",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14423612",
+            "firstName": "Iryna",
+            "lastName": "Gerashchenko",
+            "nat": "UKR",
+            "pb": "2.00",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.98",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14300447",
+            "firstName": "Marija",
+            "lastName": "Vuković",
+            "nat": "MNE",
+            "pb": "1.98",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14630614",
+            "firstName": "Lamara",
+            "lastName": "Distin",
+            "nat": "JAM",
+            "pb": "1.97",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14739628",
+            "firstName": "Yaroslava",
+            "lastName": "Mahuchikh",
+            "nat": "UKR",
+            "pb": "2.10",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.96",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14411267",
+            "firstName": "Eleanor",
+            "lastName": "Patterson",
+            "nat": "AUS",
+            "pb": "2.02",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.93",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14841858",
+            "firstName": "Angelina",
+            "lastName": "Topić",
+            "nat": "SRB",
+            "pb": "1.98",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.93",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14620985",
+            "firstName": "Maria",
+            "lastName": "Żodzik",
+            "nat": "POL",
+            "pb": "2.00",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.89",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14594836",
+            "firstName": "Yuliia",
+            "lastName": "Levchenko",
+            "nat": "UKR",
+            "pb": "2.02",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "1.80",
+          "place": 10,
+          "notes": "",
+          "entrant": {
+            "id": "14775502",
+            "firstName": "Marithe-Thérèse",
+            "lastName": "Engondo",
+            "nat": "SUI",
+            "pb": "1.89",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "Shot Put Men": {
       "date": "2026-08-27T17:20:00.000Z",
