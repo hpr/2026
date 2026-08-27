@@ -102220,7 +102220,135 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "10.70",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14646562",
+            "firstName": "Julien",
+            "lastName": "Alfred",
+            "nat": "LCA",
+            "pb": "10.72",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "10.70",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14756997",
+            "firstName": "Melissa",
+            "lastName": "Jefferson-Wooden",
+            "nat": "USA",
+            "pb": "10.61",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "10.97",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14717691",
+            "firstName": "Sha'Carri",
+            "lastName": "Richardson",
+            "nat": "USA",
+            "pb": "10.65",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "10.98",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14776879",
+            "firstName": "Tina",
+            "lastName": "Clayton",
+            "nat": "JAM",
+            "pb": "10.76",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "11.04",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14685108",
+            "firstName": "Amy",
+            "lastName": "Hunt",
+            "nat": "GBR",
+            "pb": "10.97",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "11.13",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14776881",
+            "firstName": "Brianna",
+            "lastName": "Lyston",
+            "nat": "JAM",
+            "pb": "10.91",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "11.14",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14413641",
+            "firstName": "Jonielle",
+            "lastName": "Smith",
+            "nat": "JAM",
+            "pb": "10.89",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "11.18",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14499691",
+            "firstName": "Zoe",
+            "lastName": "Hobbs",
+            "nat": "NZL",
+            "pb": "10.93",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "11.21",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "id": "14510629",
+            "firstName": "Géraldine Di",
+            "lastName": "Tizio-Frey",
+            "nat": "SUI",
+            "pb": "10.96",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "400m Hurdles Men": {
       "date": "2026-08-27T18:42:00.000Z",
