@@ -101260,7 +101260,120 @@
           "hasAvy": true
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "52.13",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "id": "14486939",
+            "firstName": "Anna",
+            "lastName": "Cockrell",
+            "nat": "USA",
+            "pb": "51.87",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "53.16",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "id": "14317560",
+            "firstName": "Dalilah",
+            "lastName": "Muhammad",
+            "nat": "USA",
+            "pb": "51.58",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "53.17",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "id": "14425208",
+            "firstName": "Rushell",
+            "lastName": "Clayton",
+            "nat": "JAM",
+            "pb": "52.51",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "53.30",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "id": "14708730",
+            "firstName": "Fatoumata Binta",
+            "lastName": "Diallo",
+            "nat": "POR",
+            "pb": "53.55",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "53.79",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "id": "14423522",
+            "firstName": "Gianna",
+            "lastName": "Woodruff",
+            "nat": "PAN",
+            "pb": "52.66",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "54.07",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "id": "14647721",
+            "firstName": "Emma",
+            "lastName": "Zapletalová",
+            "nat": "SVK",
+            "pb": "52.30",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "mark": "54.12",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "id": "14481392",
+            "firstName": "Amalie",
+            "lastName": "Iuel",
+            "nat": "NOR",
+            "pb": "54.05",
+            "sb": "",
+            "hasAvy": true
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "id": "14899734",
+            "firstName": "Emily",
+            "lastName": "Newnham",
+            "nat": "GBR",
+            "pb": "53.33",
+            "sb": "",
+            "hasAvy": true
+          }
+        }
+      ]
     },
     "3000m Men": {
       "date": "2026-08-27T18:16:00.000Z",
