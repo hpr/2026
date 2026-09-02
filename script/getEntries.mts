@@ -175,6 +175,9 @@ const tieBreakers: { [k in DLMeet]?: { [k in AthleticsEvent]?: string } } = {
   zurich26: {
     '200m Men': '19.60',
   },
+  brussels26: {
+    '400m Hurdles Men': '45.99',
+  },
 };
 
 const deadlines: { [k in DLMeet]?: string } = {
@@ -225,6 +228,7 @@ const deadlines: { [k in DLMeet]?: string } = {
   lausanne26: '12:50pm ET',
   silesia26: '9:02am ET',
   zurich26: '12:27pm ET',
+  brussels26: '12:30pm ET',
 };
 
 const schedules: { [k in DLMeet]?: string[] } = {
@@ -296,6 +300,7 @@ const schedules: { [k in DLMeet]?: string[] } = {
   lausanne26: ['https://lausanne.diamondleague.com/en/programme-results/'],
   silesia26: ['https://silesia.diamondleague.com/programme-results/'],
   zurich26: ['https://zurich.diamondleague.com/en/programme-results/'],
+  brussels26: ['https://brussels.diamondleague.com/en/programme-results/'],
 };
 
 const cityNameTo = {
