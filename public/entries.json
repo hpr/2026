@@ -107199,7 +107199,121 @@
           "lastName": "Eduan"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "21.79",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "21.51",
+            "sb": "21.51",
+            "nat": "LCA",
+            "id": "14646562",
+            "hasAvy": true,
+            "firstName": "Julien",
+            "lastName": "Alfred"
+          }
+        },
+        {
+          "mark": "22.00",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "21.92",
+            "sb": "21.92",
+            "nat": "USA",
+            "id": "14642681",
+            "hasAvy": true,
+            "firstName": "Kayla",
+            "lastName": "White"
+          }
+        },
+        {
+          "mark": "22.16",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "22.08",
+            "sb": "22.19",
+            "nat": "GBR",
+            "id": "14685108",
+            "hasAvy": true,
+            "firstName": "Amy",
+            "lastName": "Hunt"
+          }
+        },
+        {
+          "mark": "22.44",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "21.95",
+            "sb": "22.21",
+            "nat": "USA",
+            "id": "14715397",
+            "hasAvy": true,
+            "firstName": "Anavia",
+            "lastName": "Battle"
+          }
+        },
+        {
+          "mark": "22.65",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "21.93",
+            "sb": "21.93",
+            "nat": "USA",
+            "id": "14674111",
+            "hasAvy": true,
+            "firstName": "Cambrea",
+            "lastName": "Sturgis"
+          }
+        },
+        {
+          "mark": "22.95",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "22.36",
+            "sb": "22.38",
+            "nat": "CAN",
+            "id": "14579721",
+            "hasAvy": true,
+            "firstName": "Audrey",
+            "lastName": "Leduc"
+          }
+        },
+        {
+          "mark": "23.06",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "22.43",
+            "sb": "22.43",
+            "nat": "GBR",
+            "id": "14836740",
+            "hasAvy": true,
+            "firstName": "Success",
+            "lastName": "Eduan"
+          }
+        },
+        {
+          "mark": "23.14",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "21.89",
+            "sb": "22.36",
+            "nat": "USA",
+            "id": "14329068",
+            "hasAvy": true,
+            "firstName": "Jenna",
+            "lastName": "Prandini"
+          }
+        }
+      ]
     },
     "400m Men": {
       "date": "2026-09-04T23:52:00.000Z",
