@@ -104656,7 +104656,93 @@
           "lastName": "Kamga"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "67.46",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "69.12",
+            "sb": "65.03",
+            "nat": "CHN",
+            "id": "14430151",
+            "hasAvy": true,
+            "firstName": "Bin",
+            "lastName": "Feng"
+          }
+        },
+        {
+          "mark": "66.92",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "73.52",
+            "sb": "73.10",
+            "nat": "USA",
+            "id": "14479216",
+            "hasAvy": true,
+            "firstName": "Valarie",
+            "lastName": "Sion"
+          }
+        },
+        {
+          "mark": "64.66",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "70.99",
+            "sb": "70.99",
+            "nat": "NED",
+            "id": "14676577",
+            "hasAvy": true,
+            "firstName": "Jorinde",
+            "lastName": "van Klinken"
+          }
+        },
+        {
+          "mark": "62.64",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "68.10",
+            "sb": "66.18",
+            "nat": "GER",
+            "id": "14361931",
+            "hasAvy": true,
+            "firstName": "Shanice",
+            "lastName": "Craft"
+          }
+        },
+        {
+          "mark": "62.53",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "66.61",
+            "sb": "65.30",
+            "nat": "SWE",
+            "id": "14718533",
+            "hasAvy": true,
+            "firstName": "Vanessa",
+            "lastName": "Kamga"
+          }
+        },
+        {
+          "mark": "61.93",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "71.72",
+            "sb": "71.72",
+            "nat": "USA",
+            "id": "14839155",
+            "hasAvy": true,
+            "firstName": "Cierra",
+            "lastName": "Jackson"
+          }
+        }
+      ]
     },
     "Pole Vault Men": {
       "date": "2026-09-04T21:59:00.000Z",
