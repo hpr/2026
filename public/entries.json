@@ -105181,7 +105181,107 @@
           "lastName": "Portillo"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "2.28",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "2.27",
+            "sb": "2.27",
+            "nat": "POL",
+            "id": "14852654",
+            "hasAvy": true,
+            "firstName": "Mateusz",
+            "lastName": "Kołodziejski"
+          }
+        },
+        {
+          "mark": "2.28",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "2.36",
+            "sb": "2.34",
+            "nat": "USA",
+            "id": "14785286",
+            "hasAvy": true,
+            "firstName": "JuVaughn",
+            "lastName": "Harrison"
+          }
+        },
+        {
+          "mark": "2.25",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "2.33",
+            "sb": "2.33",
+            "nat": "UKR",
+            "id": "14803002",
+            "hasAvy": true,
+            "firstName": "Oleh",
+            "lastName": "Doroshchuk"
+          }
+        },
+        {
+          "mark": "2.25",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "2.39",
+            "sb": "2.32",
+            "nat": "ITA",
+            "id": "14375750",
+            "hasAvy": true,
+            "firstName": "Gianmarco",
+            "lastName": "Tamberi"
+          }
+        },
+        {
+          "mark": "2.21",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "2.30",
+            "sb": "2.30",
+            "nat": "JAM",
+            "id": "14832929",
+            "hasAvy": true,
+            "firstName": "Romaine",
+            "lastName": "Beckford"
+          }
+        },
+        {
+          "mark": "2.21",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "2.27",
+            "sb": "2.27",
+            "nat": "MEX",
+            "id": "14782952",
+            "hasAvy": true,
+            "firstName": "Erick",
+            "lastName": "Portillo"
+          }
+        },
+        {
+          "mark": "2.16",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "2.29",
+            "sb": "2.24",
+            "nat": "BEL",
+            "id": "14709531",
+            "hasAvy": true,
+            "firstName": "Thomas",
+            "lastName": "Carmoy"
+          }
+        }
+      ]
     },
     "100m Men": {
       "date": "2026-09-04T22:14:00.000Z",
