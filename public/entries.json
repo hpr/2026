@@ -106308,7 +106308,107 @@
           "lastName": "Guisse"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "14.96",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "15.08",
+            "sb": "15.08",
+            "nat": "SEN",
+            "id": "14894836",
+            "hasAvy": true,
+            "firstName": "Saly",
+            "lastName": "Sarr"
+          }
+        },
+        {
+          "mark": "14.82",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "15.06",
+            "sb": "15.06",
+            "nat": "CUB",
+            "id": "14828679",
+            "hasAvy": true,
+            "firstName": "Leyanis",
+            "lastName": "Pérez Hernández"
+          }
+        },
+        {
+          "mark": "14.73",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "15.13",
+            "sb": "15.13",
+            "nat": "CUB",
+            "id": "14663467",
+            "hasAvy": true,
+            "firstName": "Davisleydi",
+            "lastName": "Velazco"
+          }
+        },
+        {
+          "mark": "14.29",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "14.54",
+            "sb": "14.50",
+            "nat": "JAM",
+            "id": "14693884",
+            "hasAvy": true,
+            "firstName": "Ackelia",
+            "lastName": "Smith"
+          }
+        },
+        {
+          "mark": "14.13",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "15.25",
+            "sb": "15.25",
+            "nat": "DMA",
+            "id": "14416826",
+            "hasAvy": true,
+            "firstName": "Thea",
+            "lastName": "Lafond"
+          }
+        },
+        {
+          "mark": "14.08",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "14.93",
+            "sb": "14.71",
+            "nat": "CUB",
+            "id": "14574170",
+            "hasAvy": true,
+            "firstName": "Liadagmis",
+            "lastName": "Povea"
+          }
+        },
+        {
+          "mark": "13.33",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "14.07",
+            "sb": "14.07",
+            "nat": "BEL",
+            "id": "14516013",
+            "hasAvy": true,
+            "firstName": "Saliyya",
+            "lastName": "Guisse"
+          }
+        }
+      ]
     },
     "110m Hurdles Men": {
       "date": "2026-09-04T22:55:00.000Z",
@@ -107394,7 +107494,120 @@
           "lastName": "Segers"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "43.40",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "43.44",
+            "nat": "BOT",
+            "id": "14935809",
+            "hasAvy": true,
+            "firstName": "Busang Collen",
+            "lastName": "Kebinatshipi"
+          }
+        },
+        {
+          "mark": "43.68",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "43.72",
+            "sb": "44.44",
+            "nat": "TTO",
+            "id": "14434521",
+            "hasAvy": true,
+            "firstName": "Jereem",
+            "lastName": "Richards"
+          }
+        },
+        {
+          "mark": "43.78",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "43.85",
+            "sb": "43.96",
+            "nat": "USA",
+            "id": "14715097",
+            "hasAvy": true,
+            "firstName": "Jacory",
+            "lastName": "Patterson"
+          }
+        },
+        {
+          "mark": "43.97",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "44.06",
+            "sb": "44.06",
+            "nat": "USA",
+            "id": "14850487",
+            "hasAvy": true,
+            "firstName": "Chris",
+            "lastName": "Bailey"
+          }
+        },
+        {
+          "mark": "44.23",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "43.44",
+            "sb": "44.09",
+            "nat": "GBR",
+            "id": "14407278",
+            "hasAvy": true,
+            "firstName": "Matthew",
+            "lastName": "Hudson-Smith"
+          }
+        },
+        {
+          "mark": "44.44",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "43.76",
+            "sb": "43.89",
+            "nat": "RSA",
+            "id": "14696997",
+            "hasAvy": true,
+            "firstName": "Zakithi",
+            "lastName": "Nene"
+          }
+        },
+        {
+          "mark": "44.82",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "44.63",
+            "sb": "44.81",
+            "nat": "BEL",
+            "id": "14691581",
+            "hasAvy": true,
+            "firstName": "Daniel",
+            "lastName": "Segers"
+          }
+        },
+        {
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "43.91",
+            "sb": "44.40",
+            "nat": "USA",
+            "id": "14797010",
+            "hasAvy": true,
+            "firstName": "Khaleb",
+            "lastName": "McRae"
+          }
+        }
+      ]
     },
     "Javelin Throw Women": {
       "date": "2026-09-05T20:08:00.000Z",
