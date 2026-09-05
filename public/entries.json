@@ -110231,7 +110231,148 @@
           "lastName": "Laus"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "1:54.75",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "1:53.70",
+            "sb": "1:53.70",
+            "nat": "SUI",
+            "id": "14856078",
+            "hasAvy": true,
+            "firstName": "Audrey",
+            "lastName": "Werro"
+          }
+        },
+        {
+          "mark": "1:54.81",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "1:54.71",
+            "sb": "1:54.71",
+            "nat": "NED",
+            "id": "14707010",
+            "hasAvy": true,
+            "firstName": "Femke",
+            "lastName": "Broeders-Bol"
+          }
+        },
+        {
+          "mark": "1:57.57",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.92",
+            "sb": "1:56.92",
+            "nat": "ETH",
+            "id": "15238906",
+            "hasAvy": true,
+            "firstName": "Saida",
+            "lastName": "Tsehaye"
+          }
+        },
+        {
+          "mark": "1:58.66",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "1:58.20",
+            "sb": "1:58.20",
+            "nat": "SUI",
+            "id": "14584794",
+            "hasAvy": true,
+            "firstName": "Veronica",
+            "lastName": "Vancardo"
+          }
+        },
+        {
+          "mark": "1:59.75",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.76",
+            "sb": "1:57.32",
+            "nat": "BOT",
+            "id": "14754344",
+            "hasAvy": true,
+            "firstName": "Oratile",
+            "lastName": "Nowe"
+          }
+        },
+        {
+          "mark": "1:59.99",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "1:57.01",
+            "sb": "1:57.01",
+            "nat": "AUS",
+            "id": "14464575",
+            "hasAvy": true,
+            "firstName": "Sarah",
+            "lastName": "Billings"
+          }
+        },
+        {
+          "mark": "2:01.29",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:57.70",
+            "nat": "USA",
+            "id": "14907337",
+            "hasAvy": true,
+            "firstName": "Addison",
+            "lastName": "Wiley"
+          }
+        },
+        {
+          "mark": "2:01.63",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "1:59.43",
+            "sb": "1:59.43",
+            "nat": "BEL",
+            "id": "14363849",
+            "hasAvy": true,
+            "firstName": "Camille",
+            "lastName": "Laus"
+          }
+        },
+        {
+          "mark": "2:02.34",
+          "place": 9,
+          "notes": "",
+          "entrant": {
+            "pb": "1:56.83",
+            "sb": "1:56.83",
+            "nat": "RSA",
+            "id": "14745817",
+            "hasAvy": true,
+            "firstName": "Prudence",
+            "lastName": "Sekgodiso"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "1:58.60",
+            "sb": "1:58.73",
+            "nat": "MRI",
+            "id": "14479308",
+            "hasAvy": true,
+            "firstName": "Rachel",
+            "lastName": "Klopfenstein"
+          }
+        }
+      ]
     },
     "400m Hurdles Men": {
       "tiebreaker": "45.99",
