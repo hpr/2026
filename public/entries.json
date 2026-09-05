@@ -109059,7 +109059,121 @@
           "lastName": "Mumenthaler"
         }
       ],
-      "isClosed": true
+      "isClosed": true,
+      "results": [
+        {
+          "mark": "19.62",
+          "place": 1,
+          "notes": "",
+          "entrant": {
+            "pb": "19.57",
+            "sb": "19.62",
+            "nat": "USA",
+            "id": "14715244",
+            "hasAvy": true,
+            "firstName": "Kenneth",
+            "lastName": "Bednarek"
+          }
+        },
+        {
+          "mark": "19.89",
+          "place": 2,
+          "notes": "",
+          "entrant": {
+            "pb": "19.74",
+            "sb": "19.74",
+            "nat": "RSA",
+            "id": "14789650",
+            "hasAvy": true,
+            "firstName": "Sinesipho",
+            "lastName": "Dambile"
+          }
+        },
+        {
+          "mark": "19.99",
+          "place": 3,
+          "notes": "",
+          "entrant": {
+            "pb": "19.88",
+            "sb": "19.88",
+            "nat": "ZIM",
+            "id": "14977636",
+            "hasAvy": true,
+            "firstName": "Makanakaishe",
+            "lastName": "Charamba"
+          }
+        },
+        {
+          "mark": "20.01",
+          "place": 4,
+          "notes": "",
+          "entrant": {
+            "pb": "19.46",
+            "sb": "19.84",
+            "nat": "BOT",
+            "id": "14883897",
+            "hasAvy": true,
+            "firstName": "Letsile",
+            "lastName": "Tebogo"
+          }
+        },
+        {
+          "mark": "20.09",
+          "place": 5,
+          "notes": "",
+          "entrant": {
+            "pb": "19.71",
+            "sb": "20.19",
+            "nat": "USA",
+            "id": "14845926",
+            "hasAvy": true,
+            "firstName": "Courtney",
+            "lastName": "Lindsey"
+          }
+        },
+        {
+          "mark": "20.44",
+          "place": 6,
+          "notes": "",
+          "entrant": {
+            "pb": "19.76",
+            "sb": "19.76",
+            "nat": "PUR",
+            "id": "14978866",
+            "hasAvy": true,
+            "firstName": "José",
+            "lastName": "Figueroa"
+          }
+        },
+        {
+          "mark": "20.52",
+          "place": 7,
+          "notes": "",
+          "entrant": {
+            "pb": "20.09",
+            "sb": "20.09",
+            "nat": "SUI",
+            "id": "14778502",
+            "hasAvy": true,
+            "firstName": "Timothé",
+            "lastName": "Mumenthaler"
+          }
+        },
+        {
+          "mark": "20.90",
+          "place": 8,
+          "notes": "",
+          "entrant": {
+            "pb": "19.63",
+            "sb": "20.04",
+            "nat": "CUB",
+            "id": "14518308",
+            "hasAvy": true,
+            "firstName": "Reynier",
+            "lastName": "Mena"
+          }
+        }
+      ]
     },
     "Long Jump Women": {
       "date": "2026-09-05T22:48:00.000Z",
