@@ -106865,19 +106865,6 @@
           "place": null,
           "notes": "DNF",
           "entrant": {
-            "pb": "14:37.47",
-            "sb": "15:05.04",
-            "nat": "BEL",
-            "id": "14704113",
-            "hasAvy": true,
-            "firstName": "Jana",
-            "lastName": "van Lent"
-          }
-        },
-        {
-          "place": null,
-          "notes": "DNF",
-          "entrant": {
             "pb": "14:41.46",
             "sb": "14:41.46",
             "nat": "BDI",
@@ -106885,6 +106872,19 @@
             "hasAvy": true,
             "firstName": "Francine",
             "lastName": "Niyomukunzi"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "14:37.47",
+            "sb": "15:05.04",
+            "nat": "BEL",
+            "id": "14704113",
+            "hasAvy": true,
+            "firstName": "Jana",
+            "lastName": "van Lent"
           }
         }
       ]
@@ -107196,19 +107196,6 @@
           "place": null,
           "notes": "DNF",
           "entrant": {
-            "pb": "3:35.26",
-            "sb": "3:46.5h",
-            "nat": "KEN",
-            "id": "14695615",
-            "hasAvy": true,
-            "firstName": "Boaz",
-            "lastName": "Kiprugut"
-          }
-        },
-        {
-          "place": null,
-          "notes": "DNF",
-          "entrant": {
             "pb": "3:41.53",
             "sb": "3:41.53",
             "nat": "USA",
@@ -107216,6 +107203,19 @@
             "hasAvy": true,
             "firstName": "Christian",
             "lastName": "Jackson"
+          }
+        },
+        {
+          "place": null,
+          "notes": "DNF",
+          "entrant": {
+            "pb": "3:35.26",
+            "sb": "3:46.5h",
+            "nat": "KEN",
+            "id": "14695615",
+            "hasAvy": true,
+            "firstName": "Boaz",
+            "lastName": "Kiprugut"
           }
         }
       ]
